@@ -1,0 +1,1178 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10759,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/Practice/bootstrap/dist/js/bootstrap-ringio.js",
+			"settings":
+			{
+				"buffer_size": 60772,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/justified-nav/index.html",
+			"settings":
+			{
+				"buffer_size": 3974,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/grid/index.html",
+			"settings":
+			{
+				"buffer_size": 6532,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/theme/index.html",
+			"settings":
+			{
+				"buffer_size": 25843,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/Practice/bootstrap/dist/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 132016,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/justified-nav/justified-nav.css",
+			"settings":
+			{
+				"buffer_size": 2370,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/grid/grid.css",
+			"settings":
+			{
+				"buffer_size": 362,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/theme/theme.css",
+			"settings":
+			{
+				"buffer_size": 255,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"head",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"gcommit",
+				"Git: Commit"
+			],
+			[
+				"git: commit",
+				"Git: Commit"
+			],
+			[
+				"git:commit",
+				"Git: Commit"
+			],
+			[
+				"gitcommit",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git reser",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"greset",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"remote",
+				"Git: Remote"
+			],
+			[
+				"gpush",
+				"Git: Push Current Branch"
+			],
+			[
+				"addremote",
+				"Git: Add Remote"
+			],
+			[
+				"git remote",
+				"Git: Remote"
+			],
+			[
+				"gitpush",
+				"Git: Push"
+			],
+			[
+				"gadd..",
+				"Git: Add..."
+			],
+			[
+				"git: add",
+				"Git: Add..."
+			],
+			[
+				"git: status",
+				"Git: Status"
+			],
+			[
+				"git: comi",
+				"Git: Commit history"
+			],
+			[
+				"branch",
+				"Git: New Branch"
+			],
+			[
+				"git: add .",
+				"Git: Add..."
+			],
+			[
+				"git: track",
+				"Git: Stash Include Untracked"
+			],
+			[
+				"git: quick",
+				"Git: Quick Status"
+			],
+			[
+				"git: checkout",
+				"Git: Checkout New Branch"
+			],
+			[
+				"gstatus",
+				"Git: Status"
+			],
+			[
+				"git: init",
+				"Git-flow: Init With Defaults"
+			],
+			[
+				"ginit",
+				"Git: Init"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"preferences: ",
+				"Preferences: Browse Packages"
+			],
+			[
+				"git:",
+				"Github: Repository"
+			],
+			[
+				"commit",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"git: ",
+				"Git: Init"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/Practice",
+		"/Applications/MAMP/htdocs/Practice/bootstrap",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/dist",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/grid",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/theme",
+		"/Applications/MAMP/htdocs/Practice/style"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/ringio/jumbotron-ringio.css",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/dist/js/bootstrap.js",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/node_modules/npm-shrinkwrap/set-resolved.js",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/grunt/bs-lessdoc-parser.js",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/dist/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/Practice/bootstrap-index.html",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/_includes/js/collapse.html",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/less/bootstrap.less",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/assets/brand/bootstrap-outline.svg",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/js/collapse.js",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/node_modules/grunt-contrib-clean/docs/clean-options.md",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/CNAME",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/navbar-static-top/index.html",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/jumbotron-narrow/index.html",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/ringio/jumbotron-narrow.css",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/jumbotron-narrow/jumbotron-narrow.css",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/jumbotron.html",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/index.html",
+		"/Applications/MAMP/htdocs/myStream/php/templates/modals.php",
+		"/Applications/MAMP/htdocs/myStream/js/fb_login.js",
+		"/Applications/MAMP/htdocs/myStream/unused/smokesignals.php",
+		"/Applications/MAMP/htdocs/myStream/unused/user.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/signup.php",
+		"/Applications/MAMP/htdocs/myStream/php/templates/mainhead.php",
+		"/Applications/MAMP/htdocs/myStream/js/modal_object_creator.js",
+		"/Applications/MAMP/htdocs/myStream/js/index_bottom.js",
+		"/Applications/MAMP/htdocs/myStream/index.php",
+		"/Applications/MAMP/htdocs/myStream/js/signup.js",
+		"/Applications/MAMP/htdocs/myStream/sourceImagery/share_icon.pdn",
+		"/Applications/MAMP/htdocs/myStream/php/templates/standardhead.php",
+		"/Applications/MAMP/htdocs/myStream/php/templates/header.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/standardhead.php",
+		"/Applications/MAMP/htdocs/myStream/style/normalize.css",
+		"/Applications/MAMP/htdocs/myStream/style/ellipsis.css",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Guzzle/Batch/FlushingBatch.php",
+		"/Applications/MAMP/htdocs/myStream/style/modal.css",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Monolog/Handler/RotatingFileHandler.php",
+		"/Applications/MAMP/htdocs/myStream/tags.php",
+		"/Applications/MAMP/htdocs/myStream/style/login.css",
+		"/Applications/MAMP/htdocs/myStream/logs/log_parsers/log_open_modal.php",
+		"/Applications/MAMP/htdocs/myStream/js/main.js",
+		"/Applications/MAMP/htdocs/myStream/message.php",
+		"/Applications/MAMP/htdocs/myStream/.htaccess",
+		"/Applications/MAMP/htdocs/myStream/mobile/js/mobile_events.js",
+		"/Applications/MAMP/htdocs/myStream/unused/abort_martin.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/login.php",
+		"/Applications/MAMP/htdocs/myStream/unused/photos.php",
+		"/Applications/MAMP/htdocs/myStream/friendSearch.php",
+		"/Applications/MAMP/htdocs/myStream/unused/friendSearchBackEnd.php",
+		"/Applications/MAMP/htdocs/myStream/forgotPassword.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/friend_search.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/logout.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/tags.php",
+		"/Applications/MAMP/htdocs/myStream/smokesignals.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Guzzle/Plugin/Backoff/AbstractErrorCodeBackoffStrategy.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Aws/S3/Exception/AmbiguousGrantByEmailAddressException.php",
+		"/Applications/MAMP/htdocs/myStream/js/page_variables.js",
+		"/Applications/MAMP/htdocs/myStream/style/pagetop.css",
+		"/Applications/MAMP/htdocs/myStream/voting mechanism code.php",
+		"/Applications/MAMP/htdocs/myStream/streams.php",
+		"/Applications/MAMP/htdocs/myStream/sound_modal_testing.php",
+		"/Applications/MAMP/htdocs/myStream/events.php",
+		"/Applications/MAMP/htdocs/myStream/facebook.php",
+		"/Applications/MAMP/htdocs/myStream/php/templates/streams.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/detect_link.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/check_login_status.php",
+		"/Applications/MAMP/htdocs/myStream/oliviaPHP/tribePage_streams.php",
+		"/Applications/MAMP/htdocs/myStream/js/checkingloadmore.js",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Guzzle/Plugin/Cache/CacheKeyProviderInterface.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/mainhead.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Symfony/Component/ClassLoader/WinCacheClassLoader.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Aws/Iam/Exception/InvalidCertificateException.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Guzzle/Http/QueryAggregator/PhpAggregator.php",
+		"/Applications/MAMP/htdocs/myStream/photos.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/roots.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Aws/Common/Exception/DomainException.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/db_conx.php",
+		"/Applications/MAMP/htdocs/myStream/about.php",
+		"/Applications/MAMP/htdocs/myStream/blog.php",
+		"/Applications/MAMP/htdocs/myStream/login.php",
+		"/Applications/MAMP/htdocs/myStream/modals.php",
+		"/Applications/MAMP/htdocs/myStream/notifications.php",
+		"/Applications/MAMP/htdocs/myStream/settings.php",
+		"/Applications/MAMP/htdocs/myStream/user.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Aws/Ec2/Enum/RouteOrigin.php",
+		"/Applications/MAMP/htdocs/myStream/README.md",
+		"/Applications/MAMP/htdocs/myStream/templates/tile_head.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Aws/S3/Exception/TemporaryRedirectException.php",
+		"/Applications/MAMP/htdocs/myStream/test.html",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Aws/Redshift/Exception/InvalidClusterStateException.php",
+		"/Applications/MAMP/htdocs/myStream/php/templates/analytics_tracking.php",
+		"/Applications/MAMP/htdocs/myStream/analyticstracking.php",
+		"/Applications/MAMP/htdocs/myStream/js/tracking.js",
+		"/Applications/MAMP/htdocs/myStream/tracking.php",
+		"/Applications/MAMP/htdocs/myStream/logs/ga_log_repo.js",
+		"/Applications/MAMP/htdocs/myStream/mobile/index.php",
+		"/Applications/MAMP/htdocs/myStream/stealthpage.php",
+		"/Applications/MAMP/htdocs/myStream/standardhead.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Monolog/Handler/StreamHandler.php",
+		"/Applications/MAMP/htdocs/myStream/scraping/api_modules/main_api_scrape.php",
+		"/Applications/MAMP/htdocs/myStream/php/parsers/stream_generator.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/checkTags.php",
+		"/Applications/MAMP/htdocs/myStream/style/stream-960.css",
+		"/Applications/MAMP/htdocs/myStream/db.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/convert_date.php",
+		"/Applications/MAMP/htdocs/myStream/email_tem/comment_notif.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Aws/Common/Enum/ClientOptions.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Monolog/Handler/CubeHandler.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Aws/S3/Model/AcpBuilder.php",
+		"/Applications/MAMP/htdocs/myStream/whitelist.xlsx",
+		"/Applications/MAMP/htdocs/myStream/php/parsers/status_system.php",
+		"/Applications/MAMP/htdocs/myStream/php/parsers/article_system.php",
+		"/Applications/MAMP/htdocs/myStream/php/parsers/voting_parser.php",
+		"/Applications/MAMP/htdocs/myStream/php/parsers/email_activation.php",
+		"/Applications/MAMP/htdocs/myStream/oliviaPHP/profile_info.php",
+		"/Applications/MAMP/htdocs/myStream/scraping/posting_modules/photo_post.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Monolog/Handler/PushoverHandler.php",
+		"/Applications/MAMP/htdocs/myStream/tmp/USECHROME.php",
+		"/Applications/MAMP/htdocs/myStream/unused/activation.php",
+		"/Applications/MAMP/htdocs/myStream/unused/block_system.php",
+		"/Applications/MAMP/htdocs/myStream/js/comments.js",
+		"/Applications/MAMP/htdocs/myStream/js/content_upload.js",
+		"/Applications/MAMP/htdocs/myStream/js/dragndrop.js",
+		"/Applications/MAMP/htdocs/myStream/js/load_more_content.js",
+		"/Applications/MAMP/htdocs/myStream/js/new-modal.js",
+		"/Applications/MAMP/htdocs/myStream/js/notifications.js",
+		"/Applications/MAMP/htdocs/myStream/js/object_creators.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/Practice/bootstrap/",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/ringio",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/ringio",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/jumbotron-narrow",
+			"/Applications/MAMP/htdocs/myStream",
+			"/Applications/MAMP/htdocs/angular-phonecat",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"collapse",
+			"accordion-toggle",
+			"colspan=\"6\"",
+			"table",
+			".collapse.in",
+			".collapse .in",
+			".collapse.in",
+			".collapse-in",
+			".page-header",
+			"bootstrap",
+			".container",
+			"font-size",
+			"border-radius",
+			"NAVBAR-STATIC-TOP",
+			"BODY",
+			"navbar-header",
+			"signup)",
+			"signup",
+			"signup(",
+			"filter_drop_count",
+			"check_if_enter",
+			"outerHTML",
+			"get_tribesayer",
+			"signup.php",
+			"signup",
+			"message.php",
+			"messages.php",
+			"php/includes/mess",
+			"ev.stop",
+			"small_phone.css",
+			"signup.php",
+			"function",
+			"signup",
+			"signup_events",
+			"modal_events",
+			"fb_login",
+			"signup",
+			"comment_testing.css",
+			"debug.css",
+			"dot.css",
+			"forgot_password.css",
+			"internal_style.css",
+			"old_comment",
+			"signup.css",
+			".css",
+			"nbproject",
+			"logs/",
+			"mobile/",
+			"mobile_logo.png",
+			"tribepage.php",
+			"tribepage_streams.php",
+			"login.php",
+			"logout.php",
+			"login.php",
+			"searchbackend",
+			"message.php",
+			"photos.php",
+			"signup.php",
+			"tags.php",
+			"voting mech",
+			"voting_mech",
+			"tracking.php",
+			"user.php",
+			"streams.php",
+			"header.php",
+			"login.php",
+			"friendsearchbackend",
+			"db.php",
+			"facebook.php",
+			"expand_retract.js",
+			"friend_list_large.php",
+			"analyticstracking.php",
+			"$p_type",
+			"frenetic.pagename",
+			"$page_type",
+			"page_type",
+			"$html_user_login_status =",
+			"$html_user",
+			"$user_login_status",
+			"$html_user",
+			"$user_login_status",
+			"$selectedFavs;",
+			"$selectedFavs ",
+			"$selectedFavs",
+			"selectedFavs",
+			"$selectedFavs = ",
+			"$selectedFavs= ",
+			"$selectedFavs = ",
+			"$selectedFavs",
+			".news",
+			"$p_type",
+			"$l_uid",
+			"$p_type =",
+			"pageTop.php",
+			"$profile_pic",
+			"soundcloud_sdk",
+			"$internal_class",
+			"tagStream_status",
+			"analyticstracking.php",
+			"tracking.php",
+			"\"tracking.php",
+			"'tracking.php",
+			"tracking.php",
+			"template_status.php",
+			"standardhead.php",
+			"\"standardhead.php",
+			"standardhead.php",
+			"tile_head",
+			"$highlight",
+			"$s3root",
+			"stream_ge",
+			"$s3root",
+			"$s3root=",
+			"$s3root =",
+			"$s3rot =",
+			"stream_generator",
+			"$s3root",
+			"whitelist.xlsx",
+			"modals.php",
+			"oliviaPHP/tribePage_streams.php",
+			"tribePage_streams.php",
+			"stream_generator.php",
+			"php_parsers",
+			"php_includes",
+			"templates/",
+			"tile_head.php",
+			"user.php",
+			"tile_head.php"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"colspan=\"4\"",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/ringio\n/Applications/MAMP/htdocs/Practice/bootstrap/docs/ringio\ncolspan=\"4\"",
+			"php/includes/signup.php",
+			"php/includes/login.php",
+			"php/includes/logout.php",
+			"php/templates/facebook.php",
+			"$html_user_login_status",
+			"$html_selectedFavs;",
+			"$html_selectedFavs ",
+			"$page_type",
+			"header.php",
+			"php/templates/analytics_tracking.php",
+			"\"php/includes/tracking.php",
+			"'php/includes/tracking.php",
+			"\"php/templates/standardhead.php",
+			"mainhead",
+			"php/templates/streams.php",
+			"php/parsers",
+			"php/includes",
+			"php/templates/",
+			"templates/standardhead.php",
+			"templates/pageTop.php",
+			"once(\"../",
+			"templates/standardhead.php",
+			"templates/tile_head.php",
+			"ce(\"../",
+			"ce(\"../php",
+			"php_parsers/update_favorites.php",
+			"php_parsers/stream_generator_api.php",
+			"php_parsers/stream_generator.php",
+			"/php_parsers/stream_generator.php",
+			"ACCESS_CARDS"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Applications/MAMP/htdocs/Practice"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10759,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2084.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/Practice/bootstrap/dist/js/bootstrap-ringio.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 60772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/justified-nav/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3974,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2097,
+								2097
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 866.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/grid/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1905,
+								1737
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 371.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/theme/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25843,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12737,
+								12743
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7130.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "/Applications/MAMP/htdocs/Practice/bootstrap/dist/css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132016,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/justified-nav/justified-nav.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1326,
+								1326
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 580.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/grid/grid.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/theme/theme.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.git-flow-init":
+	{
+		"height": 0.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
+	},
+	"output.git-remote":
+	{
+		"height": 100.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"-ringio",
+				"bootstrap/dist/js/bootstrap-ringio.js"
+			],
+			[
+				"bootstrap.js",
+				"bootstrap/dist/js/bootstrap.js"
+			],
+			[
+				"bootstrap.css",
+				"bootstrap/dist/css/bootstrap.css"
+			],
+			[
+				"collapse.html",
+				"bootstrap/docs/_includes/js/collapse.html"
+			],
+			[
+				"modal_object_creator.js",
+				"js/modal_object_creator.js"
+			],
+			[
+				"main.js",
+				"js/main.js"
+			],
+			[
+				"index_bottom",
+				"js/index_bottom.js"
+			],
+			[
+				"mainhead.php",
+				"php/templates/mainhead.php"
+			],
+			[
+				"modal_object",
+				"js/modal_object_creator.js"
+			],
+			[
+				"modals.php",
+				"php/templates/modals.php"
+			],
+			[
+				"fb_login.js",
+				"js/fb_login.js"
+			],
+			[
+				"standard",
+				"php/templates/standardhead.php"
+			],
+			[
+				"standar",
+				"php/includes/standardhead.php"
+			],
+			[
+				"signup.php",
+				"signup.php"
+			],
+			[
+				"detect",
+				"php/includes/detect_link.php"
+			],
+			[
+				"chekc_login",
+				"php/includes/check_login_status.php"
+			],
+			[
+				"includes/standard",
+				"php/includes/standardhead.php"
+			],
+			[
+				"stand",
+				"php/templates/standardhead.php"
+			],
+			[
+				"pagetop.css",
+				"style/pagetop.css"
+			],
+			[
+				"roots.php",
+				"php/includes/roots.php"
+			],
+			[
+				"templates/standard",
+				"php/templates/standardhead.php"
+			],
+			[
+				"includes/mainhead",
+				"php/includes/mainhead.php"
+			],
+			[
+				"strea",
+				"php/parsers/stream_generator.php"
+			],
+			[
+				"db_conx.php",
+				"php/includes/db_conx.php"
+			],
+			[
+				"convert_date.php",
+				"php/includes/convert_date.php"
+			],
+			[
+				"check_login",
+				"php/includes/check_login_status.php"
+			],
+			[
+				"abort_martin",
+				"unused/abort_martin.php"
+			],
+			[
+				"php/templates/tile_head.php",
+				"php/templates/tile_head.php"
+			],
+			[
+				"oliviaphp/tribepage_streams.php",
+				"oliviaPHP/tribePage_streams.php"
+			],
+			[
+				"php/parsers/stream",
+				"php/parsers/stream_generator.php"
+			],
+			[
+				"templates/tile_head.php",
+				"templates/tile_head.php"
+			],
+			[
+				"templates/page",
+				"templates/template_pageTop.php"
+			],
+			[
+				"templates/stand",
+				"templates/standardhead.php"
+			],
+			[
+				"js/jquery.simpleimagecrop.js",
+				"js/jquery.simpleimagecrop.js"
+			],
+			[
+				"js/checking",
+				"js/checkingloadmore.js"
+			],
+			[
+				"js/toggle_functions.js",
+				"js/toggle_functions.js"
+			],
+			[
+				"standardhead.php",
+				"standardhead.php"
+			],
+			[
+				"php_includes/check_login_status.php",
+				"php_includes/check_login_status.php"
+			],
+			[
+				"http",
+				"test/php_http.php"
+			],
+			[
+				"tile_head.php",
+				"tile_head.php"
+			],
+			[
+				"login.php",
+				"login.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 363.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

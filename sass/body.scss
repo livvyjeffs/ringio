@@ -1,0 +1,94 @@
+@import "variables";
+
+body {
+    padding-bottom: 20px;
+    color: $body-default-color;
+    font-size: $body-default-font-size;
+    font-family: $font-family-sans-serif;
+    background-color: $body-default-bg;
+}
+
+/* Customize container */
+@media (min-width: 988px) {
+    .container {
+        max-width: 950px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-ringio {
+        max-height: 52px;
+    }
+}
+
+/********************************   Rows   ********************************/
+
+body > .container {
+    background-color: $body-container-bg;
+    border-left: 1px solid $body-default-border-color;
+    border-right: 1px solid $body-default-border-color;
+    border-bottom: 1px solid $body-default-border-color;
+}
+
+.row.ringio-container {
+    padding: $body-default-margin $body-default-margin/2;
+}
+
+
+/********************************   Icons   *******************************/
+
+.ringio-header .glyphicon {
+    width: $page-header-height;
+    height: $page-header-height;
+    line-height: $page-header-height;
+}
+
+.glyphicon-user.large:before {
+    content: url(../images/users.png);
+}
+
+/****************************   Dropdowns   ******************************/
+
+.dropdown {
+    display: inline-block;
+    width: 100%;
+}
+
+/*****************************   Buttons   *******************************/
+
+.btn-ringio {
+    padding: 5px 18px;
+    font-size: 9px;
+}
+
+.btn-cancel {
+    background-color: #035C8D;  
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.btn-save {
+    color: rgb(33, 107, 158);
+    background: linear-gradient(0deg, #daeafa 0%, #ffffff 100%);
+
+    background-repeat: repeat-x;
+    border-color: rgb(35, 84, 127);
+}
+
+.btn-dropdown {
+    font-size: 10px !important;
+    background-color: white;
+}
+
+.close {
+    font-size: 12px;
+}
+
+.ringio-icon{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;   
+}
+
+
+

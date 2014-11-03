@@ -1,0 +1,98 @@
+@import "variables";
+
+.page-header {
+    .media-list {
+        margin: 15px;
+    }
+    .media-body {
+        vertical-align: middle;
+        background: linear-gradient(0deg, #daeafa 0%, #ffffff 100%);
+    }
+    .glyphicon.large {
+        height: 100%;
+        width: auto;
+        vertical-align: middle;
+    }
+}
+
+.ringio-header {
+    background-color: $page-header-bg;
+    padding: 30px;
+    border-bottom: 1px solid rgb(215, 230, 238);
+    color: $page-header-color;
+    h1 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .media-list {
+        margin: 0;
+    }
+}
+
+/*******/
+
+
+.panel-ringio {
+    border: 1px solid rgb(215, 230, 238);
+    padding: 10px;
+    position: relative;
+
+    .panel-heading {
+        text-align: center;
+        color: rgb(33, 107, 158);
+        background-color: white;
+        background-image: none;
+        border-bottom: 1px solid rgb(215, 230, 238);
+        font-size: 10px;
+        font-weight: bold;
+        padding: 12px;
+        padding-top: 0;
+    }
+
+    .panel-body {
+        margin: 0;
+        padding: 0;
+        &:not(:last-child) {
+            border-bottom: 1px solid rgb(215, 230, 238);
+        }
+        table {
+            border: none;
+            padding: 0;
+        }
+        table td {
+            padding: 10px 5px;
+        }
+        .table-text {
+
+            padding-right: 15px;
+
+            p{
+                margin: 0;
+            }
+            a{
+                font-weight: bold;
+            }
+        }
+
+    }
+    .ringio-icon {
+        &.tip {
+            background-image: url("../images/tip.png");
+            position: absolute;
+            top: 10px;
+            left: -10px;
+            height: 19px;
+            width: 10px;
+        }
+        &.bulb {
+            display: inline-block;
+            width: 10px;
+            height: 16px;
+            background-image: url("../images/bulb.png");
+        }
+    }
+}
