@@ -8189,11 +8189,6 @@ body > .container {
   border-bottom: 1px solid #d7e6ee;
 }
 
-/* line 33, ../sass/body.scss */
-.row.ringio-container {
-  padding: 30px 15px;
-}
-
 /********************************   Icons   *******************************/
 /* line 40, ../sass/body.scss */
 .ringio-header .glyphicon {

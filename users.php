@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<?php $page_title = "Dashboard"; include_once("php_templates/header.php"); ?>
+<?php $page_title = "Users"; include_once("php_templates/header.php"); ?>
 
 <!-- Begin Main Content Container -->
 
@@ -31,12 +31,12 @@
         </thead>
         <tbody>
 
-          <?php $opened = false; $first_name = "Admin"; $last_name = ""; $phone_number = ""; $row_number = 1; $checked=true; $departments = ""; $img_src=""; include("php_templates/table_users_row.php"); ?>
-          <?php $opened = true; $first_name = "Sam"; $last_name = "Aparacio"; $phone_number = "202-123-1234"; $row_number = 2; $checked=false; $departments = ""; $img_src="images/sam.png"; include("php_templates/table_users_row.php"); ?>
-          <?php $opened = false; $first_name = "Ashish"; $last_name = "Soni"; $phone_number = "571-278-2504"; $row_number = 3; $checked=true; $departments = ""; $img_src=""; include("php_templates/table_users_row.php"); ?>
-          <?php $opened = false; $first_name = "Michael"; $last_name = "Zirngibl"; $phone_number = "202-278-2504"; $row_number = 4; $checked=false; $departments = "Reseller Programs"; $img_src=""; include("php_templates/table_users_row.php"); ?>
-          <?php $opened = false; $first_name = "Jon"; $last_name = "Yu"; $phone_number = "jon@ringio.onsip.com"; $row_number = 5; $checked=true; $departments = ""; $img_src=""; include("php_templates/table_users_row.php"); ?>
-          <?php $opened = false; $first_name = "Nick"; $last_name = "Kleinschmidt"; $phone_number = "danny@ringio.onsip.com"; $row_number = 6; $checked=false; $departments = "Sales - Reseller Programs"; $img_src=""; include("php_templates/table_users_row.php"); ?>
+          <?php $opened = false; $first_name = "Admin"; $last_name = ""; $phone_number = ""; $row_number = 1; $checked=true; $departments = ""; $img_src=""; include("php_templates/table_rows/users.php"); ?>
+          <?php $opened = true; $first_name = "Sam"; $last_name = "Aparacio"; $phone_number = "202-123-1234"; $row_number = 2; $checked=false; $departments = ""; $img_src="images/sam.png"; include("php_templates/table_rows/users.php"); ?>
+          <?php $opened = false; $first_name = "Ashish"; $last_name = "Soni"; $phone_number = "571-278-2504"; $row_number = 3; $checked=true; $departments = ""; $img_src=""; include("php_templates/table_rows/users.php"); ?>
+          <?php $opened = false; $first_name = "Michael"; $last_name = "Zirngibl"; $phone_number = "202-278-2504"; $row_number = 4; $checked=false; $departments = "Reseller Programs"; $img_src=""; include("php_templates/table_rows/users.php"); ?>
+          <?php $opened = false; $first_name = "Jon"; $last_name = "Yu"; $phone_number = "jon@ringio.onsip.com"; $row_number = 5; $checked=true; $departments = ""; $img_src=""; include("php_templates/table_rows/users.php"); ?>
+          <?php $opened = false; $first_name = "Nick"; $last_name = "Kleinschmidt"; $phone_number = "danny@ringio.onsip.com"; $row_number = 6; $checked=false; $departments = "Sales - Reseller Programs"; $img_src=""; include("php_templates/table_rows/users.php"); ?>
 
         </tbody>
       </table>

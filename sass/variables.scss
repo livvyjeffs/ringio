@@ -1,5 +1,36 @@
 @import "bootstrap";
 
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+$grid-float-breakpoint: 950px;
+
+////////////
+
+$bg-clr-navbar-top: #04689E;
+$bg-clr-navbar-btm: #0575B3;
+
+$border-clr-navbar-top: #02507F;
+$border-clr-navbar-btm: #04517F;
+$border-clr-body: #D9E7F0;
+$border-clr-table: #DDE9F1;
+$border-clr-table-option: #D5E4EE;
+
+
+$box-shadow-inset-clr-navbar-btm: #0E7EB9;
+$box-shadow-clr-table-option: #E5EEF5;
+
+$bg-clr-outer-body: #F3F8Fb;
+$bg-clr-inner-body: #FFFFFF;
+
+$bg-clr-table-dark: #0572AE;
+$bg-clr-table-light: $bg-clr-outer-body;
+
+$font-clr-page-header: #04689E;
+
+$margin: 30px;
+
+////////////////////////////////////////////////
+
 // Body
 // src: body.scss
 
