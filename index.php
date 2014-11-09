@@ -5,20 +5,12 @@
 <!-- Begin Main Content Container -->
 
 <div class="container">
-  <div class="row ringio-header">
-    <ul class="media-list">
-      <li class="media">
-        <span class="pull-right glyphicon glyphicon-user large"></span>
-        <div class="media-body">
-          <h1 class="media-heading">Users</h1>
-          <h2 class="media-heading">& Personal Numbers</h2>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <div class="row ringio-container">
+
+  <?php include("php_templates/page-header.php"); ?>
+
+  <div class="row no-margin">
     <div class="col-md-8">
-      <table id="users_table" class="table table-condensed panel panel-default table-ringio">
+      <table id="users_table" class="table table-condensed panel panel-default">
         <thead>
           <tr>
             <th class="col-1" style="width: 40px">
@@ -43,7 +35,7 @@
 
     </div>
     <div class="col-md-4">
-      <div class="panel panel-ringio">
+      <div class="panel">
         <span class="ringio-icon tip"></span>
         <div class="panel-heading">
           Users Help

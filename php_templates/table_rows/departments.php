@@ -1,6 +1,6 @@
 <!-- SAMPLE VARIABLES -->
 <!-- $opened = false; $phone_number = ""; $row_number = 1; $main = "Yes"; $label="Ringio Toll Free Number"; $audio="Standard"; $routing = "normal"; -->
-          
+
 <?php 
 
 if($opened){
@@ -21,19 +21,19 @@ if($opened){
   <td class="col-3"><?php echo $label; ?></td>
   <td class="col-4"><?php echo $audio; ?></td>
   <td class="col-5"><?php echo $routing; ?></td>
+  <td class="row edit-options stay-visible">
+    <button type="button" class="btn btn-ringio btn-cancel stay-visible">Drop this Number</button>
+    <button type="button" class="btn btn-ringio btn-cancel stay-visible">Cancel</button>
+    <button type="button" class="btn btn-ringio btn-save stay-visible">Save</button>
+  </td>
 </tr>
 <tr>
   <td colspan="5" class="hiddenRow">
     <div id="demo<?php echo $row_number; ?>" class="accordian-body collapse <?php echo $in_or_out; ?>">
 
-      <div class="row edit-options">
-        <button type="button" class="btn btn-ringio btn-cancel">Drop this Number</button>
-        <button type="button" class="btn btn-ringio btn-cancel">Cancel</button>
-        <button type="button" class="btn btn-ringio btn-save">Save</button>
-      </div>
 
       <div class="row data-container">
-        <div class="row data-container" option-container>
+        <div class="col-md-12 data-container" option-container>
           <h1>Greeting</h1>
           <div class="row" option>
             <div class="col-md-3">
@@ -50,9 +50,8 @@ if($opened){
               </div>
               <div class="option">
                 <input type="checkbox" checked><label>Announce Company Name</label>
-                <br>
-                <input type="text" placeholder="Company Name">
               </div>
+              <input type="text" placeholder="Company Name">
             </div>
           </div>
           <div class="row" option>
@@ -78,11 +77,11 @@ if($opened){
                 </ul>
               </div>
             </div>
-            <button class="btn-cancel">Upload Sound File</button>
+            <button class="btn btn-ringio btn-upload">Upload Sound File</button>
           </div>
         </div>
       </div>
-      <div class="row data-container" option-container>
+      <div class="col-md-12 data-container" option-container>
         <h1>Routing</h1>
         <div class="row" option>
           <div class="col-md-12">
@@ -92,7 +91,7 @@ if($opened){
           </div>
         </div>
         <div class="row" option>
-          <div class="col-md-5">
+          <div class="col-md-6">
             <div class="option">
               <input type="radio" name="routing" value="department" checked option-controller><label>Route all calls to this Department</label>
             </div>
@@ -123,10 +122,10 @@ if($opened){
       </div>
     </div>
   </div>
-  <div class="row data-container" option-container>
+  <div class="col-md-12 data-container" option-container>
     <h1>On-hold Music</h1>
     <div class="row" option>
-      <div class="col-md-4">
+      <div class="col-md-5">
         <div class="option">
           <input type="radio" name="on-hold-music" value="standard" option-controller><label>Standard Hold Music</label>
         </div>
@@ -155,45 +154,46 @@ if($opened){
         </div>
         
       </div>
-      <button class="btn-cancel">Upload Sound File</button>
+      <button class="btn btn-ringio btn-upload">Upload Sound File</button>
     </div>
   </div>
 </div>
-<div class="row data-container">
+<div class="col-md-12 data-container">
   <h1>Screen Pop Label & Web Triggers</h1>
   <div class="row">
-  <div class="col-md-3">
-  <label class="input-style">
-      Screen Pop Label</label>
-    </div>
-    <div class="col-md-8">
-      <input type="text" placeholder="703-879-8041 // Jon Yu">
-    </div>
-  </div>
-  <div class="row">
     <div class="col-md-3">
-    <label class="input-style">
-      Web Trigger Button</label>
+      <label class="input-style">
+        Screen Pop Label</label>
+      </div>
+      <div class="col-md-8">
+        <input type="text" placeholder="703-879-8041 // Jon Yu">
+      </div>
     </div>
-    <div class="col-md-8">
-      <input type="text">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-3">
-    <label class="input-style">
-      URL to Invoke
-      </label>
-    </div>
-    <div class="col-md-8">
-      <input type="text">
-      <div class="option">
-        <input type="checkbox"><label>Also send phone call data as parameters</label>
+    <div class="row">
+      <div class="col-md-3">
+        <label class="input-style">
+          Web Trigger Button</label>
+        </div>
+        <div class="col-md-8">
+          <input type="text">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <label class="input-style">
+            URL to Invoke
+          </label>
+        </div>
+        <div class="col-md-8">
+          <input type="text">
+          <br>
+          <div class="option">
+            <input type="checkbox"><label>Also send phone call data as parameters</label>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-</div>
 
 </td>
 </tr>

@@ -12,6 +12,9 @@ switch($page_title){
   case 'Departments':
   $btn_3 = "active";
   break;
+  case 'CRM Integrations':
+  $btn_5 = "active";
+  break;
 }
 
 ?>
@@ -79,8 +82,8 @@ switch($page_title){
         <li class="<?php echo $btn_2; ?>"><a href="users.php">Users</a></li>
         <li class="<?php echo $btn_3; ?>"><a href="departments.php">Departments</a></li>
         <li class="<?php echo $btn_4; ?>"><a href="phone_numbers.php">Phone Numbers</a></li>
-        <li class="<?php echo $btn_5; ?>"><a href="crm_integrations.php">CRM Integrations</a></li>
-        <li class="<?php echo $btn_6; ?>"><a href="premium_features.php">Premium Features</a></li>
+        <li class="<?php echo $btn_5; ?>"><a href="crm-integrations.php">CRM Integrations</a></li>
+        <li class="<?php echo $btn_6; ?>"><a href="premium-features.php">Premium Features</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

@@ -8158,43 +8158,38 @@ button.close {
     display: none !important;
   }
 }
-/* line 4, ../sass/lost-children.scss */
-.page-header .media-list {
-  margin: 15px;
-}
-/* line 7, ../sass/lost-children.scss */
-.page-header .media-body {
-  vertical-align: middle;
-  background: -webkit-linear-gradient(90deg, #daeafa 0%, #ffffff 100%);
-  background: linear-gradient(0deg, #daeafa 0%, #ffffff 100%);
+/* line 3, ../sass/lost-children.scss */
+.page-header {
+  padding-top: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  background-color: #F9FBFD;
+  border-bottom: 1px solid #d7e6ee;
+  color: #17699C;
 }
 /* line 11, ../sass/lost-children.scss */
+.page-header .media-list {
+  margin: 30px;
+}
+/* line 15, ../sass/lost-children.scss */
+.page-header .media-body {
+  vertical-align: middle;
+}
+/* line 19, ../sass/lost-children.scss */
 .page-header .glyphicon.large {
   height: 100%;
   width: auto;
   vertical-align: middle;
 }
-
-/* line 18, ../sass/lost-children.scss */
-.ringio-header {
-  background-color: #F9FBFD;
-  padding: 30px;
-  border-bottom: 1px solid #d7e6ee;
-  color: #17699C;
-}
-/* line 23, ../sass/lost-children.scss */
-.ringio-header h1 {
+/* line 25, ../sass/lost-children.scss */
+.page-header h1 {
   font-size: 22px;
   font-weight: 700;
 }
-/* line 27, ../sass/lost-children.scss */
-.ringio-header h2 {
+/* line 29, ../sass/lost-children.scss */
+.page-header h2 {
   font-size: 16px;
   font-weight: 400;
-}
-/* line 31, ../sass/lost-children.scss */
-.ringio-header .media-list {
-  margin: 0;
 }
 
 /*******/
@@ -8221,32 +8216,32 @@ button.close {
   margin: 0;
   padding: 0;
 }
-/* line 59, ../sass/lost-children.scss */
+/* line 61, ../sass/lost-children.scss */
 .panel-ringio .panel-body:not(:last-child) {
   border-bottom: 1px solid #d7e6ee;
 }
-/* line 62, ../sass/lost-children.scss */
+/* line 64, ../sass/lost-children.scss */
 .panel-ringio .panel-body table {
   border: none;
   padding: 0;
 }
-/* line 66, ../sass/lost-children.scss */
+/* line 68, ../sass/lost-children.scss */
 .panel-ringio .panel-body table td {
   padding: 10px 5px;
 }
-/* line 69, ../sass/lost-children.scss */
+/* line 71, ../sass/lost-children.scss */
 .panel-ringio .panel-body .table-text {
   padding-right: 15px;
 }
-/* line 73, ../sass/lost-children.scss */
+/* line 75, ../sass/lost-children.scss */
 .panel-ringio .panel-body .table-text p {
   margin: 0;
 }
-/* line 76, ../sass/lost-children.scss */
+/* line 78, ../sass/lost-children.scss */
 .panel-ringio .panel-body .table-text a {
   font-weight: bold;
 }
-/* line 83, ../sass/lost-children.scss */
+/* line 85, ../sass/lost-children.scss */
 .panel-ringio .ringio-icon.tip {
   background-image: url("../images/tip.png");
   position: absolute;
@@ -8255,7 +8250,7 @@ button.close {
   height: 19px;
   width: 10px;
 }
-/* line 91, ../sass/lost-children.scss */
+/* line 93, ../sass/lost-children.scss */
 .panel-ringio .ringio-icon.bulb {
   display: inline-block;
   width: 10px;

@@ -14,6 +14,7 @@ $border-clr-navbar-btm: #04517F;
 $border-clr-body: #D9E7F0;
 $border-clr-table: #DDE9F1;
 $border-clr-table-option: #D5E4EE;
+$border-clr-table-btn-upload: #225E93;
 
 
 $box-shadow-inset-clr-navbar-btm: #0E7EB9;
@@ -25,9 +26,18 @@ $bg-clr-inner-body: #FFFFFF;
 $bg-clr-table-dark: #0572AE;
 $bg-clr-table-light: $bg-clr-outer-body;
 
+$bg-clr-btn-edit: #ECF2F6;
+$bg-clr-btn-edit-active: $bg-clr-btn-edit;
+
 $font-clr-page-header: #04689E;
 
 $margin: 30px;
+
+$font-size-small: 9px;
+$font-size-medium: 10px;
+$font-size-12: 12px;
+$font-size-large: 16px;
+$font-size-xlarge: 22px;
 
 ////////////////////////////////////////////////
 
@@ -79,7 +89,7 @@ $page-header-bg: $navbar-background-color-page-header;
 $page-header-height: 50px;
 
 // Table
-// table-users.scss
+// tables.scss
 
 $table-header-color: $body-default-header-color;
 $table-header-bg: #F3F8FB;

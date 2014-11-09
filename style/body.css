@@ -8189,41 +8189,130 @@ body > .container {
   border-bottom: 1px solid #d7e6ee;
 }
 
+/* line 33, ../sass/body.scss */
+.no-margin {
+  margin: 0px !important;
+}
+
+/* line 37, ../sass/body.scss */
+.centered {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 42, ../sass/body.scss */
+.stay-visible {
+  opacity: 1 !important;
+}
+
+/* line 46, ../sass/body.scss */
+.right-half-padding {
+  padding-right: 0;
+}
+
+/* line 50, ../sass/body.scss */
+.separator {
+  background-image: url("../images/separator.png");
+  width: 20px;
+  height: 30px;
+}
+
+/* line 56, ../sass/body.scss */
+.no-padding {
+  padding: 0 !important;
+}
+
 /********************************   Icons   *******************************/
-/* line 40, ../sass/body.scss */
+/* line 62, ../sass/body.scss */
 .ringio-header .glyphicon {
   width: 50px;
   height: 50px;
   line-height: 50px;
 }
 
-/* line 46, ../sass/body.scss */
+/* line 68, ../sass/body.scss */
 .glyphicon-user.large:before {
   content: url(../images/users.png);
 }
 
+/* line 72, ../sass/body.scss */
+.glyphicon-department.large:before {
+  content: url(../images/departments.png);
+}
+
+/* line 76, ../sass/body.scss */
+.glyphicon-crm.large:before {
+  content: url(../images/crm.png);
+}
+
 /****************************   Dropdowns   ******************************/
-/* line 52, ../sass/body.scss */
+/* line 82, ../sass/body.scss */
 .dropdown {
   display: inline-block;
   width: 100%;
 }
+/* line 85, ../sass/body.scss */
+.dropdown .btn {
+  width: 100%;
+}
+/* line 88, ../sass/body.scss */
+.dropdown .icon-toggle {
+  background-image: url("../images/arrows.png");
+  width: 5px;
+  height: 11px;
+  display: inline-block;
+  float: right;
+}
+/* line 96, ../sass/body.scss */
+.dropdown.disabled .icon-toggle {
+  background-image: url("../images/arrows-disabled.png");
+}
 
 /*****************************   Buttons   *******************************/
-/* line 59, ../sass/body.scss */
+/* line 104, ../sass/body.scss */
 .btn-ringio {
   padding: 5px 18px;
   font-size: 9px;
 }
 
-/* line 64, ../sass/body.scss */
+/* line 109, ../sass/body.scss */
+.btn-edit {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #ECF2F6;
+  background-image: url("../images/edit.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.75;
+}
+/* line 122, ../sass/body.scss */
+.btn-edit:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* line 128, ../sass/body.scss */
 .btn-cancel {
   background-color: #035C8D;
   padding-left: 13px;
   padding-right: 13px;
 }
 
-/* line 70, ../sass/body.scss */
+/* line 134, ../sass/body.scss */
+.btn-upload {
+  border: 1px solid #225E93;
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.75);
+  background: -webkit-linear-gradient(90deg, #246098 0%, #307fc1 100%);
+  background: linear-gradient(0deg, #246098 0%, #307fc1 100%);
+}
+
+/* line 141, ../sass/body.scss */
 .btn-save {
   color: #216b9e;
   background: -webkit-linear-gradient(90deg, #daeafa 0%, #ffffff 100%);
@@ -8232,20 +8321,189 @@ body > .container {
   border-color: #23547f;
 }
 
-/* line 78, ../sass/body.scss */
+/* line 148, ../sass/body.scss */
 .btn-dropdown {
   font-size: 10px !important;
   background-color: white;
 }
 
-/* line 83, ../sass/body.scss */
+/* line 153, ../sass/body.scss */
 .close {
   font-size: 12px;
 }
 
-/* line 87, ../sass/body.scss */
+/* line 157, ../sass/body.scss */
 .ringio-icon {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+/* line 164, ../sass/body.scss */
+.disabledbutton:hover {
+  cursor: default;
+}
+
+/* line 169, ../sass/body.scss */
+input[disabled="disabled"] {
+  color: gray;
+}
+
+/*****************************   Page Header   *******************************/
+/* line 175, ../sass/body.scss */
+.page-header {
+  padding-top: 30px;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+  background-color: #F9FBFD;
+  border-bottom: 1px solid #d7e6ee;
+  color: #17699C;
+}
+/* line 183, ../sass/body.scss */
+.page-header .media-list {
+  margin: 30px;
+  margin-top: 0;
+}
+/* line 187, ../sass/body.scss */
+.page-header .media-body {
+  vertical-align: middle;
+}
+/* line 190, ../sass/body.scss */
+.page-header .glyphicon.large {
+  height: 100%;
+  width: auto;
+  vertical-align: middle;
+}
+/* line 195, ../sass/body.scss */
+.page-header h1 {
+  font-size: 22px;
+  font-weight: 700;
+}
+/* line 199, ../sass/body.scss */
+.page-header h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*****************************   Panels   *******************************/
+/* line 207, ../sass/body.scss */
+.panel {
+  border: 1px solid #d7e6ee;
+  padding: 10px;
+  position: relative;
+}
+/* line 211, ../sass/body.scss */
+.panel .panel-heading {
+  text-align: center;
+  color: #216b9e;
+  background-color: white;
+  background-image: none;
+  border-bottom: 1px solid #d7e6ee;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 12px;
+  padding-top: 0;
+}
+/* line 222, ../sass/body.scss */
+.panel .panel-body {
+  margin: 0;
+  padding: 0;
+}
+/* line 225, ../sass/body.scss */
+.panel .panel-body:not(:last-child) {
+  border-bottom: 1px solid #d7e6ee;
+}
+/* line 228, ../sass/body.scss */
+.panel .panel-body table {
+  border: none;
+  padding: 0;
+}
+/* line 232, ../sass/body.scss */
+.panel .panel-body table td {
+  padding: 10px 5px;
+}
+/* line 235, ../sass/body.scss */
+.panel .panel-body .table-text {
+  padding-right: 15px;
+}
+/* line 237, ../sass/body.scss */
+.panel .panel-body .table-text p {
+  margin: 0;
+}
+/* line 240, ../sass/body.scss */
+.panel .panel-body .table-text a {
+  font-weight: bold;
+}
+/* line 246, ../sass/body.scss */
+.panel .ringio-icon.tip {
+  background-image: url("../images/tip.png");
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  height: 19px;
+  width: 10px;
+}
+/* line 254, ../sass/body.scss */
+.panel .ringio-icon.bulb {
+  display: inline-block;
+  width: 10px;
+  height: 16px;
+  background-image: url("../images/bulb.png");
+}
+
+/*****************************   Thumbnails   *******************************/
+/* line 265, ../sass/body.scss */
+.thumbnail {
+  position: relative;
+  border: 1px solid #DDE9F1;
+  border-bottom: 3px solid #E5EEF5;
+  padding: 30px;
+  font-size: 12px;
+}
+/* line 271, ../sass/body.scss */
+.thumbnail .logo {
+  width: 100%;
+  height: 170px;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 276, ../sass/body.scss */
+.thumbnail .logo:before {
+  content: ' ';
+  width: 0;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: -0.5em;
+}
+/* line 284, ../sass/body.scss */
+.thumbnail .logo img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+/* line 291, ../sass/body.scss */
+.thumbnail .caption {
+  margin-top: 30px;
+  padding: 0;
+  padding-top: 30px;
+  border-top: 1px solid #DDE9F1;
+}
+/* line 296, ../sass/body.scss */
+.thumbnail .caption p:not(:last-child) {
+  margin-bottom: 0;
+}
+/* line 300, ../sass/body.scss */
+.thumbnail .btn-configure {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  color: #225E93;
+  border: 1px solid #DDE9F1;
+  box-shadow: 0 0 3px #E5EEF5;
+  background: -webkit-linear-gradient(90deg, #DBEBFB 0%, #FFFFFF 100%);
+  background: linear-gradient(0deg, #DBEBFB 0%, #FFFFFF 100%);
 }

@@ -8297,7 +8297,7 @@ table.table td .icon {
   margin-bottom: 0;
 }
 /* line 124, ../sass/table-users.scss */
-.table-ringio .data-container .row input, .table-ringio .data-container .row .ringio-container .btn-dropdown {
+.table-ringio .data-container .row input, .table-ringio .data-container .row .btn-dropdown {
   border-radius: 3px;
   padding: 8px 10px;
   width: 100%;

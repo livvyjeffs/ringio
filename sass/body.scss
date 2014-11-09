@@ -30,10 +30,32 @@ body > .container {
     border-bottom: 1px solid $body-default-border-color;
 }
 
-.row.ringio-container {
-    // padding: $body-default-margin $body-default-margin/2;
+.no-margin {
+    margin: 0px !important;
 }
 
+.centered {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.stay-visible {
+    opacity: 1 !important;
+}
+
+.right-half-padding {
+    padding-right: 0;
+}
+
+.separator {
+    background-image: url("../images/separator.png");
+    width: 20px;
+    height: 30px;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
 
 /********************************   Icons   *******************************/
 
@@ -47,11 +69,34 @@ body > .container {
     content: url(../images/users.png);
 }
 
+.glyphicon-department.large:before {
+    content: url(../images/departments.png);
+}
+
+.glyphicon-crm.large:before {
+    content: url(../images/crm.png);
+}
+
 /****************************   Dropdowns   ******************************/
 
 .dropdown {
     display: inline-block;
     width: 100%;
+    .btn {
+        width: 100%;
+    }
+    .icon-toggle {
+        background-image: url("../images/arrows.png");
+        width: 5px;
+        height: 11px;
+        display: inline-block;
+        float: right;
+    }
+    &.disabled {
+        .icon-toggle {
+            background-image: url("../images/arrows-disabled.png");
+        }
+    }
 }
 
 /*****************************   Buttons   *******************************/
@@ -61,16 +106,48 @@ body > .container {
     font-size: 9px;
 }
 
+.btn-edit, .btn-close {
+    position: absolute;
+    top: $margin / 2;
+    right: $margin / 2;
+    display: block;
+    width: $margin;
+    height: $margin;
+    border-radius: $margin;
+    background-color: $bg-clr-btn-edit;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.50;
+    &:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+}
+
+.btn-edit{
+    background-image: url("../images/edit.png");
+}
+
+.btn-close{
+    background-image: url("../images/close.png");
+}
+
 .btn-cancel {
-    background-color: #035C8D;  
+    background-color: #035C8D;
     padding-left: 13px;
     padding-right: 13px;
+}
+
+.btn-upload {
+    border: 1px solid $border-clr-table-btn-upload;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.75);
+    background: linear-gradient(0deg, #246098 0%, #307fc1 100%);
 }
 
 .btn-save {
     color: rgb(33, 107, 158);
     background: linear-gradient(0deg, #daeafa 0%, #ffffff 100%);
-
     background-repeat: repeat-x;
     border-color: rgb(35, 84, 127);
 }
@@ -84,11 +161,157 @@ body > .container {
     font-size: 12px;
 }
 
-.ringio-icon{
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;   
+.ringio-icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
+.disabled {
+    &button:hover {
+        cursor: default;
+    }
+}
 
+input[disabled="disabled"] {
+    color: gray;
+}
 
+/*****************************   Page Header   *******************************/
+
+.page-header {
+    padding-top: $margin;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: $margin;
+    background-color: $page-header-bg;
+    border-bottom: 1px solid rgb(215, 230, 238);
+    color: $page-header-color;
+    .media-list {
+        margin: $margin;
+        margin-top: 0;
+    }
+    .media-body {
+        vertical-align: middle;
+    }
+    .glyphicon.large {
+        height: 100%;
+        width: auto;
+        vertical-align: middle;
+    }
+    h1 {
+        font-size: $font-size-xlarge;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: $font-size-large;
+        font-weight: 400;
+    }
+}
+
+/*****************************   Panels   *******************************/
+
+.panel {
+    border: 1px solid rgb(215, 230, 238);
+    padding: 10px;
+    position: relative;
+    .panel-heading {
+        text-align: center;
+        color: rgb(33, 107, 158);
+        background-color: white;
+        background-image: none;
+        border-bottom: 1px solid rgb(215, 230, 238);
+        font-size: 10px;
+        font-weight: bold;
+        padding: 12px;
+        padding-top: 0;
+    }
+    .panel-body {
+        margin: 0;
+        padding: 0;
+        &:not(:last-child) {
+            border-bottom: 1px solid rgb(215, 230, 238);
+        }
+        table {
+            border: none;
+            padding: 0;
+        }
+        table td {
+            padding: 10px 5px;
+        }
+        .table-text {
+            padding-right: 15px;
+            p {
+                margin: 0;
+            }
+            a {
+                font-weight: bold;
+            }
+        }
+    }
+    .ringio-icon {
+        &.tip {
+            background-image: url("../images/tip.png");
+            position: absolute;
+            top: 10px;
+            left: -10px;
+            height: 19px;
+            width: 10px;
+        }
+        &.bulb {
+            display: inline-block;
+            width: 10px;
+            height: 16px;
+            background-image: url("../images/bulb.png");
+        }
+    }
+}
+
+/*****************************   Thumbnails   *******************************/
+
+.thumbnail {
+    position: relative;
+    border: 1px solid $border-clr-table;
+    border-bottom: 3px solid $box-shadow-clr-table-option;
+    padding: $margin;
+    font-size: $font-size-12;
+    .logo {
+        width: 100%;
+        height: 170px;
+        vertical-align: middle;
+        text-align: center;
+        &:before {
+            content: ' ';
+            width: 0;
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: -0.5em;
+        }
+        img {
+            display: inline-block;
+            vertical-align: middle;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .caption {
+        margin-top: $margin;
+        padding: 0;
+        padding-top: $margin;
+        border-top: 1px solid $border-clr-table;
+        p:not(:last-child){
+            margin-bottom: 0;
+        }
+    }
+    .btn-configure {
+        margin-top: $margin;
+        width: 100%;
+        text-align: center;
+        font-size: $font-size-xlarge;
+        color: $border-clr-table-btn-upload;
+        border: 1px solid $border-clr-table;
+        box-shadow: 0 0 3px $box-shadow-clr-table-option;
+        background: linear-gradient(0deg, #DBEBFB 0%, #FFFFFF 100%);
+    }
+}
