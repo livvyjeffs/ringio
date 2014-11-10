@@ -8180,22 +8180,26 @@ button.close {
   width: 12px;
 }
 /* line 19, ../sass/tables.scss */
-.table > thead > tr {
+.table thead tr {
   background-color: #F3F8Fb;
   font-weight: 700;
   font-size: 10px;
   color: #04639E;
 }
-/* line 25, ../sass/tables.scss */
-.table > tbody > tr {
+/* line 24, ../sass/tables.scss */
+.table thead tr th {
+  padding: 13px 7px;
+}
+/* line 28, ../sass/tables.scss */
+.table tbody tr {
   font-size: 9px;
 }
-/* line 27, ../sass/tables.scss */
-.table > tbody > tr td {
-  padding: 6px 7px;
+/* line 30, ../sass/tables.scss */
+.table tbody tr td {
+  padding: 13px 7px;
 }
-/* line 29, ../sass/tables.scss */
-.table > tbody > tr td .icon {
+/* line 32, ../sass/tables.scss */
+.table tbody tr td .icon {
   width: 30px;
   height: 30px;
   border-radius: 4px;
@@ -8205,187 +8209,273 @@ button.close {
   margin-top: -15px;
   margin-bottom: -15px;
 }
-/* line 41, ../sass/tables.scss */
-.table > thead > tr > th, .table > tbody > tr > td {
+/* line 44, ../sass/tables.scss */
+.table th, .table td {
   border-bottom: none;
   border-left: 1px solid #d7e6ee;
   vertical-align: middle;
-  padding: 12px 7px;
 }
-/* line 46, ../sass/tables.scss */
-.table > thead > tr > th:first-child, .table > tbody > tr > td:first-child {
+/* line 48, ../sass/tables.scss */
+.table th:first-child, .table td:first-child {
   border-left: none;
 }
-/* line 50, ../sass/tables.scss */
-.table .hiddenRow {
-  padding: 0 15px;
+
+/****************************   Accordion   ******************************/
+/* line 56, ../sass/tables.scss */
+td.hiddenRow {
+  padding: 0 !important;
   border: none !important;
 }
-/* line 54, ../sass/tables.scss */
-.table .accordion-toggle {
+/* line 59, ../sass/tables.scss */
+td.hiddenRow .accordion-body {
+  position: relative;
+  box-shadow: inset 0px 2px 0px 0px #dbebf3;
+}
+
+/* line 68, ../sass/tables.scss */
+tr.accordion-toggle {
   position: relative;
 }
-/* line 58, ../sass/tables.scss */
-.table .accordion-toggle:hover {
+/* line 70, ../sass/tables.scss */
+tr.accordion-toggle:hover {
   cursor: pointer;
 }
-/* line 60, ../sass/tables.scss */
-.table .accordion-toggle:hover td {
+/* line 72, ../sass/tables.scss */
+tr.accordion-toggle:hover td {
   color: #04639E;
   font-weight: bold;
 }
-/* line 66, ../sass/tables.scss */
-.table .accordion-toggle .edit-options {
+/* line 77, ../sass/tables.scss */
+tr.accordion-toggle .edit-options {
   display: none;
   z-index: 1;
 }
-/* line 71, ../sass/tables.scss */
-.table .accordion-toggle[aria-expanded="true"] {
+/* line 81, ../sass/tables.scss */
+tr.accordion-toggle[aria-expanded="true"] {
   background-color: #0572AE;
   color: white;
   text-shadow: 1px 1px black;
   box-shadow: inset 0px 0px 3px 3px #1e83bb;
   border: 1px solid #00507f;
 }
-/* line 77, ../sass/tables.scss */
-.table .accordion-toggle[aria-expanded="true"] > th, .table .accordion-toggle[aria-expanded="true"] > td {
+/* line 87, ../sass/tables.scss */
+tr.accordion-toggle[aria-expanded="true"] > th, tr.accordion-toggle[aria-expanded="true"] > td {
   border: none !important;
 }
-/* line 80, ../sass/tables.scss */
-.table .accordion-toggle[aria-expanded="true"] :not(.stay-visible) {
+/* line 90, ../sass/tables.scss */
+tr.accordion-toggle[aria-expanded="true"] :not(.stay-visible) {
   opacity: 0;
 }
-/* line 84, ../sass/tables.scss */
-.table .accordion-toggle[aria-expanded="true"] td:not(:first-child), .table .accordion-toggle[aria-expanded="true"] td:not(:last-child) {
+/* line 94, ../sass/tables.scss */
+tr.accordion-toggle[aria-expanded="true"] td:not(:first-child), tr.accordion-toggle[aria-expanded="true"] td:not(:last-child) {
   border: none;
 }
-/* line 88, ../sass/tables.scss */
-.table .accordion-toggle[aria-expanded="true"] .edit-options {
+/* line 98, ../sass/tables.scss */
+tr.accordion-toggle[aria-expanded="true"] .edit-options {
   position: absolute;
   display: block;
   color: white;
   right: 15px;
 }
-/* line 93, ../sass/tables.scss */
-.table .accordion-toggle[aria-expanded="true"] .edit-options .btn {
+/* line 103, ../sass/tables.scss */
+tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   margin-top: -5px;
 }
-/* line 100, ../sass/tables.scss */
-.table .accordian-body {
-  position: relative;
-  box-shadow: inset 0px 2px 0px 0px #dbebf3;
+
+/****************************   CRM Edit Tables   ******************************/
+/* line 112, ../sass/tables.scss */
+.crm-edit {
+  margin-bottom: 30px;
 }
-/* line 108, ../sass/tables.scss */
-.table .data-container {
+/* line 117, ../sass/tables.scss */
+.crm-edit > .option {
+  margin-bottom: 30px;
+  padding: 13px;
+}
+/* line 120, ../sass/tables.scss */
+.crm-edit > .option .row > div {
+  height: 46px;
+}
+/* line 124, ../sass/tables.scss */
+.crm-edit .logo {
+  height: 46px;
+}
+/* line 126, ../sass/tables.scss */
+.crm-edit .logo img {
+  width: auto;
+  height: 100%;
+}
+/* line 132, ../sass/tables.scss */
+.crm-edit .btn-revoke-access {
+  width: 100%;
+  text-align: center;
+}
+/* line 139, ../sass/tables.scss */
+.crm-edit .one-row-table thead th {
+  background-color: #04689E;
+  color: white;
+}
+/* line 144, ../sass/tables.scss */
+.crm-edit .one-row-table tbody {
+  background-color: #F3F8Fb;
+}
+/* line 147, ../sass/tables.scss */
+.crm-edit .one-row-table tbody tr td {
+  border: none;
+  padding: 15px;
+  padding-bottom: 0;
+}
+/* line 152, ../sass/tables.scss */
+.crm-edit .one-row-table tbody tr:last-child td {
+  padding-bottom: 15px;
+}
+/* line 157, ../sass/tables.scss */
+.crm-edit .one-row-table .option {
+  vertical-align: middle;
+  padding: 15px 0;
+}
+/* line 160, ../sass/tables.scss */
+.crm-edit .one-row-table .option input, .crm-edit .one-row-table .option .btn-dropdown {
+  margin: 0;
+  width: 100%;
+}
+/* line 165, ../sass/tables.scss */
+.crm-edit .one-row-table .panel-heading {
+  text-align: left;
+  padding: 7px 7px;
+  font-size: 10px;
+}
+/* line 169, ../sass/tables.scss */
+.crm-edit .one-row-table .panel-heading .icon-key {
+  display: inline-block;
+  background-image: url("../images/key.png");
+  width: 18px;
+  height: 18px;
+  margin-top: -6px;
+  margin-bottom: -6px;
+  margin-right: 8px;
+}
+
+/* line 183, ../sass/tables.scss */
+.data-container {
   background-color: #f3f8fb;
   border-top: 2px solid #E5EEF5;
   border-bottom: 3px solid #E5EEF5;
 }
-/* line 113, ../sass/tables.scss */
-.table .data-container h1 {
+/* line 187, ../sass/tables.scss */
+.data-container h1 {
   font-size: 16px;
   text-transform: uppercase;
 }
-/* line 118, ../sass/tables.scss */
-.table .data-container > .col-md-12 > .row {
+/* line 191, ../sass/tables.scss */
+.data-container > .col-md-12 > .row {
   margin: 15px 0;
 }
-/* line 122, ../sass/tables.scss */
-.table .data-container [data-label="personal-ringio-number"] {
+/* line 194, ../sass/tables.scss */
+.data-container .option {
+  padding: 5px;
+  line-height: 20px;
+}
+/* line 197, ../sass/tables.scss */
+.data-container .option input, .data-container .option label {
+  width: auto !important;
+}
+/* line 201, ../sass/tables.scss */
+.data-container [data-label="personal-ringio-number"] {
   margin: 0 100px;
   border-bottom: 1px solid #d7e6ee;
   padding: 15px 0;
   text-align: center;
   color: #00609d;
 }
-/* line 128, ../sass/tables.scss */
-.table .data-container [data-label="personal-ringio-number"] label {
+/* line 207, ../sass/tables.scss */
+.data-container [data-label="personal-ringio-number"] label {
   color: #00609d;
 }
-/* line 131, ../sass/tables.scss */
-.table .data-container [data-label="personal-ringio-number"] [data-type="phone-number"] {
+/* line 210, ../sass/tables.scss */
+.data-container [data-label="personal-ringio-number"] [data-type="phone-number"] {
   font-size: 20px;
 }
-/* line 135, ../sass/tables.scss */
-.table .data-container [data-label="data-rows"] [class^="col-md"]:not(:last-child), .table .data-container .row[data-label="data-rows"] *[class^="col-md"]:not(:last-child) {
+/* line 214, ../sass/tables.scss */
+.data-container [data-label="data-rows"] [class^="col-md"]:not(:last-child), .data-container .row[data-label="data-rows"] *[class^="col-md"]:not(:last-child) {
   padding-right: 0;
 }
-/* line 138, ../sass/tables.scss */
-.table .data-container, .table .data-container > .data-container {
-  border-bottom: 1px solid #DDE9F1;
-}
-/* line 141, ../sass/tables.scss */
-.table .data-container:last-child, .table .data-container > .data-container:last-child {
-  margin-bottom: 0;
-  border-bottom: none;
-}
-/* line 145, ../sass/tables.scss */
-.table .data-container input, .table .data-container .ringio-container .btn-dropdown, .table .data-container > .data-container input, .table .data-container > .data-container .ringio-container .btn-dropdown {
-  border-radius: 3px;
-  padding: 8px 10px;
-  width: 100%;
-  font-size: 10px;
-  border: none;
-  border: 1px solid #d7e6ee;
-}
-/* line 152, ../sass/tables.scss */
-.table .data-container input:not(:last-child), .table .data-container .ringio-container .btn-dropdown:not(:last-child), .table .data-container > .data-container input:not(:last-child), .table .data-container > .data-container .ringio-container .btn-dropdown:not(:last-child) {
-  margin-bottom: 15px;
-}
-/* line 156, ../sass/tables.scss */
-.table .data-container input::-webkit-input-placeholder, .table .data-container > .data-container input::-webkit-input-placeholder {
-  color: #00609d;
-}
-/* line 159, ../sass/tables.scss */
-.table .data-container input:-moz-placeholder, .table .data-container > .data-container input:-moz-placeholder {
-  /* Firefox 18- */
-  color: #00609d;
-}
-/* line 163, ../sass/tables.scss */
-.table .data-container input::-moz-placeholder, .table .data-container > .data-container input::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #00609d;
-}
-/* line 167, ../sass/tables.scss */
-.table .data-container input:-ms-input-placeholder, .table .data-container > .data-container input:-ms-input-placeholder {
-  color: #00609d;
-}
-/* line 172, ../sass/tables.scss */
-.table .option {
-  background-color: white;
-  border-radius: 3px;
-  border: 1px solid #DDE9F1;
-  padding: 5px;
-  line-height: 20px;
-}
-/* line 179, ../sass/tables.scss */
-.table .option input, .table .option label {
+/* line 219, ../sass/tables.scss */
+.data-container .option input, .data-container .option label {
   display: inline-block;
   vertical-align: middle;
-  width: auto !important;
+  width: auto;
   padding: 0;
   margin: 0;
 }
-/* line 186, ../sass/tables.scss */
-.table .option input {
+/* line 226, ../sass/tables.scss */
+.data-container .option input {
   margin-right: 10px;
   margin-left: 10px;
 }
-/* line 190, ../sass/tables.scss */
-.table .option label {
+/* line 230, ../sass/tables.scss */
+.data-container .option label {
   border-left: 1px solid #DDE9F1;
   padding-left: 10px;
 }
-/* line 194, ../sass/tables.scss */
-.table .option:not(:last-child) {
+/* line 234, ../sass/tables.scss */
+.data-container .option:not(:last-child) {
   margin-bottom: 15px;
 }
-/* line 198, ../sass/tables.scss */
-.table .option .dropdown .btn-dropdown {
+/* line 238, ../sass/tables.scss */
+.data-container .option .dropdown .btn-dropdown {
   text-align: left;
   border-radius: 3px;
 }
-/* line 202, ../sass/tables.scss */
-.table .option .dropdown .dropdown-menu {
+/* line 242, ../sass/tables.scss */
+.data-container .option .dropdown .dropdown-menu {
   width: 100%;
+}
+
+/* line 249, ../sass/tables.scss */
+.option {
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #DDE9F1;
+}
+
+/* line 255, ../sass/tables.scss */
+.table, .data-container > .data-container {
+  border-bottom: 1px solid #DDE9F1;
+}
+/* line 258, ../sass/tables.scss */
+.table:last-child, .data-container > .data-container:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+/* line 262, ../sass/tables.scss */
+.table input, .table .btn-dropdown, .data-container > .data-container input, .data-container > .data-container .btn-dropdown {
+  border-radius: 3px;
+  width: 100%;
+  font-size: 10px;
+  border: none;
+  padding: 8px 10px;
+  border: 1px solid #d7e6ee;
+}
+/* line 269, ../sass/tables.scss */
+.table input:not(:last-child), .table .btn-dropdown:not(:last-child), .data-container > .data-container input:not(:last-child), .data-container > .data-container .btn-dropdown:not(:last-child) {
+  margin-bottom: 15px;
+}
+/* line 273, ../sass/tables.scss */
+.table input::-webkit-input-placeholder, .data-container > .data-container input::-webkit-input-placeholder {
+  color: #00609d;
+}
+/* line 276, ../sass/tables.scss */
+.table input:-moz-placeholder, .data-container > .data-container input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #00609d;
+}
+/* line 280, ../sass/tables.scss */
+.table input::-moz-placeholder, .data-container > .data-container input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #00609d;
+}
+/* line 284, ../sass/tables.scss */
+.table input:-ms-input-placeholder, .data-container > .data-container input:-ms-input-placeholder {
+  color: #00609d;
 }

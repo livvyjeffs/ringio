@@ -18,7 +18,9 @@
       <div class="thumbnail">
         <div class="btn-close"></div>
         <div class="logo">
+        <a href="crm-integrations-edit-2.php">
           <img src="images/company_logos/highrise.png" alt="highrise">
+        </a>
         </div>
         <div class="caption">
           <p>Lorem ipsum dolor sit amet, consectetur aipscin elit. Vivamus luctus urna sed urna ultices. Lorem ipsum dolor sit amet, consectetur aipscin elit. Vivamus luctus urna sed urna ultices. Lorem ipsum dolor sit amet, consectetur aipscin elit. Vivamus luctus urna sed urna ultices.</p>
@@ -28,9 +30,19 @@
       <?php $company_name = "CRM"; $company_logo = "crm-2.png"; include("php_templates/thumbnails/crm.php"); ?>
     </div>
     <div class="col-md-4">
+      <div class="panel">
+        <div class="panel-heading">
+          CRM Information
+        </div>
+        <div class="panel-body" style="height: 400px">
 
+
+        </div>
+
+      </div>
     </div>
   </div>
+</div>
 
 </div> <!-- /container -->
 

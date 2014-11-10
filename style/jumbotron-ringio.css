@@ -161,7 +161,7 @@ body {
   }
 }
 
-/*Accordian Fixes*/
+/*accordion Fixes*/
 .hiddenRow{
   padding: 0 !important;
   border: none !important;
@@ -171,7 +171,7 @@ body {
   cursor: pointer;
 }
 
-.accordian-body > .row{
+.accordion-body > .row{
   padding: 0px;
   margin: 0;
 }

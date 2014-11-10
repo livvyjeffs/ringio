@@ -15,6 +15,9 @@ switch($page_title){
   case 'CRM Integrations':
   $btn_5 = "active";
   break;
+  case 'CRM Integrations Edit':
+  $btn_5 = "active";
+  break;
 }
 
 ?>

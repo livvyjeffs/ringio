@@ -31,12 +31,33 @@ body > .container {
 }
 
 .no-margin {
-    margin: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 .centered {
     text-align: center;
     vertical-align: middle;
+}
+
+.vcentered {
+    &:before {
+        content: ' ';
+        width: 0;
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: -0.5em;
+    }
+    > * {
+        display: inline-block;
+        vertical-align: middle;
+        float: none !important;
+    }
+}
+
+.border-left {
+    border-left: 1px solid;
 }
 
 .stay-visible {
@@ -77,11 +98,20 @@ body > .container {
     content: url(../images/crm.png);
 }
 
+.glyphicon-highrise.large:before {
+    content: url(../images/company_logos/highrise.png);
+}
+
+.glyphicon-caret.large:before {
+    content: url(../images/caret-large.png);
+}
+
 /****************************   Dropdowns   ******************************/
 
 .dropdown {
     display: inline-block;
     width: 100%;
+    vertical-align: middle;
     .btn {
         width: 100%;
     }
@@ -91,6 +121,15 @@ body > .container {
         height: 11px;
         display: inline-block;
         float: right;
+    }
+    .icon-user {
+        background-image: url("../images/user-small.png");
+        width: 12px;
+        height: 16px;
+        display: inline-block;
+        margin-top: -3px;
+        margin-bottom: -3px;
+        margin-right: 5px;
     }
     &.disabled {
         .icon-toggle {
@@ -124,11 +163,11 @@ body > .container {
     }
 }
 
-.btn-edit{
+.btn-edit {
     background-image: url("../images/edit.png");
 }
 
-.btn-close{
+.btn-close {
     background-image: url("../images/close.png");
 }
 
@@ -264,6 +303,21 @@ input[disabled="disabled"] {
             height: 16px;
             background-image: url("../images/bulb.png");
         }
+        &.icon-delete {
+            display: inline-block;
+            margin-left: -$margin / 2;
+            width: $margin;
+            height: $margin;
+            background-size: 40%;
+            background-image: url("../images/delete.png");
+        }
+        &.icon-refresh {
+            display: inline-block;
+            width: $margin;
+            height: $margin;
+            background-size: 50%;
+            background-image: url("../images/refresh.png");
+        }
     }
 }
 
@@ -288,7 +342,7 @@ input[disabled="disabled"] {
             vertical-align: middle;
             margin-right: -0.5em;
         }
-        img {
+        img.contained {
             display: inline-block;
             vertical-align: middle;
             width: 100%;
@@ -300,7 +354,7 @@ input[disabled="disabled"] {
         padding: 0;
         padding-top: $margin;
         border-top: 1px solid $border-clr-table;
-        p:not(:last-child){
+        p:not(:last-child) {
             margin-bottom: 0;
         }
     }

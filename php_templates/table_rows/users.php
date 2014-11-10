@@ -37,9 +37,9 @@ if($img_src === undefined){
 </tr>
 <tr>
   <td colspan="4" class="hiddenRow">
-    <div id="demo<?php echo $row_number; ?>" class="accordian-body collapse <?php echo $in_or_out; ?>">
+    <div id="demo<?php echo $row_number; ?>" class="accordion-body collapse <?php echo $in_or_out; ?>">
 
-      <div class="row data-container">
+      <div class="row data-container no-margin">
 
         <div class="col-md-12">
           <div class="row">

@@ -8,7 +8,7 @@ $company_logo;
 <div class="thumbnail">
 	<div class="btn-edit"></div>
 	<div class="logo">
-	<img src="images/company_logos/<?php echo $company_logo; ?>" alt="<?php echo $company_name; ?>">
+	<img class="contained" src="images/company_logos/<?php echo $company_logo; ?>" alt="<?php echo $company_name; ?>">
 	</div>
 	<div class="caption">
 		<p>Syncs contacts, leads and potentials with <a href="#"><?php echo $company_name; ?></a>.
