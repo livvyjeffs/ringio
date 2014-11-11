@@ -1,61 +1,55 @@
 <!DOCTYPE html>
 
-<?php $page_title = "Dashboard"; include_once("php_templates/header.php"); ?>
+<?php $page_title = "Dashboard"; include_once("php_templates/external-header.php"); ?>
 
-<!-- Begin Main Content Container -->
-
-<div class="container">
-
-  <?php include("php_templates/page-header.php"); ?>
-
-  <div class="row no-margin">
-    <div class="col-md-7">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="panel panel-dashboard">
-            <div class="panel-heading">Users<span class="btn ringio-icon icon-users"></span></div>
-            <ul class="panel-body">
-              <?php $name = "Jack Bingham"; $status = "green"; include("php_templates/table_rows/dashboard-users.php"); ?>
-              <?php $name = "Sam Aparicio"; $status = "green"; include("php_templates/table_rows/dashboard-users.php"); ?>
-              <?php $name = "Valentina Genevive"; $status = "green"; include("php_templates/table_rows/dashboard-users.php"); ?>
-              <?php $name = "Admin User"; $status = "red"; include("php_templates/table_rows/dashboard-users.php"); ?>
-              <?php $name = "Admin User"; $status = "red"; include("php_templates/table_rows/dashboard-users.php"); ?>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-6">
-         <div class="panel panel-dashboard">
-          <div class="panel-heading">Departments<span class="btn ringio-icon icon-departments"></span></div>
+<div class="row no-margin">
+  <div class="col-md-7">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-dashboard">
+          <div class="panel-heading">Users<a href="users.php" class="btn ringio-icon icon-users"></a></div>
           <ul class="panel-body">
-            <?php $name = "Sales"; $status = "green"; include("php_templates/table_rows/dashboard-departments.php"); ?>
-            <?php $name = "Technical Support"; $status = "green"; include("php_templates/table_rows/dashboard-departments.php"); ?>
-            <?php $name = "Reseller Programs"; $status = "green"; include("php_templates/table_rows/dashboard-departments.php"); ?>
-            <?php $name = "Customer Service"; $status = "green"; include("php_templates/table_rows/dashboard-departments.php"); ?>
-            <?php $name = "Administration"; $status = "red"; include("php_templates/table_rows/dashboard-departments.php"); ?>
+            <?php $name = "Jack Bingham"; $status = "green"; include("php_templates/table_rows/dashboard-users.php"); ?>
+            <?php $name = "Sam Aparicio"; $status = "green"; include("php_templates/table_rows/dashboard-users.php"); ?>
+            <?php $name = "Valentina Genevive"; $status = "green"; include("php_templates/table_rows/dashboard-users.php"); ?>
+            <?php $name = "Admin User"; $status = "red"; include("php_templates/table_rows/dashboard-users.php"); ?>
+            <?php $name = "Admin User"; $status = "red"; include("php_templates/table_rows/dashboard-users.php"); ?>
           </ul>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="col-md-5">
-   <div class="panel panel-dashboard">
-     <div class="panel-heading">Phone Numbers<span class="btn ringio-icon icon-departments"></span></div>
-     <div class="panel-body white-bg">
-       <div class="col-md-12">
-        <ul>
-          <li class="option">
-            <label>Toll Free Number</label>
-            <span class="phone-number">888-727-5776<span class="ringio-icon icon-settings"></span></span>
-          </li>
-          <li class="option">
-            <label>Toll Free Number</label>
-            <span class="phone-number">888-727-5776 <span class="ringio-icon icon-settings"></span></span>
-          </li>
-          <li class="btn option btn-add-new-number">Add New Number</li>
+      <div class="col-md-6">
+       <div class="panel panel-dashboard">
+        <div class="panel-heading">Departments<a href="departments.php" class="btn ringio-icon icon-departments"></a></div>
+        <ul class="panel-body">
+          <?php $name = "Sales"; $status = "green"; include("php_templates/table_rows/dashboard-departments.php"); ?>
+          <?php $name = "Technical Support"; $status = "green"; include("php_templates/table_rows/dashboard-departments.php"); ?>
+          <?php $name = "Reseller Programs"; $status = "green"; include("php_templates/table_rows/dashboard-departments.php"); ?>
+          <?php $name = "Customer Service"; $status = "green"; include("php_templates/table_rows/dashboard-departments.php"); ?>
+          <?php $name = "Administration"; $status = "red"; include("php_templates/table_rows/dashboard-departments.php"); ?>
         </ul>
       </div>
     </div>
   </div>
+</div>
+<div class="col-md-5">
+ <div class="panel panel-dashboard">
+   <div class="panel-heading">Phone Numbers<a href="numbers.php" class="btn ringio-icon icon-phone"></a></div>
+   <div class="panel-body white-bg">
+     <div class="col-md-12">
+      <ul>
+        <li class="option">
+          <label>Toll Free Number</label>
+          <span class="phone-number">888-727-5776<span class="ringio-icon icon-settings"></span></span>
+        </li>
+        <li class="option">
+          <label>Toll Free Number</label>
+          <span class="phone-number">888-727-5776 <span class="ringio-icon icon-settings"></span></span>
+        </li>
+        <li class="btn option btn-add-new-number">Add New Number</li>
+      </ul>
+    </div>
+  </div>
+</div>
 </div>
 </div>
 <div class="row no-margin">
@@ -64,7 +58,7 @@
      <div class="panel panel-dashboard">
        <div class="panel-heading">
          <span class="ringio-icon icon-crm"></span>
-         CRM Integrations<span class="btn ringio-icon btn-text">View All</span></div>
+         CRM Integrations<a href="crm-integrations.php" class="btn ringio-icon btn-text">View All</a></div>
          <div class="panel-body">
            <div class="col-md-6">
             <div class="thumbnail">

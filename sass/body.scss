@@ -29,6 +29,10 @@ body > .container {
     border-right: 1px solid $body-default-border-color;
     border-bottom: 1px solid $body-default-border-color;
     padding-bottom: $margin;
+    &.white-bg{
+        background-color: white;
+        padding-top: $margin;
+    }
 }
 
 .no-margin {
@@ -107,6 +111,10 @@ body > .container {
     content: url(../images/caret-large.png);
 }
 
+.glyphicon-billing.large:before {
+    content: url(../images/billing.png);
+}
+
 .ringio-icon {
     &.tip {
         background-image: url("../images/tip.png");
@@ -137,16 +145,18 @@ body > .container {
         background-size: 50%;
         background-image: url("../images/refresh.png");
     }
-    &.icon-user{
-     background-image: url("../images/user-small.png");
-     width: 12px;
-     height: 16px;
-     display: inline-block;
-     margin-top: -3px;
-     margin-bottom: -3px;
-     margin-right: 5px;
- }
+    &.icon-user {
+        background-image: url("../images/user-small.png");
+        width: 12px;
+        height: 16px;
+        display: inline-block;
+        margin-top: -3px;
+        margin-bottom: -3px;
+        margin-right: 5px;
+    }
+
 }
+
 /****************************   Dropdowns   ******************************/
 
 .dropdown {
@@ -289,7 +299,6 @@ input[disabled="disabled"] {
     }
 }
 
-
 /*****************************   Thumbnails   *******************************/
 
 .thumbnail {
@@ -336,5 +345,22 @@ input[disabled="disabled"] {
         border: 1px solid $border-clr-table;
         box-shadow: 0 0 3px $box-shadow-clr-table-option;
         background: linear-gradient(0deg, #DBEBFB 0%, #FFFFFF 100%);
+    }
+}
+
+/*****************************   Data Label Types   *******************************/
+
+
+[data-label="personal-ringio-number"] {
+    margin: 0 100px;
+    border-bottom: 1px solid rgb(215, 230, 238);
+    padding: 15px 0;
+    text-align: center;
+    color: rgb(0, 96, 157);
+    label {
+        color: rgb(0, 96, 157);
+    }
+    [data-type="phone-number"] {
+        font-size: 20px;
     }
 }

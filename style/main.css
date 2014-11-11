@@ -8258,20 +8258,25 @@ body > .container {
   border-bottom: 1px solid #d7e6ee;
   padding-bottom: 30px;
 }
+/* line 32, ../sass/body.scss */
+body > .container.white-bg {
+  background-color: white;
+  padding-top: 30px;
+}
 
-/* line 34, ../sass/body.scss */
+/* line 38, ../sass/body.scss */
 .no-margin {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
 
-/* line 39, ../sass/body.scss */
+/* line 43, ../sass/body.scss */
 .centered {
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 45, ../sass/body.scss */
+/* line 49, ../sass/body.scss */
 .vcentered:before {
   content: ' ';
   width: 0;
@@ -8280,74 +8285,79 @@ body > .container {
   vertical-align: middle;
   margin-right: -0.5em;
 }
-/* line 53, ../sass/body.scss */
+/* line 57, ../sass/body.scss */
 .vcentered > * {
   display: inline-block;
   vertical-align: middle;
   float: none !important;
 }
 
-/* line 60, ../sass/body.scss */
+/* line 64, ../sass/body.scss */
 .border-left {
   border-left: 1px solid;
 }
 
-/* line 64, ../sass/body.scss */
+/* line 68, ../sass/body.scss */
 .stay-visible {
   opacity: 1 !important;
 }
 
-/* line 68, ../sass/body.scss */
+/* line 72, ../sass/body.scss */
 .right-half-padding {
   padding-right: 0;
 }
 
-/* line 72, ../sass/body.scss */
+/* line 76, ../sass/body.scss */
 .separator {
   background-image: url("../images/separator.png");
   width: 20px;
   height: 30px;
 }
 
-/* line 78, ../sass/body.scss */
+/* line 82, ../sass/body.scss */
 .no-padding {
   padding: 0 !important;
 }
 
 /********************************   Icons   *******************************/
-/* line 84, ../sass/body.scss */
+/* line 88, ../sass/body.scss */
 .ringio-header .glyphicon {
   width: 50px;
   height: 50px;
   line-height: 50px;
 }
 
-/* line 90, ../sass/body.scss */
+/* line 94, ../sass/body.scss */
 .glyphicon-user.large:before {
   content: url(../images/users.png);
 }
 
-/* line 94, ../sass/body.scss */
+/* line 98, ../sass/body.scss */
 .glyphicon-department.large:before {
   content: url(../images/departments.png);
 }
 
-/* line 98, ../sass/body.scss */
+/* line 102, ../sass/body.scss */
 .glyphicon-crm.large:before {
   content: url(../images/crm.png);
 }
 
-/* line 102, ../sass/body.scss */
+/* line 106, ../sass/body.scss */
 .glyphicon-highrise.large:before {
   content: url(../images/company_logos/highrise.png);
 }
 
-/* line 106, ../sass/body.scss */
+/* line 110, ../sass/body.scss */
 .glyphicon-caret.large:before {
   content: url(../images/caret-large.png);
 }
 
-/* line 111, ../sass/body.scss */
+/* line 114, ../sass/body.scss */
+.glyphicon-billing.large:before {
+  content: url(../images/billing.png);
+}
+
+/* line 119, ../sass/body.scss */
 .ringio-icon.tip {
   background-image: url("../images/tip.png");
   position: absolute;
@@ -8356,14 +8366,14 @@ body > .container {
   height: 19px;
   width: 10px;
 }
-/* line 119, ../sass/body.scss */
+/* line 127, ../sass/body.scss */
 .ringio-icon.bulb {
   display: inline-block;
   width: 10px;
   height: 16px;
   background-image: url("../images/bulb.png");
 }
-/* line 125, ../sass/body.scss */
+/* line 133, ../sass/body.scss */
 .ringio-icon.icon-delete {
   display: inline-block;
   margin-left: -15px;
@@ -8372,7 +8382,7 @@ body > .container {
   background-size: 40%;
   background-image: url("../images/delete.png");
 }
-/* line 133, ../sass/body.scss */
+/* line 141, ../sass/body.scss */
 .ringio-icon.icon-refresh {
   display: inline-block;
   width: 30px;
@@ -8380,7 +8390,7 @@ body > .container {
   background-size: 50%;
   background-image: url("../images/refresh.png");
 }
-/* line 140, ../sass/body.scss */
+/* line 148, ../sass/body.scss */
 .ringio-icon.icon-user {
   background-image: url("../images/user-small.png");
   width: 12px;
@@ -8392,17 +8402,17 @@ body > .container {
 }
 
 /****************************   Dropdowns   ******************************/
-/* line 152, ../sass/body.scss */
+/* line 162, ../sass/body.scss */
 .dropdown {
   display: inline-block;
   width: 100%;
   vertical-align: middle;
 }
-/* line 156, ../sass/body.scss */
+/* line 166, ../sass/body.scss */
 .dropdown .btn {
   width: 100%;
 }
-/* line 159, ../sass/body.scss */
+/* line 169, ../sass/body.scss */
 .dropdown .icon-toggle {
   background-image: url("../images/arrows.png");
   width: 5px;
@@ -8410,7 +8420,7 @@ body > .container {
   display: inline-block;
   float: right;
 }
-/* line 166, ../sass/body.scss */
+/* line 176, ../sass/body.scss */
 .dropdown .icon-user {
   background-image: url("../images/user-small.png");
   width: 12px;
@@ -8420,19 +8430,19 @@ body > .container {
   margin-bottom: -3px;
   margin-right: 5px;
 }
-/* line 176, ../sass/body.scss */
+/* line 186, ../sass/body.scss */
 .dropdown.disabled .icon-toggle {
   background-image: url("../images/arrows-disabled.png");
 }
 
 /*****************************   Buttons   *******************************/
-/* line 184, ../sass/body.scss */
+/* line 194, ../sass/body.scss */
 .btn-ringio {
   padding: 5px 18px;
   font-size: 9px;
 }
 
-/* line 189, ../sass/body.scss */
+/* line 199, ../sass/body.scss */
 .btn-edit, .btn-close {
   position: absolute;
   top: 15px;
@@ -8446,30 +8456,30 @@ body > .container {
   background-position: center;
   opacity: 0.50;
 }
-/* line 201, ../sass/body.scss */
+/* line 211, ../sass/body.scss */
 .btn-edit:hover, .btn-close:hover {
   cursor: pointer;
   opacity: 1;
 }
 
-/* line 207, ../sass/body.scss */
+/* line 217, ../sass/body.scss */
 .btn-edit {
   background-image: url("../images/edit.png");
 }
 
-/* line 211, ../sass/body.scss */
+/* line 221, ../sass/body.scss */
 .btn-close {
   background-image: url("../images/close.png");
 }
 
-/* line 215, ../sass/body.scss */
+/* line 225, ../sass/body.scss */
 .btn-cancel {
   background-color: #035C8D;
   padding-left: 13px;
   padding-right: 13px;
 }
 
-/* line 221, ../sass/body.scss */
+/* line 231, ../sass/body.scss */
 .btn-upload {
   border: 1px solid #225E93;
   border-radius: 3px;
@@ -8478,7 +8488,7 @@ body > .container {
   background: linear-gradient(0deg, #246098 0%, #307fc1 100%);
 }
 
-/* line 228, ../sass/body.scss */
+/* line 238, ../sass/body.scss */
 .btn-save {
   color: #216b9e;
   background: -webkit-linear-gradient(90deg, #daeafa 0%, #ffffff 100%);
@@ -8487,36 +8497,36 @@ body > .container {
   border-color: #23547f;
 }
 
-/* line 235, ../sass/body.scss */
+/* line 245, ../sass/body.scss */
 .btn-dropdown {
   font-size: 10px !important;
   background-color: white;
 }
 
-/* line 240, ../sass/body.scss */
+/* line 250, ../sass/body.scss */
 .close {
   font-size: 12px;
 }
 
-/* line 244, ../sass/body.scss */
+/* line 254, ../sass/body.scss */
 .ringio-icon {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
-/* line 251, ../sass/body.scss */
+/* line 261, ../sass/body.scss */
 .disabledbutton:hover {
   cursor: default;
 }
 
-/* line 256, ../sass/body.scss */
+/* line 266, ../sass/body.scss */
 input[disabled="disabled"] {
   color: gray;
 }
 
 /*****************************   Page Header   *******************************/
-/* line 262, ../sass/body.scss */
+/* line 272, ../sass/body.scss */
 .page-header {
   padding-top: 30px;
   padding-bottom: 0;
@@ -8526,34 +8536,34 @@ input[disabled="disabled"] {
   border-bottom: 1px solid #d7e6ee;
   color: #17699C;
 }
-/* line 270, ../sass/body.scss */
+/* line 280, ../sass/body.scss */
 .page-header .media-list {
   margin: 30px;
   margin-top: 0;
 }
-/* line 274, ../sass/body.scss */
+/* line 284, ../sass/body.scss */
 .page-header .media-body {
   vertical-align: middle;
 }
-/* line 277, ../sass/body.scss */
+/* line 287, ../sass/body.scss */
 .page-header .glyphicon.large {
   height: 100%;
   width: auto;
   vertical-align: middle;
 }
-/* line 282, ../sass/body.scss */
+/* line 292, ../sass/body.scss */
 .page-header h1 {
   font-size: 22px;
   font-weight: 700;
 }
-/* line 286, ../sass/body.scss */
+/* line 296, ../sass/body.scss */
 .page-header h2 {
   font-size: 16px;
   font-weight: 400;
 }
 
 /*****************************   Thumbnails   *******************************/
-/* line 295, ../sass/body.scss */
+/* line 304, ../sass/body.scss */
 .thumbnail {
   position: relative;
   border: 1px solid #DDE9F1;
@@ -8561,14 +8571,14 @@ input[disabled="disabled"] {
   padding: 30px;
   font-size: 12px;
 }
-/* line 301, ../sass/body.scss */
+/* line 310, ../sass/body.scss */
 .thumbnail .logo {
   width: 100%;
   height: 170px;
   vertical-align: middle;
   text-align: center;
 }
-/* line 306, ../sass/body.scss */
+/* line 315, ../sass/body.scss */
 .thumbnail .logo:before {
   content: ' ';
   width: 0;
@@ -8577,25 +8587,25 @@ input[disabled="disabled"] {
   vertical-align: middle;
   margin-right: -0.5em;
 }
-/* line 314, ../sass/body.scss */
+/* line 323, ../sass/body.scss */
 .thumbnail .logo img.contained {
   display: inline-block;
   vertical-align: middle;
   width: 100%;
   height: auto;
 }
-/* line 321, ../sass/body.scss */
+/* line 330, ../sass/body.scss */
 .thumbnail .caption {
   margin-top: 30px;
   padding: 0;
   padding-top: 30px;
   border-top: 1px solid #DDE9F1;
 }
-/* line 326, ../sass/body.scss */
+/* line 335, ../sass/body.scss */
 .thumbnail .caption p:not(:last-child) {
   margin-bottom: 0;
 }
-/* line 330, ../sass/body.scss */
+/* line 339, ../sass/body.scss */
 .thumbnail .btn-configure {
   margin-top: 30px;
   width: 100%;
@@ -8608,40 +8618,77 @@ input[disabled="disabled"] {
   background: linear-gradient(0deg, #DBEBFB 0%, #FFFFFF 100%);
 }
 
+/*****************************   Data Label Types   *******************************/
+/* line 354, ../sass/body.scss */
+[data-label="personal-ringio-number"] {
+  margin: 0 100px;
+  border-bottom: 1px solid #d7e6ee;
+  padding: 15px 0;
+  text-align: center;
+  color: #00609d;
+}
+/* line 360, ../sass/body.scss */
+[data-label="personal-ringio-number"] label {
+  color: #00609d;
+}
+/* line 363, ../sass/body.scss */
+[data-label="personal-ringio-number"] [data-type="phone-number"] {
+  font-size: 20px;
+}
+
 /*-----------------------------    NAV BAR    -----------------------------*/
-/* line 6, ../sass/navbar.scss */
+/* line 5, ../sass/navbar.scss */
 .navbar-ringio {
   color: white;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   min-height: 40px;
 }
-/* line 12, ../sass/navbar.scss */
-.navbar-ringio .ringio-icon.carets {
+/* line 9, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon {
   position: absolute;
   left: 15px;
-  top: 13px;
+  top: 11px;
+  width: 18px;
+  height: 18px;
+}
+/* line 15, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon.carets {
   background-image: url("../images/carets.png");
-  width: 12px;
-  height: 12px;
+}
+/* line 18, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon.icon-dashboard {
+  background-image: url("../images/dashboard/grid.png");
 }
 /* line 21, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon.icon-sound {
+  background-image: url("../images/dashboard/support.png");
+}
+/* line 24, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon.icon-credit {
+  background-image: url("../images/dashboard/creditcard.png");
+}
+/* line 27, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon.icon-download {
+  background-image: url("../images/dashboard/getringio.png");
+}
+/* line 31, ../sass/navbar.scss */
 .navbar-ringio > .container {
   padding: 0;
   /*Correction from bootstrap.css*/
 }
-/* line 26, ../sass/navbar.scss */
+/* line 35, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row {
   background-color: #26689E;
   margin-bottom: 0;
   border-top: 2px solid #21478F;
   border-bottom: 1px solid #1D5280;
 }
-/* line 32, ../sass/navbar.scss */
+/* line 41, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-right:last-child {
   margin-right: 0;
   /*Correction from bootstrap.css*/
 }
-/* line 36, ../sass/navbar.scss */
+/* line 45, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-right .navbar-btn {
   border-radius: 3px;
   background: -webkit-linear-gradient(90deg, #1c91d6 0%, #1b8ed2 5%, #0a5e94 16%, #1883c2 100%);
@@ -8651,41 +8698,41 @@ input[disabled="disabled"] {
   color: white;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
-/* line 45, ../sass/navbar.scss */
+/* line 54, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-brand {
   padding-right: 0;
   padding-top: 16px;
   padding-bottom: 16px;
   line-height: 38px;
 }
-/* line 50, ../sass/navbar.scss */
+/* line 59, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-brand > div {
   width: 120px;
   height: 38px;
 }
-/* line 54, ../sass/navbar.scss */
+/* line 63, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-brand img {
   width: 100%;
   height: auto;
 }
-/* line 59, ../sass/navbar.scss */
+/* line 68, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-header a:hover {
   text-decoration: none;
   color: none;
 }
-/* line 63, ../sass/navbar.scss */
+/* line 72, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-text {
   font-size: 14px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
-/* line 68, ../sass/navbar.scss */
+/* line 77, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-brand > div, .navbar-ringio.navbar-top-row .navbar-text[data-description="company-name"] {
   border-right: 1px solid rgba(243, 248, 251, 0.2);
   padding-right: 15px;
   margin-right: 0;
 }
-/* line 73, ../sass/navbar.scss */
+/* line 82, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .status {
   display: inline-block;
   background-image: url("../images/status.png");
@@ -8693,7 +8740,7 @@ input[disabled="disabled"] {
   height: 13px;
   margin: 28.5px auto;
 }
-/* line 82, ../sass/navbar.scss */
+/* line 91, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row {
   margin-bottom: 0;
   background-color: #2c76b3;
@@ -8701,7 +8748,13 @@ input[disabled="disabled"] {
   box-shadow: inset 0px 0px 2px 1px #1783b6;
   max-height: 36px;
 }
-/* line 88, ../sass/navbar.scss */
+/* line 98, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row.white-bg .active > a,
+.navbar-ringio.navbar-bottom-row.white-bg li a:hover,
+.navbar-ringio.navbar-bottom-row.white-bg li a:focus {
+  background-color: white !important;
+}
+/* line 104, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li a {
   color: white;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
@@ -8714,7 +8767,7 @@ input[disabled="disabled"] {
   text-align: center;
   font-weight: 700;
 }
-/* line 100, ../sass/navbar.scss */
+/* line 116, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row .active > a,
 .navbar-ringio.navbar-bottom-row li a:hover,
 .navbar-ringio.navbar-bottom-row li a:focus {
@@ -8726,19 +8779,19 @@ input[disabled="disabled"] {
   text-shadow: none;
   padding-bottom: 16px;
 }
-/* line 111, ../sass/navbar.scss */
+/* line 127, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:first-child > a {
   border-left: 1px solid #1D5280;
 }
-/* line 113, ../sass/navbar.scss */
+/* line 129, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:first-child > a:hover {
   border-left: 1px solid #d7e6ee;
 }
-/* line 117, ../sass/navbar.scss */
+/* line 133, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:last-child > a {
   border-right: 1px solid #1D5280;
 }
-/* line 119, ../sass/navbar.scss */
+/* line 135, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:last-child > a:hover {
   border-right: 1px solid #d7e6ee;
 }
@@ -8965,27 +9018,11 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
 .data-container .option input, .data-container .option label {
   width: auto !important;
 }
-/* line 201, ../sass/tables.scss */
-.data-container [data-label="personal-ringio-number"] {
-  margin: 0 100px;
-  border-bottom: 1px solid #d7e6ee;
-  padding: 15px 0;
-  text-align: center;
-  color: #00609d;
-}
-/* line 207, ../sass/tables.scss */
-.data-container [data-label="personal-ringio-number"] label {
-  color: #00609d;
-}
-/* line 210, ../sass/tables.scss */
-.data-container [data-label="personal-ringio-number"] [data-type="phone-number"] {
-  font-size: 20px;
-}
-/* line 214, ../sass/tables.scss */
+/* line 202, ../sass/tables.scss */
 .data-container [data-label="data-rows"] [class^="col-md"]:not(:last-child), .data-container .row[data-label="data-rows"] *[class^="col-md"]:not(:last-child) {
   padding-right: 0;
 }
-/* line 219, ../sass/tables.scss */
+/* line 207, ../sass/tables.scss */
 .data-container .option input, .data-container .option label {
   display: inline-block;
   vertical-align: middle;
@@ -8993,47 +9030,47 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   padding: 0;
   margin: 0;
 }
-/* line 226, ../sass/tables.scss */
+/* line 214, ../sass/tables.scss */
 .data-container .option input {
   margin-right: 10px;
   margin-left: 10px;
 }
-/* line 230, ../sass/tables.scss */
+/* line 218, ../sass/tables.scss */
 .data-container .option label {
   border-left: 1px solid #DDE9F1;
   padding-left: 10px;
 }
-/* line 234, ../sass/tables.scss */
+/* line 222, ../sass/tables.scss */
 .data-container .option:not(:last-child) {
   margin-bottom: 15px;
 }
-/* line 238, ../sass/tables.scss */
+/* line 226, ../sass/tables.scss */
 .data-container .option .dropdown .btn-dropdown {
   text-align: left;
   border-radius: 3px;
 }
-/* line 242, ../sass/tables.scss */
+/* line 230, ../sass/tables.scss */
 .data-container .option .dropdown .dropdown-menu {
   width: 100%;
 }
 
-/* line 249, ../sass/tables.scss */
+/* line 237, ../sass/tables.scss */
 .option {
   background-color: white;
   border-radius: 3px;
   border: 1px solid #DDE9F1;
 }
 
-/* line 255, ../sass/tables.scss */
+/* line 243, ../sass/tables.scss */
 .table, .data-container > .data-container {
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 258, ../sass/tables.scss */
+/* line 246, ../sass/tables.scss */
 .table:last-child, .data-container > .data-container:last-child {
   margin-bottom: 0;
   border-bottom: none;
 }
-/* line 262, ../sass/tables.scss */
+/* line 250, ../sass/tables.scss */
 .table input, .table .btn-dropdown, .data-container > .data-container input, .data-container > .data-container .btn-dropdown {
   border-radius: 3px;
   width: 100%;
@@ -9042,25 +9079,25 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   padding: 8px 10px;
   border: 1px solid #d7e6ee;
 }
-/* line 269, ../sass/tables.scss */
+/* line 257, ../sass/tables.scss */
 .table input:not(:last-child), .table .btn-dropdown:not(:last-child), .data-container > .data-container input:not(:last-child), .data-container > .data-container .btn-dropdown:not(:last-child) {
   margin-bottom: 15px;
 }
-/* line 273, ../sass/tables.scss */
+/* line 261, ../sass/tables.scss */
 .table input::-webkit-input-placeholder, .data-container > .data-container input::-webkit-input-placeholder {
   color: #00609d;
 }
-/* line 276, ../sass/tables.scss */
+/* line 264, ../sass/tables.scss */
 .table input:-moz-placeholder, .data-container > .data-container input:-moz-placeholder {
   /* Firefox 18- */
   color: #00609d;
 }
-/* line 280, ../sass/tables.scss */
+/* line 268, ../sass/tables.scss */
 .table input::-moz-placeholder, .data-container > .data-container input::-moz-placeholder {
   /* Firefox 19+ */
   color: #00609d;
 }
-/* line 284, ../sass/tables.scss */
+/* line 272, ../sass/tables.scss */
 .table input:-ms-input-placeholder, .data-container > .data-container input:-ms-input-placeholder {
   color: #00609d;
 }
@@ -9069,39 +9106,69 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
 /* line 5, ../sass/panels.scss */
 .panel {
   border: 1px solid #d7e6ee;
-  padding: 10px;
+  padding: 0;
   position: relative;
 }
-/* line 10, ../sass/panels.scss */
+/* line 9, ../sass/panels.scss */
+.panel.panel-gradient {
+  background: -webkit-linear-gradient(90deg, white 0%, #F3F8Fb 5%, #F3F8Fb 16%, white 100%);
+  background: linear-gradient(0deg, white 0%, #F3F8Fb 5%, #F3F8Fb 16%, white 100%);
+}
+/* line 11, ../sass/panels.scss */
+.panel.panel-gradient li {
+  font-size: 12px;
+  padding: 12px;
+  border-bottom: 1px solid #DDE9F1;
+}
+/* line 16, ../sass/panels.scss */
+.panel.panel-gradient li:last-child {
+  border-bottom: none;
+}
+/* line 19, ../sass/panels.scss */
+.panel.panel-gradient li .ringio-icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 12px;
+}
+/* line 24, ../sass/panels.scss */
+.panel.panel-gradient li .ringio-icon.icon-check {
+  background-image: url("../images/check-dark.png");
+}
+/* line 27, ../sass/panels.scss */
+.panel.panel-gradient li .ringio-icon.icon-caret {
+  background-image: url("../images/caret-small-dark.png");
+}
+/* line 33, ../sass/panels.scss */
 .panel.panel-dashboard {
   padding: 0;
   border: 1px solid #DDE9F1;
 }
-/* line 14, ../sass/panels.scss */
+/* line 37, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body {
   background-color: #F3F8Fb;
 }
-/* line 16, ../sass/panels.scss */
+/* line 39, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body.white-bg {
   background-color: white;
 }
-/* line 19, ../sass/panels.scss */
+/* line 42, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li {
   padding: 15px;
   border-bottom: 1px solid #DDE9F1;
   background-color: white;
 }
-/* line 23, ../sass/panels.scss */
+/* line 46, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li:last-child {
   border-bottom: none;
 }
-/* line 26, ../sass/panels.scss */
+/* line 49, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li:hover {
   background-color: #F3F8FB;
   box-shadow: 0 -3px 3px #DDE9F1 inset;
   cursor: pointer;
 }
-/* line 31, ../sass/panels.scss */
+/* line 54, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li .dropdown {
   width: auto;
   display: inline-block;
@@ -9109,16 +9176,16 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   vertical-align: middle;
   margin-top: -7px;
 }
-/* line 37, ../sass/panels.scss */
+/* line 60, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li .dropdown .btn {
   border: 1px solid #DDE9F1;
   box-shadow: 0 1px 3px #DDE9F1;
 }
-/* line 41, ../sass/panels.scss */
+/* line 64, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li .dropdown .icon-toggle {
   margin-left: 15px;
 }
-/* line 45, ../sass/panels.scss */
+/* line 68, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle) {
   width: 18px;
   height: 18px;
@@ -9126,27 +9193,39 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 52, ../sass/panels.scss */
+/* line 75, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-call-recording {
   background-image: url("../images/dashboard/call-recording.png");
 }
-/* line 55, ../sass/panels.scss */
+/* line 78, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-screen-pop {
   background-image: url("../images/dashboard/screen-pop.png");
 }
-/* line 58, ../sass/panels.scss */
+/* line 81, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-call-whisper {
   background-image: url("../images/dashboard/call-whisper.png");
 }
-/* line 61, ../sass/panels.scss */
+/* line 84, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-email-notifications {
   background-image: url("../images/dashboard/email-notifications.png");
 }
-/* line 64, ../sass/panels.scss */
+/* line 87, ../sass/panels.scss */
 .panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-back-up-number {
   background-image: url("../images/dashboard/back-up-number.png");
 }
-/* line 73, ../sass/panels.scss */
+/* line 90, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-status {
+  float: right;
+}
+/* line 92, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-status[color="green"] {
+  background-image: url("../images/dashboard/status-green.png");
+}
+/* line 95, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-status[color="red"] {
+  background-image: url("../images/dashboard/status-red.png");
+}
+/* line 103, ../sass/panels.scss */
 .panel.panel-dashboard .panel-heading {
   font-size: 14px;
   padding: 10.999999997px 15px;
@@ -9155,7 +9234,7 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   color: white;
   text-align: left;
 }
-/* line 81, ../sass/panels.scss */
+/* line 111, ../sass/panels.scss */
 .panel.panel-dashboard .panel-heading .ringio-icon {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -9167,19 +9246,19 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   width: 18px;
   height: 18px;
 }
-/* line 89, ../sass/panels.scss */
+/* line 119, ../sass/panels.scss */
 .panel.panel-dashboard .panel-heading .ringio-icon.icon-crm {
   background-image: url("../images/dashboard/crmintegrations.png");
 }
-/* line 92, ../sass/panels.scss */
+/* line 122, ../sass/panels.scss */
 .panel.panel-dashboard .panel-heading .ringio-icon.icon-get-the-most {
   background-image: url("../images/dashboard/asterisk.png");
 }
-/* line 95, ../sass/panels.scss */
+/* line 125, ../sass/panels.scss */
 .panel.panel-dashboard .panel-heading .ringio-icon.icon-settings {
   background-image: url("../images/dashboard/settings-yellow.png");
 }
-/* line 98, ../sass/panels.scss */
+/* line 128, ../sass/panels.scss */
 .panel.panel-dashboard .panel-heading .ringio-icon.btn {
   position: absolute;
   display: block;
@@ -9193,19 +9272,19 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   background-color: #04689E;
   border-top-right-radius: 3px;
 }
-/* line 110, ../sass/panels.scss */
+/* line 140, ../sass/panels.scss */
 .panel.panel-dashboard .panel-heading .ringio-icon.btn.icon-departments {
   background-image: url("../images/dashboard/departments.png");
 }
-/* line 113, ../sass/panels.scss */
+/* line 143, ../sass/panels.scss */
 .panel.panel-dashboard .panel-heading .ringio-icon.btn.icon-phone {
   background-image: url("../images/dashboard/phone.png");
 }
-/* line 116, ../sass/panels.scss */
+/* line 146, ../sass/panels.scss */
 .panel.panel-dashboard .panel-heading .ringio-icon.btn.icon-users {
   background-image: url("../images/dashboard/users.png");
 }
-/* line 119, ../sass/panels.scss */
+/* line 149, ../sass/panels.scss */
 .panel.panel-dashboard .panel-heading .ringio-icon.btn.btn-text {
   font-size: 12px;
   padding-top: 12.428571426px;
@@ -9214,29 +9293,29 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   margin-bottom: 0px;
   width: auto;
 }
-/* line 129, ../sass/panels.scss */
+/* line 158, ../sass/panels.scss */
 .panel.panel-dashboard.panel.get-the-most {
   background-color: white;
   margin-top: 10px;
 }
-/* line 133, ../sass/panels.scss */
+/* line 161, ../sass/panels.scss */
 .panel.panel-dashboard.panel.get-the-most .col-md-6 {
   padding-left: 20px;
   padding-right: 10px;
 }
-/* line 136, ../sass/panels.scss */
+/* line 164, ../sass/panels.scss */
 .panel.panel-dashboard.panel.get-the-most .col-md-6:last-child {
   padding-left: 10px;
   padding-right: 20px;
 }
-/* line 141, ../sass/panels.scss */
+/* line 169, ../sass/panels.scss */
 .panel.panel-dashboard.panel.get-the-most .panel-body {
   padding-top: 10px;
   background-color: white;
   border: 1px solid #DDE9F1;
   padding: 0;
 }
-/* line 148, ../sass/panels.scss */
+/* line 175, ../sass/panels.scss */
 .panel.panel-dashboard.panel.get-the-most .panel-tile {
   margin: 0;
   padding: 0;
@@ -9244,7 +9323,7 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   box-shadow: none;
   height: 100px;
 }
-/* line 154, ../sass/panels.scss */
+/* line 181, ../sass/panels.scss */
 .panel.panel-dashboard.panel.get-the-most .panel-tile .panel-tile-heading {
   font-size: 14px;
   color: #03689E;
@@ -9252,7 +9331,7 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   padding-bottom: 10px;
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 161, ../sass/panels.scss */
+/* line 188, ../sass/panels.scss */
 .panel.panel-dashboard.panel.get-the-most .panel-tile .panel-tile-heading .icon-caret {
   display: inline-block;
   float: right;
@@ -9260,31 +9339,31 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   width: 13px;
   background-image: url("../images/dashboard/caret-light.png");
 }
-/* line 169, ../sass/panels.scss */
+/* line 196, ../sass/panels.scss */
 .panel.panel-dashboard.panel.get-the-most .panel-tile p {
   margin-top: 10px;
 }
-/* line 175, ../sass/panels.scss */
+/* line 201, ../sass/panels.scss */
 .panel.panel-dashboard .option {
   margin-top: 15px;
   margin-bottom: 0;
   font-size: 12px;
 }
-/* line 180, ../sass/panels.scss */
+/* line 206, ../sass/panels.scss */
 .panel.panel-dashboard .option:last-child {
   margin-bottom: 15px;
 }
-/* line 183, ../sass/panels.scss */
+/* line 209, ../sass/panels.scss */
 .panel.panel-dashboard .option label {
   margin: 0;
   display: inline-block;
   padding: 12.428571426px;
 }
-/* line 188, ../sass/panels.scss */
+/* line 214, ../sass/panels.scss */
 .panel.panel-dashboard .option .phone-number {
   padding: 12.428571426px;
 }
-/* line 190, ../sass/panels.scss */
+/* line 216, ../sass/panels.scss */
 .panel.panel-dashboard .option .phone-number .icon-settings {
   display: inline-block;
   vertical-align: middle;
@@ -9293,11 +9372,11 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   margin-left: 8px;
   background-image: url("../images/dashboard/settings.png");
 }
-/* line 198, ../sass/panels.scss */
+/* line 224, ../sass/panels.scss */
 .panel.panel-dashboard .option .phone-number .icon-settings:hover {
   cursor: pointer;
 }
-/* line 207, ../sass/panels.scss */
+/* line 230, ../sass/panels.scss */
 .panel.panel-dashboard .btn-add-new-number {
   width: 100%;
   background: #F3F8FB;
@@ -9307,27 +9386,27 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   font-weight: bold;
   color: #03689E;
 }
-/* line 216, ../sass/panels.scss */
+/* line 239, ../sass/panels.scss */
 .panel.panel-dashboard .thumbnail {
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 15px;
 }
-/* line 220, ../sass/panels.scss */
+/* line 243, ../sass/panels.scss */
 .panel.panel-dashboard .thumbnail:last-child {
   margin-top: 0;
 }
-/* line 223, ../sass/panels.scss */
+/* line 246, ../sass/panels.scss */
 .panel.panel-dashboard .thumbnail .logo img {
   height: 40px;
   width: auto;
 }
-/* line 228, ../sass/panels.scss */
+/* line 251, ../sass/panels.scss */
 .panel.panel-dashboard .phone-number {
   display: inline-block;
   float: right;
 }
-/* line 234, ../sass/panels.scss */
+/* line 256, ../sass/panels.scss */
 .panel .panel-heading {
   text-align: center;
   color: #216b9e;
@@ -9338,34 +9417,34 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   padding: 12px;
   padding-top: 0;
 }
-/* line 244, ../sass/panels.scss */
+/* line 266, ../sass/panels.scss */
 .panel .panel-body {
   margin: 0;
   padding: 0;
   border-top: 3px solid #DDE9F1;
 }
-/* line 248, ../sass/panels.scss */
+/* line 270, ../sass/panels.scss */
 .panel .panel-body:not(:last-child) {
   border-bottom: 1px solid #d7e6ee;
 }
-/* line 251, ../sass/panels.scss */
+/* line 273, ../sass/panels.scss */
 .panel .panel-body table {
   border: none;
   padding: 0;
 }
-/* line 255, ../sass/panels.scss */
+/* line 277, ../sass/panels.scss */
 .panel .panel-body table td {
   padding: 10px 5px;
 }
-/* line 258, ../sass/panels.scss */
+/* line 280, ../sass/panels.scss */
 .panel .panel-body .table-text {
   padding-right: 15px;
 }
-/* line 260, ../sass/panels.scss */
+/* line 282, ../sass/panels.scss */
 .panel .panel-body .table-text p {
   margin: 0;
 }
-/* line 263, ../sass/panels.scss */
+/* line 285, ../sass/panels.scss */
 .panel .panel-body .table-text a {
   font-weight: bold;
 }

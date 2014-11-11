@@ -30,6 +30,13 @@ switch($page_title){
   $h1 = "HighRise";
   $h2 = "Sync Contacts & Notes";
   break;
+  case "Billing":
+  $icon_class="billing";
+  $precon_class="caret";
+  $precon = "<span class='pull-left glyphicon glyphicon-".$precon_class." large'></span>";
+  $h1 = "Billing";
+  $h2 = "& Account Information";
+  break;
 }
 
 ?>

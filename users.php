@@ -2,11 +2,9 @@
 
 <?php $page_title = "Users"; include_once("php_templates/header.php"); ?>
 
+<?php include("php_templates/page-header.php"); ?>
+
 <!-- Begin Main Content Container -->
-
-<div class="container">
-
- <?php include("php_templates/page-header.php"); ?>
  
  <div class="row no-margin">
   <div class="col-md-8">

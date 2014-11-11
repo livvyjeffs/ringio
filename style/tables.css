@@ -8380,27 +8380,11 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
 .data-container .option input, .data-container .option label {
   width: auto !important;
 }
-/* line 201, ../sass/tables.scss */
-.data-container [data-label="personal-ringio-number"] {
-  margin: 0 100px;
-  border-bottom: 1px solid #d7e6ee;
-  padding: 15px 0;
-  text-align: center;
-  color: #00609d;
-}
-/* line 207, ../sass/tables.scss */
-.data-container [data-label="personal-ringio-number"] label {
-  color: #00609d;
-}
-/* line 210, ../sass/tables.scss */
-.data-container [data-label="personal-ringio-number"] [data-type="phone-number"] {
-  font-size: 20px;
-}
-/* line 214, ../sass/tables.scss */
+/* line 202, ../sass/tables.scss */
 .data-container [data-label="data-rows"] [class^="col-md"]:not(:last-child), .data-container .row[data-label="data-rows"] *[class^="col-md"]:not(:last-child) {
   padding-right: 0;
 }
-/* line 219, ../sass/tables.scss */
+/* line 207, ../sass/tables.scss */
 .data-container .option input, .data-container .option label {
   display: inline-block;
   vertical-align: middle;
@@ -8408,47 +8392,47 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   padding: 0;
   margin: 0;
 }
-/* line 226, ../sass/tables.scss */
+/* line 214, ../sass/tables.scss */
 .data-container .option input {
   margin-right: 10px;
   margin-left: 10px;
 }
-/* line 230, ../sass/tables.scss */
+/* line 218, ../sass/tables.scss */
 .data-container .option label {
   border-left: 1px solid #DDE9F1;
   padding-left: 10px;
 }
-/* line 234, ../sass/tables.scss */
+/* line 222, ../sass/tables.scss */
 .data-container .option:not(:last-child) {
   margin-bottom: 15px;
 }
-/* line 238, ../sass/tables.scss */
+/* line 226, ../sass/tables.scss */
 .data-container .option .dropdown .btn-dropdown {
   text-align: left;
   border-radius: 3px;
 }
-/* line 242, ../sass/tables.scss */
+/* line 230, ../sass/tables.scss */
 .data-container .option .dropdown .dropdown-menu {
   width: 100%;
 }
 
-/* line 249, ../sass/tables.scss */
+/* line 237, ../sass/tables.scss */
 .option {
   background-color: white;
   border-radius: 3px;
   border: 1px solid #DDE9F1;
 }
 
-/* line 255, ../sass/tables.scss */
+/* line 243, ../sass/tables.scss */
 .table, .data-container > .data-container {
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 258, ../sass/tables.scss */
+/* line 246, ../sass/tables.scss */
 .table:last-child, .data-container > .data-container:last-child {
   margin-bottom: 0;
   border-bottom: none;
 }
-/* line 262, ../sass/tables.scss */
+/* line 250, ../sass/tables.scss */
 .table input, .table .btn-dropdown, .data-container > .data-container input, .data-container > .data-container .btn-dropdown {
   border-radius: 3px;
   width: 100%;
@@ -8457,25 +8441,25 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   padding: 8px 10px;
   border: 1px solid #d7e6ee;
 }
-/* line 269, ../sass/tables.scss */
+/* line 257, ../sass/tables.scss */
 .table input:not(:last-child), .table .btn-dropdown:not(:last-child), .data-container > .data-container input:not(:last-child), .data-container > .data-container .btn-dropdown:not(:last-child) {
   margin-bottom: 15px;
 }
-/* line 273, ../sass/tables.scss */
+/* line 261, ../sass/tables.scss */
 .table input::-webkit-input-placeholder, .data-container > .data-container input::-webkit-input-placeholder {
   color: #00609d;
 }
-/* line 276, ../sass/tables.scss */
+/* line 264, ../sass/tables.scss */
 .table input:-moz-placeholder, .data-container > .data-container input:-moz-placeholder {
   /* Firefox 18- */
   color: #00609d;
 }
-/* line 280, ../sass/tables.scss */
+/* line 268, ../sass/tables.scss */
 .table input::-moz-placeholder, .data-container > .data-container input::-moz-placeholder {
   /* Firefox 19+ */
   color: #00609d;
 }
-/* line 284, ../sass/tables.scss */
+/* line 272, ../sass/tables.scss */
 .table input:-ms-input-placeholder, .data-container > .data-container input:-ms-input-placeholder {
   color: #00609d;
 }

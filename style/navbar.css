@@ -8159,39 +8159,58 @@ button.close {
   }
 }
 /*-----------------------------    NAV BAR    -----------------------------*/
-/* line 6, ../sass/navbar.scss */
+/* line 5, ../sass/navbar.scss */
 .navbar-ringio {
   color: white;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   min-height: 40px;
 }
-/* line 12, ../sass/navbar.scss */
-.navbar-ringio .ringio-icon.carets {
+/* line 9, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon {
   position: absolute;
   left: 15px;
-  top: 13px;
+  top: 11px;
+  width: 18px;
+  height: 18px;
+}
+/* line 15, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon.carets {
   background-image: url("../images/carets.png");
-  width: 12px;
-  height: 12px;
+}
+/* line 18, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon.icon-dashboard {
+  background-image: url("../images/dashboard/grid.png");
 }
 /* line 21, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon.icon-sound {
+  background-image: url("../images/dashboard/support.png");
+}
+/* line 24, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon.icon-credit {
+  background-image: url("../images/dashboard/creditcard.png");
+}
+/* line 27, ../sass/navbar.scss */
+.navbar-ringio .ringio-icon.icon-download {
+  background-image: url("../images/dashboard/getringio.png");
+}
+/* line 31, ../sass/navbar.scss */
 .navbar-ringio > .container {
   padding: 0;
   /*Correction from bootstrap.css*/
 }
-/* line 26, ../sass/navbar.scss */
+/* line 35, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row {
   background-color: #26689E;
   margin-bottom: 0;
   border-top: 2px solid #21478F;
   border-bottom: 1px solid #1D5280;
 }
-/* line 32, ../sass/navbar.scss */
+/* line 41, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-right:last-child {
   margin-right: 0;
   /*Correction from bootstrap.css*/
 }
-/* line 36, ../sass/navbar.scss */
+/* line 45, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-right .navbar-btn {
   border-radius: 3px;
   background: -webkit-linear-gradient(90deg, #1c91d6 0%, #1b8ed2 5%, #0a5e94 16%, #1883c2 100%);
@@ -8201,41 +8220,41 @@ button.close {
   color: white;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
-/* line 45, ../sass/navbar.scss */
+/* line 54, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-brand {
   padding-right: 0;
   padding-top: 16px;
   padding-bottom: 16px;
   line-height: 38px;
 }
-/* line 50, ../sass/navbar.scss */
+/* line 59, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-brand > div {
   width: 120px;
   height: 38px;
 }
-/* line 54, ../sass/navbar.scss */
+/* line 63, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-brand img {
   width: 100%;
   height: auto;
 }
-/* line 59, ../sass/navbar.scss */
+/* line 68, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-header a:hover {
   text-decoration: none;
   color: none;
 }
-/* line 63, ../sass/navbar.scss */
+/* line 72, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-text {
   font-size: 14px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
-/* line 68, ../sass/navbar.scss */
+/* line 77, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-brand > div, .navbar-ringio.navbar-top-row .navbar-text[data-description="company-name"] {
   border-right: 1px solid rgba(243, 248, 251, 0.2);
   padding-right: 15px;
   margin-right: 0;
 }
-/* line 73, ../sass/navbar.scss */
+/* line 82, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .status {
   display: inline-block;
   background-image: url("../images/status.png");
@@ -8243,7 +8262,7 @@ button.close {
   height: 13px;
   margin: 28.5px auto;
 }
-/* line 82, ../sass/navbar.scss */
+/* line 91, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row {
   margin-bottom: 0;
   background-color: #2c76b3;
@@ -8251,7 +8270,13 @@ button.close {
   box-shadow: inset 0px 0px 2px 1px #1783b6;
   max-height: 36px;
 }
-/* line 88, ../sass/navbar.scss */
+/* line 98, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row.white-bg .active > a,
+.navbar-ringio.navbar-bottom-row.white-bg li a:hover,
+.navbar-ringio.navbar-bottom-row.white-bg li a:focus {
+  background-color: white !important;
+}
+/* line 104, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li a {
   color: white;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
@@ -8264,7 +8289,7 @@ button.close {
   text-align: center;
   font-weight: 700;
 }
-/* line 100, ../sass/navbar.scss */
+/* line 116, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row .active > a,
 .navbar-ringio.navbar-bottom-row li a:hover,
 .navbar-ringio.navbar-bottom-row li a:focus {
@@ -8276,19 +8301,19 @@ button.close {
   text-shadow: none;
   padding-bottom: 16px;
 }
-/* line 111, ../sass/navbar.scss */
+/* line 127, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:first-child > a {
   border-left: 1px solid #1D5280;
 }
-/* line 113, ../sass/navbar.scss */
+/* line 129, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:first-child > a:hover {
   border-left: 1px solid #d7e6ee;
 }
-/* line 117, ../sass/navbar.scss */
+/* line 133, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:last-child > a {
   border-right: 1px solid #1D5280;
 }
-/* line 119, ../sass/navbar.scss */
+/* line 135, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:last-child > a:hover {
   border-right: 1px solid #d7e6ee;
 }

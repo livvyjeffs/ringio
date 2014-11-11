@@ -2,6 +2,8 @@
 
 <?php $page_title = "CRM Integrations Edit"; $sub_page = "edit"; include_once("php_templates/header.php"); ?>
 
+<?php include("php_templates/page-header.php"); ?>
+
 <!-- Begin Main Content Container -->
 
 <div class="container">

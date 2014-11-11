@@ -198,19 +198,7 @@ tr.accordion-toggle {
             width: auto !important;
         }
     }
-    [data-label="personal-ringio-number"] {
-        margin: 0 100px;
-        border-bottom: 1px solid rgb(215, 230, 238);
-        padding: 15px 0;
-        text-align: center;
-        color: rgb(0, 96, 157);
-        label {
-            color: rgb(0, 96, 157);
-        }
-        [data-type="phone-number"] {
-            font-size: 20px;
-        }
-    }
+  
     [data-label="data-rows"] [class^="col-md"]:not(:last-child), .row[data-label="data-rows"] *[class^="col-md"]:not(:last-child) {
         padding-right: 0;
     }

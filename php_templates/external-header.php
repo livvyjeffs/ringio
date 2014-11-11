@@ -1,22 +1,20 @@
 <?php
 
-$btn_1 = $btn_2 = $btn_3 = $btn_4 = $btn_5 = $btn_6 = "";
+$btn_1 = $btn_2 = $btn_3 = $btn_4 = $btn_5 = $btn_6 = $white_bg = "";
 
 switch($page_title){
   case 'Dashboard':
   $btn_1 = "active";
+  $white_bg="white-bg";
   break;
-  case 'Users':
+  case 'Support':
   $btn_2 = "active";
   break;
-  case 'Departments':
+  case 'Billing':
   $btn_3 = "active";
   break;
-  case 'CRM Integrations':
-  $btn_5 = "active";
-  break;
-  case 'CRM Integrations Edit':
-  $btn_5 = "active";
+  case 'Get Ringio':
+  $btn_4 = "active";
   break;
 }
 
@@ -52,9 +50,7 @@ switch($page_title){
 
 <body>
 
-
  <!-- Static navbar -->
-
  <div class="navbar navbar-static-top navbar-top-row navbar-ringio" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -78,25 +74,21 @@ switch($page_title){
   </div>
 </div>
 
-<div class="navbar navbar-static-top navbar-bottom-row navbar-ringio" role="navigation">
+<div class="navbar navbar-static-top navbar-bottom-row navbar-ringio <?php echo  $white_bg; ?>" role="navigation">
   <div class="container">
     <div class="navbar-collapse collapse">
       <ul class="nav nav-justified nav-ringio">
-        <li class="<?php echo $btn_1; ?>"><a href="index.php"><span class="ringio-icon carets"></span>Dashboard</a></li>
-        <li class="<?php echo $btn_2; ?>"><a href="users.php">Users</a></li>
-        <li class="<?php echo $btn_3; ?>"><a href="departments.php">Departments</a></li>
-        <li class="<?php echo $btn_4; ?>"><a href="phone_numbers.php">Phone Numbers</a></li>
-        <li class="<?php echo $btn_5; ?>"><a href="crm-integrations.php">CRM Integrations</a></li>
-        <li class="<?php echo $btn_6; ?>"><a href="premium-features.php">Premium Features</a></li>
+        <li class="<?php echo $btn_1; ?>"><a href="index.php"><span class="ringio-icon icon-dashboard"></span>Dashboard</a></li>
+        <li class="<?php echo $btn_2; ?>"><a href="support.php"><span class="ringio-icon icon-sound"></span>Support</a></li>
+        <li class="<?php echo $btn_3; ?>"><a href="billing.php"><span class="ringio-icon icon-credit"></span>Billing</a></li>
+        <li class="<?php echo $btn_4; ?>"><a href="get-ringio.php"><span class="ringio-icon icon-download"></span>Get Ringio</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </div>
 
-<!-- End Navigation Bar -->
+<!-- End Navbar -->
 
 <!-- Begin Main Content Container -->
 
-<div class="container">
-
-
+<div class="container <?php echo $white_bg; ?>">

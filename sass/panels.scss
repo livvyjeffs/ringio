@@ -4,16 +4,39 @@
 
 .panel {
     border: 1px solid rgb(215, 230, 238);
-    padding: 10px;
+    padding: 0;
     position: relative;
-
+    &.panel-gradient{
+        background: linear-gradient(0deg, white 0%, $bg-clr-outer-body 5%, $bg-clr-outer-body 16%, white 100%);
+        li{
+            $font-size: $font-size-12;
+            font-size: $font-size;
+            padding: $font-size;
+            border-bottom: 1px solid $border-clr-table;
+            &:last-child{
+                border-bottom: none;
+            }
+            .ringio-icon{
+                display: inline-block;
+                width: $font-size;
+                height: $font-size;
+                margin-right: $font-size;
+                &.icon-check{
+                    background-image: url("../images/check-dark.png");
+                }
+                &.icon-caret{
+                    background-image: url("../images/caret-small-dark.png");
+                }
+            }
+        }
+    }
     &.panel-dashboard {
         $font-size: $font-size-12;
         padding: 0;
         border: 1px solid $border-clr-table;
         .panel-body {
             background-color: $bg-clr-outer-body;
-            &.white-bg{
+            &.white-bg {
                 background-color: white;
             }
             li {
@@ -64,12 +87,19 @@
                     &.icon-back-up-number {
                         background-image: url("../images/dashboard/back-up-number.png");
                     }
+                    &.icon-status {
+                        float: right;
+                        &[color="green"]{
+                            background-image: url("../images/dashboard/status-green.png");
+                        }
+                        &[color="red"] {
+                            background-image: url("../images/dashboard/status-red.png");
+                        }
+                    }
+
                 }
             }
         }
-
-
-
         .panel-heading {
             $font-size: $font-size-panel-heading;
             font-size: $font-size;
@@ -125,40 +155,37 @@
                 }
             }
         }
-
-        &.panel.get-the-most{
+        &.panel.get-the-most {
             background-color: white;
             margin-top: 10px;
-
-            .col-md-6{
+            .col-md-6 {
                 padding-left: 20px;
                 padding-right: 10px;
-                &:last-child{
+                &:last-child {
                     padding-left: 10px;
                     padding-right: 20px;
                 }
             }
-            .panel-body{
+            .panel-body {
                 padding-top: 10px;
                 background-color: white;
                 border: 1px solid $border-clr-table;
                 padding: 0;
-
             }
-            .panel-tile{
+            .panel-tile {
                 margin: 0;
                 padding: 0;
                 border: none;
                 box-shadow: none;
                 height: 100px;
-                .panel-tile-heading{
+                .panel-tile-heading {
                     $font-size: 14px;
                     font-size: $font-size;
                     color: $font-clr-panel-btn;
                     padding-top: 10px;
                     padding-bottom: 10px;
                     border-bottom: 1px solid $border-clr-table;
-                    .icon-caret{
+                    .icon-caret {
                         display: inline-block;
                         float: right;
                         height: 13px;
@@ -166,11 +193,10 @@
                         background-image: url("../images/dashboard/caret-light.png");
                     }
                 }
-                p{
+                p {
                     margin-top: 10px;
                 }
             }
-            
         }
         .option {
             margin-top: $margin / 2;
@@ -185,7 +211,7 @@
                 display: inline-block;
                 padding: padding-vertical($row-height, $font-size * $line-height-base);
             }
-            .phone-number{
+            .phone-number {
                 padding: padding-vertical($row-height, $font-size * $line-height-base);
                 .icon-settings {
                     display: inline-block;
@@ -201,9 +227,6 @@
                 }
             }
         }
-
-
-
         .btn-add-new-number {
             width: 100%;
             background: $table-header-bg;
@@ -228,7 +251,6 @@
         .phone-number {
             display: inline-block;
             float: right;
-            
         }
     }
     .panel-heading {
