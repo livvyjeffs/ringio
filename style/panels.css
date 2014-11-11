@@ -8158,383 +8158,307 @@ button.close {
     display: none !important;
   }
 }
-/* line 3, ../sass/body.scss */
-body {
-  padding-bottom: 20px;
-  color: #52595E;
-  font-size: 10px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #f2f8fb;
+/*****************************   Panels   *******************************/
+/* line 5, ../sass/panels.scss */
+.panel {
+  border: 1px solid #d7e6ee;
+  padding: 10px;
+  position: relative;
 }
-
-/* Customize container */
-@media (min-width: 988px) {
-  /* line 13, ../sass/body.scss */
-  .container {
-    max-width: 950px;
-  }
+/* line 10, ../sass/panels.scss */
+.panel.panel-dashboard {
+  padding: 0;
+  border: 1px solid #DDE9F1;
 }
-@media (min-width: 768px) {
-  /* line 19, ../sass/body.scss */
-  .nav-ringio {
-    max-height: 52px;
-  }
+/* line 14, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body {
+  background-color: #F3F8Fb;
 }
-/********************************   Rows   ********************************/
-/* line 26, ../sass/body.scss */
-body > .container {
+/* line 16, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body.white-bg {
   background-color: white;
-  border-left: 1px solid #d7e6ee;
-  border-right: 1px solid #d7e6ee;
-  border-bottom: 1px solid #d7e6ee;
-  padding-bottom: 30px;
 }
-
-/* line 34, ../sass/body.scss */
-.no-margin {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
+/* line 19, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li {
+  padding: 15px;
+  border-bottom: 1px solid #DDE9F1;
+  background-color: white;
 }
-
-/* line 39, ../sass/body.scss */
-.centered {
-  text-align: center;
+/* line 23, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li:last-child {
+  border-bottom: none;
+}
+/* line 26, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li:hover {
+  background-color: #F3F8FB;
+  box-shadow: 0 -3px 3px #DDE9F1 inset;
+  cursor: pointer;
+}
+/* line 31, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .dropdown {
+  width: auto;
+  display: inline-block;
+  float: right;
   vertical-align: middle;
+  margin-top: -7px;
 }
-
-/* line 45, ../sass/body.scss */
-.vcentered:before {
-  content: ' ';
-  width: 0;
-  height: 100%;
+/* line 37, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .dropdown .btn {
+  border: 1px solid #DDE9F1;
+  box-shadow: 0 1px 3px #DDE9F1;
+}
+/* line 41, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .dropdown .icon-toggle {
+  margin-left: 15px;
+}
+/* line 45, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle) {
+  width: 18px;
+  height: 18px;
+  margin-right: 9px;
   display: inline-block;
   vertical-align: middle;
-  margin-right: -0.5em;
 }
-/* line 53, ../sass/body.scss */
-.vcentered > * {
+/* line 52, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-call-recording {
+  background-image: url("../images/dashboard/call-recording.png");
+}
+/* line 55, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-screen-pop {
+  background-image: url("../images/dashboard/screen-pop.png");
+}
+/* line 58, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-call-whisper {
+  background-image: url("../images/dashboard/call-whisper.png");
+}
+/* line 61, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-email-notifications {
+  background-image: url("../images/dashboard/email-notifications.png");
+}
+/* line 64, ../sass/panels.scss */
+.panel.panel-dashboard .panel-body li .ringio-icon:not(.icon-toggle).icon-back-up-number {
+  background-image: url("../images/dashboard/back-up-number.png");
+}
+/* line 73, ../sass/panels.scss */
+.panel.panel-dashboard .panel-heading {
+  font-size: 14px;
+  padding: 10.999999997px 15px;
+  position: relative;
+  background-color: #0572AE;
+  color: white;
+  text-align: left;
+}
+/* line 81, ../sass/panels.scss */
+.panel.panel-dashboard .panel-heading .ringio-icon {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 15px;
   display: inline-block;
   vertical-align: middle;
-  float: none !important;
+  width: 18px;
+  height: 18px;
 }
-
-/* line 60, ../sass/body.scss */
-.border-left {
-  border-left: 1px solid;
+/* line 89, ../sass/panels.scss */
+.panel.panel-dashboard .panel-heading .ringio-icon.icon-crm {
+  background-image: url("../images/dashboard/crmintegrations.png");
 }
-
-/* line 64, ../sass/body.scss */
-.stay-visible {
-  opacity: 1 !important;
+/* line 92, ../sass/panels.scss */
+.panel.panel-dashboard .panel-heading .ringio-icon.icon-get-the-most {
+  background-image: url("../images/dashboard/asterisk.png");
 }
-
-/* line 68, ../sass/body.scss */
-.right-half-padding {
-  padding-right: 0;
+/* line 95, ../sass/panels.scss */
+.panel.panel-dashboard .panel-heading .ringio-icon.icon-settings {
+  background-image: url("../images/dashboard/settings-yellow.png");
 }
-
-/* line 72, ../sass/body.scss */
-.separator {
-  background-image: url("../images/separator.png");
-  width: 20px;
-  height: 30px;
-}
-
-/* line 78, ../sass/body.scss */
-.no-padding {
-  padding: 0 !important;
-}
-
-/********************************   Icons   *******************************/
-/* line 84, ../sass/body.scss */
-.ringio-header .glyphicon {
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-}
-
-/* line 90, ../sass/body.scss */
-.glyphicon-user.large:before {
-  content: url(../images/users.png);
-}
-
-/* line 94, ../sass/body.scss */
-.glyphicon-department.large:before {
-  content: url(../images/departments.png);
-}
-
-/* line 98, ../sass/body.scss */
-.glyphicon-crm.large:before {
-  content: url(../images/crm.png);
-}
-
-/* line 102, ../sass/body.scss */
-.glyphicon-highrise.large:before {
-  content: url(../images/company_logos/highrise.png);
-}
-
-/* line 106, ../sass/body.scss */
-.glyphicon-caret.large:before {
-  content: url(../images/caret-large.png);
-}
-
-/* line 111, ../sass/body.scss */
-.ringio-icon.tip {
-  background-image: url("../images/tip.png");
+/* line 98, ../sass/panels.scss */
+.panel.panel-dashboard .panel-heading .ringio-icon.btn {
   position: absolute;
-  top: 10px;
-  left: -10px;
-  height: 19px;
-  width: 10px;
+  display: block;
+  background-size: 70%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  width: 58px;
+  height: auto;
+  background-color: #04689E;
+  border-top-right-radius: 3px;
 }
-/* line 119, ../sass/body.scss */
-.ringio-icon.bulb {
-  display: inline-block;
-  width: 10px;
-  height: 16px;
-  background-image: url("../images/bulb.png");
+/* line 110, ../sass/panels.scss */
+.panel.panel-dashboard .panel-heading .ringio-icon.btn.icon-departments {
+  background-image: url("../images/dashboard/departments.png");
 }
-/* line 125, ../sass/body.scss */
-.ringio-icon.icon-delete {
-  display: inline-block;
-  margin-left: -15px;
-  width: 30px;
-  height: 30px;
-  background-size: 40%;
-  background-image: url("../images/delete.png");
+/* line 113, ../sass/panels.scss */
+.panel.panel-dashboard .panel-heading .ringio-icon.btn.icon-phone {
+  background-image: url("../images/dashboard/phone.png");
 }
-/* line 133, ../sass/body.scss */
-.ringio-icon.icon-refresh {
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  background-size: 50%;
-  background-image: url("../images/refresh.png");
+/* line 116, ../sass/panels.scss */
+.panel.panel-dashboard .panel-heading .ringio-icon.btn.icon-users {
+  background-image: url("../images/dashboard/users.png");
 }
-/* line 140, ../sass/body.scss */
-.ringio-icon.icon-user {
-  background-image: url("../images/user-small.png");
-  width: 12px;
-  height: 16px;
-  display: inline-block;
-  margin-top: -3px;
-  margin-bottom: -3px;
-  margin-right: 5px;
+/* line 119, ../sass/panels.scss */
+.panel.panel-dashboard .panel-heading .ringio-icon.btn.btn-text {
+  font-size: 12px;
+  padding-top: 12.428571426px;
+  padding-bottom: 12.428571426px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: auto;
 }
-
-/****************************   Dropdowns   ******************************/
-/* line 152, ../sass/body.scss */
-.dropdown {
+/* line 129, ../sass/panels.scss */
+.panel.panel-dashboard.panel.get-the-most {
+  background-color: white;
+  margin-top: 10px;
+}
+/* line 133, ../sass/panels.scss */
+.panel.panel-dashboard.panel.get-the-most .col-md-6 {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+/* line 136, ../sass/panels.scss */
+.panel.panel-dashboard.panel.get-the-most .col-md-6:last-child {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+/* line 141, ../sass/panels.scss */
+.panel.panel-dashboard.panel.get-the-most .panel-body {
+  padding-top: 10px;
+  background-color: white;
+  border: 1px solid #DDE9F1;
+  padding: 0;
+}
+/* line 148, ../sass/panels.scss */
+.panel.panel-dashboard.panel.get-the-most .panel-tile {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  height: 100px;
+}
+/* line 154, ../sass/panels.scss */
+.panel.panel-dashboard.panel.get-the-most .panel-tile .panel-tile-heading {
+  font-size: 14px;
+  color: #03689E;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DDE9F1;
+}
+/* line 161, ../sass/panels.scss */
+.panel.panel-dashboard.panel.get-the-most .panel-tile .panel-tile-heading .icon-caret {
   display: inline-block;
-  width: 100%;
+  float: right;
+  height: 13px;
+  width: 13px;
+  background-image: url("../images/dashboard/caret-light.png");
+}
+/* line 169, ../sass/panels.scss */
+.panel.panel-dashboard.panel.get-the-most .panel-tile p {
+  margin-top: 10px;
+}
+/* line 175, ../sass/panels.scss */
+.panel.panel-dashboard .option {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+/* line 180, ../sass/panels.scss */
+.panel.panel-dashboard .option:last-child {
+  margin-bottom: 15px;
+}
+/* line 183, ../sass/panels.scss */
+.panel.panel-dashboard .option label {
+  margin: 0;
+  display: inline-block;
+  padding: 12.428571426px;
+}
+/* line 188, ../sass/panels.scss */
+.panel.panel-dashboard .option .phone-number {
+  padding: 12.428571426px;
+}
+/* line 190, ../sass/panels.scss */
+.panel.panel-dashboard .option .phone-number .icon-settings {
+  display: inline-block;
   vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  margin-left: 8px;
+  background-image: url("../images/dashboard/settings.png");
 }
-/* line 156, ../sass/body.scss */
-.dropdown .btn {
+/* line 198, ../sass/panels.scss */
+.panel.panel-dashboard .option .phone-number .icon-settings:hover {
+  cursor: pointer;
+}
+/* line 207, ../sass/panels.scss */
+.panel.panel-dashboard .btn-add-new-number {
   width: 100%;
+  background: #F3F8FB;
+  border: 1px solid #D8E8F1;
+  box-shadow: 0 1px 3px #DDE9F1;
+  padding: 12px auto;
+  font-weight: bold;
+  color: #03689E;
 }
-/* line 159, ../sass/body.scss */
-.dropdown .icon-toggle {
-  background-image: url("../images/arrows.png");
-  width: 5px;
-  height: 11px;
+/* line 216, ../sass/panels.scss */
+.panel.panel-dashboard .thumbnail {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+/* line 220, ../sass/panels.scss */
+.panel.panel-dashboard .thumbnail:last-child {
+  margin-top: 0;
+}
+/* line 223, ../sass/panels.scss */
+.panel.panel-dashboard .thumbnail .logo img {
+  height: 40px;
+  width: auto;
+}
+/* line 228, ../sass/panels.scss */
+.panel.panel-dashboard .phone-number {
   display: inline-block;
   float: right;
 }
-/* line 166, ../sass/body.scss */
-.dropdown .icon-user {
-  background-image: url("../images/user-small.png");
-  width: 12px;
-  height: 16px;
-  display: inline-block;
-  margin-top: -3px;
-  margin-bottom: -3px;
-  margin-right: 5px;
-}
-/* line 176, ../sass/body.scss */
-.dropdown.disabled .icon-toggle {
-  background-image: url("../images/arrows-disabled.png");
-}
-
-/*****************************   Buttons   *******************************/
-/* line 184, ../sass/body.scss */
-.btn-ringio {
-  padding: 5px 18px;
-  font-size: 9px;
-}
-
-/* line 189, ../sass/body.scss */
-.btn-edit, .btn-close {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  display: block;
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  background-color: #ECF2F6;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.50;
-}
-/* line 201, ../sass/body.scss */
-.btn-edit:hover, .btn-close:hover {
-  cursor: pointer;
-  opacity: 1;
-}
-
-/* line 207, ../sass/body.scss */
-.btn-edit {
-  background-image: url("../images/edit.png");
-}
-
-/* line 211, ../sass/body.scss */
-.btn-close {
-  background-image: url("../images/close.png");
-}
-
-/* line 215, ../sass/body.scss */
-.btn-cancel {
-  background-color: #035C8D;
-  padding-left: 13px;
-  padding-right: 13px;
-}
-
-/* line 221, ../sass/body.scss */
-.btn-upload {
-  border: 1px solid #225E93;
-  border-radius: 3px;
-  color: rgba(255, 255, 255, 0.75);
-  background: -webkit-linear-gradient(90deg, #246098 0%, #307fc1 100%);
-  background: linear-gradient(0deg, #246098 0%, #307fc1 100%);
-}
-
-/* line 228, ../sass/body.scss */
-.btn-save {
+/* line 234, ../sass/panels.scss */
+.panel .panel-heading {
+  text-align: center;
   color: #216b9e;
-  background: -webkit-linear-gradient(90deg, #daeafa 0%, #ffffff 100%);
-  background: linear-gradient(0deg, #daeafa 0%, #ffffff 100%);
-  background-repeat: repeat-x;
-  border-color: #23547f;
-}
-
-/* line 235, ../sass/body.scss */
-.btn-dropdown {
-  font-size: 10px !important;
   background-color: white;
+  background-image: none;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 12px;
+  padding-top: 0;
 }
-
-/* line 240, ../sass/body.scss */
-.close {
-  font-size: 12px;
-}
-
-/* line 244, ../sass/body.scss */
-.ringio-icon {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
-/* line 251, ../sass/body.scss */
-.disabledbutton:hover {
-  cursor: default;
-}
-
-/* line 256, ../sass/body.scss */
-input[disabled="disabled"] {
-  color: gray;
-}
-
-/*****************************   Page Header   *******************************/
-/* line 262, ../sass/body.scss */
-.page-header {
-  padding-top: 30px;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 30px;
-  background-color: #F9FBFD;
-  border-bottom: 1px solid #d7e6ee;
-  color: #17699C;
-}
-/* line 270, ../sass/body.scss */
-.page-header .media-list {
-  margin: 30px;
-  margin-top: 0;
-}
-/* line 274, ../sass/body.scss */
-.page-header .media-body {
-  vertical-align: middle;
-}
-/* line 277, ../sass/body.scss */
-.page-header .glyphicon.large {
-  height: 100%;
-  width: auto;
-  vertical-align: middle;
-}
-/* line 282, ../sass/body.scss */
-.page-header h1 {
-  font-size: 22px;
-  font-weight: 700;
-}
-/* line 286, ../sass/body.scss */
-.page-header h2 {
-  font-size: 16px;
-  font-weight: 400;
-}
-
-/*****************************   Thumbnails   *******************************/
-/* line 295, ../sass/body.scss */
-.thumbnail {
-  position: relative;
-  border: 1px solid #DDE9F1;
-  border-bottom: 3px solid #E5EEF5;
-  padding: 30px;
-  font-size: 12px;
-}
-/* line 301, ../sass/body.scss */
-.thumbnail .logo {
-  width: 100%;
-  height: 170px;
-  vertical-align: middle;
-  text-align: center;
-}
-/* line 306, ../sass/body.scss */
-.thumbnail .logo:before {
-  content: ' ';
-  width: 0;
-  height: 100%;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: -0.5em;
-}
-/* line 314, ../sass/body.scss */
-.thumbnail .logo img.contained {
-  display: inline-block;
-  vertical-align: middle;
-  width: 100%;
-  height: auto;
-}
-/* line 321, ../sass/body.scss */
-.thumbnail .caption {
-  margin-top: 30px;
+/* line 244, ../sass/panels.scss */
+.panel .panel-body {
+  margin: 0;
   padding: 0;
-  padding-top: 30px;
-  border-top: 1px solid #DDE9F1;
+  border-top: 3px solid #DDE9F1;
 }
-/* line 326, ../sass/body.scss */
-.thumbnail .caption p:not(:last-child) {
-  margin-bottom: 0;
+/* line 248, ../sass/panels.scss */
+.panel .panel-body:not(:last-child) {
+  border-bottom: 1px solid #d7e6ee;
 }
-/* line 330, ../sass/body.scss */
-.thumbnail .btn-configure {
-  margin-top: 30px;
-  width: 100%;
-  text-align: center;
-  font-size: 22px;
-  color: #225E93;
-  border: 1px solid #DDE9F1;
-  box-shadow: 0 0 3px #E5EEF5;
-  background: -webkit-linear-gradient(90deg, #DBEBFB 0%, #FFFFFF 100%);
-  background: linear-gradient(0deg, #DBEBFB 0%, #FFFFFF 100%);
+/* line 251, ../sass/panels.scss */
+.panel .panel-body table {
+  border: none;
+  padding: 0;
+}
+/* line 255, ../sass/panels.scss */
+.panel .panel-body table td {
+  padding: 10px 5px;
+}
+/* line 258, ../sass/panels.scss */
+.panel .panel-body .table-text {
+  padding-right: 15px;
+}
+/* line 260, ../sass/panels.scss */
+.panel .panel-body .table-text p {
+  margin: 0;
+}
+/* line 263, ../sass/panels.scss */
+.panel .panel-body .table-text a {
+  font-weight: bold;
 }

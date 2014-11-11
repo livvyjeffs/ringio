@@ -18,7 +18,7 @@
       <div class="thumbnail">
         <div class="btn-close"></div>
         <div class="logo">
-        <a href="crm-integrations-edit-2.php">
+        <a href="crm-integrations-edit.php">
           <img src="images/company_logos/highrise.png" alt="highrise">
         </a>
         </div>

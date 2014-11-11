@@ -6,6 +6,59 @@ $grid-float-breakpoint: 950px;
 
 ////////////
 
+$row-height: 42px;
+
+// $line-height-base;
+// $line-height-computed;
+
+$font-size-base: 9px;
+$font-size-panel-heading: 14px;
+// $font-size-large;
+// $font-size-small;
+// $font-size-h1;
+// $font-size-h2;
+// $font-size-h3;
+// $font-size-h4;
+// $font-size-h5;
+// $font-size-h6;
+
+$font-size-small: 9px;
+$font-size-medium: 10px;
+$font-size-12: 12px;
+$font-size-large: 16px;
+$font-size-xlarge: 22px;
+
+
+@function padding-vertical($row-height,$height){
+	@return ($row-height - $height)/2;
+}
+
+@function margin-vertical($row-height,$padding-vertical,$height){
+	@return ($row-height - 2*$padding-vertical - $height)/2;
+}
+
+
+@mixin pm_font($a,$b){
+	$c: $b*$line-height-base;
+	@include pm_height($a,$c);
+}
+
+@mixin pm_height($d,$e){
+	$f: padding-vertical($d,$e);
+	$g: margin-vertical($d,$f,$e);
+	padding-top: $f;
+	padding-bottom: $f;
+	margin-top: $g;
+	margin-bottom: $g;
+}
+
+@mixin box-shadow(){
+	box-shadow: 0 1px 3px $border-clr-table;
+}
+
+
+////////////
+
 $bg-clr-navbar-top: #04689E;
 $bg-clr-navbar-btm: #0575B3;
 
@@ -15,7 +68,7 @@ $border-clr-body: #D9E7F0;
 $border-clr-table: #DDE9F1;
 $border-clr-table-option: #D5E4EE;
 $border-clr-table-btn-upload: #225E93;
-
+$border-clor-panel-btn: #D8E8F1;
 
 $box-shadow-inset-clr-navbar-btm: #0E7EB9;
 $box-shadow-clr-table-option: #E5EEF5;
@@ -30,14 +83,9 @@ $bg-clr-btn-edit: #ECF2F6;
 $bg-clr-btn-edit-active: $bg-clr-btn-edit;
 
 $font-clr-page-header: #04689E;
+$font-clr-panel-btn: #03689E;
 
 $margin: 30px;
-
-$font-size-small: 9px;
-$font-size-medium: 10px;
-$font-size-12: 12px;
-$font-size-large: 16px;
-$font-size-xlarge: 22px;
 
 ////////////////////////////////////////////////
 
