@@ -10,6 +10,11 @@ switch($page_title){
   break;
   case "Departments":
   $icon_class = "department";
+  $h1 = "Departments";
+  $h2 = "& Hunt Groups";
+  break;
+  case "Phone Numbers":
+  $icon_class = "phone-numbers";
   $h1 = "Phone Numbers";
   $h2 = "& Routing";
   break;
@@ -32,10 +37,20 @@ switch($page_title){
   break;
   case "Billing":
   $icon_class="billing";
-  $precon_class="caret";
-  $precon = "<span class='pull-left glyphicon glyphicon-".$precon_class." large'></span>";
   $h1 = "Billing";
   $h2 = "& Account Information";
+  break;
+  case "Billing History":
+  $icon_class="billing-history";
+  $precon_class="caret";
+  $precon = "<span class='pull-left glyphicon glyphicon-".$precon_class." large'></span>";
+  $h1 = "History";
+  $h2 = "& Account Payments";
+  break; 
+  case "Premium Features":
+  $icon_class="premium-features";
+  $h1 = "Premium Features";
+  $h2 = "& Other Settings";
   break;
 }
 

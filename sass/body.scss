@@ -40,6 +40,10 @@ body > .container {
     margin-right: 0px !important;
 }
 
+.no-border{
+    border: none !important;
+}
+
 .centered {
     text-align: center;
     vertical-align: middle;
@@ -98,6 +102,9 @@ body > .container {
 .glyphicon-department.large:before {
     content: url(../images/departments.png);
 }
+.glyphicon-phone-numbers.large:before {
+    content: url(../images/phone-numbers.png);
+}
 
 .glyphicon-crm.large:before {
     content: url(../images/crm.png);
@@ -113,6 +120,10 @@ body > .container {
 
 .glyphicon-billing.large:before {
     content: url(../images/billing.png);
+}
+
+.glyphicon-billing-history.large:before {
+    content: url(../images/billing-history.png);
 }
 
 .ringio-icon {
@@ -364,3 +375,52 @@ input[disabled="disabled"] {
         font-size: 20px;
     }
 }
+
+//////////
+
+.authorization-container.center{
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    img{
+        height: 100%;
+        width: auto;
+    }
+}
+
+.button-container{
+    width: auto;
+    display: inline-block;
+    padding: $margin/2;
+    border-radius: 5px;
+    border: 1px solid $border-clr-table;
+    .btn{
+        @include button-gradient('light');
+        text-align: center;
+        margin-left: 0;
+        margin-right: $margin/2;
+        &:last-child{
+            margin-right: 0;
+            padding-left: $margin/2;
+            border-left: 1px solid $border-clr-table;
+        }
+    }
+}
+.revoke-access.option {
+    $panel-height: 46px;
+    margin-bottom: $margin;
+    padding: 13px;
+
+    .logo {
+        height: $panel-height;
+        img {
+            width: auto;
+            height: 100%;
+        }
+    }
+    .btn-revoke-access {
+        width: 100%;
+        text-align: center;
+    }
+}
+

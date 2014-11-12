@@ -7,8 +7,8 @@
 <!-- Begin Main Content Container -->
 
 <div class="row no-margin">
-  <div class="col-md-9 crm-edit">
-    <div class="col-md-12 option">
+  <div class="col-md-9">
+    <div class="col-md-12 option revoke-access">
       <div class="row">
         <div class="col-md-3">
           <div class="logo">
@@ -26,24 +26,23 @@
         </div>
       </div>
     </div>
-    <table class="table table-condensed panel panel-default one-row-table">
-      <thead>
-        <th class="panel-heading"><span class="ringio-icon icon-key"></span>Tokens & Users</th>
-      </thead>
-      <tbody>
-        <?php $key = "123laks13djflakjl1kj23897lksjfalk"; $email = "sam@ringio.com"; include("php_templates/table_rows/crm-edit.php"); ?>
-        <?php $key = "42y4lkaks13djflakjl1kj2389lkjlakd"; $email = "daniel@ringio.com"; include("php_templates/table_rows/crm-edit.php"); ?>
-        <?php $key = "z23laks1312l3kj97lksjfadslkfjl3alk"; $email = "jon@ringio.com"; include("php_templates/table_rows/crm-edit.php"); ?>
-      </tbody>
-    </table>
+    <div id="crm-integrations-edit" class="panel col-md-12 panel-ringio">
+      <div class="panel-heading"><span class="ringio-icon icon-key"></span>Tokens & Users</div>
+      <div class="panel-body">
+        <?php $key = "123laks13djflakjl1kj23897lksjfalk"; $email = "sam@ringio.com"; include("php_templates/table_rows/rows-crm-edit.php"); ?>
+        <?php $key = "42y4lkaks13djflakjl1kj2389lkjlakd"; $email = "daniel@ringio.com"; include("php_templates/table_rows/rows-crm-edit.php"); ?>
+        <?php $key = "z23laks1312l3kj97lksjfadslkfjl3alk"; $email = "jon@ringio.com"; include("php_templates/table_rows/rows-crm-edit.php"); ?>
+
+      </div>
+    </div>
+
   </div>
   <div class="col-md-3">
-    <div class="panel">
+    <div class="panel panel-side">
       <div class="panel-heading">
         CRM Plugin Configuration
       </div>
       <div class="panel-body">
-
         <table>
           <tr>
             <td class="table-image">

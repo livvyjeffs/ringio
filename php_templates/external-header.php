@@ -13,6 +13,9 @@ switch($page_title){
   case 'Billing':
   $btn_3 = "active";
   break;
+  case 'Billing History':
+  $btn_3 = "active";
+  break;
   case 'Get Ringio':
   $btn_4 = "active";
   break;

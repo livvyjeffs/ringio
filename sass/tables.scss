@@ -1,9 +1,31 @@
 @import "variables";
 
-.table {
-    border-collapse: separate;
-    border: 1px solid $border-clr-table;
-    padding: 0;
+#departments-table {
+    td {
+        .span-container {
+            display: inline-block;
+            float: right;
+            vertical-align: middle;
+        }
+        .ringio-icon {
+            display: inline-block;
+            width: 12px;
+            height: 16px;
+            vertical-align: middle;
+            &.icon-users {
+                background-image: url("../images/user-small.png");
+                margin-right: 3px;
+            }
+        }
+        .user-number {
+            display: inline-block;
+            color: $font-clr-emphasized;
+            vertical-align: middle;
+        }
+    }
+}
+
+#users-table {
     label {
         font-size: $table-label-font-size;
         color: $body-default-text-color;
@@ -16,12 +38,18 @@
             width: 12px;
         }
     }
+}
+
+.table {
+    border-collapse: separate;
+    border: 1px solid $border-clr-table;
+    padding: 0;
     thead tr {
         background-color: $bg-clr-table-light;
         font-weight: 700;
         font-size: $font-size-medium;
         color: $body-default-header-color;
-        th{
+        th {
             padding: 13px 7px;
         }
     }
@@ -29,7 +57,7 @@
         font-size: $font-size-small;
         td {
             padding: 13px 7px;
-            .icon {
+            .profile-icon {
                 width: $margin;
                 height: $margin;
                 border-radius: 4px;
@@ -59,9 +87,7 @@ td.hiddenRow {
     .accordion-body {
         position: relative;
         box-shadow: inset 0px 2px 0px 0px rgb(219, 235, 243);
-        &.collapse.in {
-
-        }
+        &.collapse.in {}
     }
 }
 
@@ -109,77 +135,6 @@ tr.accordion-toggle {
 
 /****************************   CRM Edit Tables   ******************************/
 
-.crm-edit {
-
-    $panel-height: 46px;
-
-    margin-bottom: $margin;
-    > .option {
-        margin-bottom: $margin;
-        padding: 13px;
-        .row > div{
-            height: $panel-height;
-        }
-    }
-    .logo {
-        height: $panel-height;
-        img {
-            width: auto;
-            height: 100%;
-        }
-    }
-
-    .btn-revoke-access{
-        width: 100%;
-        text-align: center;
-    }
-
-    .one-row-table {
-        thead {
-            th {
-                background-color: $bg-clr-navbar-top;
-                color: white;
-            }
-        }
-        tbody {
-            background-color: $bg-clr-outer-body;
-            tr {
-                td {
-                    border: none;
-                    padding: $margin / 2;
-                    padding-bottom: 0;
-                }
-                &:last-child td{
-                    padding-bottom: $margin/2;
-                }
-            }
-        }
-        .option {
-            vertical-align: middle;
-            padding: $margin/2 0;
-            input, .btn-dropdown {
-                margin: 0;
-                width: 100%;
-            }
-        }
-        .panel-heading{
-            text-align: left;
-            padding: 7px 7px;
-            font-size: $font-size-medium;
-            .icon-key{
-                display: inline-block;
-                background-image: url("../images/key.png");
-                width: 18px;
-                height: 18px;
-                margin-top: -6px;
-                margin-bottom: -6px;
-                margin-right: 8px;
-            }
-        }
-    }
-}
-
-
 .data-container {
     background-color: rgb(243, 248, 251);
     border-top: 2px solid $box-shadow-clr-table-option;
@@ -198,11 +153,9 @@ tr.accordion-toggle {
             width: auto !important;
         }
     }
-  
     [data-label="data-rows"] [class^="col-md"]:not(:last-child), .row[data-label="data-rows"] *[class^="col-md"]:not(:last-child) {
         padding-right: 0;
     }
-
     .option {
         input, label {
             display: inline-block;
@@ -234,7 +187,7 @@ tr.accordion-toggle {
     }
 }
 
-.option{
+.option {
     background-color: white;
     border-radius: 3px;
     border: 1px solid $border-clr-table;

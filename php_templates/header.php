@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 $btn_1 = $btn_2 = $btn_3 = $btn_4 = $btn_5 = $btn_6 = "";
 
@@ -12,11 +12,17 @@ switch($page_title){
   case 'Departments':
   $btn_3 = "active";
   break;
+  case 'Phone Numbers':
+  $btn_4 = "active";
+  break;
   case 'CRM Integrations':
   $btn_5 = "active";
   break;
   case 'CRM Integrations Edit':
   $btn_5 = "active";
+  break;
+  case 'Premium Features':
+  $btn_6 = "active";
   break;
 }
 
@@ -85,7 +91,7 @@ switch($page_title){
         <li class="<?php echo $btn_1; ?>"><a href="index.php"><span class="ringio-icon carets"></span>Dashboard</a></li>
         <li class="<?php echo $btn_2; ?>"><a href="users.php">Users</a></li>
         <li class="<?php echo $btn_3; ?>"><a href="departments.php">Departments</a></li>
-        <li class="<?php echo $btn_4; ?>"><a href="phone_numbers.php">Phone Numbers</a></li>
+        <li class="<?php echo $btn_4; ?>"><a href="phone-numbers.php">Phone Numbers</a></li>
         <li class="<?php echo $btn_5; ?>"><a href="crm-integrations.php">CRM Integrations</a></li>
         <li class="<?php echo $btn_6; ?>"><a href="premium-features.php">Premium Features</a></li>
       </ul>

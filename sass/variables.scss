@@ -56,6 +56,25 @@ $font-size-xlarge: 22px;
 	box-shadow: 0 1px 3px $border-clr-table;
 }
 
+@mixin button-gradient($hue){
+	border-radius: 3px;
+	@if $hue == "dark"{
+		background: linear-gradient(0deg, #1c91d6 0%, #1b8ed2 5%, #0a5e94 16%, #1883c2 100%);
+		margin: ($navbar-max-height-top-row - 2 * $navbar-padding-top-btn - $line-height-computed - 4) / 2 auto;
+		border: 2px solid rgba(0, 0, 0, 0.2);
+		color: $navbar-color-default;
+		text-shadow: $navbar-text-shadow-default;
+	}
+	@if $hue == "light"{
+		background: linear-gradient(0deg, #DBEBFB 0%, #FFFFFF 100%);
+		margin: ($navbar-max-height-top-row - 2 * $navbar-padding-top-btn - $line-height-computed - 4) / 2 auto;
+		border: 1px solid $border-clr-btn-light;
+		color: $font-clr-page-header;
+		text-shadow: $navbar-text-shadow-default;
+		box-shadow: 0 0 3px $border-clr-table;
+	}
+	
+}
 
 ////////////
 
@@ -69,6 +88,7 @@ $border-clr-table: #DDE9F1;
 $border-clr-table-option: #D5E4EE;
 $border-clr-table-btn-upload: #225E93;
 $border-clor-panel-btn: #D8E8F1;
+$border-clr-btn-light: #9CBBCF;
 
 $box-shadow-inset-clr-navbar-btm: #0E7EB9;
 $box-shadow-clr-table-option: #E5EEF5;
@@ -84,6 +104,7 @@ $bg-clr-btn-edit-active: $bg-clr-btn-edit;
 
 $font-clr-page-header: #04689E;
 $font-clr-panel-btn: #03689E;
+$font-clr-emphasized: $font-clr-page-header;
 
 $margin: 30px;
 

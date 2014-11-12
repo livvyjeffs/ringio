@@ -1,0 +1,1569 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"line-",
+				"line-height-base"
+			],
+			[
+				"border-b",
+				"border-clr-table"
+			],
+			[
+				"bod",
+				"bg-clr-outer-body"
+			],
+			[
+				"font-",
+				"font-size-12"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"border-c",
+				"border-clr-table"
+			],
+			[
+				"bg",
+				"bg-clr-table-dark"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 11094,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "users.php",
+			"settings":
+			{
+				"buffer_size": 3656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "departmentes.php",
+			"settings":
+			{
+				"buffer_size": 3656,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "phone-numbers.php",
+			"settings":
+			{
+				"buffer_size": 4136,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "php_templates/header.php",
+			"settings":
+			{
+				"buffer_size": 3293,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "php_templates/page-header.php",
+			"settings":
+			{
+				"buffer_size": 1559,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "php_templates/table_rows/row-billing-history.php",
+			"settings":
+			{
+				"buffer_size": 176,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/body.scss",
+			"settings":
+			{
+				"buffer_size": 8729,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/panels.scss",
+			"settings":
+			{
+				"buffer_size": 11272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/variables.scss",
+			"settings":
+			{
+				"buffer_size": 3899,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/navbar.scss",
+			"settings":
+			{
+				"buffer_size": 4577,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sbe",
+				"SassBeautify"
+			],
+			[
+				"sb",
+				"SassBeautify"
+			],
+			[
+				"SB",
+				"SassBeautify"
+			],
+			[
+				"sbea",
+				"SassBeautify"
+			],
+			[
+				"sasb",
+				"SassBeautify"
+			],
+			[
+				"sab",
+				"SassBeautify"
+			],
+			[
+				"chang",
+				"Git: Stash Changes"
+			],
+			[
+				"git: commit",
+				"Git: Commit"
+			],
+			[
+				"git: init",
+				"Git: Init"
+			],
+			[
+				"revert",
+				"File: Revert"
+			],
+			[
+				"head",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"gcommit",
+				"Git: Commit"
+			],
+			[
+				"git:commit",
+				"Git: Commit"
+			],
+			[
+				"gitcommit",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git reser",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"greset",
+				"Git: Reset (unstage) All"
+			],
+			[
+				"remote",
+				"Git: Remote"
+			],
+			[
+				"gpush",
+				"Git: Push Current Branch"
+			],
+			[
+				"addremote",
+				"Git: Add Remote"
+			],
+			[
+				"git remote",
+				"Git: Remote"
+			],
+			[
+				"gitpush",
+				"Git: Push"
+			],
+			[
+				"gadd..",
+				"Git: Add..."
+			],
+			[
+				"git: add",
+				"Git: Add..."
+			],
+			[
+				"git: status",
+				"Git: Status"
+			],
+			[
+				"git: comi",
+				"Git: Commit history"
+			],
+			[
+				"branch",
+				"Git: New Branch"
+			],
+			[
+				"git: add .",
+				"Git: Add..."
+			],
+			[
+				"git: track",
+				"Git: Stash Include Untracked"
+			],
+			[
+				"git: quick",
+				"Git: Quick Status"
+			],
+			[
+				"git: checkout",
+				"Git: Checkout New Branch"
+			],
+			[
+				"gstatus",
+				"Git: Status"
+			],
+			[
+				"ginit",
+				"Git: Init"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"preferences: ",
+				"Preferences: Browse Packages"
+			],
+			[
+				"git:",
+				"Github: Repository"
+			],
+			[
+				"commit",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"git: ",
+				"Git: Init"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/ringio",
+		"/Applications/MAMP/htdocs/ringio/images"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/ringio/sass/panels.scss",
+		"/Applications/MAMP/htdocs/ringio/php_templates/external-header.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/header.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/page-header.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/departments.php",
+		"/Applications/MAMP/htdocs/ringio/departments.php",
+		"/Applications/MAMP/htdocs/ringio/billing-history.php",
+		"/Applications/MAMP/htdocs/ringio/billing.php",
+		"/Applications/MAMP/htdocs/ringio/sass/body.scss",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/dashboard-departments.php",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/b8e94408f3c9126d3c15fd1eb38aee34b88d4a57/panels.scssc",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/users.php",
+		"/Applications/MAMP/htdocs/ringio/users.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/dashboard-users.php",
+		"/Applications/MAMP/htdocs/ringio/style/panels.css",
+		"/Applications/MAMP/htdocs/ringio/style/main.css",
+		"/Applications/MAMP/htdocs/ringio/index.php",
+		"/Applications/MAMP/htdocs/ringio/crm-integrations.php",
+		"/Applications/MAMP/htdocs/ringio/crm-integrations-edit.php",
+		"/Applications/MAMP/htdocs/ringio/crm-integrations-edit-2.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/crm-edit.php",
+		"/Applications/MAMP/htdocs/ringio/js/bootstrap.js",
+		"/Applications/MAMP/htdocs/ringio/js/ringio.js",
+		"/Applications/MAMP/htdocs/ringio/sass/main.scss",
+		"/Applications/MAMP/htdocs/ringio/sass/tables.scss",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/981a1b3660b549357b056c7c1ee936af5ead6cbd/_nav-vertical-align.scssc",
+		"/Applications/MAMP/htdocs/ringio/sass/navbar.scss",
+		"/Applications/MAMP/htdocs/ringio/style/lost-children.css",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/b8e94408f3c9126d3c15fd1eb38aee34b88d4a57/lost-children.scssc",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_responsive-utilities.scssc",
+		"/Applications/MAMP/htdocs/ringio/unused/index.html",
+		"/Applications/MAMP/htdocs/ringio/php_templates/thumbnails/crm.php",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/981a1b3660b549357b056c7c1ee936af5ead6cbd/_table-row.scssc",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/0eae96225fd7574379362bc4811765156117f33b/_utilities.scssc",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/981a1b3660b549357b056c7c1ee936af5ead6cbd/_resize.scssc",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_responsive-embed.scssc",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_alerts.scssc",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_carousel.scssc",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_code.scssc",
+		"/Applications/MAMP/htdocs/ringio/style/jumbotron-ringio.css",
+		"/Applications/MAMP/htdocs/ringio/sass/variables.scss",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/b8e94408f3c9126d3c15fd1eb38aee34b88d4a57/tables.scssc",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/b8e94408f3c9126d3c15fd1eb38aee34b88d4a57/table-users.scssc",
+		"/Applications/MAMP/htdocs/ringio/style/tables.css",
+		"/Applications/MAMP/htdocs/ringio/style/table-users.css",
+		"/Applications/MAMP/htdocs/ringio/php_templates/footer.php",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/981a1b3660b549357b056c7c1ee936af5ead6cbd/_text-emphasis.scssc",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_breadcrumbs.scssc",
+		"/Applications/MAMP/htdocs/ringio/style/bootstrap-theme.min.css",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/b8e94408f3c9126d3c15fd1eb38aee34b88d4a57/body.scssc",
+		"/Applications/MAMP/htdocs/ringio/sass/lost-children.scss",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.0.1/assets/stylesheets/_bootstrap.scssc",
+		"/Applications/MAMP/htdocs/ringio/untitled",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_scaffolding.scssc",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/981a1b3660b549357b056c7c1ee936af5ead6cbd/_opacity.scssc",
+		"/Applications/MAMP/htdocs/ringio/sass/table-users.scss",
+		"/Applications/MAMP/htdocs/ringio/js/tooltip-viewport.js",
+		"/Users/Olivia/Desktop/departments.php",
+		"/Applications/MAMP/htdocs/ringio/index.html",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/ringio/jumbotron-ringio.css",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/dist/js/bootstrap.js",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/node_modules/npm-shrinkwrap/set-resolved.js",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/grunt/bs-lessdoc-parser.js",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/dist/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/Practice/bootstrap-index.html",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/_includes/js/collapse.html",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/less/bootstrap.less",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/assets/brand/bootstrap-outline.svg",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/js/collapse.js",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/node_modules/grunt-contrib-clean/docs/clean-options.md",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/CNAME",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/navbar-static-top/navbar-static-top.css",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/navbar-static-top/index.html",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/jumbotron-narrow/index.html",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/ringio/jumbotron-narrow.css",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/jumbotron-narrow/jumbotron-narrow.css",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/jumbotron.html",
+		"/Applications/MAMP/htdocs/Practice/bootstrap/docs/index.html",
+		"/Applications/MAMP/htdocs/myStream/php/templates/modals.php",
+		"/Applications/MAMP/htdocs/myStream/js/fb_login.js",
+		"/Applications/MAMP/htdocs/myStream/unused/smokesignals.php",
+		"/Applications/MAMP/htdocs/myStream/unused/user.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/signup.php",
+		"/Applications/MAMP/htdocs/myStream/php/templates/mainhead.php",
+		"/Applications/MAMP/htdocs/myStream/js/modal_object_creator.js",
+		"/Applications/MAMP/htdocs/myStream/js/index_bottom.js",
+		"/Applications/MAMP/htdocs/myStream/index.php",
+		"/Applications/MAMP/htdocs/myStream/js/signup.js",
+		"/Applications/MAMP/htdocs/myStream/sourceImagery/share_icon.pdn",
+		"/Applications/MAMP/htdocs/myStream/php/templates/standardhead.php",
+		"/Applications/MAMP/htdocs/myStream/php/templates/header.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/standardhead.php",
+		"/Applications/MAMP/htdocs/myStream/style/normalize.css",
+		"/Applications/MAMP/htdocs/myStream/style/ellipsis.css",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Guzzle/Batch/FlushingBatch.php",
+		"/Applications/MAMP/htdocs/myStream/style/modal.css",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Monolog/Handler/RotatingFileHandler.php",
+		"/Applications/MAMP/htdocs/myStream/tags.php",
+		"/Applications/MAMP/htdocs/myStream/style/login.css",
+		"/Applications/MAMP/htdocs/myStream/logs/log_parsers/log_open_modal.php",
+		"/Applications/MAMP/htdocs/myStream/js/main.js",
+		"/Applications/MAMP/htdocs/myStream/message.php",
+		"/Applications/MAMP/htdocs/myStream/.htaccess",
+		"/Applications/MAMP/htdocs/myStream/mobile/js/mobile_events.js",
+		"/Applications/MAMP/htdocs/myStream/unused/abort_martin.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/login.php",
+		"/Applications/MAMP/htdocs/myStream/unused/photos.php",
+		"/Applications/MAMP/htdocs/myStream/friendSearch.php",
+		"/Applications/MAMP/htdocs/myStream/unused/friendSearchBackEnd.php",
+		"/Applications/MAMP/htdocs/myStream/forgotPassword.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/friend_search.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/logout.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/tags.php",
+		"/Applications/MAMP/htdocs/myStream/smokesignals.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Guzzle/Plugin/Backoff/AbstractErrorCodeBackoffStrategy.php",
+		"/Applications/MAMP/htdocs/myStream/libs/aws/Aws/S3/Exception/AmbiguousGrantByEmailAddressException.php",
+		"/Applications/MAMP/htdocs/myStream/js/page_variables.js",
+		"/Applications/MAMP/htdocs/myStream/style/pagetop.css",
+		"/Applications/MAMP/htdocs/myStream/voting mechanism code.php",
+		"/Applications/MAMP/htdocs/myStream/streams.php",
+		"/Applications/MAMP/htdocs/myStream/sound_modal_testing.php",
+		"/Applications/MAMP/htdocs/myStream/events.php",
+		"/Applications/MAMP/htdocs/myStream/facebook.php",
+		"/Applications/MAMP/htdocs/myStream/php/templates/streams.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/detect_link.php",
+		"/Applications/MAMP/htdocs/myStream/php/includes/check_login_status.php",
+		"/Applications/MAMP/htdocs/myStream/oliviaPHP/tribePage_streams.php",
+		"/Applications/MAMP/htdocs/myStream/js/checkingloadmore.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/ringio",
+			"/Applications/MAMP/htdocs/ringio/sass",
+			"/Applications/MAMP/htdocs/ringio/",
+			"/Applications/MAMP/htdocs/ringio/sass",
+			"/Applications/MAMP/htdocs/ringio/",
+			"/Applications/MAMP/htdocs/ringio/sass",
+			"/Applications/MAMP/htdocs/ringio",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/ringio",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/ringio",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/examples/jumbotron-narrow",
+			"/Applications/MAMP/htdocs/myStream",
+			"/Applications/MAMP/htdocs/angular-phonecat",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"false",
+			"$checked=",
+			"row_number",
+			"phone_number",
+			"last_name",
+			"first_name",
+			"opened",
+			"users",
+			":last-child",
+			"#billing-monthly-fees",
+			"panel-heading",
+			".panel-gradient",
+			"panel-gradient",
+			".get-the-most",
+			"panel-dashboard",
+			"<span>",
+			"personal-ringio",
+			"dashboard",
+			"table",
+			"users",
+			"Uers",
+			"carets",
+			"float: right",
+			"caret",
+			"nav-ringio",
+			"carets",
+			"panel-body",
+			"phone-number",
+			".container",
+			"panel-body",
+			"border-top",
+			"getting the most out of ringio",
+			"box-shadow",
+			"icon-settings",
+			"  ",
+			"dropdown",
+			"settings",
+			"69",
+			"box-shadow",
+			"panel-body",
+			"padding-vertical",
+			"height",
+			"row-height",
+			"height",
+			"font-size",
+			"row-height",
+			"@include",
+			"@mixin",
+			"users",
+			"crm-edit.php",
+			"sam@ringio.com",
+			"sam",
+			"email",
+			"123laks13djflakjl1kj23897lksjfalk",
+			"key",
+			"panel",
+			"color: $border-clr",
+			"icons",
+			"user",
+			"col-md-12",
+			"th ",
+			"th",
+			"padding: 5",
+			".option",
+			"accordian",
+			".option",
+			"logo",
+			":before",
+			"border-radius",
+			"b",
+			".option",
+			"panel",
+			"input",
+			"icon-user",
+			"dropdown",
+			".col-md",
+			"input, ",
+			"icon",
+			"dropdown",
+			"btn-edit",
+			"font-size",
+			"glyphicon",
+			"crm",
+			"margin-bottom",
+			":last-child",
+			"th",
+			"disabled",
+			"pointer",
+			"93",
+			"83",
+			"9e",
+			"btn-up",
+			"input",
+			"col-md-3",
+			"col-med-3",
+			" data-label=\"data-rows\"",
+			"-7",
+			"true",
+			"routing",
+			"row data",
+			"container",
+			"accordion-toggle",
+			"data-label",
+			"edit-option",
+			"icon",
+			".centered",
+			".CENTERED",
+			"media-list",
+			"page-header",
+			".table-ringio",
+			"panel-ringio",
+			"panel-ringino",
+			"panel panel-ringio",
+			"panel-ringio",
+			"table-users.scss",
+			".page-header",
+			"media-header",
+			".page-header",
+			"ringio-container",
+			"media-bod",
+			"media-h",
+			"950",
+			"padding",
+			".ringio-container",
+			"disabled",
+			"disabled=",
+			"type=\"radio",
+			"$audio=\"Standard\";"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#billing-front-and-center",
+			"#dashboard-get-the-most",
+			"panel-ringio",
+			"accordion",
+			"panel",
+			"tables.scss",
+			"colspan=\"4\"",
+			"/Applications/MAMP/htdocs/Practice/bootstrap/docs/ringio\n/Applications/MAMP/htdocs/Practice/bootstrap/docs/ringio\ncolspan=\"4\"",
+			"php/includes/signup.php",
+			"php/includes/login.php",
+			"php/includes/logout.php",
+			"php/templates/facebook.php",
+			"$html_user_login_status",
+			"$html_selectedFavs;",
+			"$html_selectedFavs ",
+			"$page_type",
+			"header.php",
+			"php/templates/analytics_tracking.php",
+			"\"php/includes/tracking.php",
+			"'php/includes/tracking.php",
+			"\"php/templates/standardhead.php",
+			"mainhead",
+			"php/templates/streams.php",
+			"php/parsers",
+			"php/includes",
+			"php/templates/",
+			"templates/standardhead.php",
+			"templates/pageTop.php",
+			"once(\"../",
+			"templates/standardhead.php",
+			"templates/tile_head.php",
+			"ce(\"../",
+			"ce(\"../php",
+			"php_parsers/update_favorites.php",
+			"php_parsers/stream_generator_api.php",
+			"php_parsers/stream_generator.php",
+			"/php_parsers/stream_generator.php",
+			"ACCESS_CARDS"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Applications/MAMP/htdocs/ringio"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1031,
+								1031
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 128.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "users.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3656
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "departmentes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "phone-numbers.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								310,
+								310
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "php_templates/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2903,
+								2903
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "php_templates/page-header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "php_templates/table_rows/row-billing-history.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "sass/body.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1819,
+								1819
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1323.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "sass/panels.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4812,
+								4812
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1942.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "sass/variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1680,
+								1680
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 704.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "sass/navbar.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4577,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1132,
+								1132
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 65.0,
+						"translation.y": 165.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.git-flow-init":
+	{
+		"height": 0.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
+	},
+	"output.git-remote":
+	{
+		"height": 100.0
+	},
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"page-header",
+				"php_templates/page-header.php"
+			],
+			[
+				"header.php",
+				"php_templates/header.php"
+			],
+			[
+				"departments",
+				"departments.php"
+			],
+			[
+				"billing.php",
+				"billing.php"
+			],
+			[
+				"navbar.",
+				"sass/navbar.scss"
+			],
+			[
+				"variables.scss",
+				"sass/variables.scss"
+			],
+			[
+				"users.php",
+				"users.php"
+			],
+			[
+				"das",
+				"php_templates/table_rows/dashboard-departments.php"
+			],
+			[
+				"dashboard-users",
+				"php_templates/table_rows/dashboard-users.php"
+			],
+			[
+				"index.php",
+				"index.php"
+			],
+			[
+				"panels.",
+				"sass/panels.scss"
+			],
+			[
+				"body.scss",
+				"sass/body.scss"
+			],
+			[
+				"page-head",
+				"php_templates/page-header.php"
+			],
+			[
+				"extern",
+				"php_templates/external-header.php"
+			],
+			[
+				"tables.scss",
+				"sass/tables.scss"
+			],
+			[
+				"page-header.php",
+				"php_templates/page-header.php"
+			],
+			[
+				"exter",
+				"php_templates/external-header.php"
+			],
+			[
+				"depart",
+				"departments.php"
+			],
+			[
+				"xtern",
+				"php_templates/external-header.php"
+			],
+			[
+				"crm-in",
+				"crm-integrations-edit.php"
+			],
+			[
+				"crm-i",
+				"crm-integrations.php"
+			],
+			[
+				"exte",
+				"php_templates/external-header.php"
+			],
+			[
+				"users.p",
+				"php_templates/table_rows/users.php"
+			],
+			[
+				"dashboard-use",
+				"php_templates/table_rows/dashboard-users.php"
+			],
+			[
+				"nav",
+				"sass/navbar.scss"
+			],
+			[
+				"lost-childr",
+				".sass-cache/b8e94408f3c9126d3c15fd1eb38aee34b88d4a57/lost-children.scssc"
+			],
+			[
+				"lost-child",
+				"style/lost-children.css"
+			],
+			[
+				"body",
+				"sass/body.scss"
+			],
+			[
+				"crm-edit.php",
+				"php_templates/table_rows/crm-edit.php"
+			],
+			[
+				"departments.php",
+				"departments.php"
+			],
+			[
+				"",
+				"crm-integrations-edit.php"
+			],
+			[
+				"crm-inte",
+				"crm-integrations.php"
+			],
+			[
+				"dashboard.php",
+				"php_templates/table_rows/dashboard-users.php"
+			],
+			[
+				"variables.sc",
+				"sass/variables.scss"
+			],
+			[
+				"main.scss",
+				"sass/main.scss"
+			],
+			[
+				"crm-",
+				"crm-integrations-edit.php"
+			],
+			[
+				"table_rows",
+				"php_templates/table_rows/departments.php"
+			],
+			[
+				"row/",
+				"php_templates/table_rows/users.php"
+			],
+			[
+				"crem-",
+				"crm-integrations-edit.php"
+			],
+			[
+				"depar",
+				"php_templates/table_rows/departments.php"
+			],
+			[
+				"depa",
+				"php_templates/table_rows/departments.php"
+			],
+			[
+				"departments.p",
+				"departments.php"
+			],
+			[
+				"tables.sc",
+				"sass/tables.scss"
+			],
+			[
+				"header.",
+				"php_templates/page-header.php"
+			],
+			[
+				"crm.php",
+				"php_templates/thumbnails/crm.php"
+			],
+			[
+				"users.",
+				"users.php"
+			],
+			[
+				"templates",
+				"php_templates/page-header.php"
+			],
+			[
+				"ringio.js",
+				"js/ringio.js"
+			],
+			[
+				"variab",
+				"sass/variables.scss"
+			],
+			[
+				"body.sc",
+				"sass/body.scss"
+			],
+			[
+				"table_ro",
+				"php_templates/table_rows/departments.php"
+			],
+			[
+				"body.scs",
+				"sass/body.scss"
+			],
+			[
+				"php_temp",
+				"php_templates/table_rows/users.php"
+			],
+			[
+				"table_row",
+				"php_templates/table_rows/users.php"
+			],
+			[
+				"body.",
+				"sass/body.scss"
+			],
+			[
+				"variable",
+				"sass/variables.scss"
+			],
+			[
+				"variabl",
+				"sass/variables.scss"
+			],
+			[
+				"tables.",
+				"sass/tables.scss"
+			],
+			[
+				"variables",
+				"sass/variables.scss"
+			],
+			[
+				"lost-children",
+				"sass/lost-children.scss"
+			],
+			[
+				"variables.",
+				"sass/variables.scss"
+			],
+			[
+				"table-users",
+				"sass/table-users.scss"
+			],
+			[
+				"dep",
+				"departments.php"
+			],
+			[
+				"sass/",
+				"sass/navbar.scss"
+			],
+			[
+				"sass",
+				"sass/table-users.scss"
+			],
+			[
+				"ringio",
+				"js/ringio.js"
+			],
+			[
+				"table_rows/dep",
+				"php_templates/table_rows/departments.php"
+			],
+			[
+				"de",
+				"departments.php"
+			],
+			[
+				"-ringio",
+				"bootstrap/dist/js/bootstrap-ringio.js"
+			],
+			[
+				"bootstrap.js",
+				"bootstrap/dist/js/bootstrap.js"
+			],
+			[
+				"bootstrap.css",
+				"bootstrap/dist/css/bootstrap.css"
+			],
+			[
+				"collapse.html",
+				"bootstrap/docs/_includes/js/collapse.html"
+			],
+			[
+				"modal_object_creator.js",
+				"js/modal_object_creator.js"
+			],
+			[
+				"main.js",
+				"js/main.js"
+			],
+			[
+				"index_bottom",
+				"js/index_bottom.js"
+			],
+			[
+				"mainhead.php",
+				"php/templates/mainhead.php"
+			],
+			[
+				"modal_object",
+				"js/modal_object_creator.js"
+			],
+			[
+				"modals.php",
+				"php/templates/modals.php"
+			],
+			[
+				"fb_login.js",
+				"js/fb_login.js"
+			],
+			[
+				"standard",
+				"php/templates/standardhead.php"
+			],
+			[
+				"standar",
+				"php/includes/standardhead.php"
+			],
+			[
+				"signup.php",
+				"signup.php"
+			],
+			[
+				"detect",
+				"php/includes/detect_link.php"
+			],
+			[
+				"chekc_login",
+				"php/includes/check_login_status.php"
+			],
+			[
+				"includes/standard",
+				"php/includes/standardhead.php"
+			],
+			[
+				"stand",
+				"php/templates/standardhead.php"
+			],
+			[
+				"pagetop.css",
+				"style/pagetop.css"
+			],
+			[
+				"roots.php",
+				"php/includes/roots.php"
+			],
+			[
+				"templates/standard",
+				"php/templates/standardhead.php"
+			],
+			[
+				"includes/mainhead",
+				"php/includes/mainhead.php"
+			],
+			[
+				"strea",
+				"php/parsers/stream_generator.php"
+			],
+			[
+				"db_conx.php",
+				"php/includes/db_conx.php"
+			],
+			[
+				"convert_date.php",
+				"php/includes/convert_date.php"
+			],
+			[
+				"check_login",
+				"php/includes/check_login_status.php"
+			],
+			[
+				"abort_martin",
+				"unused/abort_martin.php"
+			],
+			[
+				"php/templates/tile_head.php",
+				"php/templates/tile_head.php"
+			],
+			[
+				"oliviaphp/tribepage_streams.php",
+				"oliviaPHP/tribePage_streams.php"
+			],
+			[
+				"php/parsers/stream",
+				"php/parsers/stream_generator.php"
+			],
+			[
+				"templates/tile_head.php",
+				"templates/tile_head.php"
+			],
+			[
+				"templates/page",
+				"templates/template_pageTop.php"
+			],
+			[
+				"templates/stand",
+				"templates/standardhead.php"
+			],
+			[
+				"js/jquery.simpleimagecrop.js",
+				"js/jquery.simpleimagecrop.js"
+			],
+			[
+				"js/checking",
+				"js/checkingloadmore.js"
+			],
+			[
+				"js/toggle_functions.js",
+				"js/toggle_functions.js"
+			],
+			[
+				"standardhead.php",
+				"standardhead.php"
+			],
+			[
+				"php_includes/check_login_status.php",
+				"php_includes/check_login_status.php"
+			],
+			[
+				"http",
+				"test/php_http.php"
+			],
+			[
+				"tile_head.php",
+				"tile_head.php"
+			],
+			[
+				"login.php",
+				"login.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

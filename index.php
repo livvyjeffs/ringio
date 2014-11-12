@@ -6,7 +6,7 @@
   <div class="col-md-7">
     <div class="row">
       <div class="col-md-6">
-        <div class="panel panel-dashboard">
+        <div id="dashboard-users" class="panel panel-ringio">
           <div class="panel-heading">Users<a href="users.php" class="btn ringio-icon icon-users"></a></div>
           <ul class="panel-body">
             <?php $name = "Jack Bingham"; $status = "green"; include("php_templates/table_rows/dashboard-users.php"); ?>
@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="col-md-6">
-       <div class="panel panel-dashboard">
+       <div id="dashboard-departments" class="panel panel-ringio">
         <div class="panel-heading">Departments<a href="departments.php" class="btn ringio-icon icon-departments"></a></div>
         <ul class="panel-body">
           <?php $name = "Sales"; $status = "green"; include("php_templates/table_rows/dashboard-departments.php"); ?>
@@ -32,8 +32,8 @@
   </div>
 </div>
 <div class="col-md-5">
- <div class="panel panel-dashboard">
-   <div class="panel-heading">Phone Numbers<a href="numbers.php" class="btn ringio-icon icon-phone"></a></div>
+ <div id="dashboard-phone-numbers" class="panel panel-ringio">
+   <div class="panel-heading">Phone Numbers<a href="phone-numbers.php" class="btn ringio-icon icon-phone"></a></div>
    <div class="panel-body white-bg">
      <div class="col-md-12">
       <ul>
@@ -55,7 +55,7 @@
 <div class="row no-margin">
   <div class="col-md-8">
     <div class="row no-margin">
-     <div class="panel panel-dashboard">
+     <div id="dashboard-crm-integrations" class="panel panel-ringio">
        <div class="panel-heading">
          <span class="ringio-icon icon-crm"></span>
          CRM Integrations<a href="crm-integrations.php" class="btn ringio-icon btn-text">View All</a></div>
@@ -88,7 +88,7 @@
       </div>
     </div>
     <div class="row no-margin">
-      <div class="panel panel-dashboard get-the-most">
+      <div id="dashboard-get-the-most" class="panel panel-ringio">
        <div class="panel-heading">
          <span class="ringio-icon icon-get-the-most"></span>
          Getting the most out of Ringio</div>
@@ -173,7 +173,7 @@
 
 </div>
 <div class="col-md-4">
- <div class="panel panel-dashboard">
+ <div id="dashboard-settings" class="panel panel-ringio">
    <div class="panel-heading">
      <span class="ringio-icon icon-settings"></span>
      Settings<span class="btn ringio-icon btn-text">View All</span></div>
@@ -182,62 +182,22 @@
       <li>
         <span class="ringio-icon icon-call-recording"></span>
         Call Recording
-        <div class="dropdown">
-          <button class="btn btn-dropdown dropdown-toggle" type="button" id="d1" data-toggle="dropdown">
-            On
-            <span class="icon-toggle ringio-icon"></span>
-          </button>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="d1">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-          </ul>
-        </div>
+        <?php $text="On"; include("php_templates/dropdown.php"); ?>
       </li>
       <li>
         <span class="ringio-icon icon-screen-pop"></span>
         Screen Pop
-        <div class="dropdown">
-          <button class="btn btn-dropdown dropdown-toggle" type="button" id="d1" data-toggle="dropdown">
-            Parallel
-            <span class="icon-toggle ringio-icon"></span>
-          </button>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="d1">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-          </ul>
-        </div>
+        <?php $text="Parallel"; include("php_templates/dropdown.php"); ?>
       </li>
       <li>
         <span class="ringio-icon icon-call-whisper"></span>
         Call Whisper
-        <div class="dropdown">
-          <button class="btn btn-dropdown dropdown-toggle" type="button" id="d1" data-toggle="dropdown">
-            Off
-            <span class="icon-toggle ringio-icon"></span>
-          </button>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="d1">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-          </ul>
-        </div>
+        <?php $text="Off"; include("php_templates/dropdown.php"); ?>
       </li>
       <li>
         <span class="ringio-icon icon-email-notifications"></span>
         Email Notifications
-        <div class="dropdown">
-          <button class="btn btn-dropdown dropdown-toggle" type="button" id="d1" data-toggle="dropdown">
-            On
-            <span class="icon-toggle ringio-icon"></span>
-          </button>
-          <ul class="dropdown-menu" role="menu" aria-labelledby="d1">
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
-            <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
-          </ul>
-        </div>
+        <?php $text="On"; include("php_templates/dropdown.php"); ?>
       </li>
       <li>
         <span class="ringio-icon icon-back-up-number"></span>
