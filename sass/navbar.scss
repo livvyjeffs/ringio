@@ -3,43 +3,19 @@
 /*-----------------------------    NAV BAR    -----------------------------*/
 
 .navbar-ringio {
-    color: $navbar-color-default;
+    color: $clr-navbar-default;
     text-shadow: $navbar-text-shadow-default;
-    min-height: 40px;
-    .ringio-icon {
-        position: absolute;
-        left: 15px;
-        top: 11px;
-        width: 18px;
-        height: 18px;
-        &.carets {
-            background-image: url("../images/carets.png");
-        }
-        &.icon-dashboard {
-            background-image: url("../images/dashboard/grid.png");
-        }
-        &.icon-sound {
-            background-image: url("../images/dashboard/support.png");
-        }
-        &.icon-credit {
-            background-image: url("../images/dashboard/creditcard.png");
-        }
-        &.icon-download {
-            background-image: url("../images/dashboard/getringio.png");
-        }
-    }
-    > .container {
-        padding: 0;
-        /*Correction from bootstrap.css*/
-    }
+    min-height: $height-navbar-bottom-row;
     &.navbar-top-row {
-        background-color: $navbar-background-color-top-row;
+        $font-size: $font-size-navbar-top-row;
+        font-size: $font-size;
+        height: $height-navbar-top-row;
+        background-color: $bg-clr-navbar-top;
         margin-bottom: 0;
-        border-top: 2px solid #21478F;
-        border-bottom: 1px solid $navbar-border-color;
+        box-shadow: inset 0px 2px 0px 0px $border-clr-navbar-top-row;
         .navbar-right {
             &:last-child {
-                margin-right: 0;
+                // margin-right: 0;
                 /*Correction from bootstrap.css*/
             }
             .navbar-btn {
@@ -47,53 +23,83 @@
                 background: linear-gradient(0deg, #1c91d6 0%, #1b8ed2 5%, #0a5e94 16%, #1883c2 100%);
                 margin: ($navbar-max-height-top-row - 2 * $navbar-padding-top-btn - $line-height-computed - 4) / 2 auto;
                 border: 2px solid rgba(0, 0, 0, 0.2);
-                color: $navbar-color-default;
+                color: $clr-navbar-default;
                 text-shadow: $navbar-text-shadow-default;
             }
         }
-        .navbar-brand {
-            padding-right: 0;
-            padding-top: 16px;
-            padding-bottom: 16px;
-            line-height: 38px;
-            > div {
+        // logo container ----------------------------------------------------------
+        .navbar-header {
+            $inner-height: 40px;
+            line-height: $inner-height;
+            @include pm_center("margin", $height-navbar-top-row, $inner-height);
+            border-right: 1px solid $border-clr-navbar-separator;
+            .navbar-brand {
+                &:hover {
+                    text-decoration: none;
+                    color: none;
+                }
+                padding: 0;
+                margin-right: $margin / 2;
+                height: $inner-height;
                 width: 120px;
-                height: 38px;
+                background-image: url("../images/ringio-logo.png");
+                background-repeat: no-repeat;
+                background-position: center;
             }
-            img {
-                width: 100%;
-                height: auto;
-            }
-        }
-        .navbar-header a:hover {
-            text-decoration: none;
-            color: none;
         }
         .navbar-text {
-            font-size: 14px;
-            margin-top: 25px;
-            margin-bottom: 25px;
-        }
-        .navbar-brand > div, .navbar-text[data-description="company-name"] {
-            border-right: 1px solid rgba(243, 248, 251, 0.2);
-            padding-right: 15px;
-            margin-right: 0;
-        }
-        .status {
-            $navbar-height: 13px;
-            display: inline-block;
-            background-image: url("../images/status.png");
-            width: $navbar-height;
-            height: $navbar-height;
-            margin: ($navbar-max-height-top-row - $navbar-height) / 2 auto;
+            font-size: $font-size;
+            line-height: $line-height-base;
+            @include pm_center("margin", $height-navbar-top-row, $font-size * $line-height-base);
+            vertical-align: middle;
+            &[data-description="company-name"] {
+                border-right: 1px solid $border-clr-navbar-separator;
+                padding-right: $margin / 2;
+                margin-right: 0;
+            }
+            .status {
+                $height: 24px;
+                display: inline-block;
+                background-image: url("../images/status.png");
+                background-position: 0 -1px;
+                width: $height;
+                height: $height;
+                @include pm_center("margin", $font-size * $line-height-base, $height);
+                margin-right: 3px;
+                vertical-align: middle;
+            }
         }
     }
     &.navbar-bottom-row {
+        $font-size: $font-size-navbar-bottom-row;
+        font-size: $font-size;
         margin-bottom: 0;
-        background-color: $navbar-navbar-bottom-row-default-bg;
+        border-top: 1px solid $navbar-border-color;
         border-bottom: 1px solid $navbar-border-color;
-        box-shadow: inset 0px 0px 2px 1px rgb(23, 131, 182);
-        max-height: $navbar-max-height-bottom-row;
+        background: linear-gradient(0deg, rgb(23, 131, 182) 0%, $navbar-navbar-bottom-row-default-bg 5%, $navbar-navbar-bottom-row-default-bg 95%, rgb(23, 131, 182) 100%);
+        max-height: $height-navbar-bottom-row;
+        .ringio-icon {
+            position: absolute;
+            left: 15px;
+            top: 11px;
+            width: 18px;
+            height: 18px;
+            &.carets {
+                background-image: url("../images/carets.png");
+            }
+            &.icon-dashboard {
+                background-image: url("../images/dashboard/grid.png");
+            }
+            &.icon-sound {
+                background-image: url("../images/dashboard/support.png");
+            }
+            &.icon-credit {
+                background-image: url("../images/dashboard/creditcard.png");
+            }
+            &.icon-download {
+                background-image: url("../images/dashboard/getringio.png");
+            }
+        }
         &.white-bg {
             .active > a,
             li a:hover,
@@ -101,39 +107,52 @@
                 background-color: white !important;
             }
         }
-        li a {
-            color: $navbar-color-default;
-            text-shadow: $navbar-text-shadow-default;
-            border-right: 1px solid $navbar-border-color;
-            box-shadow: inset 0px 0px 2px 1px #2F82B9;
-            font-size: $navbar-font-size;
-            padding: $navbar-padding-top-and-bottom 0;
-            margin-bottom: 0;
-            font-weight: bold;
-            text-align: center;
-            font-weight: 700;
-        }
-        .active > a,
-        li a:hover,
-        li a:focus {
-            background-color: $navbar-background-color-page-header;
-            background-image: none;
-            box-shadow: none;
-            border-right: 1px solid $navbar-background-color-page-header;
-            color: $navbar-color-selected;
-            text-shadow: none;
-            padding-bottom: 16px;
-        }
-        li:first-child > a {
-            border-left: 1px solid $navbar-border-color;
-            &:hover {
-                border-left: 1px solid $navbar-border-color-page-header;
+        .nav-ringio {
+            &.navbar-nav {
+                margin-left: -$margin / 2;
+                margin-right: -$margin / 2;
+                li {
+                    width: 175px;
+                    &:last-child > a {
+                        border-right: 1px solid $navbar-border-color;
+                        margin-right: 1px;
+                    }
+                }
             }
         }
-        li:last-child > a {
-            border-right: 1px solid $navbar-border-color;
-            &:hover {
-                border-right: 1px solid $navbar-border-color-page-header;
+        li {
+            a {
+                line-height: $line-height-base;
+                background: linear-gradient(0deg, rgb(23, 131, 182) 0%, $navbar-navbar-bottom-row-default-bg 5%, $navbar-navbar-bottom-row-default-bg 95%, rgb(23, 131, 182) 100%);
+                color: $clr-navbar-default;
+                text-shadow: $navbar-text-shadow-default;
+                border-right: 1px solid $navbar-border-color;
+                box-shadow: inset 0px 0px 2px 1px #2F82B9;
+                @include pm_center("padding", $height-navbar-bottom-row-menu, $font-size * $line-height-base);
+                margin-bottom: 0;
+                text-align: center;
+                font-weight: 700;
+            }
+            &.active > a, a:hover, :focus {
+                background-color: $navbar-background-color-page-header;
+                background-image: none;
+                box-shadow: none;
+                border-right: 1px solid $navbar-background-color-page-header;
+                color: $clr-navbar-active;
+                text-shadow: none;
+                padding-bottom: padding-vertical($height-navbar-bottom-row-menu,$font-size * $line-height-base) + 1;
+            }
+            &:first-child > a {
+                border-left: 1px solid $navbar-border-color;
+                &:hover{
+                    border-left: 1px solid $border-clr-body;
+                }
+            }
+            &:last-child > a {
+                border-right: 1px solid $navbar-border-color;
+                &:hover{
+                    border-right: 1px solid $border-clr-body;
+                }
             }
         }
     }

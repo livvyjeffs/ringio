@@ -8163,54 +8163,21 @@ button.close {
 .navbar-ringio {
   color: white;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
-  min-height: 40px;
+  min-height: 42px;
 }
 /* line 9, ../sass/navbar.scss */
-.navbar-ringio .ringio-icon {
-  position: absolute;
-  left: 15px;
-  top: 11px;
-  width: 18px;
-  height: 18px;
+.navbar-ringio.navbar-top-row {
+  font-size: 14px;
+  height: 70px;
+  background-color: #04689E;
+  margin-bottom: 0;
+  box-shadow: inset 0px 2px 0px 0px #21478F;
 }
-/* line 15, ../sass/navbar.scss */
-.navbar-ringio .ringio-icon.carets {
-  background-image: url("../images/carets.png");
-}
-/* line 18, ../sass/navbar.scss */
-.navbar-ringio .ringio-icon.icon-dashboard {
-  background-image: url("../images/dashboard/grid.png");
+/* line 17, ../sass/navbar.scss */
+.navbar-ringio.navbar-top-row .navbar-right:last-child {
+  /*Correction from bootstrap.css*/
 }
 /* line 21, ../sass/navbar.scss */
-.navbar-ringio .ringio-icon.icon-sound {
-  background-image: url("../images/dashboard/support.png");
-}
-/* line 24, ../sass/navbar.scss */
-.navbar-ringio .ringio-icon.icon-credit {
-  background-image: url("../images/dashboard/creditcard.png");
-}
-/* line 27, ../sass/navbar.scss */
-.navbar-ringio .ringio-icon.icon-download {
-  background-image: url("../images/dashboard/getringio.png");
-}
-/* line 31, ../sass/navbar.scss */
-.navbar-ringio > .container {
-  padding: 0;
-  /*Correction from bootstrap.css*/
-}
-/* line 35, ../sass/navbar.scss */
-.navbar-ringio.navbar-top-row {
-  background-color: #26689E;
-  margin-bottom: 0;
-  border-top: 2px solid #21478F;
-  border-bottom: 1px solid #1D5280;
-}
-/* line 41, ../sass/navbar.scss */
-.navbar-ringio.navbar-top-row .navbar-right:last-child {
-  margin-right: 0;
-  /*Correction from bootstrap.css*/
-}
-/* line 45, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-right .navbar-btn {
   border-radius: 3px;
   background: -webkit-linear-gradient(90deg, #1c91d6 0%, #1b8ed2 5%, #0a5e94 16%, #1883c2 100%);
@@ -8220,100 +8187,150 @@ button.close {
   color: white;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 }
-/* line 54, ../sass/navbar.scss */
-.navbar-ringio.navbar-top-row .navbar-brand {
-  padding-right: 0;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  line-height: 38px;
+/* line 31, ../sass/navbar.scss */
+.navbar-ringio.navbar-top-row .navbar-header {
+  line-height: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-right: 1px solid #3C85B0;
 }
-/* line 59, ../sass/navbar.scss */
-.navbar-ringio.navbar-top-row .navbar-brand > div {
+/* line 36, ../sass/navbar.scss */
+.navbar-ringio.navbar-top-row .navbar-header .navbar-brand {
+  padding: 0;
+  margin-right: 15px;
+  height: 40px;
   width: 120px;
-  height: 38px;
+  background-image: url("../images/ringio-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-/* line 63, ../sass/navbar.scss */
-.navbar-ringio.navbar-top-row .navbar-brand img {
-  width: 100%;
-  height: auto;
-}
-/* line 68, ../sass/navbar.scss */
-.navbar-ringio.navbar-top-row .navbar-header a:hover {
+/* line 37, ../sass/navbar.scss */
+.navbar-ringio.navbar-top-row .navbar-header .navbar-brand:hover {
   text-decoration: none;
   color: none;
 }
-/* line 72, ../sass/navbar.scss */
+/* line 50, ../sass/navbar.scss */
 .navbar-ringio.navbar-top-row .navbar-text {
   font-size: 14px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  line-height: 1.428571429;
+  margin-top: 24.999999997px;
+  margin-bottom: 24.999999997px;
+  vertical-align: middle;
 }
-/* line 77, ../sass/navbar.scss */
-.navbar-ringio.navbar-top-row .navbar-brand > div, .navbar-ringio.navbar-top-row .navbar-text[data-description="company-name"] {
-  border-right: 1px solid rgba(243, 248, 251, 0.2);
+/* line 55, ../sass/navbar.scss */
+.navbar-ringio.navbar-top-row .navbar-text[data-description="company-name"] {
+  border-right: 1px solid #3C85B0;
   padding-right: 15px;
   margin-right: 0;
 }
-/* line 82, ../sass/navbar.scss */
-.navbar-ringio.navbar-top-row .status {
+/* line 60, ../sass/navbar.scss */
+.navbar-ringio.navbar-top-row .navbar-text .status {
   display: inline-block;
   background-image: url("../images/status.png");
-  width: 13px;
-  height: 13px;
-  margin: 28.5px auto;
+  background-position: 0 -1px;
+  width: 24px;
+  height: 24px;
+  margin-top: -1.999999997px;
+  margin-bottom: -1.999999997px;
+  margin-right: 3px;
+  vertical-align: middle;
 }
-/* line 91, ../sass/navbar.scss */
+/* line 73, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row {
+  font-size: 12px;
   margin-bottom: 0;
-  background-color: #2c76b3;
+  border-top: 1px solid #1D5280;
   border-bottom: 1px solid #1D5280;
-  box-shadow: inset 0px 0px 2px 1px #1783b6;
-  max-height: 36px;
+  background: -webkit-linear-gradient(90deg, #1783b6 0%, #2c76b3 5%, #2c76b3 95%, #1783b6 100%);
+  background: linear-gradient(0deg, #1783b6 0%, #2c76b3 5%, #2c76b3 95%, #1783b6 100%);
+  max-height: 42px;
 }
-/* line 98, ../sass/navbar.scss */
+/* line 81, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row .ringio-icon {
+  position: absolute;
+  left: 15px;
+  top: 11px;
+  width: 18px;
+  height: 18px;
+}
+/* line 87, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row .ringio-icon.carets {
+  background-image: url("../images/carets.png");
+}
+/* line 90, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row .ringio-icon.icon-dashboard {
+  background-image: url("../images/dashboard/grid.png");
+}
+/* line 93, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row .ringio-icon.icon-sound {
+  background-image: url("../images/dashboard/support.png");
+}
+/* line 96, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row .ringio-icon.icon-credit {
+  background-image: url("../images/dashboard/creditcard.png");
+}
+/* line 99, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row .ringio-icon.icon-download {
+  background-image: url("../images/dashboard/getringio.png");
+}
+/* line 104, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row.white-bg .active > a,
 .navbar-ringio.navbar-bottom-row.white-bg li a:hover,
 .navbar-ringio.navbar-bottom-row.white-bg li a:focus {
   background-color: white !important;
 }
-/* line 104, ../sass/navbar.scss */
+/* line 111, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row .nav-ringio.navbar-nav {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+/* line 114, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row .nav-ringio.navbar-nav li {
+  width: 175px;
+}
+/* line 116, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row .nav-ringio.navbar-nav li:last-child > a {
+  border-right: 1px solid #1D5280;
+  margin-right: 1px;
+}
+/* line 124, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li a {
+  line-height: 1.428571429;
+  background: -webkit-linear-gradient(90deg, #1783b6 0%, #2c76b3 5%, #2c76b3 95%, #1783b6 100%);
+  background: linear-gradient(0deg, #1783b6 0%, #2c76b3 5%, #2c76b3 95%, #1783b6 100%);
   color: white;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   border-right: 1px solid #1D5280;
   box-shadow: inset 0px 0px 2px 1px #2F82B9;
-  font-size: 12px;
-  padding: 10px 0;
+  padding-top: 11.428571426px;
+  padding-bottom: 11.428571426px;
   margin-bottom: 0;
-  font-weight: bold;
   text-align: center;
   font-weight: 700;
 }
-/* line 116, ../sass/navbar.scss */
-.navbar-ringio.navbar-bottom-row .active > a,
-.navbar-ringio.navbar-bottom-row li a:hover,
-.navbar-ringio.navbar-bottom-row li a:focus {
+/* line 136, ../sass/navbar.scss */
+.navbar-ringio.navbar-bottom-row li.active > a, .navbar-ringio.navbar-bottom-row li a:hover, .navbar-ringio.navbar-bottom-row li :focus {
   background-color: #F9FBFD;
   background-image: none;
   box-shadow: none;
   border-right: 1px solid #F9FBFD;
   color: #04639E;
   text-shadow: none;
-  padding-bottom: 16px;
+  padding-bottom: 12.428571426px;
 }
-/* line 127, ../sass/navbar.scss */
+/* line 145, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:first-child > a {
   border-left: 1px solid #1D5280;
 }
-/* line 129, ../sass/navbar.scss */
+/* line 147, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:first-child > a:hover {
-  border-left: 1px solid #d7e6ee;
+  border-left: 1px solid #D9E7F0;
 }
-/* line 133, ../sass/navbar.scss */
+/* line 151, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:last-child > a {
   border-right: 1px solid #1D5280;
 }
-/* line 135, ../sass/navbar.scss */
+/* line 153, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:last-child > a:hover {
-  border-right: 1px solid #d7e6ee;
+  border-right: 1px solid #D9E7F0;
 }

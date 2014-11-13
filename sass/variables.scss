@@ -1,34 +1,5 @@
 @import "bootstrap";
 
-$grid-columns: 12;
-$grid-gutter-width: 30px;
-$grid-float-breakpoint: 950px;
-
-////////////
-
-$row-height: 42px;
-
-// $line-height-base;
-// $line-height-computed;
-
-$font-size-base: 9px;
-$font-size-panel-heading: 14px;
-// $font-size-large;
-// $font-size-small;
-// $font-size-h1;
-// $font-size-h2;
-// $font-size-h3;
-// $font-size-h4;
-// $font-size-h5;
-// $font-size-h6;
-
-$font-size-small: 9px;
-$font-size-medium: 10px;
-$font-size-12: 12px;
-$font-size-large: 16px;
-$font-size-xlarge: 22px;
-
-
 @function padding-vertical($row-height,$height){
 	@return ($row-height - $height)/2;
 }
@@ -37,6 +8,19 @@ $font-size-xlarge: 22px;
 	@return ($row-height - 2*$padding-vertical - $height)/2;
 }
 
+@mixin pm_center($margin-or-padding,$row-height,$height){
+
+	$top-bottom: padding-vertical($row-height,$height);
+
+	@if $margin-or-padding == "margin"{
+		margin-top: $top-bottom;
+		margin-bottom: $top-bottom;
+	} @else {
+		padding-top: $top-bottom;
+		padding-bottom: $top-bottom;
+	}
+
+}
 
 @mixin pm_font($a,$b){
 	$c: $b*$line-height-base;
@@ -62,7 +46,7 @@ $font-size-xlarge: 22px;
 		background: linear-gradient(0deg, #1c91d6 0%, #1b8ed2 5%, #0a5e94 16%, #1883c2 100%);
 		margin: ($navbar-max-height-top-row - 2 * $navbar-padding-top-btn - $line-height-computed - 4) / 2 auto;
 		border: 2px solid rgba(0, 0, 0, 0.2);
-		color: $navbar-color-default;
+		color: $clr-navbar-default;
 		text-shadow: $navbar-text-shadow-default;
 	}
 	@if $hue == "light"{
@@ -81,6 +65,9 @@ $font-size-xlarge: 22px;
 $bg-clr-navbar-top: #04689E;
 $bg-clr-navbar-btm: #0575B3;
 
+$clr-navbar-default: white;
+$clr-navbar-active: #04639E;
+
 $border-clr-navbar-top: #02507F;
 $border-clr-navbar-btm: #04517F;
 $border-clr-body: #D9E7F0;
@@ -89,6 +76,8 @@ $border-clr-table-option: #D5E4EE;
 $border-clr-table-btn-upload: #225E93;
 $border-clor-panel-btn: #D8E8F1;
 $border-clr-btn-light: #9CBBCF;
+$border-clr-navbar-top-row: #21478F;
+$border-clr-navbar-separator: #3C85B0;
 
 $box-shadow-inset-clr-navbar-btm: #0E7EB9;
 $box-shadow-clr-table-option: #E5EEF5;
@@ -108,6 +97,45 @@ $font-clr-emphasized: $font-clr-page-header;
 
 $margin: 30px;
 
+$height-navbar-top-row: 70px;
+$height-navbar-bottom-row: 42px;
+$height-navbar-bottom-row-menu: ($height-navbar-bottom-row - 2px); 
+
+$font-size-navbar-top-row: 14px;
+$font-size-navbar-bottom-row: 12px;
+
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+$grid-float-breakpoint: 950px;
+
+////////////
+
+$row-height: 42px;
+
+// $line-height-base;
+// $line-height-computed;
+
+$line-height-navbar-text: 20px;
+
+$font-size-base: 9px;
+$font-size-panel-heading: 14px;
+// $font-size-large;
+// $font-size-small;
+// $font-size-h1;
+// $font-size-h2;
+// $font-size-h3;
+// $font-size-h4;
+// $font-size-h5;
+// $font-size-h6;
+
+$font-size-small: 9px;
+$font-size-medium: 10px;
+$font-size-12: 12px;
+$font-size-large: 16px;
+$font-size-xlarge: 22px;
+
+$navbar-height: $height-navbar-top-row;
+////////////////////////////////////////////////
 ////////////////////////////////////////////////
 
 // Body
@@ -135,13 +163,12 @@ $navbar-border-color-page-header: $body-default-border-color;
 $navbar-padding-top-btn: 6px;
 $navbar-padding-left-btn: 12px;
 
-$navbar-color-default: white;
-$navbar-color-selected: $body-default-header-color;
+
 $navbar-text-shadow-default: 0px 1px 1px rgba(0, 0, 0, 0.5);
-$navbar-background-color-top-row: #26689E;
+// $bg-clr-navbar-top: #26689E;
 $navbar-navbar-bottom-row-default-bg: #2c76b3;
 $navbar-border-color: #1D5280;
-$navbar-font-size: 12px;
+
 $navbar-padding-top-and-bottom: 10px;
 $navbar-max-height-bottom-row: 36px;
 $navbar-max-height-top-row: 70px;

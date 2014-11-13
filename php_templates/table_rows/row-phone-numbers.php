@@ -30,8 +30,6 @@ if($opened){
 <tr>
   <td colspan="5" class="hiddenRow">
     <div id="demo<?php echo $row_number; ?>" class="accordion-body collapse <?php echo $in_or_out; ?>">
-
-
       <div class="row data-container no-margin">
         <div class="col-md-12 data-container" option-container>
           <h1>Greeting</h1>
@@ -91,78 +89,77 @@ if($opened){
           <div class="col-md-4">
             <div class="option no-padding">
              <?php $text="Technical Support"; include("php_templates/dropdown.php"); ?>
+           </div>
+         </div>
+       </div>
+       <div class="row">
+         <div class="col-md-12">
+           <div class="option">
+            <input type="checkbox"><label>Route calls differently after hours</label>
           </div>
         </div>
       </div>
-      <div class="row">
-       <div class="col-md-12">
-         <div class="option">
-          <input type="checkbox"><label>Route calls differently after hours</label>
+    </div>
+    <div class="col-md-12 data-container" option-container>
+      <h1>On-hold Music</h1>
+      <div class="row" option>
+        <div class="col-md-5">
+          <div class="option">
+            <input type="radio" name="on-hold-music" value="standard" option-controller><label>Standard Hold Music</label>
+          </div>
+        </div>
+      </div>
+      <div class="row" option>
+        <div class="col-md-4">
+          <div class="option">
+            <input type="radio" name="on-hold-music" value="custom" checked option-controller><label>Custom Hold Music</label>
+          </div>
+        </div>
+        <div class="col-md-1 separator ringio-icon">
+        </div>
+        <div class="col-md-4">
+          <div class="option no-padding">
+            <?php $text="customhold.wav"; include("php_templates/dropdown.php"); ?>
+          </div>
+          <button class="btn btn-ringio btn-upload">Upload Sound File</button>
         </div>
       </div>
     </div>
-  </div>
-  <div class="col-md-12 data-container" option-container>
-    <h1>On-hold Music</h1>
-    <div class="row" option>
-      <div class="col-md-5">
-        <div class="option">
-          <input type="radio" name="on-hold-music" value="standard" option-controller><label>Standard Hold Music</label>
-        </div>
-      </div>
-    </div>
-    <div class="row" option>
-      <div class="col-md-4">
-        <div class="option">
-          <input type="radio" name="on-hold-music" value="custom" checked option-controller><label>Custom Hold Music</label>
-        </div>
-      </div>
-      <div class="col-md-1 separator ringio-icon">
-      </div>
-      <div class="col-md-4">
-        <div class="option no-padding">
-        <?php $text="customhold.wav"; include("php_templates/dropdown.php"); ?>
-      </div>
-      <button class="btn btn-ringio btn-upload">Upload Sound File</button>
-    </div>
-  </div>
-</div>
-<div class="col-md-12 data-container">
-  <h1>Screen Pop Label & Web Triggers</h1>
-  <div class="row">
-    <div class="col-md-3">
-      <label class="input-style">
-        Screen Pop Label</label>
-      </div>
-      <div class="col-md-8">
-        <input type="text" placeholder="703-879-8041 // Jon Yu">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3">
-        <label class="input-style">
-          Web Trigger Button</label>
-        </div>
-        <div class="col-md-8">
-          <input type="text">
-        </div>
-      </div>
+    <div class="col-md-12 data-container">
+      <h1>Screen Pop Label & Web Triggers</h1>
       <div class="row">
         <div class="col-md-3">
           <label class="input-style">
-            URL to Invoke
-          </label>
+            Screen Pop Label</label>
+          </div>
+          <div class="col-md-8">
+            <input type="text" placeholder="703-879-8041 // Jon Yu">
+          </div>
         </div>
-        <div class="col-md-8">
-          <input type="text">
-          <br>
-          <div class="option">
-            <input type="checkbox"><label>Also send phone call data as parameters</label>
+        <div class="row">
+          <div class="col-md-3">
+            <label class="input-style">
+              Web Trigger Button</label>
+            </div>
+            <div class="col-md-8">
+              <input type="text">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <label class="input-style">
+                URL to Invoke
+              </label>
+            </div>
+            <div class="col-md-8">
+              <input type="text">
+              <br>
+              <div class="option">
+                <input type="checkbox"><label>Also send phone call data as parameters</label>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-
-</td>
-</tr>
+    </td>
+  </tr>

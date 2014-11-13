@@ -15,9 +15,17 @@
        <div class="col-md-12 data-container" option-container>
          <h1>Recording</h1>
          <div class="row" option>
+           <div class="col-md-8">
+            <div class="option">
+              <input type="radio" name="recording" value="custom" option-controller>
+              <label>User selects which calls to record</label>
+            </div><!-- /input-group -->
+          </div>
+        </div>
+        <div class="row" option>
           <div class="col-md-3">
             <div class="option">
-              <input type="radio" name="greeting" value="automatic" checked option-controller>
+              <input type="radio" name="recording" value="automatic" checked option-controller>
               <label>Automatic</label>
             </div><!-- /input-group -->
           </div>
@@ -33,42 +41,71 @@
             <div class="option">
               <input type="checkbox" checked><label>All outgoing calls</label>
             </div>
-           
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 data-container" option-container>
+        <h1>Disclosure</h1>
+        <div class="row">
+          <div class="col-md-12">
+            You are responsible for ensuring that yoru users comply with all applicable call recording laws. At your descrtion, the system may automatically disclose that a call is being recorded, or you may disable automatic disclosure and train your users to disclose that the call is being recorded as part of the conversation whenever appropriate.
           </div>
         </div>
         <div class="row" option>
-          <div class="col-md-3">
-           <div class="option">
-            <input type="radio" name="greeting" value="custom" option-controller>
-            <label>Custom</label>
+         <div class="col-md-8">
+          <div class="option">
+            <input type="checkbox">
+            <label>Do not play any call recording warnings.</label>
           </div><!-- /input-group -->
         </div>
-        <div class="col-md-1 separator ringio-icon">
-        </div>
-        <div class="col-md-6">
-          <div class="option no-padding">
-            <?php $text="file212.wav"; include("php_templates/dropdown.php"); ?>
-          </div>
-          <button class="btn btn-ringio btn-upload">Upload Sound File</button>
-        </div>
       </div>
+
     </div>
   </div>
 </div>
 <div class="panel panel-ringio">
-  <div class="panel-heading">Call Settings</div>
+  <div class="panel-heading">Other Settings</div>
   <div class="panel-body">
-    <div class="data-container">
-      <h1>Recording</h1>
-      <div class="row">
-        <div class="col-md-6">
-         <div class="option">
-          <input type="radio"><label>User selects which calls to record</label>
-        </div>
+   <div class="col-md-12 data-container" option-container>
+     <h1>Call Whisper</h1>
+     <div class="row" option>
+       <div class="col-md-8">
+        <div class="option">
+          <input type="radio" name="whisper" value="accept" option-controller>
+          <label>Allow users to accept/reject incoming calls.</label>
+        </div><!-- /input-group -->
       </div>
     </div>
-
+    <div class="row" option>
+     <div class="col-md-8">
+      <div class="option">
+        <input type="radio" name="whisper" value="hold" option-controller>
+        <label>Connect users to caller on hold.</label>
+      </div><!-- /input-group -->
+    </div>
   </div>
+
+</div>
+<div class="col-md-12 data-container" option-container>
+ <h1>Email Notification</h1>
+ <div class="row" option>
+   <div class="col-md-10">
+    <div class="option">
+      <input type="checkbox">
+      <label>Email users when they receive a voicemail or callback request.</label>
+    </div><!-- /input-group -->
+  </div>
+</div>
+<div class="row" option>
+ <div class="col-md-10">
+  <div class="option">
+    <input type="checkbox">
+    <label>Connect users to caller on hold.</label>
+  </div><!-- /input-group -->
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
