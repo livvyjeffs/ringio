@@ -4,7 +4,7 @@
 
 .navbar-ringio {
     color: $clr-navbar-default;
-    text-shadow: $navbar-text-shadow-default;
+    text-shadow: $text-shadow-navbar;
     min-height: $height-navbar-bottom-row;
     &.navbar-top-row {
         $font-size: $font-size-navbar-top-row;
@@ -17,14 +17,6 @@
             &:last-child {
                 // margin-right: 0;
                 /*Correction from bootstrap.css*/
-            }
-            .navbar-btn {
-                border-radius: 3px;
-                background: linear-gradient(0deg, #1c91d6 0%, #1b8ed2 5%, #0a5e94 16%, #1883c2 100%);
-                margin: ($navbar-max-height-top-row - 2 * $navbar-padding-top-btn - $line-height-computed - 4) / 2 auto;
-                border: 2px solid rgba(0, 0, 0, 0.2);
-                color: $clr-navbar-default;
-                text-shadow: $navbar-text-shadow-default;
             }
         }
         // logo container ----------------------------------------------------------
@@ -74,9 +66,9 @@
         $font-size: $font-size-navbar-bottom-row;
         font-size: $font-size;
         margin-bottom: 0;
-        border-top: 1px solid $navbar-border-color;
-        border-bottom: 1px solid $navbar-border-color;
-        background: linear-gradient(0deg, rgb(23, 131, 182) 0%, $navbar-navbar-bottom-row-default-bg 5%, $navbar-navbar-bottom-row-default-bg 95%, rgb(23, 131, 182) 100%);
+        border-top: 1px solid $border-clr-navbar-btm;
+        border-bottom: 1px solid $border-clr-navbar-btm;
+        background: linear-gradient(0deg, $gradient-clr-light-navbar-bottom 0%, $gradient-clr-dark-navbar-bottom 5%, $gradient-clr-dark-navbar-bottom 95%, $gradient-clr-light-navbar-bottom 100%);
         max-height: $height-navbar-bottom-row;
         .ringio-icon {
             position: absolute;
@@ -84,7 +76,7 @@
             top: 11px;
             width: 18px;
             height: 18px;
-            &.carets {
+            &.icon-carets {
                 background-image: url("../images/carets.png");
             }
             &.icon-dashboard {
@@ -114,7 +106,7 @@
                 li {
                     width: 175px;
                     &:last-child > a {
-                        border-right: 1px solid $navbar-border-color;
+                        border-right: 1px solid $border-clr-navbar-btm;
                         margin-right: 1px;
                     }
                 }
@@ -123,10 +115,10 @@
         li {
             a {
                 line-height: $line-height-base;
-                background: linear-gradient(0deg, rgb(23, 131, 182) 0%, $navbar-navbar-bottom-row-default-bg 5%, $navbar-navbar-bottom-row-default-bg 95%, rgb(23, 131, 182) 100%);
+                background: linear-gradient(0deg, $gradient-clr-light-navbar-bottom 0%, $gradient-clr-dark-navbar-bottom 5%, $gradient-clr-dark-navbar-bottom 95%, $gradient-clr-light-navbar-bottom 100%);
                 color: $clr-navbar-default;
-                text-shadow: $navbar-text-shadow-default;
-                border-right: 1px solid $navbar-border-color;
+                text-shadow: $text-shadow-navbar;
+                border-right: 1px solid $border-clr-navbar-btm;
                 box-shadow: inset 0px 0px 2px 1px #2F82B9;
                 @include pm_center("padding", $height-navbar-bottom-row-menu, $font-size * $line-height-base);
                 margin-bottom: 0;
@@ -134,22 +126,22 @@
                 font-weight: 700;
             }
             &.active > a, a:hover, :focus {
-                background-color: $navbar-background-color-page-header;
+                background-color: $bg-clr-page-header;
                 background-image: none;
                 box-shadow: none;
-                border-right: 1px solid $navbar-background-color-page-header;
+                border-right: 1px solid $bg-clr-page-header;
                 color: $clr-navbar-active;
                 text-shadow: none;
                 padding-bottom: padding-vertical($height-navbar-bottom-row-menu,$font-size * $line-height-base) + 1;
             }
             &:first-child > a {
-                border-left: 1px solid $navbar-border-color;
+                border-left: 1px solid $border-clr-navbar-btm;
                 &:hover{
                     border-left: 1px solid $border-clr-body;
                 }
             }
             &:last-child > a {
-                border-right: 1px solid $navbar-border-color;
+                border-right: 1px solid $border-clr-navbar-btm;
                 &:hover{
                     border-right: 1px solid $border-clr-body;
                 }

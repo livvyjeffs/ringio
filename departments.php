@@ -26,11 +26,13 @@
     </table>
 
   </div>
+  
   <div class="col-md-4">
+  <div class="row no-margin">
     <div class="panel panel-side">
       <div class="panel-heading">
         Departments Help
-        <div class="close">x</div>
+        <span class="icon-close ringio-icon btn"></span>
       </div>
       <div class="panel-body">
 
@@ -45,9 +47,6 @@
             </td>
           </tr>
         </table>
-
-      </div>
-      <div class="panel-body">
        <table>
         <tr>
           <td class="table-image">
@@ -58,8 +57,6 @@
           </td>
         </tr>
       </table>
-    </div>
-    <div class="panel-body">
       <table>
         <tr>
           <td class="table-image">
@@ -72,11 +69,13 @@
        </tr>
      </table>
    </div>
+   </div>
  </div>
+ <div class="row no-margin">
   <div class="panel panel-side">
       <div class="panel-heading">
         Routing Help
-        <div class="close">x</div>
+         <span class="icon-close ringio-icon btn"></span>
       </div>
       <div class="panel-body">
 
@@ -92,8 +91,6 @@
           </tr>
         </table>
 
-      </div>
-      <div class="panel-body">
        <table>
         <tr>
           <td class="table-image">
@@ -104,8 +101,6 @@
           </td>
         </tr>
       </table>
-    </div>
-    <div class="panel-body">
       <table>
         <tr>
           <td class="table-image">
@@ -117,12 +112,12 @@
          </td>
        </tr>
      </table>
+   </div>
    </div>
  </div>
 </div>
 </div>
 
 </div> <!-- /container -->
-
 
 <?php $page_title = "Users"; include_once("php_templates/footer.php"); ?>

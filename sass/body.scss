@@ -1,11 +1,13 @@
 @import "variables";
 
+$font-size: $font-size-12;
+
 body {
     padding-bottom: 20px;
-    color: $body-default-color;
-    font-size: $body-default-font-size;
+    color: $clr-body;
+    font-size: $font-size;
     font-family: $font-family-sans-serif;
-    background-color: $body-default-bg;
+    background-color: $bg-clr-outer-body;
 }
 
 /* Customize container */
@@ -24,14 +26,21 @@ body {
 /********************************   Rows   ********************************/
 
 body > .container {
-    background-color: $body-container-bg;
-    border-left: 1px solid $body-default-border-color;
-    border-right: 1px solid $body-default-border-color;
-    border-bottom: 1px solid $body-default-border-color;
+    background-color: $bg-clr-inner-body;
+    border-left: 1px solid $border-clr-body;
+    border-right: 1px solid $border-clr-body;
+    border-bottom: 1px solid $border-clr-body;
     padding-bottom: $margin;
-    &.white-bg{
+    &.white-bg {
         background-color: white;
         padding-top: $margin;
+    }
+}
+
+.row{
+    margin-bottom: $margin;
+    &:last-child{
+        margin-bottom: 0;
     }
 }
 
@@ -40,18 +49,26 @@ body > .container {
     margin-right: 0px !important;
 }
 
-.no-padding{
+.no-padding {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
-.no-border{
+.no-border {
     border: none !important;
 }
 
 .centered {
     text-align: center;
     vertical-align: middle;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.white-bg {
+    background-color: white !important;
 }
 
 .vcentered {
@@ -78,14 +95,10 @@ body > .container {
     opacity: 1 !important;
 }
 
-.right-half-padding {
-    padding-right: 0;
-}
-
 .separator {
     background-image: url("../images/separator.png");
-    width: 20px;
-    height: 30px;
+    // width: 20px;
+    height: $height-inner-row;
 }
 
 .no-padding {
@@ -95,9 +108,9 @@ body > .container {
 /********************************   Icons   *******************************/
 
 .ringio-header .glyphicon {
-    width: $page-header-height;
-    height: $page-header-height;
-    line-height: $page-header-height;
+    width: $height-page-header;
+    height: $height-page-header;
+    line-height: $height-page-header;
 }
 
 .glyphicon-user.large:before {
@@ -107,6 +120,7 @@ body > .container {
 .glyphicon-department.large:before {
     content: url(../images/departments.png);
 }
+
 .glyphicon-phone-numbers.large:before {
     content: url(../images/phone-numbers.png);
 }
@@ -132,44 +146,50 @@ body > .container {
 }
 
 .ringio-icon {
-    &.tip {
-        background-image: url("../images/tip.png");
-        position: absolute;
-        top: 10px;
-        left: -10px;
-        height: 19px;
-        width: 10px;
-    }
-    &.bulb {
-        display: inline-block;
-        width: 10px;
-        height: 16px;
-        background-image: url("../images/bulb.png");
-    }
-    &.icon-delete {
-        display: inline-block;
-        margin-left: -$margin / 2;
-        width: $margin;
-        height: $margin;
-        background-size: 40%;
-        background-image: url("../images/delete.png");
-    }
-    &.icon-refresh {
-        display: inline-block;
-        width: $margin;
-        height: $margin;
-        background-size: 50%;
-        background-image: url("../images/refresh.png");
-    }
-    &.icon-user {
-        background-image: url("../images/user-small.png");
-        width: 12px;
-        height: 16px;
-        display: inline-block;
-        margin-top: -3px;
-        margin-bottom: -3px;
-        margin-right: 5px;
-    }
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ &.tip {
+    background-image: url("../images/tip.png");
+    position: absolute;
+    top: 10px;
+    left: -9px;
+    height: 19px;
+    width: 10px;
+}
+&.icon-sound{
+   background-image: url("../images/audio-dark.png");
+}
+&.bulb {
+    display: inline-block;
+    width: 10px;
+    height: 16px;
+    background-image: url("../images/bulb.png");
+}
+&.icon-delete {
+    display: inline-block;
+    margin-left: -$margin / 2;
+    width: $margin;
+    height: $margin;
+    background-size: 40%;
+    background-image: url("../images/delete.png");
+}
+&.icon-refresh {
+    display: inline-block;
+    width: $margin;
+    height: $margin;
+    background-size: 50%;
+    background-image: url("../images/refresh.png");
+}
+&.icon-user {
+    background-image: url("../images/user-small.png");
+    width: 12px;
+    height: 16px;
+    display: inline-block;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    margin-right: 5px;
+}
 
 }
 
@@ -179,15 +199,27 @@ body > .container {
     display: inline-block;
     width: 100%;
     vertical-align: middle;
-    .btn {
+    .btn-dropdown {
         width: 100%;
-    }
-    .icon-toggle {
-        background-image: url("../images/arrows.png");
-        width: 5px;
-        height: 11px;
-        display: inline-block;
-        float: right;
+        text-align: left;
+        border-radius: 3px;
+        margin-bottom: 0;
+        font-size: 10px;
+        background-color: white;
+        @include box-shadow-bottom;
+        .left-icon{
+            margin-right: $margin/6;
+        }
+
+        .icon-toggle, .icon-down {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-image: url("../images/arrows.png");
+            width: 5px;
+            height: 11px;
+            display: inline-block;
+            float: right;
+        }
     }
     .icon-user {
         background-image: url("../images/user-small.png");
@@ -203,31 +235,44 @@ body > .container {
             background-image: url("../images/arrows-disabled.png");
         }
     }
+    .dropdown-menu {
+        width: 100%;
+    }
 }
 
 /*****************************   Buttons   *******************************/
 
-.btn-ringio {
-    padding: 5px 18px;
-    font-size: 9px;
+.btn{
+    font-size: $font-size;
+    @include pm_center('padding',$height-button,$font-size*$line-height-base);
+    padding-left: $margin/2;
+    padding-right: $margin/2;
+    &:hover{
+        color: darken($clr-button, 25%);
+    }
 }
 
-.btn-edit, .btn-close {
-    position: absolute;
-    top: $margin / 2;
-    right: $margin / 2;
-    display: block;
-    width: $margin;
-    height: $margin;
-    border-radius: $margin;
-    background-color: $bg-clr-btn-edit;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.50;
-    &:hover {
-        cursor: pointer;
-        opacity: 1;
-    }
+// .btn-edit, .btn-close {
+//     position: absolute;
+//     top: $margin / 2;
+//     right: $margin / 2;
+//     display: block;
+//     width: $margin;
+//     height: $margin;
+//     border-radius: $margin;
+//     background-color: $bg-clr-btn-edit;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     opacity: 0.50;
+//     &:hover {
+//         cursor: pointer;
+//         opacity: 1;
+//     }
+// }
+
+.btn-upload-sound-file{
+    width: 100%;
+    text-align: center;
 }
 
 .btn-edit {
@@ -239,9 +284,11 @@ body > .container {
 }
 
 .btn-cancel {
+    $clr-button: white;
+    color: $clr-button;
     background-color: #035C8D;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: $margin/3;
+    padding-right: $margin/3;
 }
 
 .btn-upload {
@@ -252,25 +299,34 @@ body > .container {
 }
 
 .btn-save {
-    color: rgb(33, 107, 158);
-    background: linear-gradient(0deg, #daeafa 0%, #ffffff 100%);
-    background-repeat: repeat-x;
-    border-color: rgb(35, 84, 127);
+   $clr-button: rgb(33, 107, 158);
+   color: $clr-button;
+   background: linear-gradient(0deg, #daeafa 0%, #ffffff 100%);
+   background-repeat: repeat-x;
+   border-color: rgb(35, 84, 127);
+   padding-left: $margin/2;
+   padding-right: $margin/2;
 }
 
-.btn-dropdown {
-    font-size: 10px !important;
-    background-color: white;
+.btn-medium-blue {
+    vertical-align: middle;
+    font-size: $font-size;
+    color: white;
+    background-color: $font-clr-emphasized;
+    border: 1px solid $border-clr-btn-dark;
 }
 
-.close {
-    font-size: 12px;
-}
-
-.ringio-icon {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+.btn-logout {
+    $clr-button: $clr-navbar-default;
+    border-radius: 3px;
+    background: linear-gradient(to bottom, #0081c4 0%, #005e97 95%, #0073b2 100%);
+    @include pm_center('margin',$height-navbar-top-row, $height-button);
+    border: 1px solid #004a7a;
+    color: $clr-navbar-default;
+    text-shadow: $text-shadow-navbar;
+    padding-left: $margin/2;
+    padding-right: $margin/2;
+    box-shadow: 0 0 0 2px $box-shadow-clr-button-logout;
 }
 
 .disabled {
@@ -288,11 +344,10 @@ input[disabled="disabled"] {
 .page-header {
     padding-top: $margin;
     padding-bottom: 0;
-    margin-top: 0;
-    margin-bottom: $margin;
-    background-color: $page-header-bg;
+    margin: 0;
+    background-color: $bg-clr-page-header;
     border-bottom: 1px solid rgb(215, 230, 238);
-    color: $page-header-color;
+    color: $clr-page-header;
     .media-list {
         margin: $margin;
         margin-top: 0;
@@ -328,14 +383,6 @@ input[disabled="disabled"] {
         height: 170px;
         vertical-align: middle;
         text-align: center;
-        &:before {
-            content: ' ';
-            width: 0;
-            height: 100%;
-            display: inline-block;
-            vertical-align: middle;
-            margin-right: -0.5em;
-        }
         img.contained {
             display: inline-block;
             vertical-align: middle;
@@ -366,7 +413,6 @@ input[disabled="disabled"] {
 
 /*****************************   Data Label Types   *******************************/
 
-
 [data-label="personal-ringio-number"] {
     margin: 0 100px;
     border-bottom: 1px solid rgb(215, 230, 238);
@@ -381,41 +427,41 @@ input[disabled="disabled"] {
     }
 }
 
-//////////
+/******************************   Miscellaneous   ********************************/
 
-.authorization-container.center{
+.authorization-container.center {
     width: 100%;
     text-align: center;
     height: 70px;
-    img{
+    img {
         height: 100%;
         width: auto;
     }
 }
 
-.button-container{
+.button-container {
     width: auto;
     display: inline-block;
-    padding: $margin/2;
+    padding: $margin / 2;
     border-radius: 5px;
     border: 1px solid $border-clr-table;
-    .btn{
-        @include button-gradient('light');
+    .btn {
+        @include button-gradient("light");
         text-align: center;
         margin-left: 0;
-        margin-right: $margin/2;
-        &:last-child{
+        margin-right: $margin / 2;
+        &:last-child {
             margin-right: 0;
-            padding-left: $margin/2;
+            padding-left: $margin / 2;
             border-left: 1px solid $border-clr-table;
         }
     }
 }
+
 .revoke-access.option {
     $panel-height: 46px;
     margin-bottom: $margin;
     padding: 13px;
-
     .logo {
         height: $panel-height;
         img {
@@ -429,3 +475,16 @@ input[disabled="disabled"] {
     }
 }
 
+// .data-container [class|="col"]{
+//     padding-left: $margin/4;
+//     padding-right: $margin/4;
+//     label{
+//         float: right !important;
+//     }
+//     &:first-child{
+//         padding-left: 0;
+//     }
+//     &:last-child{
+//         padding-right: 0;
+//     }
+// }

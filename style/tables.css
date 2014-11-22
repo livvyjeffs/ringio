@@ -8199,32 +8199,105 @@ button.close {
   width: 12px;
 }
 
-/* line 43, ../sass/tables.scss */
+/* line 44, ../sass/tables.scss */
+#departments-table .outer-container .data-container table {
+  border-radius: 3px;
+  background-color: white;
+}
+/* line 48, ../sass/tables.scss */
+#departments-table .outer-container .data-container table thead {
+  border: 1px solid #DDE9F1;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 52, ../sass/tables.scss */
+#departments-table .outer-container .data-container table thead tr {
+  background-color: white;
+}
+/* line 56, ../sass/tables.scss */
+#departments-table .outer-container .data-container table tbody {
+  border: 1px solid #DDE9F1;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+/* line 60, ../sass/tables.scss */
+#departments-table .outer-container .data-container table tbody td {
+  padding: 0 5px;
+}
+/* line 62, ../sass/tables.scss */
+#departments-table .outer-container .data-container table tbody td img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+/* line 67, ../sass/tables.scss */
+#departments-table .outer-container .data-container table tbody td .btn-dropdown {
+  margin-bottom: 0;
+}
+/* line 70, ../sass/tables.scss */
+#departments-table .outer-container .data-container table tbody td .close {
+  margin: 5px;
+  height: 15px;
+  width: 15px;
+  margin-top: 17.5px;
+  margin-bottom: 17.5px;
+  background-image: url("../images/close-gray-large.png");
+}
+/* line 81, ../sass/tables.scss */
+#departments-table .btn-add-user, #departments-table .btn-upload-sound-file {
+  vertical-align: middle;
+  font-size: 10px;
+  color: white;
+  background-color: #04689E;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+/* line 88, ../sass/tables.scss */
+#departments-table .btn-add-user.btn-add-user, #departments-table .btn-upload-sound-file.btn-add-user {
+  margin: 15px 0;
+}
+/* line 92, ../sass/tables.scss */
+#departments-table [class|="col"] label {
+  font-size: 10px;
+  margin-top: 8.857142855px;
+  margin-bottom: 8.857142855px;
+  text-align: right;
+}
+/* line 99, ../sass/tables.scss */
+#departments-table .icon-sound {
+  width: 13px;
+  height: 13px;
+  background-image: url("../images/audio-dark.png");
+  margin-right: 5px;
+}
+
+/* line 108, ../sass/tables.scss */
 .table {
   border-collapse: separate;
   border: 1px solid #DDE9F1;
   padding: 0;
 }
-/* line 47, ../sass/tables.scss */
+/* line 112, ../sass/tables.scss */
 .table thead tr {
   background-color: #F3F8Fb;
   font-weight: 700;
   font-size: 10px;
   color: #04639E;
 }
-/* line 52, ../sass/tables.scss */
+/* line 117, ../sass/tables.scss */
 .table thead tr th {
+  font-size: 12px;
   padding: 13px 7px;
 }
-/* line 56, ../sass/tables.scss */
+/* line 122, ../sass/tables.scss */
 .table tbody tr {
   font-size: 9px;
 }
-/* line 58, ../sass/tables.scss */
+/* line 124, ../sass/tables.scss */
 .table tbody tr td {
   padding: 13px 7px;
 }
-/* line 60, ../sass/tables.scss */
+/* line 126, ../sass/tables.scss */
 .table tbody tr td .profile-icon {
   width: 30px;
   height: 30px;
@@ -8235,48 +8308,104 @@ button.close {
   margin-top: -15px;
   margin-bottom: -15px;
 }
-/* line 72, ../sass/tables.scss */
+/* line 138, ../sass/tables.scss */
 .table th, .table td {
   border-bottom: none;
   border-left: 1px solid #d7e6ee;
   vertical-align: middle;
 }
-/* line 76, ../sass/tables.scss */
+/* line 142, ../sass/tables.scss */
 .table th:first-child, .table td:first-child {
   border-left: none;
 }
 
 /****************************   Accordion   ******************************/
-/* line 84, ../sass/tables.scss */
+/* line 150, ../sass/tables.scss */
 td.hiddenRow {
   padding: 0 !important;
   border: none !important;
 }
-/* line 87, ../sass/tables.scss */
+/* line 153, ../sass/tables.scss */
 td.hiddenRow .accordion-body {
   position: relative;
   box-shadow: inset 0px 2px 0px 0px #dbebf3;
 }
+/* line 156, ../sass/tables.scss */
+td.hiddenRow .accordion-body .outer-container {
+  background-color: #f3f8fb;
+  border-top: 2px solid #E5EEF5;
+  border-bottom: 3px solid #E5EEF5;
+}
+/* line 160, ../sass/tables.scss */
+td.hiddenRow .accordion-body .outer-container h1 {
+  font-size: 12px;
+  color: #04689E;
+  text-transform: uppercase;
+}
+/* line 166, ../sass/tables.scss */
+td.hiddenRow .accordion-body .outer-container > .col-md-12 > .row {
+  margin: 15px 0;
+}
+/* line 169, ../sass/tables.scss */
+td.hiddenRow .accordion-body .outer-container .option {
+  padding: 5px;
+  line-height: 20px;
+}
+/* line 172, ../sass/tables.scss */
+td.hiddenRow .accordion-body .outer-container .option input, td.hiddenRow .accordion-body .outer-container .option label {
+  width: auto !important;
+}
+/* line 176, ../sass/tables.scss */
+td.hiddenRow .accordion-body .outer-container [data-label="data-rows"] [class^="col-md"]:not(:last-child), td.hiddenRow .accordion-body .outer-container .row[data-label="data-rows"] *[class^="col-md"]:not(:last-child) {
+  padding-right: 0;
+}
+/* line 180, ../sass/tables.scss */
+td.hiddenRow .accordion-body .outer-container .option input, td.hiddenRow .accordion-body .outer-container .option label {
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+/* line 187, ../sass/tables.scss */
+td.hiddenRow .accordion-body .outer-container .option input {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/* line 191, ../sass/tables.scss */
+td.hiddenRow .accordion-body .outer-container .option label {
+  border-left: 1px solid #DDE9F1;
+  padding-left: 10px;
+}
+/* line 195, ../sass/tables.scss */
+td.hiddenRow .accordion-body .outer-container .option:not(:last-child) {
+  margin-bottom: 15px;
+}
 
-/* line 94, ../sass/tables.scss */
+/* line 204, ../sass/tables.scss */
 tr.accordion-toggle {
   position: relative;
 }
-/* line 96, ../sass/tables.scss */
+/* line 206, ../sass/tables.scss */
 tr.accordion-toggle:hover {
   cursor: pointer;
 }
-/* line 98, ../sass/tables.scss */
+/* line 208, ../sass/tables.scss */
 tr.accordion-toggle:hover td {
   color: #04639E;
   font-weight: bold;
 }
-/* line 103, ../sass/tables.scss */
+/* line 213, ../sass/tables.scss */
 tr.accordion-toggle .edit-options {
   display: none;
   z-index: 1;
 }
-/* line 107, ../sass/tables.scss */
+/* line 217, ../sass/tables.scss */
+tr.accordion-toggle[aria-expanded="true"]:hover td {
+  color: white;
+  font-weight: normal;
+}
+/* line 221, ../sass/tables.scss */
 tr.accordion-toggle[aria-expanded="true"] {
   background-color: #0572AE;
   color: white;
@@ -8284,109 +8413,49 @@ tr.accordion-toggle[aria-expanded="true"] {
   box-shadow: inset 0px 0px 3px 3px #1e83bb;
   border: 1px solid #00507f;
 }
-/* line 113, ../sass/tables.scss */
+/* line 227, ../sass/tables.scss */
 tr.accordion-toggle[aria-expanded="true"] > th, tr.accordion-toggle[aria-expanded="true"] > td {
   border: none !important;
 }
-/* line 116, ../sass/tables.scss */
+/* line 230, ../sass/tables.scss */
 tr.accordion-toggle[aria-expanded="true"] :not(.stay-visible) {
   opacity: 0;
 }
-/* line 120, ../sass/tables.scss */
+/* line 234, ../sass/tables.scss */
 tr.accordion-toggle[aria-expanded="true"] td:not(:first-child), tr.accordion-toggle[aria-expanded="true"] td:not(:last-child) {
   border: none;
 }
-/* line 124, ../sass/tables.scss */
+/* line 238, ../sass/tables.scss */
 tr.accordion-toggle[aria-expanded="true"] .edit-options {
   position: absolute;
   display: block;
   color: white;
   right: 15px;
 }
-/* line 129, ../sass/tables.scss */
+/* line 243, ../sass/tables.scss */
 tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   margin-top: -5px;
 }
 
 /****************************   CRM Edit Tables   ******************************/
-/* line 138, ../sass/tables.scss */
-.data-container {
-  background-color: #f3f8fb;
-  border-top: 2px solid #E5EEF5;
-  border-bottom: 3px solid #E5EEF5;
-}
-/* line 142, ../sass/tables.scss */
-.data-container h1 {
-  font-size: 16px;
-  text-transform: uppercase;
-}
-/* line 146, ../sass/tables.scss */
-.data-container > .col-md-12 > .row {
-  margin: 15px 0;
-}
-/* line 149, ../sass/tables.scss */
-.data-container .option {
-  padding: 5px;
-  line-height: 20px;
-}
-/* line 152, ../sass/tables.scss */
-.data-container .option input, .data-container .option label {
-  width: auto !important;
-}
-/* line 156, ../sass/tables.scss */
-.data-container [data-label="data-rows"] [class^="col-md"]:not(:last-child), .data-container .row[data-label="data-rows"] *[class^="col-md"]:not(:last-child) {
-  padding-right: 0;
-}
-/* line 160, ../sass/tables.scss */
-.data-container .option input, .data-container .option label {
-  display: inline-block;
-  vertical-align: middle;
-  width: auto;
-  padding: 0;
-  margin: 0;
-}
-/* line 167, ../sass/tables.scss */
-.data-container .option input {
-  margin-right: 10px;
-  margin-left: 10px;
-}
-/* line 171, ../sass/tables.scss */
-.data-container .option label {
-  border-left: 1px solid #DDE9F1;
-  padding-left: 10px;
-}
-/* line 175, ../sass/tables.scss */
-.data-container .option:not(:last-child) {
-  margin-bottom: 15px;
-}
-/* line 179, ../sass/tables.scss */
-.data-container .option .dropdown .btn-dropdown {
-  text-align: left;
-  border-radius: 3px;
-}
-/* line 183, ../sass/tables.scss */
-.data-container .option .dropdown .dropdown-menu {
-  width: 100%;
-}
-
-/* line 190, ../sass/tables.scss */
+/* line 252, ../sass/tables.scss */
 .option {
   background-color: white;
   border-radius: 3px;
   border: 1px solid #DDE9F1;
 }
 
-/* line 196, ../sass/tables.scss */
-.table, .data-container > .data-container {
+/* line 258, ../sass/tables.scss */
+.table, .outer-container > .data-container {
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 199, ../sass/tables.scss */
-.table:last-child, .data-container > .data-container:last-child {
+/* line 261, ../sass/tables.scss */
+.table:last-child, .outer-container > .data-container:last-child {
   margin-bottom: 0;
   border-bottom: none;
 }
-/* line 203, ../sass/tables.scss */
-.table input, .table .btn-dropdown, .data-container > .data-container input, .data-container > .data-container .btn-dropdown {
+/* line 265, ../sass/tables.scss */
+.table input, .table .btn-dropdown, .outer-container > .data-container input, .outer-container > .data-container .btn-dropdown {
   border-radius: 3px;
   width: 100%;
   font-size: 10px;
@@ -8394,25 +8463,21 @@ tr.accordion-toggle[aria-expanded="true"] .edit-options .btn {
   padding: 8px 10px;
   border: 1px solid #d7e6ee;
 }
-/* line 210, ../sass/tables.scss */
-.table input:not(:last-child), .table .btn-dropdown:not(:last-child), .data-container > .data-container input:not(:last-child), .data-container > .data-container .btn-dropdown:not(:last-child) {
-  margin-bottom: 15px;
-}
-/* line 214, ../sass/tables.scss */
-.table input::-webkit-input-placeholder, .data-container > .data-container input::-webkit-input-placeholder {
+/* line 273, ../sass/tables.scss */
+.table input::-webkit-input-placeholder, .outer-container > .data-container input::-webkit-input-placeholder {
   color: #00609d;
 }
-/* line 217, ../sass/tables.scss */
-.table input:-moz-placeholder, .data-container > .data-container input:-moz-placeholder {
+/* line 276, ../sass/tables.scss */
+.table input:-moz-placeholder, .outer-container > .data-container input:-moz-placeholder {
   /* Firefox 18- */
   color: #00609d;
 }
-/* line 221, ../sass/tables.scss */
-.table input::-moz-placeholder, .data-container > .data-container input::-moz-placeholder {
+/* line 280, ../sass/tables.scss */
+.table input::-moz-placeholder, .outer-container > .data-container input::-moz-placeholder {
   /* Firefox 19+ */
   color: #00609d;
 }
-/* line 225, ../sass/tables.scss */
-.table input:-ms-input-placeholder, .data-container > .data-container input:-ms-input-placeholder {
+/* line 284, ../sass/tables.scss */
+.table input:-ms-input-placeholder, .outer-container > .data-container input:-ms-input-placeholder {
   color: #00609d;
 }

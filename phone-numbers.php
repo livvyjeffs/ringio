@@ -29,7 +29,7 @@
     </table>
   </div>
   <div class="col-md-4">
-    <div class="panel">
+    <div class="panel panel-side">
       <div class="panel-heading">
         Greeting & Routing Help
       </div>
@@ -44,8 +44,6 @@
            </td>
          </tr>
        </table>
-     </div>
-     <div class="panel-body">
        <table>
         <tr>
           <td class="table-image">
@@ -56,8 +54,6 @@
           </td>
         </tr>
       </table>
-    </div>
-    <div class="panel-body">
       <table>
         <tr>
           <td class="table-image">
@@ -68,9 +64,7 @@
          </td>
        </tr>
      </table>
-   </div>
-   <div class="panel-body">
-    <table>
+     <table>
       <tr>
         <td class="table-image">
           <span class="ringio-icon bulb"></span>
@@ -80,9 +74,7 @@
        </td>
      </tr>
    </table>
- </div>
- <div class="panel-body">
-  <table>
+   <table>
     <tr>
       <td class="table-image">
         <span class="ringio-icon bulb"></span>

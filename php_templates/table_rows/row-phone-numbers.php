@@ -16,150 +16,215 @@ if($opened){
 ?>
 
 <tr data-toggle="collapse" data-target="#demo<?php echo $row_number; ?>" class="accordion-toggle <?php echo $collapsed; ?>" aria-expanded="<?php echo $opened; ?>">
-  <td class="col-1 stay-visible"><?php echo $phone_number; ?></td>
-  <td class="col-2 center"><?php echo $main; ?></td>
+  <td class="col-1 stay-visible"><?php echo $phone_number; ?>
+  </td>
+  <td class="col-2 center stay-visible"> 
+    <div class="row edit-options stay-visible float-left">
+      <div class="btn btn-ringio btn-cancel stay-visible">Drop this Number</div>
+    </div>
+    <span class="disappear"><?php echo $main; ?></span>
+  </td>
   <td class="col-3"><?php echo $label; ?></td>
   <td class="col-4"><?php echo $audio; ?></td>
-  <td class="col-5"><?php echo $routing; ?></td>
-  <td class="row edit-options stay-visible">
-    <button type="button" class="btn btn-ringio btn-cancel stay-visible">Drop this Number</button>
-    <button type="button" class="btn btn-ringio btn-cancel stay-visible">Cancel</button>
-    <button type="button" class="btn btn-ringio btn-save stay-visible">Save</button>
-  </td>
-</tr>
-<tr>
-  <td colspan="5" class="hiddenRow">
-    <div id="demo<?php echo $row_number; ?>" class="accordion-body collapse <?php echo $in_or_out; ?>">
-      <div class="row data-container no-margin">
-        <div class="col-md-12 data-container" option-container>
-          <h1>Greeting</h1>
-          <div class="row" option>
-            <div class="col-md-3">
-              <div class="option">
-                <input type="radio" name="greeting" value="automatic" checked option-controller>
-                <label>Automatic</label>
+  <td class="col-5 stay-visible">
+    <div class="row edit-options stay-visible float-right">
+      <div class="btn btn-ringio btn-cancel stay-visible">Cancel</div>
+      <div class="btn btn-ringio btn-save stay-visible">Save</div>
+    </div>
+    <span class="disappear"><?php echo $routing; ?></span></td>
+
+  </tr>
+  <tr>
+    <td colspan="5" class="hiddenRow">
+      <div id="demo<?php echo $row_number; ?>" class="accordion-body collapse <?php echo $in_or_out; ?>">
+        <div class="row main-container no-margin">
+          <div class="col-md-12 data-container" option-container>
+            <h1>Greeting</h1>
+            <div class="row option" option>
+              <div class="col-md-3">
+               <div class="input-group option-input-group input-group-sm">
+                <span class="input-group-addon">
+                  <input type="radio" checked option-controller>
+                </span>
+                <div class="form-control"><label>Greeting</label></div>
               </div><!-- /input-group -->
             </div>
-            <div class="col-md-1 separator ringio-icon">
+            <div class="col-md-1 separator">
             </div>
             <div class="col-md-8">
-              <div class="option">
-                <input type="checkbox" checked><label>Greet your callers by name if recognized</label>
+              <div class="row option">
+               <div class="col-md-12">
+                 <div class="input-group option-input-group input-group-sm">
+                  <span class="input-group-addon">
+                    <input type="checkbox">
+                  </span>
+                  <div class="form-control"><label>Greet your callers by name if recognized</label></div>
+                </div><!-- /input-group -->
               </div>
-              <div class="option">
-                <input type="checkbox" checked><label>Announce Company Name</label>
-              </div>
-              <input type="text" placeholder="Company Name">
+            </div>
+            <div class="row option">
+              <div class="col-md-12">
+               <div class="input-group option-input-group input-group-sm">
+                <span class="input-group-addon">
+                  <input type="checkbox">
+                </span>
+                <div class="form-control"><label>Announce Company Name</label></div>
+              </div><!-- /input-group -->
             </div>
           </div>
-          <div class="row" option>
-            <div class="col-md-3">
-             <div class="option">
-              <input type="radio" name="greeting" value="custom" option-controller>
-              <label>Custom</label>
-            </div><!-- /input-group -->
-          </div>
-          <div class="col-md-1 separator ringio-icon">
-          </div>
-          <div class="col-md-6">
-            <div class="option no-padding">
-              <?php $text="file212.wav"; include("php_templates/dropdown.php"); ?>
-            </div>
-            <button class="btn btn-ringio btn-upload">Upload Sound File</button>
-          </div>
+          <input type="text" placeholder="Company Name">
         </div>
       </div>
-      <div class="col-md-12 data-container" option-container>
-        <h1>Routing</h1>
-        <div class="row" option>
-          <div class="col-md-12">
-            <div class="option">
-              <input type="radio" name="routing" value="caller-selected" option-controller><label>Route based on the Department or Extension selected by the Caller</label>
-            </div>
-          </div>
-        </div>
-        <div class="row" option>
-          <div class="col-md-6">
-            <div class="option">
-              <input type="radio" name="routing" value="department" checked option-controller><label>Route all calls to this Department</label>
-            </div>
-          </div>
-          <div class="col-md-1 separator ringio-icon">
-          </div>
-          <div class="col-md-4">
-            <div class="option no-padding">
-             <?php $text="Technical Support"; include("php_templates/dropdown.php"); ?>
-           </div>
-         </div>
-       </div>
-       <div class="row">
-         <div class="col-md-12">
-           <div class="option">
-            <input type="checkbox"><label>Route calls differently after hours</label>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-12 data-container" option-container>
-      <h1>On-hold Music</h1>
-      <div class="row" option>
-        <div class="col-md-5">
-          <div class="option">
-            <input type="radio" name="on-hold-music" value="standard" option-controller><label>Standard Hold Music</label>
-          </div>
-        </div>
-      </div>
-      <div class="row" option>
-        <div class="col-md-4">
-          <div class="option">
-            <input type="radio" name="on-hold-music" value="custom" checked option-controller><label>Custom Hold Music</label>
-          </div>
-        </div>
-        <div class="col-md-1 separator ringio-icon">
-        </div>
-        <div class="col-md-4">
-          <div class="option no-padding">
-            <?php $text="customhold.wav"; include("php_templates/dropdown.php"); ?>
-          </div>
-          <button class="btn btn-ringio btn-upload">Upload Sound File</button>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-12 data-container">
-      <h1>Screen Pop Label & Web Triggers</h1>
-      <div class="row">
+      <div class="row option" option>
         <div class="col-md-3">
-          <label class="input-style">
-            Screen Pop Label</label>
-          </div>
-          <div class="col-md-8">
-            <input type="text" placeholder="703-879-8041 // Jon Yu">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <label class="input-style">
-              Web Trigger Button</label>
-            </div>
-            <div class="col-md-8">
-              <input type="text">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3">
-              <label class="input-style">
-                URL to Invoke
-              </label>
-            </div>
-            <div class="col-md-8">
-              <input type="text">
-              <br>
-              <div class="option">
-                <input type="checkbox"><label>Also send phone call data as parameters</label>
-              </div>
-            </div>
-          </div>
-        </div>
+         <div class="input-group option-input-group input-group-sm">
+          <span class="input-group-addon">
+            <input type="radio" option-controller>
+          </span>
+          <div class="form-control"><label>Custom</label></div>
+        </div><!-- /input-group -->
       </div>
-    </td>
-  </tr>
+      <div class="col-md-1 separator">
+      </div>
+      <div class="col-md-6">
+        <!-- <div class="option no-padding"> -->
+        <?php $text="file212.wav"; $classes="option"; include("php_templates/dropdown.php"); ?>
+        <!-- </div> -->
+        <div class="btn btn-ringio btn-upload">Upload Sound File</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-12 data-container" option-container>
+    <h1>Routing</h1>
+    <div class="row option" option>
+      <div class="col-md-12">
+       <div class="input-group option-input-group input-group-sm">
+        <span class="input-group-addon">
+          <input type="radio" option-controller>
+        </span>
+        <div class="form-control"><label>Route based on the Department or Extension selected by the Caller</label></div>
+      </div><!-- /input-group -->
+    </div>
+
+  </div>
+  <div class="row option" option>
+   <div class="col-md-6">
+     <div class="input-group option-input-group input-group-sm">
+      <span class="input-group-addon">
+        <input type="radio" checked option-controller>
+      </span>
+      <div class="form-control"><label>Route all calls to this Department</label></div>
+    </div><!-- /input-group -->
+  </div>
+  <div class="col-md-1 separator">
+  </div>
+  <div class="col-md-4">
+    <!-- <div class="option no-padding"> -->
+    <?php $text="Technical Support"; include("php_templates/dropdown.php"); ?>
+    <!-- </div> -->
+  </div>
+</div>
+<div class="row option">
+  <div class="col-md-12">
+   <div class="input-group option-input-group input-group-sm">
+    <span class="input-group-addon">
+      <input type="checkbox">
+    </span>
+    <div class="form-control"><label>Route calls differently after hours</label></div>
+  </div><!-- /input-group -->
+</div>
+ <!--     <div class="col-md-12">
+       <div class="option option-input-group">
+        <input type="checkbox"><label>Route calls differently after hours</label>
+      </div>
+    </div> -->
+  </div>
+</div>
+<div class="col-md-12 data-container" option-container>
+  <h1>On-hold Music</h1>
+  <div class="row option" option>
+
+    <div class="col-md-6">
+     <div class="input-group option-input-group input-group-sm">
+      <span class="input-group-addon">
+        <input type="radio" option-controller>
+      </span>
+      <div class="form-control"><label>Standard Hold Music</label></div>
+    </div><!-- /input-group -->
+  </div>
+
+</div>
+<div class="row option" option>
+ <div class="col-md-4">
+   <div class="input-group option-input-group input-group-sm">
+    <span class="input-group-addon">
+      <input type="radio" checked option-controller>
+    </span>
+    <div class="form-control"><label>Custom Hold Music</label></div>
+  </div><!-- /input-group -->
+</div>
+<div class="col-md-1 separator">
+</div>
+<div class="col-md-4">
+  <div class="option no-padding">
+    <?php $text="customhold.wav"; include("php_templates/dropdown.php"); ?>
+  </div>
+  <div class="btn btn-ringio btn-upload option">Upload Sound File</div>
+</div>
+</div>
+</div>
+<div class="col-md-12 data-container">
+  <h1>Screen Pop Label & Web Triggers</h1>
+  <div class="row option">
+   <div class="col-md-12">
+     <div class="input-group">
+       <span class="input-group-addon">Screen Pop Label</span>
+       <div class="form-control">
+        <input type="text" placeholder="703-879-8041 // Jon Yu">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row option">
+  <div class="col-md-12">
+   <div class="input-group">
+     <span class="input-group-addon">Web Trigger Button</span>
+     <div class="form-control">
+      <input type="text">
+    </div>
+  </div>
+</div>
+</div>
+<div class="row option">
+  <div class="col-md-12">
+   <div class="input-group">
+     <span class="input-group-addon">URL to Invoke</span>
+     <div class="form-control">
+      <div class="input-group option-input-group input-group-sm">
+        <span class="input-group-addon">
+          <input type="checkbox">
+        </span>
+        <div class="form-control"><label>Also send phone call data as parameters</label></div>
+      </div><!-- /input-group -->
+    </div>
+  </div>
+</div>
+   <!--    <div class="col-md-3">
+        <label class="input-style">
+          URL to Invoke
+        </label>
+      </div>
+      <div class="col-md-8">
+       <div class="input-group option-input-group input-group-sm">
+        <span class="input-group-addon">
+          <input type="checkbox">
+        </span>
+        <div class="form-control"><label>Also send phone call data as parameters</label></div>
+      </div> /input-group  -->
+    </div>
+
+  </div>
+</div>
+</div>
+</td>
+</tr>

@@ -28,7 +28,7 @@
       <?php $company_name = "CRM"; $company_logo = "crm-2.png"; include("php_templates/thumbnails/crm.php"); ?>
     </div>
     <div class="col-md-4">
-      <div class="panel">
+      <div class="panel panel-side">
         <div class="panel-heading">
           CRM Information
         </div>

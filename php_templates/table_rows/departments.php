@@ -32,12 +32,12 @@ if($opened){
     <div id="demo<?php echo $row_number; ?>" class="accordion-body collapse <?php echo $in_or_out; ?>">
 
 
-      <div class="row data-container no-margin">
+      <div class="row main-container no-margin">
         <div class="col-md-12 data-container" option-container>
           <h1>Greeting</h1>
           <div class="row" option>
             <div class="col-md-3">
-              <div class="option">
+              <div class="option option-input-group">
                 <input type="radio" name="greeting" value="automatic" checked option-controller>
                 <label>Automatic</label>
               </div><!-- /input-group -->
@@ -45,10 +45,10 @@ if($opened){
             <div class="col-md-1 separator ringio-icon">
             </div>
             <div class="col-md-8">
-              <div class="option">
+              <div class="option option-input-group">
                 <input type="checkbox" checked><label>Greet your callers by name if recognized</label>
               </div>
-              <div class="option">
+              <div class="option option-input-group">
                 <input type="checkbox" checked><label>Announce Company Name</label>
               </div>
               <input type="text" placeholder="Company Name">
@@ -56,7 +56,7 @@ if($opened){
           </div>
           <div class="row" option>
             <div class="col-md-3">
-             <div class="option">
+             <div class="option option-input-group">
               <input type="radio" name="greeting" value="custom" option-controller>
               <label>Custom</label>
             </div><!-- /input-group -->
@@ -85,14 +85,14 @@ if($opened){
         <h1>Routing</h1>
         <div class="row" option>
           <div class="col-md-12">
-            <div class="option">
+            <div class="option option-input-group">
               <input type="radio" name="routing" value="caller-selected" option-controller><label>Route based on the Department or Extension selected by the Caller</label>
             </div>
           </div>
         </div>
         <div class="row" option>
           <div class="col-md-6">
-            <div class="option">
+            <div class="option option-input-group">
               <input type="radio" name="routing" value="department" checked option-controller><label>Route all calls to this Department</label>
             </div>
           </div>
@@ -116,7 +116,7 @@ if($opened){
       </div>
       <div class="row">
        <div class="col-md-12">
-         <div class="option">
+         <div class="option option-input-group">
           <input type="checkbox"><label>Route calls differently after hours</label>
         </div>
       </div>
@@ -126,14 +126,14 @@ if($opened){
     <h1>On-hold Music</h1>
     <div class="row" option>
       <div class="col-md-5">
-        <div class="option">
+        <div class="option option-input-group">
           <input type="radio" name="on-hold-music" value="standard" option-controller><label>Standard Hold Music</label>
         </div>
       </div>
     </div>
     <div class="row" option>
       <div class="col-md-4">
-        <div class="option">
+        <div class="option option-input-group">
           <input type="radio" name="on-hold-music" value="custom" checked option-controller><label>Custom Hold Music</label>
         </div>
       </div>

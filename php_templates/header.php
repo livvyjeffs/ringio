@@ -34,7 +34,7 @@ switch($page_title){
   <div class="container no-padding">
     <div class="navbar-collapse collapse">
       <ul class="nav nav-justified nav-ringio">
-        <li class="<?php echo $btn_1; ?>"><a href="index.php"><span class="ringio-icon carets"></span>Dashboard</a></li>
+        <li class="<?php echo $btn_1; ?>"><a href="index.php"><span class="ringio-icon icon-carets"></span>Dashboard</a></li>
         <li class="<?php echo $btn_2; ?>"><a href="users.php">Users</a></li>
         <li class="<?php echo $btn_3; ?>"><a href="departments.php">Departments</a></li>
         <li class="<?php echo $btn_4; ?>"><a href="phone-numbers.php">Phone Numbers</a></li>

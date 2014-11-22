@@ -37,7 +37,7 @@
       <span class="ringio-icon tip"></span>
       <div class="panel-heading">
         Users Help
-        <div class="close">x</div>
+        <span class="icon-close ringio-icon btn"></span>
       </div>
       <div class="panel-body">
 

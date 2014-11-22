@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$body-default-bg".
+Error: Undefined variable: "$bg-clr-outer-body".
         on line 10 of /Applications/MAMP/htdocs/ringio/sass/ringio.scss
 
 5: body {
@@ -7,7 +7,7 @@ Error: Undefined variable: "$body-default-bg".
 7:     color: $navbar-default-bg;
 8:     font-size: 10px;
 9:     font-family: $font-family-sans-serif;
-10:     background-color: $body-default-bg;
+10:     background-color: $bg-clr-outer-body;
 11: }
 12: 
 13: /* Customize container *\/
@@ -72,4 +72,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$body-default-bg\".\A         on line 10 of /Applications/MAMP/htdocs/ringio/sass/ringio.scss\A \A 5: body {\A 6:     padding-bottom: 20px;\A 7:     color: $navbar-default-bg;\A 8:     font-size: 10px;\A 9:     font-family: $font-family-sans-serif;\A 10:     background-color: $body-default-bg;\A 11: }\A 12: \A 13: /* Customize container */\A 14: @media (min-width: 988px) {\A 15:     .container {"; }
+  content: "Error: Undefined variable: \"$bg-clr-outer-body\".\A         on line 10 of /Applications/MAMP/htdocs/ringio/sass/ringio.scss\A \A 5: body {\A 6:     padding-bottom: 20px;\A 7:     color: $navbar-default-bg;\A 8:     font-size: 10px;\A 9:     font-family: $font-family-sans-serif;\A 10:     background-color: $bg-clr-outer-body;\A 11: }\A 12: \A 13: /* Customize container */\A 14: @media (min-width: 988px) {\A 15:     .container {"; }

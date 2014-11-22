@@ -39,7 +39,7 @@ if($img_src === undefined){
   <td colspan="4" class="hiddenRow">
     <div id="demo<?php echo $row_number; ?>" class="accordion-body collapse <?php echo $in_or_out; ?>">
 
-      <div class="row data-container no-margin">
+      <div class="row main-container no-margin">
 
         <div class="col-md-12">
           <div class="row">
@@ -80,7 +80,7 @@ if($img_src === undefined){
                   <div class="dropdown">
                     <button class="btn btn-dropdown dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
                       SIP
-                      <span class="caret"></span>
+                      <span class="icon-down"></span>
                     </button>
                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                       <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>

@@ -11,6 +11,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="style/main.css" rel="stylesheet">
+  <link href="css/polyfill.object-fit.css" rel="stylesheet">
 
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -40,7 +41,7 @@
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
         <li class="navbar-text"><span class="ringio-icon status"></span>billing@ringio.com</li>
-        <li class="btn btn-default navbar-btn">Log Out</li>
+        <li class="btn btn-logout">Log Out</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

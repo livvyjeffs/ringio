@@ -16,7 +16,7 @@
          <h1>Recording</h1>
          <div class="row" option>
            <div class="col-md-8">
-            <div class="option">
+            <div class="option option-input-group">
               <input type="radio" name="recording" value="custom" option-controller>
               <label>User selects which calls to record</label>
             </div><!-- /input-group -->
@@ -24,7 +24,7 @@
         </div>
         <div class="row" option>
           <div class="col-md-3">
-            <div class="option">
+            <div class="option option-input-group">
               <input type="radio" name="recording" value="automatic" checked option-controller>
               <label>Automatic</label>
             </div><!-- /input-group -->
@@ -32,13 +32,13 @@
           <div class="col-md-1 separator ringio-icon">
           </div>
           <div class="col-md-6">
-            <div class="option">
+            <div class="option option-input-group">
               <input type="checkbox" checked><label>All incoming company calls</label>
             </div>
-            <div class="option">
+            <div class="option option-input-group">
               <input type="checkbox" checked><label>All incoming personal calls</label>
             </div>
-            <div class="option">
+            <div class="option option-input-group">
               <input type="checkbox" checked><label>All outgoing calls</label>
             </div>
 
@@ -54,7 +54,7 @@
         </div>
         <div class="row" option>
          <div class="col-md-8">
-          <div class="option">
+          <div class="option option-input-group">
             <input type="checkbox">
             <label>Do not play any call recording warnings.</label>
           </div><!-- /input-group -->

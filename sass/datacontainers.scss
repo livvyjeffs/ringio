@@ -1,0 +1,324 @@
+@import "variables";
+
+$font-size: $font-size-12;
+
+#departments-table {
+    td {
+        .span-container {
+            display: inline-block;
+            float: right;
+            vertical-align: middle;
+        }
+        .ringio-icon {
+            display: inline-block;
+            width: 12px;
+            height: 16px;
+            vertical-align: middle;
+            &.icon-users {
+                background-image: url("../images/user-small.png");
+                margin-right: 3px;
+            }
+        }
+        .user-number {
+            display: inline-block;
+            color: $font-clr-emphasized;
+            vertical-align: middle;
+        }
+    }
+}
+
+// #users-table {
+//     label {
+//         font-size: $table-label-font-size;
+//         color: $body-default-text-color;
+//         display: block;
+//     }
+//     input {
+//         display: inline-block;
+//         width: 100%;
+//         &[type="checkbox"] {
+//             width: 12px;
+//         }
+//     }
+// }
+
+// .outer-container {
+
+    .outer-container {
+        background-color: rgb(243, 248, 251);
+        border-top: 2px solid $box-shadow-clr-table-option;
+        border-bottom: 3px solid $box-shadow-clr-table-option;
+        h1 {
+            font-size: $font-size;
+            color: $font-clr-emphasized;
+            text-transform: uppercase;
+        }
+    }
+
+    .data-container {
+        border-bottom: 1px solid $border-clr-table;
+        .form-control {
+            padding: 0;
+            border: none;
+        }
+        [class|="col"] {
+            vertical-align: middle;
+            padding-left: $margin / 4;
+            padding-right: $margin / 4;
+            &:first-child {
+                padding-left: $margin / 2;
+            }
+            &:last-child {
+                padding-right: $margin / 2;
+            }
+        }
+        .input-group-addon {
+        // background-color: none;
+        border: none;
+        background: none;
+        @include pm_center("padding", $height-inner-row, $font-size * $line-height-base);
+        padding-left: 0;
+        font-size: $font-size;
+        color: $clr-body;
+    }
+    input, .btn-dropdown, label {
+        border-radius: 3px;
+        width: 100%;
+        font-size: $font-size;
+        border: none;
+        @include pm_center("padding", $height-inner-row, $font-size * $line-height-base);
+    }
+    input, .btn-dropdown {
+        border: 1px solid rgb(215, 230, 238);
+        padding-left: $margin / 4;
+        padding-right: $margin / 4;
+        .icon-toggle {
+            @include pm_center("margin", $font-size * $line-height-base, 13px);
+        }
+    }
+    input::-webkit-input-placeholder {
+        color: rgb(0, 96, 157);
+    }
+    input:-moz-placeholder {
+        /* Firefox 18- */
+        color: rgb(0, 96, 157);
+    }
+    input::-moz-placeholder {
+        /* Firefox 19+ */
+        color: rgb(0, 96, 157);
+    }
+    input:-ms-input-placeholder {
+        color: rgb(0, 96, 157);
+    }
+    h1 {
+        font-size: $font-size;
+        color: $font-clr-emphasized;
+        margin: $margin / 2 0;
+        padding: 0;
+    }
+    .table {
+        @include box-shadow-bottom;
+        thead {
+            tr {
+                background-color: white;
+            }
+        }
+        .btn-dropdown {
+            @include pm_center("margin", $font-size * $line-height-base, $height-inner-row);
+        }
+    }
+    .option {
+        margin-bottom: $margin / 2;
+    }
+    .option-input-group {
+        $padding: 5px;
+        padding: $padding;
+        border-radius: 3px;
+        border: 1px solid $border-clr-table;
+        vertical-align: middle;
+        > .input-group-addon, > .form-control {
+            height: $height-inner-row - 2 * $padding;
+            padding: 0;
+            font-size: $font-size;
+            line-height: $line-height-base;
+            box-shadow: none;
+            border-radius: 0;
+        }
+        > .input-group-addon {
+            padding-left: $padding;
+            padding-right: $padding;
+        }
+        > .form-control {
+            border-left: 1px solid $border-clr-table;
+        }
+        input, label {
+            width: auto;
+            display: inline-block;
+            margin: 0;
+        }
+        input {
+            margin-right: $padding;
+        }
+        label {
+            box-shadow: none;
+            padding-left: $padding;
+            @include pm_center("padding", $height-inner-row - 2 * $padding, $font-size * $line-height-base);
+        }
+    }
+}
+
+// }
+
+// #departments-table {
+
+// [class|="col"] label {
+//     $height: 32px;
+//     $font-size: 10px;
+//     font-size: $font-size;
+//     @include pm_center('margin',$height,$font-size*$line-height-base);
+//     text-align: right;
+// }
+// .icon-sound{
+//     $height: 13px;
+//     width: $height;
+//     height: $height;
+//     background-image: url("../images/audio-dark.png");
+//     margin-right: 5px;
+// }
+// }
+
+.table {
+    border-collapse: separate;
+    border: 1px solid $border-clr-table;
+    padding: 0;
+    thead tr {
+        background-color: $bg-clr-table-light;
+        font-weight: 700;
+        font-size: $font-size;
+        color: $clr-page-header;
+        th {
+            font-size: $font-size;
+            padding-left: $margin / 2;
+            padding-right: $margin / 2;
+            @include pm_center("padding", $height-table-row, $font-size * $line-height-base);
+        }
+    }
+    tbody tr {
+        td {
+            font-size: $font-size;
+            padding-left: $margin / 2;
+            padding-right: $margin / 2;
+            @include pm_center("padding", $height-table-row, $font-size * $line-height-base);
+            .profile-icon {
+                $height: $margin;
+                width: $height;
+                height: $height;
+                border-radius: 4px;
+                background-color: rgb(205, 218, 227);
+                vertical-align: middle;
+                margin-right: $margin / 2;
+                @include pm_center("margin", $font-size * $line-height-base, $height);
+            }
+            .close {
+                margin: 5px;
+                $height: 15px;
+                height: $height;
+                width: $height;
+                @include pm_center("margin", $font-size * $line-height-base, $height);
+                background-image: url("../images/close-gray-large.png");
+            }
+        }
+    }
+    th, td {
+        font-size: $font-size;
+        padding-left: $margin / 2;
+        padding-right: $margin / 2;
+        @include pm_center("padding", $height-table-row, $font-size * $line-height-base);
+        border-bottom: none;
+        border-left: 1px solid rgb(215, 230, 238);
+        vertical-align: middle;
+        &:first-child {
+            border-left: none;
+        }
+    }
+}
+
+/****************************   Accordion   ******************************/
+
+.hiddenRow {
+    padding: 0 !important;
+    border: none !important;
+    .accordion-body {
+        position: relative;
+        box-shadow: inset 0px 2px 0px 0px rgb(219, 235, 243);
+    }
+}
+
+.accordion-toggle {
+    position: relative;
+    &:hover {
+        cursor: pointer;
+        td {
+            color: $clr-page-header;
+            font-size: $font-size;
+            background-color: lighten($bg-clr-table-light, 2%);
+        }
+    }
+    .edit-options {
+        display: none;
+        z-index: 1;
+        padding: 0;
+        min-width: 0;
+    }
+    
+    &[aria-expanded="true"] {
+        border-left: 1px solid $bg-clr-table-dark;
+        border-right: 1px solid $bg-clr-table-dark;
+        background-color: $bg-clr-table-dark;
+        color: white;
+        text-shadow: 1px 1px rgba(0, 0, 0, 2);
+        box-shadow: inset 0px 0px 3px 3px rgb(30, 131, 187);
+        border: 1px solid rgb(0, 80, 127);
+        &:hover td {
+            line-height: $line-height-base;
+            color: white;
+            font-weight: normal;
+            background-color: $bg-clr-table-dark;
+        }
+        > th, > td {
+            border: none !important;
+        }
+        :not(.stay-visible) {
+            opacity: 0;
+            &.disappear {
+                display: none;
+            }
+        }
+        td {
+            &:not(:first-child), &:not(:last-child) {
+                border: none;
+            }
+        }
+        .edit-options {
+            &.float-right {
+                float: right;
+                margin-left: -100px;
+                margin-right: -$margin / 2;
+            }
+            &.float-left {
+                float: left;
+                margin-right: -100px;
+                margin-left: -$margin / 2;
+            }
+            display: block;
+            color: white;
+            @include pm_center("margin", $font-size * $line-height-base, $height-table-row);
+            height: $height-table-row;
+            .btn {
+                display: inline-block;
+                @include pm_center("margin", $height-table-row, $height-inner-row);
+                margin-right: $margin / 5;
+            }
+        }
+    }
+}
