@@ -14,20 +14,21 @@
     </div>
     <div class="col-md-4">
       <div class="thumbnail">
-        <div class="btn-close"></div>
-        <div class="logo">
+        <div class="btn-close btn ringio-icon"></div>
+        <div class="logo-small">
         <a href="crm-integrations-edit.php">
           <img src="images/company_logos/highrise.png" alt="highrise">
         </a>
         </div>
         <div class="caption">
-          <p>Lorem ipsum dolor sit amet, consectetur aipscin elit. Vivamus luctus urna sed urna ultices. Lorem ipsum dolor sit amet, consectetur aipscin elit. Vivamus luctus urna sed urna ultices. Lorem ipsum dolor sit amet, consectetur aipscin elit. Vivamus luctus urna sed urna ultices.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur aipscin elit. Vivamus luctus urna sed urna ultices. Lorem ipsum dolor sit amet, consectetur aipscin elit. Vivamus luctus urna sed urna ultices. Lorem ipsum dolor sit amet, consectetur aipscin elit. Vivamus luctus urna sed urna ultices. Lorem ipsum dolor sit amet, consectetur aipscin elit. Lorem ipsum dolor sit amet.</p>
         </div>
-      </div>
+      </div> 
       <?php $company_name = "Zoho CRM"; $company_logo = "zoho.png"; include("php_templates/thumbnails/crm.php"); ?>
       <?php $company_name = "CRM"; $company_logo = "crm-2.png"; include("php_templates/thumbnails/crm.php"); ?>
     </div>
     <div class="col-md-4">
+    <div class="row no-margin">
       <div class="panel panel-side">
         <div class="panel-heading">
           CRM Information
@@ -36,7 +37,7 @@
 
 
         </div>
-
+</div>
       </div>
     </div>
   </div>

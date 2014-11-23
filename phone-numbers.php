@@ -29,6 +29,7 @@
     </table>
   </div>
   <div class="col-md-4">
+   <div class="row no-margin">
     <div class="panel panel-side">
       <div class="panel-heading">
         Greeting & Routing Help
@@ -84,6 +85,7 @@
      </td>
    </tr>
  </table>
+</div>
 </div>
 </div>
 </div>

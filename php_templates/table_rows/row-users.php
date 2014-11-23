@@ -28,11 +28,12 @@ if($img_src === undefined){
   <td class="col-1 stay-visible centered"><input class="stay-visible" type="checkbox" <?php echo $checked; ?>></td>
   <td class="col-2 stay-visible"><img class="profile-icon stay-visible" src="<?php echo $img_src; ?>"><?php echo $first_name." ".$last_name ?></td>
   <td class="col-3"><?php echo $phone_number; ?></td>
-  <td class="col-4"><?php echo $departments; ?></td>
-  <td class="row edit-options stay-visible">
-    <button type="button" class="btn btn-ringio btn-cancel stay-visible">Drop this Number</button>
-    <button type="button" class="btn btn-ringio btn-cancel stay-visible">Cancel</button>
-    <button type="button" class="btn btn-ringio btn-save stay-visible">Save</button>
+  <td class="col-4">
+    <div class="row edit-options stay-visible float-right">
+      <button type="button" class="btn btn-ringio btn-cancel stay-visible">Cancel</button>
+      <button type="button" class="btn btn-ringio btn-save stay-visible">Save Changes</button>
+    </div>
+    <span class="disappear"> <?php echo $departments; ?></span>
   </td>
 </tr>
 <tr>

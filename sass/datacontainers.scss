@@ -61,17 +61,8 @@ $font-size: $font-size-12;
             padding: 0;
             border: none;
         }
-        [class|="col"] {
-            vertical-align: middle;
-            padding-left: $margin / 4;
-            padding-right: $margin / 4;
-            &:first-child {
-                padding-left: $margin / 2;
-            }
-            &:last-child {
-                padding-right: $margin / 2;
-            }
-        }
+        @include custom-margins('half');
+     
         .input-group-addon {
         // background-color: none;
         border: none;
@@ -96,20 +87,7 @@ $font-size: $font-size-12;
             @include pm_center("margin", $font-size * $line-height-base, 13px);
         }
     }
-    input::-webkit-input-placeholder {
-        color: rgb(0, 96, 157);
-    }
-    input:-moz-placeholder {
-        /* Firefox 18- */
-        color: rgb(0, 96, 157);
-    }
-    input::-moz-placeholder {
-        /* Firefox 19+ */
-        color: rgb(0, 96, 157);
-    }
-    input:-ms-input-placeholder {
-        color: rgb(0, 96, 157);
-    }
+    
     h1 {
         font-size: $font-size;
         color: $font-clr-emphasized;

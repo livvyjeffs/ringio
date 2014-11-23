@@ -37,9 +37,9 @@ body > .container {
     }
 }
 
-.row{
+.row {
     margin-bottom: $margin;
-    &:last-child{
+    &:last-child {
         margin-bottom: 0;
     }
 }
@@ -63,7 +63,7 @@ body > .container {
     vertical-align: middle;
 }
 
-.text-right{
+.text-right {
     text-align: right;
 }
 
@@ -107,90 +107,88 @@ body > .container {
 
 /********************************   Icons   *******************************/
 
-.ringio-header .glyphicon {
-    width: $height-page-header;
-    height: $height-page-header;
-    line-height: $height-page-header;
-}
+.page-header .glyphicon {
+    $height: $height-page-header;
+    width: $height;
+    height: $height;
+    line-height: $height;
+    &.pull-left.glyphicon-caret.large{
+        &:before{
+            content: url(../images/caret-large.png);   
+        }
+        height: $margin;
+        width: $margin;
+        margin-right: $margin;
+        @include pm_center('margin',$height,$margin);
+    }
+    &.glyphicon-user.large:before {
+        content: url(../images/users.png);
+    }
 
-.glyphicon-user.large:before {
-    content: url(../images/users.png);
-}
+    &.glyphicon-department.large:before {
+        content: url(../images/departments.png);
+    }
 
-.glyphicon-department.large:before {
-    content: url(../images/departments.png);
-}
+    &.glyphicon-phone-numbers.large:before {
+        content: url(../images/phone-numbers.png);
+    }
 
-.glyphicon-phone-numbers.large:before {
-    content: url(../images/phone-numbers.png);
-}
+    &.glyphicon-crm.large:before {
+        content: url(../images/crm.png);
+    }
 
-.glyphicon-crm.large:before {
-    content: url(../images/crm.png);
-}
+    &.glyphicon-highrise.large:before {
+        content: url(../images/company_logos/highrise.png);
+    }
 
-.glyphicon-highrise.large:before {
-    content: url(../images/company_logos/highrise.png);
-}
+    &.glyphicon-billing.large:before {
+        content: url(../images/billing.png);
+    }
 
-.glyphicon-caret.large:before {
-    content: url(../images/caret-large.png);
+    &.glyphicon-billing-history.large:before {
+        content: url(../images/billing-history.png);
+    }
 }
-
-.glyphicon-billing.large:before {
-    content: url(../images/billing.png);
-}
-
-.glyphicon-billing-history.large:before {
-    content: url(../images/billing-history.png);
-}
-
 .ringio-icon {
- background-repeat: no-repeat;
- background-position: center;
- background-size: contain;
- &.tip {
-    background-image: url("../images/tip.png");
-    position: absolute;
-    top: 10px;
-    left: -9px;
-    height: 19px;
-    width: 10px;
-}
-&.icon-sound{
-   background-image: url("../images/audio-dark.png");
-}
-&.bulb {
-    display: inline-block;
-    width: 10px;
-    height: 16px;
-    background-image: url("../images/bulb.png");
-}
-&.icon-delete {
-    display: inline-block;
-    margin-left: -$margin / 2;
-    width: $margin;
-    height: $margin;
-    background-size: 40%;
-    background-image: url("../images/delete.png");
-}
-&.icon-refresh {
-    display: inline-block;
-    width: $margin;
-    height: $margin;
-    background-size: 50%;
-    background-image: url("../images/refresh.png");
-}
-&.icon-user {
-    background-image: url("../images/user-small.png");
-    width: 12px;
-    height: 16px;
-    display: inline-block;
-    margin-top: -3px;
-    margin-bottom: -3px;
-    margin-right: 5px;
-}
-
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    &.tip {
+        background-image: url("../images/tip.png");
+        position: absolute;
+        top: 10px;
+        left: -9px;
+        height: 19px;
+        width: 10px;
+    }
+    &.icon-sound {
+        background-image: url("../images/audio-dark.png");
+    }
+    &.bulb {
+        display: inline-block;
+        width: 10px;
+        height: 16px;
+        background-image: url("../images/bulb.png");
+    }
+    &.icon-delete {
+        display: inline-block;
+        // background-size: 40%;
+        background-image: url("../images/delete.png");
+    }
+    &.icon-refresh {
+        display: inline-block;
+        // background-size: 50%;
+        background-image: url("../images/refresh.png");
+    }
+    &.icon-user {
+        background-image: url("../images/user-small.png");
+        width: 12px;
+        height: 16px;
+        display: inline-block;
+        margin-top: -3px;
+        margin-bottom: -3px;
+        margin-right: 5px;
+    }
 }
 
 /****************************   Dropdowns   ******************************/
@@ -200,24 +198,25 @@ body > .container {
     width: 100%;
     vertical-align: middle;
     .btn-dropdown {
+        font-size: $font-size;
         width: 100%;
         text-align: left;
         border-radius: 3px;
         margin-bottom: 0;
-        font-size: 10px;
         background-color: white;
         @include box-shadow-bottom;
-        .left-icon{
-            margin-right: $margin/6;
+        .left-icon {
+            margin-right: $margin / 6;
         }
-
         .icon-toggle, .icon-down {
+            $height: 11px;
             background-repeat: no-repeat;
             background-position: center;
             background-image: url("../images/arrows.png");
             width: 5px;
-            height: 11px;
+            height: $height;
             display: inline-block;
+            @include pm_center('margin',$font-size*$line-height-base, $height);
             float: right;
         }
     }
@@ -242,12 +241,12 @@ body > .container {
 
 /*****************************   Buttons   *******************************/
 
-.btn{
+.btn {
     font-size: $font-size;
-    @include pm_center('padding',$height-button,$font-size*$line-height-base);
-    padding-left: $margin/2;
-    padding-right: $margin/2;
-    &:hover{
+    @include pm_center("padding", $height-button, $font-size * $line-height-base);
+    padding-left: $margin / 2;
+    padding-right: $margin / 2;
+    &:hover {
         color: darken($clr-button, 25%);
     }
 }
@@ -270,7 +269,7 @@ body > .container {
 //     }
 // }
 
-.btn-upload-sound-file{
+.btn-upload-sound-file {
     width: 100%;
     text-align: center;
 }
@@ -287,8 +286,8 @@ body > .container {
     $clr-button: white;
     color: $clr-button;
     background-color: #035C8D;
-    padding-left: $margin/3;
-    padding-right: $margin/3;
+    padding-left: $margin / 3;
+    padding-right: $margin / 3;
 }
 
 .btn-upload {
@@ -299,13 +298,13 @@ body > .container {
 }
 
 .btn-save {
-   $clr-button: rgb(33, 107, 158);
-   color: $clr-button;
-   background: linear-gradient(0deg, #daeafa 0%, #ffffff 100%);
-   background-repeat: repeat-x;
-   border-color: rgb(35, 84, 127);
-   padding-left: $margin/2;
-   padding-right: $margin/2;
+    $clr-button: rgb(33, 107, 158);
+    color: $clr-button;
+    background: linear-gradient(0deg, #daeafa 0%, #ffffff 100%);
+    background-repeat: repeat-x;
+    border-color: rgb(35, 84, 127);
+    padding-left: $margin / 2;
+    padding-right: $margin / 2;
 }
 
 .btn-medium-blue {
@@ -320,12 +319,12 @@ body > .container {
     $clr-button: $clr-navbar-default;
     border-radius: 3px;
     background: linear-gradient(to bottom, #0081c4 0%, #005e97 95%, #0073b2 100%);
-    @include pm_center('margin',$height-navbar-top-row, $height-button);
+    @include pm_center("margin", $height-navbar-top-row, $height-button);
     border: 1px solid #004a7a;
     color: $clr-navbar-default;
     text-shadow: $text-shadow-navbar;
-    padding-left: $margin/2;
-    padding-right: $margin/2;
+    padding-left: $margin / 2;
+    padding-right: $margin / 2;
     box-shadow: 0 0 0 2px $box-shadow-clr-button-logout;
 }
 
@@ -338,6 +337,20 @@ body > .container {
 input[disabled="disabled"] {
     color: gray;
 }
+input::-webkit-input-placeholder {
+    color: $font-clr-emphasized;
+}
+input:-moz-placeholder {
+        /* Firefox 18- */
+        color: $font-clr-emphasized;
+    }
+    input::-moz-placeholder {
+        /* Firefox 19+ */
+        color: $font-clr-emphasized;
+    }
+    input:-ms-input-placeholder {
+        color: $font-clr-emphasized;
+    }
 
 /*****************************   Page Header   *******************************/
 
@@ -446,7 +459,7 @@ input[disabled="disabled"] {
     border-radius: 5px;
     border: 1px solid $border-clr-table;
     .btn {
-        @include button-gradient("light");
+        @include button-gradient("light",'default');
         text-align: center;
         margin-left: 0;
         margin-right: $margin / 2;
@@ -472,6 +485,69 @@ input[disabled="disabled"] {
     .btn-revoke-access {
         width: 100%;
         text-align: center;
+    }
+}
+
+.thumbnail {
+    padding: 0;
+    padding-left: $margin;
+    padding-right: $margin;
+    .btn.ringio-icon {
+        background-color: $bg-clr-btn-edit;
+        background-size: 50%;
+        width: $margin;
+        height: $margin;
+        border-radius: $margin;
+        position: absolute;
+        top: $margin / 3;
+        right: $margin / 3;
+        &.btn-edit {
+            background-image: url("../images/edit-gray.png");
+            &:active {
+                background-image: url("../images/edit-blue.png");
+            }
+            &:hover {
+                background-image: url("../images/edit-blue.png");
+            }
+        }
+        &.btn-close {
+            background-size: 35%;
+            background-image: url("../images/close-blue.png");
+            &:active {
+                background-image: url("../images/close-blue.png");
+            }
+            &:hover {
+                background-image: url("../images/close-blue.png");
+            }
+        }
+    }
+    .logo {
+        margin-top: $margin;
+        object-fit: contain;
+        height: 100px;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+    .logo-small {
+        margin-top: $margin;
+        // text-align: left;
+        a {
+            text-align: left;
+            img {
+                width: auto;
+                height: auto;
+            }
+        }
+    }
+    .btn-configure {
+        width: 100%;
+        text-align: center;
+        @include button-gradient('light',"configure");
+        margin-top: $margin;
+        margin-bottom: $margin;
     }
 }
 

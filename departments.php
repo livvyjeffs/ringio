@@ -35,7 +35,6 @@
         <span class="icon-close ringio-icon btn"></span>
       </div>
       <div class="panel-body">
-
         <table>
           <tr>
             <td class="table-image">

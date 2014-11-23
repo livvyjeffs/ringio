@@ -8275,29 +8275,29 @@ button.close {
   margin: 15px;
   border-bottom: 1px solid #d7e6ee;
 }
-/* line 102, ../sass/panels.scss */
+/* line 101, ../sass/panels.scss */
 .panel .panel-body .thumbnail {
   margin: 0;
   margin-top: 15px;
   padding: 0;
 }
-/* line 106, ../sass/panels.scss */
+/* line 105, ../sass/panels.scss */
 .panel .panel-body .thumbnail:last-child {
   margin-bottom: 15px;
 }
-/* line 109, ../sass/panels.scss */
+/* line 108, ../sass/panels.scss */
 .panel .panel-body .thumbnail .logo {
   display: block;
   height: 100px;
   padding: 15px;
 }
-/* line 113, ../sass/panels.scss */
+/* line 112, ../sass/panels.scss */
 .panel .panel-body .thumbnail .logo img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
-/* line 120, ../sass/panels.scss */
+/* line 119, ../sass/panels.scss */
 .panel .panel-body h1 {
   margin: 0;
   font-size: 12px;
@@ -8305,32 +8305,32 @@ button.close {
   color: #04689E;
   line-height: 1.428571429;
 }
-/* line 127, ../sass/panels.scss */
+/* line 126, ../sass/panels.scss */
 .panel .panel-body b {
   color: #04689E;
 }
-/* line 130, ../sass/panels.scss */
+/* line 129, ../sass/panels.scss */
 .panel .panel-body table {
   border: none;
   padding: 0;
 }
-/* line 133, ../sass/panels.scss */
+/* line 132, ../sass/panels.scss */
 .panel .panel-body table td {
   padding: 10px 5px;
 }
-/* line 135, ../sass/panels.scss */
+/* line 134, ../sass/panels.scss */
 .panel .panel-body table td .table-text {
   padding-right: 15px;
 }
-/* line 137, ../sass/panels.scss */
+/* line 136, ../sass/panels.scss */
 .panel .panel-body table td .table-text p {
   margin: 0;
 }
-/* line 140, ../sass/panels.scss */
+/* line 139, ../sass/panels.scss */
 .panel .panel-body table td .table-text a {
   font-weight: bold;
 }
-/* line 146, ../sass/panels.scss */
+/* line 145, ../sass/panels.scss */
 .panel .panel-body li {
   padding: 15px;
   border: none;
@@ -8338,11 +8338,11 @@ button.close {
   border-radius: 0;
   text-align: left;
 }
-/* line 152, ../sass/panels.scss */
+/* line 151, ../sass/panels.scss */
 .panel .panel-body li:last-child {
   border-bottom: none;
 }
-/* line 155, ../sass/panels.scss */
+/* line 154, ../sass/panels.scss */
 .panel .panel-body li .dropdown {
   width: auto;
   display: inline-block;
@@ -8350,17 +8350,17 @@ button.close {
   vertical-align: middle;
   margin-top: -7px;
 }
-/* line 161, ../sass/panels.scss */
+/* line 160, ../sass/panels.scss */
 .panel .panel-body li .dropdown .btn {
   font-weight: bold;
   border: 1px solid #DDE9F1;
   box-shadow: 0 1px 3px #E5EEF5;
 }
-/* line 166, ../sass/panels.scss */
+/* line 165, ../sass/panels.scss */
 .panel .panel-body li .dropdown .icon-toggle {
   margin-left: 15px;
 }
-/* line 171, ../sass/panels.scss */
+/* line 170, ../sass/panels.scss */
 .panel .panel-body .ringio-icon {
   width: 18px;
   height: 18px;
@@ -8368,27 +8368,27 @@ button.close {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 178, ../sass/panels.scss */
+/* line 177, ../sass/panels.scss */
 .panel .panel-body .ringio-icon.icon-call-recording {
   background-image: url("../images/dashboard/call-recording.png");
 }
-/* line 181, ../sass/panels.scss */
+/* line 180, ../sass/panels.scss */
 .panel .panel-body .ringio-icon.icon-screen-pop {
   background-image: url("../images/dashboard/screen-pop.png");
 }
-/* line 184, ../sass/panels.scss */
+/* line 183, ../sass/panels.scss */
 .panel .panel-body .ringio-icon.icon-call-whisper {
   background-image: url("../images/dashboard/call-whisper.png");
 }
-/* line 187, ../sass/panels.scss */
+/* line 186, ../sass/panels.scss */
 .panel .panel-body .ringio-icon.icon-email-notifications {
   background-image: url("../images/dashboard/email-notifications.png");
 }
-/* line 190, ../sass/panels.scss */
+/* line 189, ../sass/panels.scss */
 .panel .panel-body .ringio-icon.icon-back-up-number {
   background-image: url("../images/dashboard/back-up-number.png");
 }
-/* line 193, ../sass/panels.scss */
+/* line 192, ../sass/panels.scss */
 .panel .panel-body .ringio-icon.icon-status {
   width: 10px;
   height: 10px;
@@ -8396,54 +8396,168 @@ button.close {
   margin-bottom: 3.571428574px;
   float: right;
 }
-/* line 199, ../sass/panels.scss */
+/* line 198, ../sass/panels.scss */
 .panel .panel-body .ringio-icon.icon-status[color="green"] {
   background-image: url("../images/dashboard/status-green.png");
 }
-/* line 202, ../sass/panels.scss */
+/* line 201, ../sass/panels.scss */
 .panel .panel-body .ringio-icon.icon-status[color="red"] {
   background-image: url("../images/dashboard/status-red.png");
 }
-/* line 208, ../sass/panels.scss */
+/* line 207, ../sass/panels.scss */
 .panel.panel-side {
   padding: 0 10px;
 }
-/* line 210, ../sass/panels.scss */
+/* line 209, ../sass/panels.scss */
 .panel.panel-side .panel-heading {
   background-color: white;
   color: #52595E;
   text-align: center;
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 216, ../sass/panels.scss */
+/* line 215, ../sass/panels.scss */
 .panel.panel-side .panel-body {
   box-shadow: none;
   border-top: none;
 }
-/* line 220, ../sass/panels.scss */
+/* line 218, ../sass/panels.scss */
 .panel.panel-side .panel-body table {
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 222, ../sass/panels.scss */
+/* line 220, ../sass/panels.scss */
 .panel.panel-side .panel-body table:last-child {
   border-bottom: none;
 }
-/* line 256, ../sass/panels.scss */
+/* line 229, ../sass/panels.scss */
+.panel#crm-integrations-status .logo, .panel#crm-integrations-status .status-authorization, .panel#crm-integrations-status .btn-revoke-access {
+  display: inline-block;
+  margin: 15px;
+  height: 45px;
+  vertical-align: middle;
+}
+/* line 235, ../sass/panels.scss */
+.panel#crm-integrations-status .logo {
+  object-fit: contain;
+}
+/* line 237, ../sass/panels.scss */
+.panel#crm-integrations-status .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+/* line 243, ../sass/panels.scss */
+.panel#crm-integrations-status .status-authorization {
+  font-size: 12px;
+}
+/* line 245, ../sass/panels.scss */
+.panel#crm-integrations-status .status-authorization .authorized {
+  color: green;
+  font-size: 16px;
+  vertical-align: middle;
+}
+/* line 251, ../sass/panels.scss */
+.panel#crm-integrations-status .status-authorization .authorized .icon-check-green {
+  margin-right: 5px;
+  vertical-align: middle;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-top: 4.428571432px;
+  margin-bottom: 4.428571432px;
+  background-image: url("../images/check-green.png");
+}
+/* line 262, ../sass/panels.scss */
+.panel#crm-integrations-status .status-authorization .date {
+  color: gray;
+}
+/* line 266, ../sass/panels.scss */
+.panel#crm-integrations-status .btn-revoke-access {
+  font-size: 14px;
+  float: right;
+  border-radius: 3px;
+  background: -webkit-linear-gradient(90deg, #DBEBFB 0%, #FFFFFF 100%);
+  background: linear-gradient(0deg, #DBEBFB 0%, #FFFFFF 100%);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #9CBBCF;
+  color: #04689E;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3px #DDE9F1;
+  font-size: 12px;
+  padding-top: 12.428571426px;
+  padding-bottom: 12.428571426px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+/* line 273, ../sass/panels.scss */
+.panel#crm-integrations-edit {
+  background-color: #F3F8Fb;
+}
+/* line 275, ../sass/panels.scss */
+.panel#crm-integrations-edit .option {
+  margin: 15px;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #DDE9F1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/* line 129, ../sass/variables.scss */
+.panel#crm-integrations-edit .option [class|="col"] {
+  vertical-align: middle;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+/* line 133, ../sass/variables.scss */
+.panel#crm-integrations-edit .option [class|="col"]:first-child {
+  padding-left: 15px;
+}
+/* line 136, ../sass/variables.scss */
+.panel#crm-integrations-edit .option [class|="col"]:last-child {
+  padding-right: 15px;
+}
+/* line 284, ../sass/panels.scss */
+.panel#crm-integrations-edit input, .panel#crm-integrations-edit .btn-dropdown {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+  vertical-align: middle;
+  font-size: 12px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #DDE9F1;
+  color: #04689E;
+  padding-top: 7.428571426px;
+  padding-bottom: 7.428571426px;
+}
+/* line 295, ../sass/panels.scss */
+.panel#crm-integrations-edit .ringio-icon.btn {
+  width: 32px;
+  height: 32px;
+  background-size: 50%;
+  margin: 0;
+}
+/* line 301, ../sass/panels.scss */
+.panel#crm-integrations-edit .ringio-icon.btn.icon-delete {
+  border-left: 1px solid #DDE9F1;
+}
+/* line 331, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center {
   background: -webkit-linear-gradient(90deg, white 0%, #F3F8Fb 5%, #F3F8Fb 16%, white 100%);
   background: linear-gradient(0deg, white 0%, #F3F8Fb 5%, #F3F8Fb 16%, white 100%);
 }
-/* line 258, ../sass/panels.scss */
+/* line 333, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li {
   font-size: 12px;
   padding: 12px;
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 263, ../sass/panels.scss */
+/* line 338, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li:last-child {
   border-bottom: none;
 }
-/* line 266, ../sass/panels.scss */
+/* line 341, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li .ringio-icon {
   display: inline-block;
   width: 12px;
@@ -8453,53 +8567,53 @@ button.close {
   margin-top: 2.571428574px;
   margin-bottom: 2.571428574px;
 }
-/* line 273, ../sass/panels.scss */
+/* line 348, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li .ringio-icon.icon-check {
   background-image: url("../images/check-dark.png");
 }
-/* line 276, ../sass/panels.scss */
+/* line 351, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li .ringio-icon.icon-caret {
   background-image: url("../images/caret-small-dark.png");
 }
-/* line 283, ../sass/panels.scss */
+/* line 358, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul {
   margin: 0;
 }
-/* line 285, ../sass/panels.scss */
+/* line 360, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li {
   margin: 0 5px;
   padding: 12px;
 }
-/* line 288, ../sass/panels.scss */
+/* line 363, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li:last-child {
   border-top: 1px solid #DDE9F1;
 }
-/* line 291, ../sass/panels.scss */
+/* line 366, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li.total, .panel[id|="billing"] .panel-body ul li.last-row {
   background-color: #F3F8Fb;
   margin: 0;
 }
-/* line 295, ../sass/panels.scss */
+/* line 370, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li p {
   margin: 0;
 }
-/* line 297, ../sass/panels.scss */
+/* line 372, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li p span {
   display: inline-block;
   float: right;
   color: #04689E;
 }
-/* line 303, ../sass/panels.scss */
+/* line 378, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li .col-md-6 {
   padding-left: 0;
   padding-right: 5px;
 }
-/* line 306, ../sass/panels.scss */
+/* line 381, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li .col-md-6:last-child {
   padding-left: 5px;
   padding-right: 0;
 }
-/* line 310, ../sass/panels.scss */
+/* line 385, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li .col-md-6 .btn {
   padding-left: 0;
   padding-right: 0;
@@ -8515,40 +8629,40 @@ button.close {
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   margin: 0;
 }
-/* line 326, ../sass/panels.scss */
+/* line 401, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-users .panel-body li, .panel[id|="dashboard"]#dashboard-departments .panel-body li {
   border-bottom: 1px solid #DDE9F1;
   background-color: white;
 }
-/* line 329, ../sass/panels.scss */
+/* line 404, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-users .panel-body li.btn:active, .panel[id|="dashboard"]#dashboard-departments .panel-body li.btn:active {
   box-shadow: none;
 }
-/* line 332, ../sass/panels.scss */
+/* line 407, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-users .panel-body li.btn:hover, .panel[id|="dashboard"]#dashboard-departments .panel-body li.btn:hover {
   background-color: #F3F8FB;
   box-shadow: 0 -3px 0 0 #E5EEF5 inset;
   cursor: pointer;
 }
-/* line 342, ../sass/panels.scss */
+/* line 417, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-settings .phone-number {
   float: right;
   color: #03689E;
 }
-/* line 348, ../sass/panels.scss */
+/* line 423, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-support .panel-heading {
   text-align: center;
 }
-/* line 350, ../sass/panels.scss */
+/* line 425, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-support .panel-heading img {
   height: 100%;
   width: auto;
 }
-/* line 356, ../sass/panels.scss */
+/* line 431, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers {
   font-size: 12px;
 }
-/* line 359, ../sass/panels.scss */
+/* line 434, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers label {
   margin: 0;
   display: inline-block;
@@ -8556,22 +8670,22 @@ button.close {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 365, ../sass/panels.scss */
+/* line 440, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 368, ../sass/panels.scss */
+/* line 443, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul {
   margin: 0;
 }
-/* line 370, ../sass/panels.scss */
+/* line 445, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option {
   border: 1px solid #DDE9F1;
   padding: 0;
   border-radius: 3px;
 }
-/* line 374, ../sass/panels.scss */
+/* line 449, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option .phone-number {
   display: inline-block;
   float: right;
@@ -8581,7 +8695,7 @@ button.close {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 381, ../sass/panels.scss */
+/* line 456, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option .phone-number .icon-settings {
   display: inline-block;
   vertical-align: middle;
@@ -8590,49 +8704,49 @@ button.close {
   margin-left: 8px;
   background-image: url("../images/dashboard/settings.png");
 }
-/* line 389, ../sass/panels.scss */
+/* line 464, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option .phone-number .icon-settings:hover {
   cursor: pointer;
 }
-/* line 395, ../sass/panels.scss */
+/* line 470, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .btn {
   text-align: center;
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 399, ../sass/panels.scss */
+/* line 474, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option, .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .btn {
   box-shadow: 0px 3px 5px 0px #DDE9F1;
 }
-/* line 405, ../sass/panels.scss */
+/* line 480, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most {
   background-color: white;
 }
-/* line 410, ../sass/panels.scss */
+/* line 483, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .data-container [class|="col"] {
   padding: 0 10px;
 }
-/* line 412, ../sass/panels.scss */
+/* line 485, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .data-container [class|="col"]:first-child {
   padding-left: 20px;
 }
-/* line 415, ../sass/panels.scss */
+/* line 488, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .data-container [class|="col"]:last-child {
   padding-right: 20px;
 }
-/* line 420, ../sass/panels.scss */
+/* line 492, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .panel-body {
   border-left: 1px solid #DDE9F1;
   border-bottom: 1px solid #DDE9F1;
   border-right: 1px solid #DDE9F1;
 }
-/* line 426, ../sass/panels.scss */
+/* line 497, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail {
   border: none;
   box-shadow: none;
   height: 100px;
 }
-/* line 430, ../sass/panels.scss */
+/* line 501, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail .thumbnail-header {
   font-size: 14px;
   color: #03689E;
@@ -8640,7 +8754,7 @@ button.close {
   padding-bottom: 10.999999997px;
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 436, ../sass/panels.scss */
+/* line 507, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail .thumbnail-header .icon-caret {
   display: inline-block;
   float: right;
@@ -8650,16 +8764,16 @@ button.close {
   margin-bottom: 3.500000003px;
   background-image: url("../images/dashboard/caret-light.png");
 }
-/* line 446, ../sass/panels.scss */
+/* line 517, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail p {
   margin-top: 10px;
 }
-/* line 453, ../sass/panels.scss */
+/* line 523, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-support .btn-contact-support {
   margin: 15px 0;
   border: 2px solid #DDE9F1;
 }
-/* line 458, ../sass/panels.scss */
+/* line 528, ../sass/panels.scss */
 .panel[id|="dashboard"] .btn-add-new-number, .panel[id|="dashboard"] .btn-contact-support {
   width: 100%;
   background: #F3F8FB;
