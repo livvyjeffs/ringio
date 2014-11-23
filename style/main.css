@@ -8857,6 +8857,12 @@ input:-ms-input-placeholder {
   margin-bottom: 30px;
 }
 
+/* line 554, ../sass/body.scss */
+.bootstrap-switch-wrapper {
+  position: absolute;
+  right: 0;
+}
+
 /*-----------------------------    NAV BAR    -----------------------------*/
 /* line 5, ../sass/navbar.scss */
 .navbar-ringio {

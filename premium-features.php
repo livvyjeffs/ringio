@@ -10,6 +10,9 @@
       <div class="panel">
         <div class="panel-heading solo">
           <span class="ringio-icon icon-call-queueing"></span>Call Queueing
+          <div class="make-switch">
+            <input type="checkbox">
+          </div>
         </div>
       </div>
     </div>

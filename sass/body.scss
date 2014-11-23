@@ -551,16 +551,7 @@ input:-moz-placeholder {
     }
 }
 
-// .data-container [class|="col"]{
-//     padding-left: $margin/4;
-//     padding-right: $margin/4;
-//     label{
-//         float: right !important;
-//     }
-//     &:first-child{
-//         padding-left: 0;
-//     }
-//     &:last-child{
-//         padding-right: 0;
-//     }
-// }
+.bootstrap-switch-wrapper{
+    position: absolute;
+    right: 0;
+}

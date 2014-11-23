@@ -10,8 +10,10 @@
   <title>Ringio - <?php echo $page_title; ?></title>
 
   <!-- Bootstrap core CSS -->
-  <link href="style/main.css" rel="stylesheet">
   <link href="css/polyfill.object-fit.css" rel="stylesheet">
+  <link href="css/bootstrap-switch.css" rel="stylesheet">
+  
+  <link href="style/main.css" rel="stylesheet">
 
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
