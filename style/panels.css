@@ -8542,22 +8542,22 @@ button.close {
 .panel#crm-integrations-edit .ringio-icon.btn.icon-delete {
   border-left: 1px solid #DDE9F1;
 }
-/* line 331, ../sass/panels.scss */
+/* line 308, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center {
   background: -webkit-linear-gradient(90deg, white 0%, #F3F8Fb 5%, #F3F8Fb 16%, white 100%);
   background: linear-gradient(0deg, white 0%, #F3F8Fb 5%, #F3F8Fb 16%, white 100%);
 }
-/* line 333, ../sass/panels.scss */
+/* line 310, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li {
   font-size: 12px;
   padding: 12px;
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 338, ../sass/panels.scss */
+/* line 315, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li:last-child {
   border-bottom: none;
 }
-/* line 341, ../sass/panels.scss */
+/* line 318, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li .ringio-icon {
   display: inline-block;
   width: 12px;
@@ -8567,53 +8567,53 @@ button.close {
   margin-top: 2.571428574px;
   margin-bottom: 2.571428574px;
 }
-/* line 348, ../sass/panels.scss */
+/* line 325, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li .ringio-icon.icon-check {
   background-image: url("../images/check-dark.png");
 }
-/* line 351, ../sass/panels.scss */
+/* line 328, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li .ringio-icon.icon-caret {
   background-image: url("../images/caret-small-dark.png");
 }
-/* line 358, ../sass/panels.scss */
+/* line 335, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul {
   margin: 0;
 }
-/* line 360, ../sass/panels.scss */
+/* line 337, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li {
   margin: 0 5px;
   padding: 12px;
 }
-/* line 363, ../sass/panels.scss */
+/* line 340, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li:last-child {
   border-top: 1px solid #DDE9F1;
 }
-/* line 366, ../sass/panels.scss */
+/* line 343, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li.total, .panel[id|="billing"] .panel-body ul li.last-row {
   background-color: #F3F8Fb;
   margin: 0;
 }
-/* line 370, ../sass/panels.scss */
+/* line 347, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li p {
   margin: 0;
 }
-/* line 372, ../sass/panels.scss */
+/* line 349, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li p span {
   display: inline-block;
   float: right;
   color: #04689E;
 }
-/* line 378, ../sass/panels.scss */
+/* line 355, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li .col-md-6 {
   padding-left: 0;
   padding-right: 5px;
 }
-/* line 381, ../sass/panels.scss */
+/* line 358, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li .col-md-6:last-child {
   padding-left: 5px;
   padding-right: 0;
 }
-/* line 385, ../sass/panels.scss */
+/* line 362, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li .col-md-6 .btn {
   padding-left: 0;
   padding-right: 0;
@@ -8629,40 +8629,40 @@ button.close {
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   margin: 0;
 }
-/* line 401, ../sass/panels.scss */
+/* line 378, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-users .panel-body li, .panel[id|="dashboard"]#dashboard-departments .panel-body li {
   border-bottom: 1px solid #DDE9F1;
   background-color: white;
 }
-/* line 404, ../sass/panels.scss */
+/* line 381, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-users .panel-body li.btn:active, .panel[id|="dashboard"]#dashboard-departments .panel-body li.btn:active {
   box-shadow: none;
 }
-/* line 407, ../sass/panels.scss */
+/* line 384, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-users .panel-body li.btn:hover, .panel[id|="dashboard"]#dashboard-departments .panel-body li.btn:hover {
   background-color: #F3F8FB;
   box-shadow: 0 -3px 0 0 #E5EEF5 inset;
   cursor: pointer;
 }
-/* line 417, ../sass/panels.scss */
+/* line 394, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-settings .phone-number {
   float: right;
   color: #03689E;
 }
-/* line 423, ../sass/panels.scss */
+/* line 400, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-support .panel-heading {
   text-align: center;
 }
-/* line 425, ../sass/panels.scss */
+/* line 402, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-support .panel-heading img {
   height: 100%;
   width: auto;
 }
-/* line 431, ../sass/panels.scss */
+/* line 408, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers {
   font-size: 12px;
 }
-/* line 434, ../sass/panels.scss */
+/* line 411, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers label {
   margin: 0;
   display: inline-block;
@@ -8670,22 +8670,22 @@ button.close {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 440, ../sass/panels.scss */
+/* line 417, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 443, ../sass/panels.scss */
+/* line 420, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul {
   margin: 0;
 }
-/* line 445, ../sass/panels.scss */
+/* line 422, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option {
   border: 1px solid #DDE9F1;
   padding: 0;
   border-radius: 3px;
 }
-/* line 449, ../sass/panels.scss */
+/* line 426, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option .phone-number {
   display: inline-block;
   float: right;
@@ -8695,7 +8695,7 @@ button.close {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 456, ../sass/panels.scss */
+/* line 433, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option .phone-number .icon-settings {
   display: inline-block;
   vertical-align: middle;
@@ -8704,49 +8704,49 @@ button.close {
   margin-left: 8px;
   background-image: url("../images/dashboard/settings.png");
 }
-/* line 464, ../sass/panels.scss */
+/* line 441, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option .phone-number .icon-settings:hover {
   cursor: pointer;
 }
-/* line 470, ../sass/panels.scss */
+/* line 447, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .btn {
   text-align: center;
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 474, ../sass/panels.scss */
+/* line 451, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option, .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .btn {
   box-shadow: 0px 3px 5px 0px #DDE9F1;
 }
-/* line 480, ../sass/panels.scss */
+/* line 457, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most {
   background-color: white;
 }
-/* line 483, ../sass/panels.scss */
+/* line 460, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .data-container [class|="col"] {
   padding: 0 10px;
 }
-/* line 485, ../sass/panels.scss */
+/* line 462, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .data-container [class|="col"]:first-child {
   padding-left: 20px;
 }
-/* line 488, ../sass/panels.scss */
+/* line 465, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .data-container [class|="col"]:last-child {
   padding-right: 20px;
 }
-/* line 492, ../sass/panels.scss */
+/* line 469, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .panel-body {
   border-left: 1px solid #DDE9F1;
   border-bottom: 1px solid #DDE9F1;
   border-right: 1px solid #DDE9F1;
 }
-/* line 497, ../sass/panels.scss */
+/* line 474, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail {
   border: none;
   box-shadow: none;
   height: 100px;
 }
-/* line 501, ../sass/panels.scss */
+/* line 478, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail .thumbnail-header {
   font-size: 14px;
   color: #03689E;
@@ -8754,7 +8754,7 @@ button.close {
   padding-bottom: 10.999999997px;
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 507, ../sass/panels.scss */
+/* line 484, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail .thumbnail-header .icon-caret {
   display: inline-block;
   float: right;
@@ -8764,16 +8764,16 @@ button.close {
   margin-bottom: 3.500000003px;
   background-image: url("../images/dashboard/caret-light.png");
 }
-/* line 517, ../sass/panels.scss */
+/* line 494, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail p {
   margin-top: 10px;
 }
-/* line 523, ../sass/panels.scss */
+/* line 500, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-support .btn-contact-support {
   margin: 15px 0;
   border: 2px solid #DDE9F1;
 }
-/* line 528, ../sass/panels.scss */
+/* line 505, ../sass/panels.scss */
 .panel[id|="dashboard"] .btn-add-new-number, .panel[id|="dashboard"] .btn-contact-support {
   width: 100%;
   background: #F3F8FB;

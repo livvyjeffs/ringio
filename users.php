@@ -5,8 +5,8 @@
 <?php include("php_templates/page-header.php"); ?>
 
 <!-- Begin Main Content Container -->
- 
- <div class="row no-margin">
+
+<div class="row no-margin">
   <div class="col-md-8">
     <table id="users-table" class="table table-condensed panel panel-default">
       <thead>
@@ -33,51 +33,53 @@
 
   </div>
   <div class="col-md-4">
-    <div class="panel panel-side">
-      <span class="ringio-icon tip"></span>
-      <div class="panel-heading">
-        Users Help
-        <span class="icon-close ringio-icon btn"></span>
+    <div class="row no-margin">
+      <div class="panel panel-side">
+        <span class="ringio-icon tip"></span>
+        <div class="panel-heading">
+          Users Help
+          <span class="icon-close ringio-icon btn"></span>
+        </div>
+        <div class="panel-body">
+
+          <table>
+            <tr>
+              <td class="table-image">
+                <span class="ringio-icon bulb"></span>
+              </td>
+              <td class="table-text">
+                <p>The first user in the list is the Administrator. You can edit the profiles of each user, add or remove users, or change where they receive their calls.</p>
+                <p><a href="#">Set up more Administrators.</a></p>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+        <div class="panel-body">
+         <table>
+          <tr>
+            <td class="table-image">
+              <span class="ringio-icon bulb"></span>
+            </td>
+            <td class="table-text">
+              <p>Want to see a picture for each user? Ask them to register for a <a href="#">Gravatar</a> with their sign in email.</p>
+            </td>
+          </tr>
+        </table>
       </div>
       <div class="panel-body">
-
         <table>
           <tr>
             <td class="table-image">
               <span class="ringio-icon bulb"></span>
             </td>
             <td class="table-text">
-              <p>The first user in the list is the Administrator. You can edit the profiles of each user, add or remove users, or change where they receive their calls.</p>
-              <p><a href="#">Set up more Administrators.</a></p>
-            </td>
-          </tr>
-        </table>
-
-      </div>
-      <div class="panel-body">
-       <table>
-        <tr>
-          <td class="table-image">
-            <span class="ringio-icon bulb"></span>
-          </td>
-          <td class="table-text">
-            <p>Want to see a picture for each user? Ask them to register for a <a href="#">Gravatar</a> with their sign in email.</p>
-          </td>
-        </tr>
-      </table>
-    </div>
-    <div class="panel-body">
-      <table>
-        <tr>
-          <td class="table-image">
-            <span class="ringio-icon bulb"></span>
-          </td>
-          <td class="table-text">
-           <p>Have a PBX or want extensions?</p>
-           <p><a href="#">Configure Ringio Extensions.</a></p>
-         </td>
-       </tr>
-     </table>
+             <p>Have a PBX or want extensions?</p>
+             <p><a href="#">Configure Ringio Extensions.</a></p>
+           </td>
+         </tr>
+       </table>
+     </div>
    </div>
  </div>
 </div>
