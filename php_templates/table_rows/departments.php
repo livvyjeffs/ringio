@@ -32,7 +32,7 @@ if($opened){
     <div id="demo<?php echo $row_number; ?>" class="accordion-body collapse <?php echo $in_or_out; ?>">
 
 
-      <div class="row main-container no-margin">
+      <div class="row outer-container no-margin">
         <div class="col-md-12 data-container" option-container>
           <h1>Greeting</h1>
           <div class="row" option>

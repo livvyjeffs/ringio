@@ -41,7 +41,6 @@
           <span class="icon-close ringio-icon btn"></span>
         </div>
         <div class="panel-body">
-
           <table>
             <tr>
               <td class="table-image">
@@ -53,39 +52,33 @@
               </td>
             </tr>
           </table>
-
-        </div>
-        <div class="panel-body">
-         <table>
-          <tr>
-            <td class="table-image">
-              <span class="ringio-icon bulb"></span>
-            </td>
-            <td class="table-text">
-              <p>Want to see a picture for each user? Ask them to register for a <a href="#">Gravatar</a> with their sign in email.</p>
-            </td>
-          </tr>
-        </table>
-      </div>
-      <div class="panel-body">
-        <table>
-          <tr>
-            <td class="table-image">
-              <span class="ringio-icon bulb"></span>
-            </td>
-            <td class="table-text">
-             <p>Have a PBX or want extensions?</p>
-             <p><a href="#">Configure Ringio Extensions.</a></p>
-           </td>
-         </tr>
-       </table>
+          <table>
+            <tr>
+              <td class="table-image">
+                <span class="ringio-icon bulb"></span>
+              </td>
+              <td class="table-text">
+                <p>Want to see a picture for each user? Ask them to register for a <a href="#">Gravatar</a> with their sign in email.</p>
+              </td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td class="table-image">
+                <span class="ringio-icon bulb"></span>
+              </td>
+              <td class="table-text">
+               <p>Have a PBX or want extensions?</p>
+               <p><a href="#">Configure Ringio Extensions.</a></p>
+             </td>
+           </tr>
+         </table>
+       </div>
      </div>
    </div>
  </div>
 </div>
-</div>
 
 </div> <!-- /container -->
-
 
 <?php $page_title = "Users"; include_once("php_templates/footer.php"); ?>

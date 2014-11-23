@@ -43,28 +43,32 @@ $font-size: $font-size-12;
     }
 }
 
-// .outer-container {
 
-    .outer-container {
-        background-color: rgb(243, 248, 251);
-        border-top: 2px solid $box-shadow-clr-table-option;
-        border-bottom: 3px solid $box-shadow-clr-table-option;
-        h1 {
-            font-size: $font-size;
-            color: $font-clr-emphasized;
-            text-transform: uppercase;
-        }
+.outer-container {
+    background-color: rgb(243, 248, 251);
+    border-top: 2px solid $box-shadow-clr-table-option;
+    border-bottom: 3px solid $box-shadow-clr-table-option;
+    h1 {
+        margin-top: $margin / 2;
+        margin-bottom: $margin / 2;
+        font-size: $font-size;
+        color: $font-clr-emphasized;
+        text-transform: uppercase;
     }
+}
 
-    .data-container {
-        border-bottom: 1px solid $border-clr-table;
-        .form-control {
-            padding: 0;
-            border: none;
-        }
-        @include custom-margins('half');
-     
-        .input-group-addon {
+.data-container {
+    border-bottom: 1px solid $border-clr-table;
+    @include custom-margins("half");
+    .form-control {
+        padding: 0;
+        border: none;
+    }
+    .row {
+        margin-top: $margin / 2;
+        margin-bottom: $margin / 2;
+    }
+    .input-group-addon {
         // background-color: none;
         border: none;
         background: none;
@@ -88,7 +92,6 @@ $font-size: $font-size-12;
             @include pm_center("margin", $font-size * $line-height-base, 13px);
         }
     }
-    
     h1 {
         font-size: $font-size;
         color: $font-clr-emphasized;
@@ -115,6 +118,7 @@ $font-size: $font-size-12;
         border-radius: 3px;
         border: 1px solid $border-clr-table;
         vertical-align: middle;
+        background-color: white;
         > .input-group-addon, > .form-control {
             height: $height-inner-row - 2 * $padding;
             padding: 0;
@@ -249,7 +253,6 @@ $font-size: $font-size-12;
         padding: 0;
         min-width: 0;
     }
-    
     &[aria-expanded="true"] {
         border-left: 1px solid $bg-clr-table-dark;
         border-right: 1px solid $bg-clr-table-dark;

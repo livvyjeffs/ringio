@@ -8199,27 +8199,24 @@ button.close {
   width: 12px;
 }
 
-/* line 48, ../sass/datacontainers.scss */
+/* line 47, ../sass/datacontainers.scss */
 .outer-container {
   background-color: #f3f8fb;
   border-top: 2px solid #E5EEF5;
   border-bottom: 3px solid #E5EEF5;
 }
-/* line 52, ../sass/datacontainers.scss */
+/* line 51, ../sass/datacontainers.scss */
 .outer-container h1 {
+  margin-top: 15px;
+  margin-bottom: 15px;
   font-size: 12px;
   color: #04689E;
   text-transform: uppercase;
 }
 
-/* line 59, ../sass/datacontainers.scss */
+/* line 60, ../sass/datacontainers.scss */
 .data-container {
   border-bottom: 1px solid #DDE9F1;
-}
-/* line 61, ../sass/datacontainers.scss */
-.data-container .form-control {
-  padding: 0;
-  border: none;
 }
 /* line 129, ../sass/variables.scss */
 .data-container [class|="col"] {
@@ -8235,7 +8232,17 @@ button.close {
 .data-container [class|="col"]:last-child {
   padding-right: 15px;
 }
+/* line 63, ../sass/datacontainers.scss */
+.data-container .form-control {
+  padding: 0;
+  border: none;
+}
 /* line 67, ../sass/datacontainers.scss */
+.data-container .row {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* line 71, ../sass/datacontainers.scss */
 .data-container .input-group-addon {
   border: none;
   background: none;
@@ -8245,7 +8252,7 @@ button.close {
   font-size: 12px;
   color: #52595E;
 }
-/* line 76, ../sass/datacontainers.scss */
+/* line 80, ../sass/datacontainers.scss */
 .data-container input, .data-container .btn-dropdown, .data-container label {
   border-radius: 3px;
   width: 100%;
@@ -8254,49 +8261,50 @@ button.close {
   padding-top: 7.428571426px;
   padding-bottom: 7.428571426px;
 }
-/* line 83, ../sass/datacontainers.scss */
+/* line 87, ../sass/datacontainers.scss */
 .data-container input, .data-container .btn-dropdown {
   border: 1px solid #d7e6ee;
   padding-left: 7.5px;
   padding-right: 7.5px;
 }
-/* line 87, ../sass/datacontainers.scss */
+/* line 91, ../sass/datacontainers.scss */
 .data-container input .icon-toggle, .data-container .btn-dropdown .icon-toggle {
   margin-top: 2.071428574px;
   margin-bottom: 2.071428574px;
 }
-/* line 92, ../sass/datacontainers.scss */
+/* line 95, ../sass/datacontainers.scss */
 .data-container h1 {
   font-size: 12px;
   color: #04689E;
   margin: 15px 0;
   padding: 0;
 }
-/* line 98, ../sass/datacontainers.scss */
+/* line 101, ../sass/datacontainers.scss */
 .data-container .table {
   box-shadow: 0px 2px 0px 0px #E5EEF5;
 }
-/* line 101, ../sass/datacontainers.scss */
+/* line 104, ../sass/datacontainers.scss */
 .data-container .table thead tr {
   background-color: white;
 }
-/* line 105, ../sass/datacontainers.scss */
+/* line 108, ../sass/datacontainers.scss */
 .data-container .table .btn-dropdown {
   margin-top: -7.428571426px;
   margin-bottom: -7.428571426px;
 }
-/* line 109, ../sass/datacontainers.scss */
+/* line 112, ../sass/datacontainers.scss */
 .data-container .option {
   margin-bottom: 15px;
 }
-/* line 112, ../sass/datacontainers.scss */
+/* line 115, ../sass/datacontainers.scss */
 .data-container .option-input-group {
   padding: 5px;
   border-radius: 3px;
   border: 1px solid #DDE9F1;
   vertical-align: middle;
+  background-color: white;
 }
-/* line 118, ../sass/datacontainers.scss */
+/* line 122, ../sass/datacontainers.scss */
 .data-container .option-input-group > .input-group-addon, .data-container .option-input-group > .form-control {
   height: 22px;
   padding: 0;
@@ -8305,26 +8313,26 @@ button.close {
   box-shadow: none;
   border-radius: 0;
 }
-/* line 126, ../sass/datacontainers.scss */
+/* line 130, ../sass/datacontainers.scss */
 .data-container .option-input-group > .input-group-addon {
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 130, ../sass/datacontainers.scss */
+/* line 134, ../sass/datacontainers.scss */
 .data-container .option-input-group > .form-control {
   border-left: 1px solid #DDE9F1;
 }
-/* line 133, ../sass/datacontainers.scss */
+/* line 137, ../sass/datacontainers.scss */
 .data-container .option-input-group input, .data-container .option-input-group label {
   width: auto;
   display: inline-block;
   margin: 0;
 }
-/* line 138, ../sass/datacontainers.scss */
+/* line 142, ../sass/datacontainers.scss */
 .data-container .option-input-group input {
   margin-right: 5px;
 }
-/* line 141, ../sass/datacontainers.scss */
+/* line 145, ../sass/datacontainers.scss */
 .data-container .option-input-group label {
   box-shadow: none;
   padding-left: 5px;
@@ -8332,20 +8340,20 @@ button.close {
   padding-bottom: 2.428571426px;
 }
 
-/* line 169, ../sass/datacontainers.scss */
+/* line 173, ../sass/datacontainers.scss */
 .table {
   border-collapse: separate;
   border: 1px solid #DDE9F1;
   padding: 0;
 }
-/* line 173, ../sass/datacontainers.scss */
+/* line 177, ../sass/datacontainers.scss */
 .table thead tr {
   background-color: #F3F8Fb;
   font-weight: 700;
   font-size: 12px;
   color: #17699C;
 }
-/* line 178, ../sass/datacontainers.scss */
+/* line 182, ../sass/datacontainers.scss */
 .table thead tr th {
   font-size: 12px;
   padding-left: 15px;
@@ -8353,7 +8361,7 @@ button.close {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 186, ../sass/datacontainers.scss */
+/* line 190, ../sass/datacontainers.scss */
 .table tbody tr td {
   font-size: 12px;
   padding-left: 15px;
@@ -8361,7 +8369,7 @@ button.close {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 191, ../sass/datacontainers.scss */
+/* line 195, ../sass/datacontainers.scss */
 .table tbody tr td .profile-icon {
   width: 30px;
   height: 30px;
@@ -8372,7 +8380,7 @@ button.close {
   margin-top: -6.428571426px;
   margin-bottom: -6.428571426px;
 }
-/* line 201, ../sass/datacontainers.scss */
+/* line 205, ../sass/datacontainers.scss */
 .table tbody tr td .close {
   margin: 5px;
   height: 15px;
@@ -8381,7 +8389,7 @@ button.close {
   margin-bottom: 1.071428574px;
   background-image: url("../images/close-gray-large.png");
 }
-/* line 211, ../sass/datacontainers.scss */
+/* line 215, ../sass/datacontainers.scss */
 .table th, .table td {
   font-size: 12px;
   padding-left: 15px;
@@ -8392,45 +8400,45 @@ button.close {
   border-left: 1px solid #d7e6ee;
   vertical-align: middle;
 }
-/* line 219, ../sass/datacontainers.scss */
+/* line 223, ../sass/datacontainers.scss */
 .table th:first-child, .table td:first-child {
   border-left: none;
 }
 
 /****************************   Accordion   ******************************/
-/* line 227, ../sass/datacontainers.scss */
+/* line 231, ../sass/datacontainers.scss */
 .hiddenRow {
   padding: 0 !important;
   border: none !important;
 }
-/* line 230, ../sass/datacontainers.scss */
+/* line 234, ../sass/datacontainers.scss */
 .hiddenRow .accordion-body {
   position: relative;
   box-shadow: inset 0px 2px 0px 0px #dbebf3;
 }
 
-/* line 236, ../sass/datacontainers.scss */
+/* line 240, ../sass/datacontainers.scss */
 .accordion-toggle {
   position: relative;
 }
-/* line 238, ../sass/datacontainers.scss */
+/* line 242, ../sass/datacontainers.scss */
 .accordion-toggle:hover {
   cursor: pointer;
 }
-/* line 240, ../sass/datacontainers.scss */
+/* line 244, ../sass/datacontainers.scss */
 .accordion-toggle:hover td {
   color: #17699C;
   font-size: 12px;
   background-color: #fbfcfe;
 }
-/* line 246, ../sass/datacontainers.scss */
+/* line 250, ../sass/datacontainers.scss */
 .accordion-toggle .edit-options {
   display: none;
   z-index: 1;
   padding: 0;
   min-width: 0;
 }
-/* line 253, ../sass/datacontainers.scss */
+/* line 256, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] {
   border-left: 1px solid #0572AE;
   border-right: 1px solid #0572AE;
@@ -8440,30 +8448,30 @@ button.close {
   box-shadow: inset 0px 0px 3px 3px #1e83bb;
   border: 1px solid #00507f;
 }
-/* line 261, ../sass/datacontainers.scss */
+/* line 264, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"]:hover td {
   line-height: 1.428571429;
   color: white;
   font-weight: normal;
   background-color: #0572AE;
 }
-/* line 267, ../sass/datacontainers.scss */
+/* line 270, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] > th, .accordion-toggle[aria-expanded="true"] > td {
   border: none !important;
 }
-/* line 270, ../sass/datacontainers.scss */
+/* line 273, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] :not(.stay-visible) {
   opacity: 0;
 }
-/* line 272, ../sass/datacontainers.scss */
+/* line 275, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] :not(.stay-visible).disappear {
   display: none;
 }
-/* line 277, ../sass/datacontainers.scss */
+/* line 280, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] td:not(:first-child), .accordion-toggle[aria-expanded="true"] td:not(:last-child) {
   border: none;
 }
-/* line 281, ../sass/datacontainers.scss */
+/* line 284, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options {
   display: block;
   color: white;
@@ -8471,19 +8479,19 @@ button.close {
   margin-bottom: -12.428571426px;
   height: 42px;
 }
-/* line 282, ../sass/datacontainers.scss */
+/* line 285, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options.float-right {
   float: right;
   margin-left: -100px;
   margin-right: -15px;
 }
-/* line 287, ../sass/datacontainers.scss */
+/* line 290, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options.float-left {
   float: left;
   margin-right: -100px;
   margin-left: -15px;
 }
-/* line 296, ../sass/datacontainers.scss */
+/* line 299, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options .btn {
   display: inline-block;
   margin-top: 5px;
