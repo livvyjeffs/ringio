@@ -8789,7 +8789,13 @@ input:-ms-input-placeholder {
 }
 
 /* line 554, ../sass/body.scss */
-.bootstrap-switch-wrapper {
-  position: absolute;
-  right: 0;
+.switch {
+  font-size: 12px;
+  display: inline-block;
+  margin: 0;
+  float: right;
+}
+/* line 559, ../sass/body.scss */
+.switch > span {
+  height: 25px;
 }

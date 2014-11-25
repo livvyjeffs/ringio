@@ -8858,9 +8858,15 @@ input:-ms-input-placeholder {
 }
 
 /* line 554, ../sass/body.scss */
-.bootstrap-switch-wrapper {
-  position: absolute;
-  right: 0;
+.switch {
+  font-size: 12px;
+  display: inline-block;
+  margin: 0;
+  float: right;
+}
+/* line 559, ../sass/body.scss */
+.switch > span {
+  height: 25px;
 }
 
 /*-----------------------------    NAV BAR    -----------------------------*/
@@ -9166,9 +9172,10 @@ input:-ms-input-placeholder {
 }
 /* line 112, ../sass/datacontainers.scss */
 .data-container .option {
+  margin-top: 0;
   margin-bottom: 15px;
 }
-/* line 115, ../sass/datacontainers.scss */
+/* line 116, ../sass/datacontainers.scss */
 .data-container .option-input-group {
   padding: 5px;
   border-radius: 3px;
@@ -9176,7 +9183,7 @@ input:-ms-input-placeholder {
   vertical-align: middle;
   background-color: white;
 }
-/* line 122, ../sass/datacontainers.scss */
+/* line 123, ../sass/datacontainers.scss */
 .data-container .option-input-group > .input-group-addon, .data-container .option-input-group > .form-control {
   height: 22px;
   padding: 0;
@@ -9185,26 +9192,26 @@ input:-ms-input-placeholder {
   box-shadow: none;
   border-radius: 0;
 }
-/* line 130, ../sass/datacontainers.scss */
+/* line 131, ../sass/datacontainers.scss */
 .data-container .option-input-group > .input-group-addon {
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 134, ../sass/datacontainers.scss */
+/* line 135, ../sass/datacontainers.scss */
 .data-container .option-input-group > .form-control {
   border-left: 1px solid #DDE9F1;
 }
-/* line 137, ../sass/datacontainers.scss */
+/* line 138, ../sass/datacontainers.scss */
 .data-container .option-input-group input, .data-container .option-input-group label {
   width: auto;
   display: inline-block;
   margin: 0;
 }
-/* line 142, ../sass/datacontainers.scss */
+/* line 143, ../sass/datacontainers.scss */
 .data-container .option-input-group input {
   margin-right: 5px;
 }
-/* line 145, ../sass/datacontainers.scss */
+/* line 146, ../sass/datacontainers.scss */
 .data-container .option-input-group label {
   box-shadow: none;
   padding-left: 5px;
@@ -9212,20 +9219,20 @@ input:-ms-input-placeholder {
   padding-bottom: 2.428571426px;
 }
 
-/* line 173, ../sass/datacontainers.scss */
+/* line 174, ../sass/datacontainers.scss */
 .table {
   border-collapse: separate;
   border: 1px solid #DDE9F1;
   padding: 0;
 }
-/* line 177, ../sass/datacontainers.scss */
+/* line 178, ../sass/datacontainers.scss */
 .table thead tr {
   background-color: #F3F8Fb;
   font-weight: 700;
   font-size: 12px;
   color: #17699C;
 }
-/* line 182, ../sass/datacontainers.scss */
+/* line 183, ../sass/datacontainers.scss */
 .table thead tr th {
   font-size: 12px;
   padding-left: 15px;
@@ -9233,7 +9240,7 @@ input:-ms-input-placeholder {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 190, ../sass/datacontainers.scss */
+/* line 191, ../sass/datacontainers.scss */
 .table tbody tr td {
   font-size: 12px;
   padding-left: 15px;
@@ -9241,7 +9248,7 @@ input:-ms-input-placeholder {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 195, ../sass/datacontainers.scss */
+/* line 196, ../sass/datacontainers.scss */
 .table tbody tr td .profile-icon {
   width: 30px;
   height: 30px;
@@ -9252,7 +9259,7 @@ input:-ms-input-placeholder {
   margin-top: -6.428571426px;
   margin-bottom: -6.428571426px;
 }
-/* line 205, ../sass/datacontainers.scss */
+/* line 206, ../sass/datacontainers.scss */
 .table tbody tr td .close {
   margin: 5px;
   height: 15px;
@@ -9261,7 +9268,7 @@ input:-ms-input-placeholder {
   margin-bottom: 1.071428574px;
   background-image: url("../images/close-gray-large.png");
 }
-/* line 215, ../sass/datacontainers.scss */
+/* line 216, ../sass/datacontainers.scss */
 .table th, .table td {
   font-size: 12px;
   padding-left: 15px;
@@ -9272,45 +9279,45 @@ input:-ms-input-placeholder {
   border-left: 1px solid #d7e6ee;
   vertical-align: middle;
 }
-/* line 223, ../sass/datacontainers.scss */
+/* line 224, ../sass/datacontainers.scss */
 .table th:first-child, .table td:first-child {
   border-left: none;
 }
 
 /****************************   Accordion   ******************************/
-/* line 231, ../sass/datacontainers.scss */
+/* line 232, ../sass/datacontainers.scss */
 .hiddenRow {
   padding: 0 !important;
   border: none !important;
 }
-/* line 234, ../sass/datacontainers.scss */
+/* line 235, ../sass/datacontainers.scss */
 .hiddenRow .accordion-body {
   position: relative;
   box-shadow: inset 0px 2px 0px 0px #dbebf3;
 }
 
-/* line 240, ../sass/datacontainers.scss */
+/* line 241, ../sass/datacontainers.scss */
 .accordion-toggle {
   position: relative;
 }
-/* line 242, ../sass/datacontainers.scss */
+/* line 243, ../sass/datacontainers.scss */
 .accordion-toggle:hover {
   cursor: pointer;
 }
-/* line 244, ../sass/datacontainers.scss */
+/* line 245, ../sass/datacontainers.scss */
 .accordion-toggle:hover td {
   color: #17699C;
   font-size: 12px;
   background-color: #fbfcfe;
 }
-/* line 250, ../sass/datacontainers.scss */
+/* line 251, ../sass/datacontainers.scss */
 .accordion-toggle .edit-options {
   display: none;
   z-index: 1;
   padding: 0;
   min-width: 0;
 }
-/* line 256, ../sass/datacontainers.scss */
+/* line 257, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] {
   border-left: 1px solid #0572AE;
   border-right: 1px solid #0572AE;
@@ -9320,30 +9327,30 @@ input:-ms-input-placeholder {
   box-shadow: inset 0px 0px 3px 3px #1e83bb;
   border: 1px solid #00507f;
 }
-/* line 264, ../sass/datacontainers.scss */
+/* line 265, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"]:hover td {
   line-height: 1.428571429;
   color: white;
   font-weight: normal;
   background-color: #0572AE;
 }
-/* line 270, ../sass/datacontainers.scss */
+/* line 271, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] > th, .accordion-toggle[aria-expanded="true"] > td {
   border: none !important;
 }
-/* line 273, ../sass/datacontainers.scss */
+/* line 274, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] :not(.stay-visible) {
   opacity: 0;
 }
-/* line 275, ../sass/datacontainers.scss */
+/* line 276, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] :not(.stay-visible).disappear {
   display: none;
 }
-/* line 280, ../sass/datacontainers.scss */
+/* line 281, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] td:not(:first-child), .accordion-toggle[aria-expanded="true"] td:not(:last-child) {
   border: none;
 }
-/* line 284, ../sass/datacontainers.scss */
+/* line 285, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options {
   display: block;
   color: white;
@@ -9351,19 +9358,19 @@ input:-ms-input-placeholder {
   margin-bottom: -12.428571426px;
   height: 42px;
 }
-/* line 285, ../sass/datacontainers.scss */
+/* line 286, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options.float-right {
   float: right;
   margin-left: -100px;
   margin-right: -15px;
 }
-/* line 290, ../sass/datacontainers.scss */
+/* line 291, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options.float-left {
   float: left;
   margin-right: -100px;
   margin-left: -15px;
 }
-/* line 299, ../sass/datacontainers.scss */
+/* line 300, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options .btn {
   display: inline-block;
   margin-top: 5px;
@@ -10009,4 +10016,265 @@ input:-ms-input-placeholder {
   padding: 12px auto;
   font-weight: bold;
   color: #03689E;
+}
+
+/*
+* CSS TOGGLE SWITCHES
+* Unlicense
+*
+* Ionuț Colceriu - ghinda.net
+* https://github.com/ghinda/css-toggle-switch
+*
+*/
+/* Supported values are px, rem-calc, em-calc */
+/* Functions */
+/* Toggle Switches */
+/* Shared */
+/* Checkbox
+*/
+/* Radio Switch
+*/
+/* Hide by default
+*/
+/* line 27, ../sass/toggle-switch.scss */
+.switch-toggle a, .switch-light span span {
+  display: none;
+}
+
+/* We can't test for a specific feature,
+* so we only target browsers with support for media queries.
+*/
+@media only screen {
+  /* Checkbox switch
+  */
+  /* line 37, ../sass/toggle-switch.scss */
+  .switch-light {
+    display: block;
+    min-height: 25px;
+    /* Outline the toggles when the inputs are focused
+    */
+    position: relative;
+    overflow: visible;
+    padding: 0;
+    margin-left: 6.25em;
+  /* Position the label over all the elements, except the slide-button (<a>)
+* Clicking anywhere on the label will change the switch-state
+*/
+    /* Don't hide the input from screen-readers and keyboard access
+    */
+  }
+
+  /* line 51, ../sass/toggle-switch.scss */
+  .switch-light * {
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 1.428571429;
+    height: 25px;
+  }
+
+  /* line 58, ../sass/toggle-switch.scss */
+  .switch-light a {
+    display: block;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+
+  /* line 63, ../sass/toggle-switch.scss */
+  .switch-light label, .switch-light > span {
+    vertical-align: middle;
+  }
+
+  /* line 67, ../sass/toggle-switch.scss */
+  .switch-light input:focus ~ a, .switch-light input:focus + label {
+    outline: 1px dotted #888;
+  }
+
+  /* line 69, ../sass/toggle-switch.scss */
+  .switch-light label {
+    position: relative;
+    z-index: 3;
+    display: block;
+    width: 100%;
+  }
+
+  /* line 74, ../sass/toggle-switch.scss */
+  .switch-light input {
+    position: absolute;
+    opacity: 0;
+    z-index: 5;
+  }
+
+  /* line 78, ../sass/toggle-switch.scss */
+  .switch-light input:checked ~ a {
+    right: 0%;
+  }
+
+  /* line 80, ../sass/toggle-switch.scss */
+  .switch-light > span {
+    position: absolute;
+    left: -6.25em;
+    width: 100%;
+    margin: 0;
+    padding-right: 6.25em;
+    text-align: left;
+  }
+
+  /* line 87, ../sass/toggle-switch.scss */
+  .switch-light > span span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    display: block;
+    font-size: 12px;
+    line-height: 1.428571429;
+    height: 25px;
+    padding-top: 3.928571426px;
+    padding-bottom: 3.928571426px;
+    width: 50%;
+    margin-left: 6.25em;
+    text-align: center;
+  }
+
+  /* line 101, ../sass/toggle-switch.scss */
+  .switch-light > span span:last-child {
+    left: 50%;
+  }
+
+  /* line 103, ../sass/toggle-switch.scss */
+  .switch-light a {
+    position: absolute;
+    right: 50%;
+    top: 0;
+    z-index: 4;
+    display: block;
+    width: 50%;
+    height: 100%;
+    padding: 0;
+  }
+
+  /* iOS Theme
+  */
+  /* line 118, ../sass/toggle-switch.scss */
+  .switch-ios.switch-light {
+    color: yellow;
+  }
+
+  /* line 121, ../sass/toggle-switch.scss */
+  .switch-ios.switch-light a {
+    left: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border: 2px solid #08578c;
+    border-radius: 25px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    box-shadow: inset 0 -3px 3px rgba(0, 0, 0, 0.025), 0 1px 4px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  /* line 132, ../sass/toggle-switch.scss */
+  .switch-ios.switch-light a:hover {
+    cursor: pointer;
+  }
+
+  /* line 137, ../sass/toggle-switch.scss */
+  .switch-ios.switch-light > span span {
+    width: 100%;
+    left: 0;
+    opacity: 0;
+  }
+
+  /* line 142, ../sass/toggle-switch.scss */
+  .switch-ios.switch-light > span span:first-of-type {
+    opacity: 1;
+    padding-left: 1.875em;
+  }
+
+  /* line 146, ../sass/toggle-switch.scss */
+  .switch-ios.switch-light > span span:last-of-type {
+    padding-right: 1.875em;
+  }
+
+  /* line 149, ../sass/toggle-switch.scss */
+  .switch-ios.switch-light > span:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 6.25em;
+    top: 0;
+    background-color: #08578c;
+    border: 1px solid #08578c;
+    border-radius: 25px;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    box-shadow: inset rgba(0, 0, 0, 0.1) 0 1px 0;
+  }
+
+  /* line 165, ../sass/toggle-switch.scss */
+  .switch-ios.switch-light input:checked ~ a {
+    left: 100%;
+    margin-left: -1.575em;
+  }
+
+  /* line 169, ../sass/toggle-switch.scss */
+  .switch-ios.switch-light input:checked ~ span:before {
+    border-color: #08578c;
+    box-shadow: inset 0 0 0 30px #08578c;
+  }
+
+  /* line 173, ../sass/toggle-switch.scss */
+  .switch-ios.switch-light input:checked ~ span span:first-of-type {
+    opacity: 0;
+  }
+
+  /* line 176, ../sass/toggle-switch.scss */
+  .switch-ios.switch-light input:checked ~ span span:last-of-type {
+    opacity: 1;
+    color: #fff;
+  }
+
+  /* line 180, ../sass/toggle-switch.scss */
+  .switch-ios.switch-toggle {
+    background-color: #08578c;
+    border: 1px solid #08578c;
+    border-radius: 25px;
+    box-shadow: inset rgba(0, 0, 0, 0.1) 0 1px 0;
+  }
+
+  /* line 186, ../sass/toggle-switch.scss */
+  .switch-ios.switch-toggle a {
+    background-color: #08578c;
+    border-radius: 25px;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+
+  /* line 193, ../sass/toggle-switch.scss */
+  .switch-ios.switch-toggle label {
+    color: white;
+  }
+
+  /* line 196, ../sass/toggle-switch.scss */
+  .switch-ios input:checked + label {
+    color: white;
+  }
+}
+/* Bugfix for older Webkit, including mobile Webkit. Adapted from
+* http://css-tricks.com/webkit-sibling-bug/
+*/
+@media only screen and (-webkit-max-device-pixel-ratio: 2) and (max-device-width: 80em) {
+  /* line 205, ../sass/toggle-switch.scss */
+  .switch-light, .switch-toggle {
+    -webkit-animation: webkitSiblingBugfix infinite 1s;
+  }
+}
+@-webkit-keyframes webkitSiblingBugfix {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
 }

@@ -551,7 +551,12 @@ input:-moz-placeholder {
     }
 }
 
-.bootstrap-switch-wrapper{
-    position: absolute;
-    right: 0;
+.switch{
+    font-size: $font-size;
+    display: inline-block;
+    margin: 0;
+    float: right;
+    > span{ 
+        height: 25px;
+    }
 }

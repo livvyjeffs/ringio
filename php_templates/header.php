@@ -30,6 +30,7 @@ switch($page_title){
 
 <?php include("navbar-top.php"); ?>
 
+
 <div class="navbar navbar-static-top navbar-bottom-row navbar-ringio" role="navigation">
   <div class="container no-padding">
     <div class="navbar-collapse collapse">

@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"clr-",
+				"clr-body"
+			],
+			[
+				"height",
+				"height-table-row"
+			],
+			[
 				"bg",
 				"bg-clr-table-light"
 			],
@@ -48,42 +56,42 @@
 	"buffers":
 	[
 		{
-			"file": "departments.php",
+			"file": "premium-features.php",
 			"settings":
 			{
-				"buffer_size": 4096,
+				"buffer_size": 6426,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "php_templates/table_rows/row-departments.php",
+			"file": "php_templates/switch.php",
 			"settings":
 			{
-				"buffer_size": 5224,
+				"buffer_size": 269,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "php_templates/table_rows/row-phone-numbers.php",
+			"file": "php_templates/navbar-top.php",
 			"settings":
 			{
-				"buffer_size": 7974,
+				"buffer_size": 2270,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "phone-numbers.php",
+			"file": "php_templates/footer.php",
 			"settings":
 			{
-				"buffer_size": 4039,
+				"buffer_size": 1293,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "php_templates/dropdown.php",
+			"file": "sass/toggle-switch.scss",
 			"settings":
 			{
-				"buffer_size": 787,
+				"buffer_size": 5853,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +99,7 @@
 			"file": "sass/variables.scss",
 			"settings":
 			{
-				"buffer_size": 3601,
+				"buffer_size": 5018,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +107,7 @@
 			"file": "sass/body.scss",
 			"settings":
 			{
-				"buffer_size": 10637,
+				"buffer_size": 12921,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,7 +115,7 @@
 			"file": "sass/panels.scss",
 			"settings":
 			{
-				"buffer_size": 15814,
+				"buffer_size": 18141,
 				"line_ending": "Unix"
 			}
 		},
@@ -115,7 +123,7 @@
 			"file": "sass/datacontainers.scss",
 			"settings":
 			{
-				"buffer_size": 8952,
+				"buffer_size": 8402,
 				"line_ending": "Unix"
 			}
 		},
@@ -332,39 +340,60 @@
 	"expanded_folders":
 	[
 		"/Applications/MAMP/htdocs/ringio",
-		"/Applications/MAMP/htdocs/ringio/css",
-		"/Applications/MAMP/htdocs/ringio/js",
-		"/Applications/MAMP/htdocs/ringio/sass"
+		"/Applications/MAMP/htdocs/ringio/bower_components",
+		"/Applications/MAMP/htdocs/ringio/bower_components/bootstrap/dist",
+		"/Applications/MAMP/htdocs/ringio/bower_components/jquery/src",
+		"/Applications/MAMP/htdocs/ringio/unused"
 	],
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/ringio/crm-integrations-edit-2.php",
-		"/Applications/MAMP/htdocs/ringio/crm-integrations-edit.php",
-		"/Applications/MAMP/htdocs/ringio/php_templates/external-header.php",
-		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/users.php",
-		"/Applications/MAMP/htdocs/ringio/premium-features.php",
-		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/dashboard-departments.php",
+		"/Applications/MAMP/htdocs/ringio/bower_components/.gitignore",
 		"/Applications/MAMP/htdocs/ringio/departments.php",
-		"/Applications/MAMP/htdocs/ringio/php_templates/header.php",
-		"/Applications/MAMP/htdocs/ringio/php_templates/navbar-top.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/row-departments.php",
 		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/departments.php",
-		"/Applications/MAMP/htdocs/ringio/php_templates/page-header.php",
+		"/Applications/MAMP/htdocs/ringio/bower_components/bootstrap/node_modules/npm-shrinkwrap/node_modules/npm/node_modules/fstream/examples/symlink-write.js",
+		"/Applications/MAMP/htdocs/ringio/php_templates/switch.php",
+		"/Applications/MAMP/htdocs/ringio/sass/main.scss",
+		"/Applications/MAMP/htdocs/ringio/sass/toggle-switch.scss.css",
+		"/Applications/MAMP/htdocs/ringio/bower_components/bootstrap/less/mixins/text-overflow.less",
+		"/Applications/MAMP/htdocs/ringio/style/tables.css",
+		"/Applications/MAMP/htdocs/ringio/bower_components/bootstrap/node_modules/grunt/lib/grunt/config.js",
+		"/Applications/MAMP/htdocs/ringio/bower_components/bootstrap/Gruntfile.js",
+		"/Applications/MAMP/htdocs/ringio/bower_components/bootstrap/package.json",
+		"/Applications/MAMP/htdocs/ringio/bower_components/bootstrap/grunt/configBridge.json",
+		"/Applications/MAMP/htdocs/ringio/bower_components/object-fit/CONTRIBUTING.md",
+		"/Applications/MAMP/htdocs/ringio/bower_components/bootstrap/node_modules/npm-shrinkwrap/node_modules/npm/scripts/clean-old.sh",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/crm-edit.php",
 		"/Applications/MAMP/htdocs/ringio/sass/navbar.scss",
-		"/Applications/MAMP/htdocs/ringio/index.php",
 		"/Applications/MAMP/htdocs/ringio/php_templates/footer.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/navbar-top.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/row-phone-numbers.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/header.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/page-header.php",
+		"/Applications/MAMP/htdocs/ringio/js/bootstrap-switch.js",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/users.php",
+		"/Applications/MAMP/htdocs/ringio/phone-numbers.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/row-users.php",
+		"/Applications/MAMP/htdocs/ringio/users.php",
+		"/Applications/MAMP/htdocs/ringio/crm-integrations-edit.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/rows-crm-edit.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/dashboard-departments.php",
+		"/Applications/MAMP/htdocs/ringio/crm-integrations.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/thumbnails/crm.php",
+		"/Applications/MAMP/htdocs/ringio/sass/panels.scss",
+		"/Applications/MAMP/htdocs/ringio/premium-features.php",
+		"/Applications/MAMP/htdocs/ringio/sass/datacontainers.scss",
+		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_thumbnails.scssc",
+		"/Applications/MAMP/htdocs/ringio/crm-integrations-edit-2.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/dropdown.php",
+		"/Applications/MAMP/htdocs/ringio/php_templates/external-header.php",
+		"/Applications/MAMP/htdocs/ringio/index.php",
 		"/Applications/MAMP/htdocs/ringio/billing.php",
 		"/Applications/MAMP/htdocs/ringio/billing-history.php",
-		"/Applications/MAMP/htdocs/ringio/crm-integrations.php",
-		"/Applications/MAMP/htdocs/ringio/phone-numbers.php",
-		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/row-departments.php",
-		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/row-phone-numbers.php",
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/b8e94408f3c9126d3c15fd1eb38aee34b88d4a57/datacontainers.scssc",
-		"/Applications/MAMP/htdocs/ringio/users.php",
-		"/Applications/MAMP/htdocs/ringio/sass/panels.scss",
 		"/Applications/MAMP/htdocs/ringio/css/polyfill.object-fit.css",
 		"/Applications/MAMP/htdocs/ringio/js/polyfill.object-fit.min.js",
 		"/Applications/MAMP/htdocs/ringio/sass/body.scss",
-		"/Applications/MAMP/htdocs/ringio/sass/datacontainers.scss",
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/b8e94408f3c9126d3c15fd1eb38aee34b88d4a57/ringio.scssc",
 		"/Applications/MAMP/htdocs/ringio/style/navbar.css",
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/b8e94408f3c9126d3c15fd1eb38aee34b88d4a57/navbar.scssc",
@@ -378,16 +407,10 @@
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/b8e94408f3c9126d3c15fd1eb38aee34b88d4a57/tables.scssc",
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/b8e94408f3c9126d3c15fd1eb38aee34b88d4a57/table-users.scssc",
 		"/Applications/MAMP/htdocs/ringio/ringio.sublime-workspace",
-		"/Applications/MAMP/htdocs/ringio/sass/main.scss",
-		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/row-users.php",
-		"/Applications/MAMP/htdocs/ringio/php_templates/dropdown.php",
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/981a1b3660b549357b056c7c1ee936af5ead6cbd/_nav-vertical-align.scssc",
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/0eae96225fd7574379362bc4811765156117f33b/_utilities.scssc",
 		"/Applications/MAMP/htdocs/ringio/sass/variables.scss",
-		"/Applications/MAMP/htdocs/ringio/php_templates/thumbnails/crm.php",
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_component-animations.scssc",
-		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/rows-crm-edit.php",
-		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/crm-edit.php",
 		"/Applications/MAMP/htdocs/ringio/php_templates/dropdown",
 		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/row-billing-history.php",
 		"/Applications/MAMP/htdocs/ringio/php_templates/table_rows/dashboard-users.php",
@@ -406,7 +429,6 @@
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_carousel.scssc",
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_code.scssc",
 		"/Applications/MAMP/htdocs/ringio/style/jumbotron-ringio.css",
-		"/Applications/MAMP/htdocs/ringio/style/tables.css",
 		"/Applications/MAMP/htdocs/ringio/style/table-users.css",
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/981a1b3660b549357b056c7c1ee936af5ead6cbd/_text-emphasis.scssc",
 		"/Applications/MAMP/htdocs/ringio/.sass-cache/314053299500bca9ad01dd542d6e9d3ef9913dc6/_breadcrumbs.scssc",
@@ -452,20 +474,7 @@
 		"/Applications/MAMP/htdocs/myStream/sourceImagery/share_icon.pdn",
 		"/Applications/MAMP/htdocs/myStream/php/templates/standardhead.php",
 		"/Applications/MAMP/htdocs/myStream/php/templates/header.php",
-		"/Applications/MAMP/htdocs/myStream/php/includes/standardhead.php",
-		"/Applications/MAMP/htdocs/myStream/style/normalize.css",
-		"/Applications/MAMP/htdocs/myStream/style/ellipsis.css",
-		"/Applications/MAMP/htdocs/myStream/libs/aws/Guzzle/Batch/FlushingBatch.php",
-		"/Applications/MAMP/htdocs/myStream/style/modal.css",
-		"/Applications/MAMP/htdocs/myStream/libs/aws/Monolog/Handler/RotatingFileHandler.php",
-		"/Applications/MAMP/htdocs/myStream/tags.php",
-		"/Applications/MAMP/htdocs/myStream/style/login.css",
-		"/Applications/MAMP/htdocs/myStream/logs/log_parsers/log_open_modal.php",
-		"/Applications/MAMP/htdocs/myStream/js/main.js",
-		"/Applications/MAMP/htdocs/myStream/message.php",
-		"/Applications/MAMP/htdocs/myStream/.htaccess",
-		"/Applications/MAMP/htdocs/myStream/mobile/js/mobile_events.js",
-		"/Applications/MAMP/htdocs/myStream/unused/abort_martin.php"
+		"/Applications/MAMP/htdocs/myStream/php/includes/standardhead.php"
 	],
 	"find":
 	{
@@ -476,6 +485,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/Applications/MAMP/htdocs/ringio/",
 			"/Applications/MAMP/htdocs/ringio/sass",
 			"/Applications/MAMP/htdocs/ringio",
 			"sass",
@@ -507,6 +517,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"padding-right",
+			"border-rad",
+			"padding",
+			"font-size",
+			"clean:",
+			"npm",
+			"onswitchchange",
+			"click",
+			"checkbox",
+			"panel-heading",
+			"icon-",
+			".option",
+			"checkbox",
+			"main-container",
+			"panel-head",
+			"panel-heading",
+			" panel-ringio",
+			" right-half-padding",
+			"class=\"row\"",
+			"class=\"data",
+			"user",
+			"number",
+			"[class",
+			"input",
+			"$height",
+			"panel-height",
+			"button-grad",
+			"button-gr",
+			"button-gra",
+			".panel",
+			"glyphicon",
+			".glyphicon",
+			".glyphicon-user",
+			"crm-integr",
 			"checkbox",
 			"class=\"row\"",
 			"separator ringio-icon",
@@ -600,41 +644,7 @@
 			".phone-number",
 			"panel-heading",
 			"box-shadow",
-			".panel-body",
-			"box-shadow",
-			":hover",
-			"3px",
-			"pm_center",
-			"line-height-base",
-			"navbar-nav",
-			"height-navbar-bottom-row-menu",
-			"$navbar-color-selected",
-			"body-default-header",
-			"$navbar-color-default",
-			"$navbar-font-size",
-			"font-size",
-			"navbar-text",
-			"$navbar-background-color-top-row",
-			".navbar-brand",
-			"nav-ringio",
-			"nav-justified",
-			"call record",
-			"crm-edit",
-			"icon ",
-			"users",
-			"dropdown",
-			"dropdown-toggle",
-			"btn-dropdown dropdown-toggle",
-			"dropdown",
-			"users.php",
-			"$img_src=\"\"; ",
-			"$departments = \"\"; ",
-			"$departments = \"\";",
-			"method = \"\"",
-			"false",
-			"checked",
-			"phone_number",
-			"$phone_number = \"\"; $row_number = 1; $checked=true; $departments = \"\"; $img_src=\"\"; "
+			".panel-body"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -642,6 +652,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"outer-container",
 			"$bg-clr-page-header",
 			"$gradient-clr-dark-navbar-btn",
 			"$gradient-clr-bottom-navbar-btn",
@@ -724,55 +735,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "departments.php",
+					"file": "premium-features.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4096,
+						"buffer_size": 6426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2605,
-								2605
-							]
-						],
-						"settings":
-						{
-							"history_list_is_closing": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 746.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "php_templates/table_rows/row-departments.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5224,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1813,
-								1512
+								292,
+								292
 							]
 						],
 						"settings":
@@ -781,58 +761,56 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 8.0,
-						"translation.y": 119.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "php_templates/table_rows/row-phone-numbers.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7974,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2031,
-								2031
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 593.0,
+						"translation.x": 1.0,
+						"translation.y": 65.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "phone-numbers.php",
+					"buffer": 1,
+					"file": "php_templates/switch.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4039,
+						"buffer_size": 269,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								196,
+								196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 13.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "php_templates/navbar-top.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								746,
+								746
 							]
 						],
 						"settings":
@@ -840,6 +818,101 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "php_templates/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1004,
+								1004
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "sass/toggle-switch.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5853,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3305,
+								3305
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 4.0,
+						"translation.y": 1569.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sass/variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								587,
+								587
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -849,114 +922,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "php_templates/dropdown.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 787,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								783,
-								783
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 5,
-					"file": "sass/variables.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3601,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1593,
-								1610
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 593.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
 					"buffer": 6,
 					"file": "sass/body.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10637,
+						"buffer_size": 12921,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5186,
-								5190
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3413.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "sass/panels.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15814,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								363,
-								363
+								20,
+								0
 							]
 						],
 						"settings":
@@ -973,20 +952,51 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "sass/datacontainers.scss",
+					"buffer": 7,
+					"file": "sass/panels.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8952,
+						"buffer_size": 18141,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7390,
-								7390
+								0,
+								18132
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 3.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "sass/datacontainers.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2906,
+								2933
 							]
 						],
 						"settings":
@@ -995,8 +1005,8 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 84.0,
-						"translation.y": 3585.0,
+						"translation.x": 0.0,
+						"translation.y": 1557.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1064,7 +1074,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.356718644982,
 			1.0
 		],
 		"rows":
@@ -1110,6 +1120,114 @@
 		"selected_items":
 		[
 			[
+				"departm",
+				"departments.php"
+			],
+			[
+				"row-dep",
+				"php_templates/table_rows/row-departments.php"
+			],
+			[
+				"switch.php",
+				"php_templates/switch.php"
+			],
+			[
+				"main.scss",
+				"sass/main.scss"
+			],
+			[
+				"toggle-siwt",
+				"css/toggle-switch.css"
+			],
+			[
+				"config.js",
+				"bower_components/bootstrap/node_modules/grunt/lib/grunt/config.js"
+			],
+			[
+				"foot",
+				"php_templates/footer.php"
+			],
+			[
+				"navbar-top",
+				"php_templates/navbar-top.php"
+			],
+			[
+				"header.php",
+				"php_templates/header.php"
+			],
+			[
+				"footer",
+				"php_templates/footer.php"
+			],
+			[
+				"footer.",
+				"php_templates/footer.php"
+			],
+			[
+				"footer.php",
+				"php_templates/footer.php"
+			],
+			[
+				"row-phon",
+				"php_templates/table_rows/row-phone-numbers.php"
+			],
+			[
+				"phone-",
+				"phone-numbers.php"
+			],
+			[
+				"premium",
+				"premium-features.php"
+			],
+			[
+				"depart",
+				"departments.php"
+			],
+			[
+				"row-depar",
+				"php_templates/table_rows/row-departments.php"
+			],
+			[
+				"row-users",
+				"php_templates/table_rows/row-users.php"
+			],
+			[
+				"user.php",
+				"users.php"
+			],
+			[
+				"rows/crm",
+				"php_templates/table_rows/rows-crm-edit.php"
+			],
+			[
+				"datac",
+				"sass/datacontainers.scss"
+			],
+			[
+				"rows-crm",
+				"php_templates/table_rows/rows-crm-edit.php"
+			],
+			[
+				"crm-integrations",
+				"crm-integrations-edit.php"
+			],
+			[
+				"page-header",
+				"php_templates/page-header.php"
+			],
+			[
+				"panel.s",
+				"sass/panels.scss"
+			],
+			[
+				"thumbnail",
+				"php_templates/thumbnails/crm.php"
+			],
+			[
+				"crm-",
+				"php_templates/table_rows/crm-edit.php"
+			],
+			[
 				"row-phone",
 				"php_templates/table_rows/row-phone-numbers.php"
 			],
@@ -1130,24 +1248,12 @@
 				"departments.php"
 			],
 			[
-				"depart",
-				"php_templates/table_rows/row-departments.php"
-			],
-			[
-				"header.php",
-				"php_templates/header.php"
-			],
-			[
 				"panels.scss",
 				"sass/panels.scss"
 			],
 			[
 				"navbar-top.php",
 				"php_templates/navbar-top.php"
-			],
-			[
-				"footer.php",
-				"php_templates/footer.php"
 			],
 			[
 				"body.sc",
@@ -1182,14 +1288,6 @@
 				"departments.php"
 			],
 			[
-				"row-dep",
-				"php_templates/table_rows/row-departments.php"
-			],
-			[
-				"crm-",
-				"crm-integrations.php"
-			],
-			[
 				"depar",
 				"departments.php"
 			],
@@ -1210,24 +1308,12 @@
 				"php_templates/table_rows/row-departments.php"
 			],
 			[
-				"row-depar",
-				"php_templates/table_rows/row-departments.php"
-			],
-			[
-				"main.scss",
-				"sass/main.scss"
-			],
-			[
 				"users.php",
 				"users.php"
 			],
 			[
 				"extern",
 				"php_templates/external-header.php"
-			],
-			[
-				"row-users",
-				"php_templates/table_rows/row-users.php"
 			],
 			[
 				"dropdown",
@@ -1240,10 +1326,6 @@
 			[
 				"external",
 				"php_templates/external-header.php"
-			],
-			[
-				"page-header",
-				"php_templates/page-header.php"
 			],
 			[
 				"prem",
@@ -1548,78 +1630,6 @@
 			[
 				"roots.php",
 				"php/includes/roots.php"
-			],
-			[
-				"templates/standard",
-				"php/templates/standardhead.php"
-			],
-			[
-				"includes/mainhead",
-				"php/includes/mainhead.php"
-			],
-			[
-				"strea",
-				"php/parsers/stream_generator.php"
-			],
-			[
-				"db_conx.php",
-				"php/includes/db_conx.php"
-			],
-			[
-				"convert_date.php",
-				"php/includes/convert_date.php"
-			],
-			[
-				"check_login",
-				"php/includes/check_login_status.php"
-			],
-			[
-				"abort_martin",
-				"unused/abort_martin.php"
-			],
-			[
-				"php/templates/tile_head.php",
-				"php/templates/tile_head.php"
-			],
-			[
-				"oliviaphp/tribepage_streams.php",
-				"oliviaPHP/tribePage_streams.php"
-			],
-			[
-				"php/parsers/stream",
-				"php/parsers/stream_generator.php"
-			],
-			[
-				"templates/tile_head.php",
-				"templates/tile_head.php"
-			],
-			[
-				"templates/page",
-				"templates/template_pageTop.php"
-			],
-			[
-				"templates/stand",
-				"templates/standardhead.php"
-			],
-			[
-				"js/jquery.simpleimagecrop.js",
-				"js/jquery.simpleimagecrop.js"
-			],
-			[
-				"js/checking",
-				"js/checkingloadmore.js"
-			],
-			[
-				"js/toggle_functions.js",
-				"js/toggle_functions.js"
-			],
-			[
-				"standardhead.php",
-				"standardhead.php"
-			],
-			[
-				"php_includes/check_login_status.php",
-				"php_includes/check_login_status.php"
 			]
 		],
 		"width": 0.0

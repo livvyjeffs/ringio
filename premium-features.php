@@ -10,9 +10,7 @@
       <div class="panel">
         <div class="panel-heading solo">
           <span class="ringio-icon icon-call-queueing"></span>Call Queueing
-          <div class="make-switch">
-            <input type="checkbox">
-          </div>
+          <?php $checked = false; include("php_templates/switch.php"); ?>
         </div>
       </div>
     </div>
@@ -20,6 +18,7 @@
       <div class="panel">
         <div class="panel-heading">
           <span class="ringio-icon icon-call-recording"></span>Call Recording
+          <?php $checked = true; include("php_templates/switch.php"); ?>
         </div>
         <div class="panel-body">
           <div class="row outer-container no-margin">

@@ -8294,9 +8294,10 @@ button.close {
 }
 /* line 112, ../sass/datacontainers.scss */
 .data-container .option {
+  margin-top: 0;
   margin-bottom: 15px;
 }
-/* line 115, ../sass/datacontainers.scss */
+/* line 116, ../sass/datacontainers.scss */
 .data-container .option-input-group {
   padding: 5px;
   border-radius: 3px;
@@ -8304,7 +8305,7 @@ button.close {
   vertical-align: middle;
   background-color: white;
 }
-/* line 122, ../sass/datacontainers.scss */
+/* line 123, ../sass/datacontainers.scss */
 .data-container .option-input-group > .input-group-addon, .data-container .option-input-group > .form-control {
   height: 22px;
   padding: 0;
@@ -8313,26 +8314,26 @@ button.close {
   box-shadow: none;
   border-radius: 0;
 }
-/* line 130, ../sass/datacontainers.scss */
+/* line 131, ../sass/datacontainers.scss */
 .data-container .option-input-group > .input-group-addon {
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 134, ../sass/datacontainers.scss */
+/* line 135, ../sass/datacontainers.scss */
 .data-container .option-input-group > .form-control {
   border-left: 1px solid #DDE9F1;
 }
-/* line 137, ../sass/datacontainers.scss */
+/* line 138, ../sass/datacontainers.scss */
 .data-container .option-input-group input, .data-container .option-input-group label {
   width: auto;
   display: inline-block;
   margin: 0;
 }
-/* line 142, ../sass/datacontainers.scss */
+/* line 143, ../sass/datacontainers.scss */
 .data-container .option-input-group input {
   margin-right: 5px;
 }
-/* line 145, ../sass/datacontainers.scss */
+/* line 146, ../sass/datacontainers.scss */
 .data-container .option-input-group label {
   box-shadow: none;
   padding-left: 5px;
@@ -8340,20 +8341,20 @@ button.close {
   padding-bottom: 2.428571426px;
 }
 
-/* line 173, ../sass/datacontainers.scss */
+/* line 174, ../sass/datacontainers.scss */
 .table {
   border-collapse: separate;
   border: 1px solid #DDE9F1;
   padding: 0;
 }
-/* line 177, ../sass/datacontainers.scss */
+/* line 178, ../sass/datacontainers.scss */
 .table thead tr {
   background-color: #F3F8Fb;
   font-weight: 700;
   font-size: 12px;
   color: #17699C;
 }
-/* line 182, ../sass/datacontainers.scss */
+/* line 183, ../sass/datacontainers.scss */
 .table thead tr th {
   font-size: 12px;
   padding-left: 15px;
@@ -8361,7 +8362,7 @@ button.close {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 190, ../sass/datacontainers.scss */
+/* line 191, ../sass/datacontainers.scss */
 .table tbody tr td {
   font-size: 12px;
   padding-left: 15px;
@@ -8369,7 +8370,7 @@ button.close {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 195, ../sass/datacontainers.scss */
+/* line 196, ../sass/datacontainers.scss */
 .table tbody tr td .profile-icon {
   width: 30px;
   height: 30px;
@@ -8380,7 +8381,7 @@ button.close {
   margin-top: -6.428571426px;
   margin-bottom: -6.428571426px;
 }
-/* line 205, ../sass/datacontainers.scss */
+/* line 206, ../sass/datacontainers.scss */
 .table tbody tr td .close {
   margin: 5px;
   height: 15px;
@@ -8389,7 +8390,7 @@ button.close {
   margin-bottom: 1.071428574px;
   background-image: url("../images/close-gray-large.png");
 }
-/* line 215, ../sass/datacontainers.scss */
+/* line 216, ../sass/datacontainers.scss */
 .table th, .table td {
   font-size: 12px;
   padding-left: 15px;
@@ -8400,45 +8401,45 @@ button.close {
   border-left: 1px solid #d7e6ee;
   vertical-align: middle;
 }
-/* line 223, ../sass/datacontainers.scss */
+/* line 224, ../sass/datacontainers.scss */
 .table th:first-child, .table td:first-child {
   border-left: none;
 }
 
 /****************************   Accordion   ******************************/
-/* line 231, ../sass/datacontainers.scss */
+/* line 232, ../sass/datacontainers.scss */
 .hiddenRow {
   padding: 0 !important;
   border: none !important;
 }
-/* line 234, ../sass/datacontainers.scss */
+/* line 235, ../sass/datacontainers.scss */
 .hiddenRow .accordion-body {
   position: relative;
   box-shadow: inset 0px 2px 0px 0px #dbebf3;
 }
 
-/* line 240, ../sass/datacontainers.scss */
+/* line 241, ../sass/datacontainers.scss */
 .accordion-toggle {
   position: relative;
 }
-/* line 242, ../sass/datacontainers.scss */
+/* line 243, ../sass/datacontainers.scss */
 .accordion-toggle:hover {
   cursor: pointer;
 }
-/* line 244, ../sass/datacontainers.scss */
+/* line 245, ../sass/datacontainers.scss */
 .accordion-toggle:hover td {
   color: #17699C;
   font-size: 12px;
   background-color: #fbfcfe;
 }
-/* line 250, ../sass/datacontainers.scss */
+/* line 251, ../sass/datacontainers.scss */
 .accordion-toggle .edit-options {
   display: none;
   z-index: 1;
   padding: 0;
   min-width: 0;
 }
-/* line 256, ../sass/datacontainers.scss */
+/* line 257, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] {
   border-left: 1px solid #0572AE;
   border-right: 1px solid #0572AE;
@@ -8448,30 +8449,30 @@ button.close {
   box-shadow: inset 0px 0px 3px 3px #1e83bb;
   border: 1px solid #00507f;
 }
-/* line 264, ../sass/datacontainers.scss */
+/* line 265, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"]:hover td {
   line-height: 1.428571429;
   color: white;
   font-weight: normal;
   background-color: #0572AE;
 }
-/* line 270, ../sass/datacontainers.scss */
+/* line 271, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] > th, .accordion-toggle[aria-expanded="true"] > td {
   border: none !important;
 }
-/* line 273, ../sass/datacontainers.scss */
+/* line 274, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] :not(.stay-visible) {
   opacity: 0;
 }
-/* line 275, ../sass/datacontainers.scss */
+/* line 276, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] :not(.stay-visible).disappear {
   display: none;
 }
-/* line 280, ../sass/datacontainers.scss */
+/* line 281, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] td:not(:first-child), .accordion-toggle[aria-expanded="true"] td:not(:last-child) {
   border: none;
 }
-/* line 284, ../sass/datacontainers.scss */
+/* line 285, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options {
   display: block;
   color: white;
@@ -8479,19 +8480,19 @@ button.close {
   margin-bottom: -12.428571426px;
   height: 42px;
 }
-/* line 285, ../sass/datacontainers.scss */
+/* line 286, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options.float-right {
   float: right;
   margin-left: -100px;
   margin-right: -15px;
 }
-/* line 290, ../sass/datacontainers.scss */
+/* line 291, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options.float-left {
   float: left;
   margin-right: -100px;
   margin-left: -15px;
 }
-/* line 299, ../sass/datacontainers.scss */
+/* line 300, ../sass/datacontainers.scss */
 .accordion-toggle[aria-expanded="true"] .edit-options .btn {
   display: inline-block;
   margin-top: 5px;

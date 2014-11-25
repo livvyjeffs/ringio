@@ -1,0 +1,213 @@
+/*
+* CSS TOGGLE SWITCHES
+* Unlicense
+*
+* Ionuț Colceriu - ghinda.net
+* https://github.com/ghinda/css-toggle-switch
+*
+*/
+/* Supported values are px, rem-calc, em-calc */
+/* Functions */
+/* Toggle Switches */
+/* Shared */
+/* Checkbox
+*/
+/* Radio Switch
+*/
+/* Hide by default
+*/
+
+@import "variables";
+
+$color: white;
+$bg-clr: #08578c;
+$height: 25px;
+$font-size: 12px;
+
+.switch-toggle a, .switch-light span span {
+  display: none; 
+}
+
+/* We can't test for a specific feature,
+* so we only target browsers with support for media queries.
+*/
+@media only screen {
+  /* Checkbox switch
+  */
+  .switch-light {
+    display: block;
+    min-height: $height;
+    /* Outline the toggles when the inputs are focused
+    */
+    position: relative;
+    overflow: visible;
+    padding: 0;
+    margin-left: 6.25em;
+    /* Position the label over all the elements, except the slide-button (<a>)
+  * Clicking anywhere on the label will change the switch-state
+  */
+    /* Don't hide the input from screen-readers and keyboard access
+    */ }
+    .switch-light * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; 
+      font-size: $font-size;
+      line-height: $line-height-base;
+      height: $height;}
+      .switch-light a {
+        display: block;
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out; }
+        .switch-light label, .switch-light > span {
+
+          vertical-align: middle; 
+        }
+        .switch-light input:focus ~ a, .switch-light input:focus + label {
+          outline: 1px dotted #888; }
+          .switch-light label {
+            position: relative;
+            z-index: 3;
+            display: block;
+            width: 100%; }
+            .switch-light input {
+              position: absolute;
+              opacity: 0;
+              z-index: 5; }
+              .switch-light input:checked ~ a {
+                right: 0%; }
+                .switch-light > span {
+                  position: absolute;
+                  left: -6.25em;
+                  width: 100%;
+                  margin: 0;
+                  padding-right: 6.25em;
+                  text-align: left; }
+                  .switch-light > span span {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 5;
+                    display: block;
+                    font-size: $font-size;
+                    line-height: $line-height-base;
+                    height: $height;
+                    @include pm_center('padding',$height, $font-size*$line-height-base);
+                    width: 50%;
+                    margin-left: 6.25em;
+                    text-align: center; 
+                  }
+                  .switch-light > span span:last-child {
+                    left: 50%; }
+                    .switch-light a {
+                      position: absolute;
+                      right: 50%;
+                      top: 0;
+                      z-index: 4;
+                      display: block;
+                      width: 50%;
+                      height: 100%;
+                      padding: 0; }
+
+
+  /* iOS Theme
+  */
+
+
+  .switch-ios.switch-light {
+    color: yellow; 
+  }
+  .switch-ios.switch-light a {
+    left: 0;
+    width: $height;
+    height: $height;
+    background-color: #fff;
+    border: 2px solid $bg-clr;
+    border-radius: $height;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    box-shadow: inset 0 -3px 3px rgba(0, 0, 0, 0.025), 0 1px 4px rgba(0, 0, 0, 0.15), 0 4px 4px rgba(0, 0, 0, 0.1); 
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  .switch-ios.switch-light > span span {
+    width: 100%;
+    left: 0;
+    opacity: 0; 
+  }
+  .switch-ios.switch-light > span span:first-of-type {
+    opacity: 1;
+    padding-left: 1.875em; 
+  }
+  .switch-ios.switch-light > span span:last-of-type {
+    padding-right: 1.875em; 
+  }
+  .switch-ios.switch-light > span:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 6.25em;
+    top: 0;
+    background-color: $bg-clr;
+    border: 1px solid $bg-clr;
+    border-radius: $height;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    box-shadow: inset rgba(0, 0, 0, 0.1) 0 1px 0; 
+  }
+  .switch-ios.switch-light input:checked ~ a {
+    left: 100%;
+    margin-left: -1.575em; 
+  }
+  .switch-ios.switch-light input:checked ~ span:before {
+    border-color: $bg-clr;
+    box-shadow: inset 0 0 0 30px $bg-clr; 
+  }
+  .switch-ios.switch-light input:checked ~ span span:first-of-type {
+    opacity: 0; 
+  }
+  .switch-ios.switch-light input:checked ~ span span:last-of-type {
+    opacity: 1;
+    color: #fff; 
+  }
+  .switch-ios.switch-toggle {
+    background-color: $bg-clr;
+    border: 1px solid $bg-clr;
+    border-radius: $height;
+    box-shadow: inset rgba(0, 0, 0, 0.1) 0 1px 0; 
+  }
+  .switch-ios.switch-toggle a {
+    background-color: $bg-clr;
+    border-radius: $height;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out; 
+  }
+  .switch-ios.switch-toggle label {
+    color: white; 
+  }
+  .switch-ios input:checked + label {
+    color: white; 
+  }
+}
+
+/* Bugfix for older Webkit, including mobile Webkit. Adapted from
+* http://css-tricks.com/webkit-sibling-bug/
+*/
+@media only screen and (-webkit-max-device-pixel-ratio: 2) and (max-device-width: 80em) {
+  .switch-light, .switch-toggle {
+    -webkit-animation: webkitSiblingBugfix infinite 1s; } }
+
+    @-webkit-keyframes webkitSiblingBugfix {
+      from {
+        -webkit-transform: translate3d(0, 0, 0); }
+
+        to {
+          -webkit-transform: translate3d(0, 0, 0); } }
