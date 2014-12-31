@@ -12,8 +12,17 @@
         <?php $text=$email; $left_icon = "icon-user"; include("php_templates/dropdown.php"); ?>
       </div>
       <div class="col-md-2" style="text-align: center">
-       <span class="btn icon-refresh ringio-icon"></span>
-       <span class="btn icon-delete ringio-icon"></span>
+        <div class="row no-margin">
+          <div class="col-md-6">
+            <span class="btn icon-refresh ringio-icon"></span>
+          </div>
+          <div class="col-md-6">
+            <span class="btn icon-delete ringio-icon"></span>
+          </div>
+        </div>
+       <!-- <span class="btn icon-refresh ringio-icon"></span>
+       <span class="ringio-icon separator"></span>
+       <span class="btn icon-delete ringio-icon"></span> -->
 <!--    </div>
 </div> -->
 </div>

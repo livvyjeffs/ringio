@@ -73,7 +73,7 @@ if($opened){
                   <?php $text="1"; include("php_templates/dropdown.php"); ?>
                 </td>
                 <td>
-                  <span class="close ringio-icon btn"></span>
+                  <span class="close btn"></span>
                 </td>
               </tr>
             </tbody>

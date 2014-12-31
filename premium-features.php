@@ -9,7 +9,7 @@
     <div class="row no-margin">
       <div class="panel">
         <div class="panel-heading solo">
-          <span class="ringio-icon icon-call-queueing"></span>Call Queueing
+          <span class="ringio-icon margin-right icon-call-queueing"></span>Call Queueing
           <?php $checked = false; include("php_templates/switch.php"); ?>
         </div>
       </div>
@@ -17,7 +17,7 @@
     <div class="row no-margin">
       <div class="panel">
         <div class="panel-heading">
-          <span class="ringio-icon icon-call-recording"></span>Call Recording
+          <span class="ringio-icon margin-right icon-call-recording"></span>Call Recording
           <?php $checked = true; include("php_templates/switch.php"); ?>
         </div>
         <div class="panel-body">
@@ -91,7 +91,7 @@
 <div class="row no-margin">
   <div class="panel">
     <div class="panel-heading">
-      <span class="ringio-icon icon-other-settings"></span>Other Settings</div>
+      <span class="ringio-icon margin-right icon-other-settings"></span>Other Settings</div>
       <div class="panel-body">
         <div class="row outer-container no-margin">
           <div class="col-md-12 data-container" option-container>

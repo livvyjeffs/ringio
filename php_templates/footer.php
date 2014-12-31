@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.2.1/js/bootstrap-switch.js"></script> -->

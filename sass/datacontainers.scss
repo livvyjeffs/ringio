@@ -193,10 +193,10 @@ $font-size: $font-size-12;
             padding-left: $margin / 2;
             padding-right: $margin / 2;
             @include pm_center("padding", $height-table-row, $font-size * $line-height-base);
-            .profile-icon {
+            .profile-icon, .close {
                 $height: $margin;
-                width: $height;
-                height: $height;
+                width: $height !important;
+                height: $height !important;
                 border-radius: 4px;
                 background-color: rgb(205, 218, 227);
                 vertical-align: middle;
@@ -204,12 +204,20 @@ $font-size: $font-size-12;
                 @include pm_center("margin", $font-size * $line-height-base, $height);
             }
             .close {
-                margin: 5px;
-                $height: 15px;
-                height: $height;
-                width: $height;
-                @include pm_center("margin", $font-size * $line-height-base, $height);
+                // margin: 5px;
+                // margin: 0;
+                // $height: $margin;
+                // width: $height;
+                // height: $height;
+                // padding: 0;
+                // @include pm_center("margin", $margin, $height);
+                // padding: $margin/2;
                 background-image: url("../images/close-gray-large.png");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 65%;
+                background-color: rgba(0,0,0,0);
+                margin-right: 0;
             }
         }
     }
