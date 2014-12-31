@@ -8618,8 +8618,14 @@ input:-ms-input-placeholder {
   background: linear-gradient(0deg, #DBEBFB 0%, #FFFFFF 100%);
 }
 
-/*****************************   Data Label Types   *******************************/
 /* line 429, ../sass/body.scss */
+#dashboard-crm-integrations .thumbnail .logo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*****************************   Data Label Types   *******************************/
+/* line 438, ../sass/body.scss */
 [data-label="personal-ringio-number"] {
   margin: 0 100px;
   border-bottom: 1px solid #d7e6ee;
@@ -8627,29 +8633,29 @@ input:-ms-input-placeholder {
   text-align: center;
   color: #00609d;
 }
-/* line 435, ../sass/body.scss */
+/* line 444, ../sass/body.scss */
 [data-label="personal-ringio-number"] label {
   color: #00609d;
 }
-/* line 438, ../sass/body.scss */
+/* line 447, ../sass/body.scss */
 [data-label="personal-ringio-number"] [data-type="phone-number"] {
   font-size: 20px;
 }
 
 /******************************   Miscellaneous   ********************************/
-/* line 445, ../sass/body.scss */
+/* line 454, ../sass/body.scss */
 .authorization-container.center {
   width: 100%;
   text-align: center;
   height: 70px;
 }
-/* line 449, ../sass/body.scss */
+/* line 458, ../sass/body.scss */
 .authorization-container.center img {
   height: 100%;
   width: auto;
 }
 
-/* line 455, ../sass/body.scss */
+/* line 464, ../sass/body.scss */
 .button-container {
   width: auto;
   display: inline-block;
@@ -8657,8 +8663,20 @@ input:-ms-input-placeholder {
   border-radius: 5px;
   border: 1px solid #DDE9F1;
 }
-/* line 461, ../sass/body.scss */
+/* line 471, ../sass/body.scss */
+.button-container .separator {
+  height: 38px;
+  width: 2px;
+  background-image: url("../images/separator-billing.png");
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 480, ../sass/body.scss */
 .button-container .btn {
+  padding-left: 45px;
+  padding-right: 45px;
   border-radius: 3px;
   background: -webkit-linear-gradient(90deg, #DBEBFB 0%, #FFFFFF 100%);
   background: linear-gradient(0deg, #DBEBFB 0%, #FFFFFF 100%);
@@ -8669,43 +8687,38 @@ input:-ms-input-placeholder {
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 3px #DDE9F1;
   text-align: center;
-  margin-left: 0;
-  margin-right: 15px;
-}
-/* line 466, ../sass/body.scss */
-.button-container .btn:last-child {
-  margin-right: 0;
-  padding-left: 15px;
-  border-left: 1px solid #DDE9F1;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
 }
 
-/* line 474, ../sass/body.scss */
+/* line 491, ../sass/body.scss */
 .revoke-access.option {
   margin-bottom: 30px;
   padding: 13px;
 }
-/* line 478, ../sass/body.scss */
+/* line 495, ../sass/body.scss */
 .revoke-access.option .logo {
   height: 46px;
 }
-/* line 480, ../sass/body.scss */
+/* line 497, ../sass/body.scss */
 .revoke-access.option .logo img {
   width: auto;
   height: 100%;
 }
-/* line 485, ../sass/body.scss */
+/* line 502, ../sass/body.scss */
 .revoke-access.option .btn-revoke-access {
   width: 100%;
   text-align: center;
 }
 
-/* line 491, ../sass/body.scss */
+/* line 508, ../sass/body.scss */
 .thumbnail {
   padding: 0;
   padding-left: 30px;
   padding-right: 30px;
 }
-/* line 495, ../sass/body.scss */
+/* line 512, ../sass/body.scss */
 .thumbnail .btn.ringio-icon {
   background-color: #ECF2F6;
   background-size: 50%;
@@ -8716,57 +8729,57 @@ input:-ms-input-placeholder {
   top: 10px;
   right: 10px;
 }
-/* line 504, ../sass/body.scss */
+/* line 521, ../sass/body.scss */
 .thumbnail .btn.ringio-icon.btn-edit {
   background-image: url("../images/edit-gray.png");
 }
-/* line 506, ../sass/body.scss */
+/* line 523, ../sass/body.scss */
 .thumbnail .btn.ringio-icon.btn-edit:active {
   background-image: url("../images/edit-blue.png");
 }
-/* line 509, ../sass/body.scss */
+/* line 526, ../sass/body.scss */
 .thumbnail .btn.ringio-icon.btn-edit:hover {
   background-image: url("../images/edit-blue.png");
 }
-/* line 513, ../sass/body.scss */
+/* line 530, ../sass/body.scss */
 .thumbnail .btn.ringio-icon.btn-close {
   background-size: 35%;
   background-image: url("../images/close-blue.png");
 }
-/* line 516, ../sass/body.scss */
+/* line 533, ../sass/body.scss */
 .thumbnail .btn.ringio-icon.btn-close:active {
   background-image: url("../images/close-blue.png");
 }
-/* line 519, ../sass/body.scss */
+/* line 536, ../sass/body.scss */
 .thumbnail .btn.ringio-icon.btn-close:hover {
   background-image: url("../images/close-blue.png");
 }
-/* line 524, ../sass/body.scss */
+/* line 541, ../sass/body.scss */
 .thumbnail .logo {
   margin-top: 30px;
   object-fit: contain;
   height: 100px;
 }
-/* line 528, ../sass/body.scss */
+/* line 545, ../sass/body.scss */
 .thumbnail .logo img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
-/* line 534, ../sass/body.scss */
+/* line 551, ../sass/body.scss */
 .thumbnail .logo-small {
   margin-top: 30px;
 }
-/* line 537, ../sass/body.scss */
+/* line 554, ../sass/body.scss */
 .thumbnail .logo-small a {
   text-align: left;
 }
-/* line 539, ../sass/body.scss */
+/* line 556, ../sass/body.scss */
 .thumbnail .logo-small a img {
   width: auto;
   height: auto;
 }
-/* line 545, ../sass/body.scss */
+/* line 562, ../sass/body.scss */
 .thumbnail .btn-configure {
   width: 100%;
   text-align: center;
@@ -8788,14 +8801,14 @@ input:-ms-input-placeholder {
   margin-bottom: 30px;
 }
 
-/* line 554, ../sass/body.scss */
+/* line 571, ../sass/body.scss */
 .switch {
   font-size: 12px;
   display: inline-block;
   margin: 0;
   float: right;
 }
-/* line 559, ../sass/body.scss */
+/* line 576, ../sass/body.scss */
 .switch > span {
   height: 25px;
 }

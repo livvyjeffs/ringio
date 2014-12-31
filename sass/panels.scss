@@ -28,11 +28,14 @@ $font-size: $font-size-12;
         .ringio-icon {
             $height: 18px;
             @include pm_height($height-table-row, $height);
-            margin-right: 10px;
+            
             display: inline-block;
             vertical-align: middle;
             width: $height;
             height: $height;
+            &.margin-right{
+                margin-right: 10px;
+            }
             &.icon-close {
                 background-image: url("../images/close-gray-large.png");
                 background-size: 70%;
@@ -316,6 +319,7 @@ $font-size: $font-size-12;
         }
     }
     &[id|="billing"] {
+        margin-bottom: $margin;
         &#billing-front-and-center {
             background: linear-gradient(0deg, white 0%, $bg-clr-outer-body 5%, $bg-clr-outer-body 16%, white 100%);
             li {
@@ -340,6 +344,34 @@ $font-size: $font-size-12;
                         background-image: url("../images/caret-small-dark.png");
                     }
                 }
+            }
+        }
+        &#billing-history{
+            td {
+                span{
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                .red{
+                    color: #d10000;
+                }
+                .normal{
+                    color: #1376b1;
+                }
+                .ringio-icon{
+                    margin-right: $margin/4;
+                    &.red{
+                        width: 9px;
+                        height: 9px;
+                        background-image: url('../images/failed.png');
+                    }
+                    &.normal{
+                        width: 13px;
+                        height: 13px;
+                        background-image: url('../images/check-blue.png');
+                    }
+                }
+
             }
         }
         .panel-body {
@@ -395,7 +427,9 @@ $font-size: $font-size-12;
                     &.btn:hover {
                         background-color: $bg-clr-table-header;
                         box-shadow: 0 -3px 0 0 $box-shadow-clr-table-option inset;
-                        // box-shadow: 0 3px 0 0 $border-clr-table;
+                        &:last-child{
+                            box-shadow: none;
+                        }
                         cursor: pointer;
                     }
                 }
@@ -431,9 +465,15 @@ $font-size: $font-size-12;
                 ul {
                     margin: 0;
                     .option {
+                        margin-top: $margin/2;
+                        margin-bottom: $margin/2;
                         border: 1px solid $border-clr-table;
                         padding: 0;
                         border-radius: 3px;
+                        &:last-child{
+                            // hack fix for collapsing margin of sibling elements above
+                            margin-top: 0;
+                        }
                         .phone-number {
                             display: inline-block;
                             float: right;
@@ -492,14 +532,24 @@ $font-size: $font-size-12;
                     color: $font-clr-panel-btn;
                     @include pm_center("padding", $height-table-row, $font-size * $line-height-base);
                     border-bottom: 1px solid $border-clr-table;
-                    .icon-caret {
+                    span{
+                        display: inline-block;
+                        vertical-align: middle;
+                        margin: 0;
+                    }
+                    .btn.icon-caret {
+                        border-radius: 5px;
                         display: inline-block;
                         float: right;
-                        $height: 13px;
+                        $height: $font-size*$line-height-base;
                         height: $height;
                         width: $height;
-                        @include pm_center("margin", $font-size * $line-height-base, $height);
+                        right: 0;
+                        padding: 0;
+                        // @include pm_center("margin", $font-size * $line-height-base, $height);
                         background-image: url("../images/dashboard/caret-light.png");
+                        // Can't seem to make background-color: none, so making it completely transparent
+                        background-color: rgba(0,0,0,0);
                     }
                 }
                 p {

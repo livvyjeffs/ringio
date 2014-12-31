@@ -5,6 +5,7 @@
 <?php include("php_templates/page-header.php"); ?>
 
 <div class="row no-margin">
+<div class="col-md-12">
 
     <table id="billing-history" class="table table-condensed panel panel-default">
       <thead>
@@ -30,9 +31,10 @@
 
     <div class="button-container">
       <div class="btn">Email History</div>
+      <span class="separator ringio-icon"></span>
       <div class="btn">Export as CSV</div>
     </div>
-
+</div>
 </div>
 
 </div> <!-- /container -->

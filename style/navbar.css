@@ -8261,7 +8261,7 @@ button.close {
 }
 /* line 91, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row .ringio-icon.icon-download {
-  background-image: url("../images/dashboard/getringio.png");
+  background-image: url("../images/dashboard/getringio-dark.png");
 }
 /* line 96, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row.white-bg .active > a,
@@ -8306,7 +8306,7 @@ button.close {
   border-right: 1px solid #F9FBFD;
   color: #04639E;
   text-shadow: none;
-  padding-bottom: 12.428571426px;
+  padding-bottom: 13.428571426px;
 }
 /* line 137, ../sass/navbar.scss */
 .navbar-ringio.navbar-bottom-row li:first-child > a {

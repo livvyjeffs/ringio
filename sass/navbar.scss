@@ -89,7 +89,7 @@
                 background-image: url("../images/dashboard/creditcard.png");
             }
             &.icon-download {
-                background-image: url("../images/dashboard/getringio.png");
+                background-image: url("../images/dashboard/getringio-dark.png");
             }
         }
         &.white-bg {
@@ -132,7 +132,7 @@
                 border-right: 1px solid $bg-clr-page-header;
                 color: $clr-navbar-active;
                 text-shadow: none;
-                padding-bottom: padding-vertical($height-navbar-bottom-row-menu,$font-size * $line-height-base) + 1;
+                padding-bottom: padding-vertical($height-navbar-bottom-row-menu,$font-size * $line-height-base) + 2;
             }
             &:first-child > a {
                 border-left: 1px solid $border-clr-navbar-btm;

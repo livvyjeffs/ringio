@@ -424,6 +424,15 @@ input:-moz-placeholder {
     }
 }
 
+#dashboard-crm-integrations{
+    .thumbnail{
+        .logo{
+            margin-top: $margin;
+            margin-bottom: $margin;
+        }
+    }
+}
+
 /*****************************   Data Label Types   *******************************/
 
 [data-label="personal-ringio-number"] {
@@ -453,21 +462,29 @@ input:-moz-placeholder {
 }
 
 .button-container {
+    // In Billing History 
     width: auto;
     display: inline-block;
     padding: $margin / 2;
     border-radius: 5px;
     border: 1px solid $border-clr-table;
+    .separator{
+        height: 38px;
+        width: 2px;
+        background-image: url('../images/separator-billing.png');
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: $margin/2;
+        margin-right: $margin/2;
+    }
     .btn {
+        padding-left: $margin * 1.5;
+        padding-right: $margin * 1.5;
         @include button-gradient("light",'default');
         text-align: center;
-        margin-left: 0;
-        margin-right: $margin / 2;
-        &:last-child {
-            margin-right: 0;
-            padding-left: $margin / 2;
-            border-left: 1px solid $border-clr-table;
-        }
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
     }
 }
 

@@ -29,7 +29,7 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <div id="billing-monthly-fees" class="panel panel-ringio">
+          <div id="billing-monthly-fees" class="panel panel-body">
            <div class="panel-heading">
              <span class="ringio-icon icon-monthly-fees"></span>
              Monthly Fees</div>
@@ -57,7 +57,7 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div id="billing-billing-details" class="panel panel-ringio">
+          <div id="billing-billing-details" class="panel panel-body">
            <div class="panel-heading">
              <span class="ringio-icon icon-billing-details"></span>
              Billing Details</div>
