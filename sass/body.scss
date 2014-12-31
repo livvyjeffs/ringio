@@ -251,24 +251,6 @@ body > .container {
     }
 }
 
-// .btn-edit, .btn-close {
-//     position: absolute;
-//     top: $margin / 2;
-//     right: $margin / 2;
-//     display: block;
-//     width: $margin;
-//     height: $margin;
-//     border-radius: $margin;
-//     background-color: $bg-clr-btn-edit;
-//     background-repeat: no-repeat;
-//     background-position: center;
-//     opacity: 0.50;
-//     &:hover {
-//         cursor: pointer;
-//         opacity: 1;
-//     }
-// }
-
 .btn-upload-sound-file {
     width: 100%;
     text-align: center;
@@ -305,6 +287,14 @@ body > .container {
     border-color: rgb(35, 84, 127);
     padding-left: $margin / 2;
     padding-right: $margin / 2;
+    text-shadow: none;
+    &:hover{
+        color: $clr-button;
+    }
+    &:active{
+        color: $clr-button;
+        background: linear-gradient(0deg, #ffffff 0%, #daeafa 100%);
+    }
 }
 
 .btn-medium-blue {
@@ -575,5 +565,8 @@ input:-moz-placeholder {
     float: right;
     > span{ 
         height: 25px;
+        > span:hover{
+            cursor: pointer;
+        }
     }
 }

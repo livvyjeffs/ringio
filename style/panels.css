@@ -8498,7 +8498,7 @@ button.close {
   margin-bottom: 20px;
   border: 1px solid #9CBBCF;
   color: #04689E;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 3px #DDE9F1;
   font-size: 12px;
   padding-top: 12.428571426px;
@@ -8548,37 +8548,57 @@ button.close {
   padding-top: 7.428571426px;
   padding-bottom: 7.428571426px;
 }
-/* line 310, ../sass/panels.scss */
+/* line 311, ../sass/panels.scss */
+.panel#crm-integrations-edit .row.no-margin > .col-md-6 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 314, ../sass/panels.scss */
+.panel#crm-integrations-edit .row.no-margin > .col-md-6:first-child {
+  margin-right: 3px;
+  border-right: 1px solid #DDE9F1;
+}
+/* line 318, ../sass/panels.scss */
+.panel#crm-integrations-edit .row.no-margin > .col-md-6:last-child {
+  margin-left: 3px;
+}
+/* line 325, ../sass/panels.scss */
+.panel#crm-integrations-edit .ringio-icon.separator {
+  height: 32px;
+  width: 2px;
+  background-image: url("../images/separator-billing.png");
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+/* line 334, ../sass/panels.scss */
 .panel#crm-integrations-edit .ringio-icon.btn {
   width: 32px;
   height: 32px;
   background-size: 50%;
   margin: 0;
 }
-/* line 316, ../sass/panels.scss */
-.panel#crm-integrations-edit .ringio-icon.btn.icon-delete {
-  border-left: 1px solid #DDE9F1;
-}
-/* line 321, ../sass/panels.scss */
+/* line 343, ../sass/panels.scss */
 .panel[id|="billing"] {
   margin-bottom: 30px;
 }
-/* line 323, ../sass/panels.scss */
+/* line 345, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center {
   background: -webkit-linear-gradient(90deg, white 0%, #F3F8Fb 5%, #F3F8Fb 16%, white 100%);
   background: linear-gradient(0deg, white 0%, #F3F8Fb 5%, #F3F8Fb 16%, white 100%);
 }
-/* line 325, ../sass/panels.scss */
+/* line 347, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li {
   font-size: 12px;
   padding: 12px;
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 330, ../sass/panels.scss */
+/* line 352, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li:last-child {
   border-bottom: none;
 }
-/* line 333, ../sass/panels.scss */
+/* line 355, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li .ringio-icon {
   display: inline-block;
   width: 12px;
@@ -8588,82 +8608,82 @@ button.close {
   margin-top: 2.571428574px;
   margin-bottom: 2.571428574px;
 }
-/* line 340, ../sass/panels.scss */
+/* line 362, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li .ringio-icon.icon-check {
   background-image: url("../images/check-dark.png");
 }
-/* line 343, ../sass/panels.scss */
+/* line 365, ../sass/panels.scss */
 .panel[id|="billing"]#billing-front-and-center li .ringio-icon.icon-caret {
   background-image: url("../images/caret-small-dark.png");
 }
-/* line 351, ../sass/panels.scss */
+/* line 373, ../sass/panels.scss */
 .panel[id|="billing"]#billing-history td span {
   display: inline-block;
   vertical-align: middle;
 }
-/* line 355, ../sass/panels.scss */
+/* line 377, ../sass/panels.scss */
 .panel[id|="billing"]#billing-history td .red {
   color: #d10000;
 }
-/* line 358, ../sass/panels.scss */
+/* line 380, ../sass/panels.scss */
 .panel[id|="billing"]#billing-history td .normal {
   color: #1376b1;
 }
-/* line 361, ../sass/panels.scss */
+/* line 383, ../sass/panels.scss */
 .panel[id|="billing"]#billing-history td .ringio-icon {
   margin-right: 7.5px;
 }
-/* line 363, ../sass/panels.scss */
+/* line 385, ../sass/panels.scss */
 .panel[id|="billing"]#billing-history td .ringio-icon.red {
   width: 9px;
   height: 9px;
   background-image: url("../images/failed.png");
 }
-/* line 368, ../sass/panels.scss */
+/* line 390, ../sass/panels.scss */
 .panel[id|="billing"]#billing-history td .ringio-icon.normal {
   width: 13px;
   height: 13px;
   background-image: url("../images/check-blue.png");
 }
-/* line 378, ../sass/panels.scss */
+/* line 400, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul {
   margin: 0;
 }
-/* line 380, ../sass/panels.scss */
+/* line 402, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li {
   margin: 0 5px;
   padding: 12px;
 }
-/* line 383, ../sass/panels.scss */
+/* line 405, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li:last-child {
   border-top: 1px solid #DDE9F1;
 }
-/* line 386, ../sass/panels.scss */
+/* line 408, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li.total, .panel[id|="billing"] .panel-body ul li.last-row {
   background-color: #F3F8Fb;
   margin: 0;
 }
-/* line 390, ../sass/panels.scss */
+/* line 412, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li p {
   margin: 0;
 }
-/* line 392, ../sass/panels.scss */
+/* line 414, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li p span {
   display: inline-block;
   float: right;
   color: #04689E;
 }
-/* line 398, ../sass/panels.scss */
+/* line 420, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li .col-md-6 {
   padding-left: 0;
   padding-right: 5px;
 }
-/* line 401, ../sass/panels.scss */
+/* line 423, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li .col-md-6:last-child {
   padding-left: 5px;
   padding-right: 0;
 }
-/* line 405, ../sass/panels.scss */
+/* line 427, ../sass/panels.scss */
 .panel[id|="billing"] .panel-body ul li .col-md-6 .btn {
   padding-left: 0;
   padding-right: 0;
@@ -8676,47 +8696,47 @@ button.close {
   margin-bottom: 20px;
   border: 2px solid rgba(0, 0, 0, 0.2);
   color: #FFFFFF;
-  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
   margin: 0;
 }
-/* line 421, ../sass/panels.scss */
+/* line 443, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-users .panel-body li, .panel[id|="dashboard"]#dashboard-departments .panel-body li {
   border-bottom: 1px solid #DDE9F1;
   background-color: white;
 }
-/* line 424, ../sass/panels.scss */
+/* line 446, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-users .panel-body li.btn:active, .panel[id|="dashboard"]#dashboard-departments .panel-body li.btn:active {
   box-shadow: none;
 }
-/* line 427, ../sass/panels.scss */
+/* line 449, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-users .panel-body li.btn:hover, .panel[id|="dashboard"]#dashboard-departments .panel-body li.btn:hover {
   background-color: #F3F8FB;
   box-shadow: 0 -3px 0 0 #E5EEF5 inset;
   cursor: pointer;
 }
-/* line 430, ../sass/panels.scss */
+/* line 452, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-users .panel-body li.btn:hover:last-child, .panel[id|="dashboard"]#dashboard-departments .panel-body li.btn:hover:last-child {
   box-shadow: none;
 }
-/* line 439, ../sass/panels.scss */
+/* line 461, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-settings .phone-number {
   float: right;
   color: #03689E;
 }
-/* line 445, ../sass/panels.scss */
+/* line 467, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-support .panel-heading {
   text-align: center;
 }
-/* line 447, ../sass/panels.scss */
+/* line 469, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-support .panel-heading img {
   height: 100%;
   width: auto;
 }
-/* line 453, ../sass/panels.scss */
+/* line 475, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers {
   font-size: 12px;
 }
-/* line 456, ../sass/panels.scss */
+/* line 478, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers label {
   margin: 0;
   display: inline-block;
@@ -8724,16 +8744,16 @@ button.close {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 462, ../sass/panels.scss */
+/* line 484, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 465, ../sass/panels.scss */
+/* line 487, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul {
   margin: 0;
 }
-/* line 467, ../sass/panels.scss */
+/* line 489, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -8741,11 +8761,11 @@ button.close {
   padding: 0;
   border-radius: 3px;
 }
-/* line 473, ../sass/panels.scss */
+/* line 495, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option:last-child {
   margin-top: 0;
 }
-/* line 477, ../sass/panels.scss */
+/* line 499, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option .phone-number {
   display: inline-block;
   float: right;
@@ -8755,7 +8775,7 @@ button.close {
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 484, ../sass/panels.scss */
+/* line 506, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option .phone-number .icon-settings {
   display: inline-block;
   vertical-align: middle;
@@ -8764,49 +8784,49 @@ button.close {
   margin-left: 8px;
   background-image: url("../images/dashboard/settings.png");
 }
-/* line 492, ../sass/panels.scss */
+/* line 514, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option .phone-number .icon-settings:hover {
   cursor: pointer;
 }
-/* line 498, ../sass/panels.scss */
+/* line 520, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .btn {
   text-align: center;
   padding-top: 12.428571426px;
   padding-bottom: 12.428571426px;
 }
-/* line 502, ../sass/panels.scss */
+/* line 524, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .option, .panel[id|="dashboard"]#dashboard-phone-numbers .panel-body ul .btn {
   box-shadow: 0px 3px 5px 0px #DDE9F1;
 }
-/* line 508, ../sass/panels.scss */
+/* line 530, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most {
   background-color: white;
 }
-/* line 511, ../sass/panels.scss */
+/* line 533, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .data-container [class|="col"] {
   padding: 0 10px;
 }
-/* line 513, ../sass/panels.scss */
+/* line 535, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .data-container [class|="col"]:first-child {
   padding-left: 20px;
 }
-/* line 516, ../sass/panels.scss */
+/* line 538, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .data-container [class|="col"]:last-child {
   padding-right: 20px;
 }
-/* line 520, ../sass/panels.scss */
+/* line 542, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .panel-body {
   border-left: 1px solid #DDE9F1;
   border-bottom: 1px solid #DDE9F1;
   border-right: 1px solid #DDE9F1;
 }
-/* line 525, ../sass/panels.scss */
+/* line 547, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail {
   border: none;
   box-shadow: none;
   height: 100px;
 }
-/* line 529, ../sass/panels.scss */
+/* line 551, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail .thumbnail-header {
   font-size: 14px;
   color: #03689E;
@@ -8814,13 +8834,13 @@ button.close {
   padding-bottom: 10.999999997px;
   border-bottom: 1px solid #DDE9F1;
 }
-/* line 535, ../sass/panels.scss */
+/* line 557, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail .thumbnail-header span {
   display: inline-block;
   vertical-align: middle;
   margin: 0;
 }
-/* line 540, ../sass/panels.scss */
+/* line 562, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail .thumbnail-header .btn.icon-caret {
   border-radius: 5px;
   display: inline-block;
@@ -8832,16 +8852,16 @@ button.close {
   background-image: url("../images/dashboard/caret-light.png");
   background-color: transparent;
 }
-/* line 555, ../sass/panels.scss */
+/* line 577, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-get-the-most .thumbnail p {
   margin-top: 10px;
 }
-/* line 561, ../sass/panels.scss */
+/* line 583, ../sass/panels.scss */
 .panel[id|="dashboard"]#dashboard-support .btn-contact-support {
   margin: 15px 0;
   border: 2px solid #DDE9F1;
 }
-/* line 566, ../sass/panels.scss */
+/* line 588, ../sass/panels.scss */
 .panel[id|="dashboard"] .btn-add-new-number, .panel[id|="dashboard"] .btn-contact-support {
   width: 100%;
   background: #F3F8FB;

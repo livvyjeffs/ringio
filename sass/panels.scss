@@ -28,7 +28,7 @@ $font-size: $font-size-12;
         .ringio-icon {
             $height: 18px;
             @include pm_height($height-table-row, $height);
-            
+
             display: inline-block;
             vertical-align: middle;
             width: $height;
@@ -307,22 +307,44 @@ $font-size: $font-size-12;
             color: $font-clr-emphasized;
             @include pm_center("padding", $height-inner-row, $font-size * $line-height-base);
         }
-        .ringio-icon.btn {
-            $height: $height-inner-row;
+
+        .row.no-margin > .col-md-6{
+            margin: 0 !important;
+            padding: 0 !important;
+            &:first-child{
+                margin-right: 3px;
+                border-right: 1px solid $border-clr-table;
+            }
+            &:last-child{
+                margin-left: 3px;
+            }
+        }
+
+        .ringio-icon{
+           $height: $height-inner-row;
+           &.separator{
+            height: $height;
+            width: 2px;
+            background-image: url('../images/separator-billing.png');
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+        &.btn {
             width: $height;
             height: $height;
             background-size: 50%;
             margin: 0;
-            &.icon-delete {
-                border-left: 1px solid $border-clr-table;
-            }
         }
     }
-    &[id|="billing"] {
-        margin-bottom: $margin;
-        &#billing-front-and-center {
-            background: linear-gradient(0deg, white 0%, $bg-clr-outer-body 5%, $bg-clr-outer-body 16%, white 100%);
-            li {
+
+}
+&[id|="billing"] {
+    margin-bottom: $margin;
+    &#billing-front-and-center {
+        background: linear-gradient(0deg, white 0%, $bg-clr-outer-body 5%, $bg-clr-outer-body 16%, white 100%);
+        li {
                 // $font-size: $font-size-12;
                 font-size: $font-size;
                 padding: $font-size;
